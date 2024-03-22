@@ -22,10 +22,11 @@ jobs:
         python-version: "3.10"
     - name: Install The Environment
       run:  pip3 install requests  
+    - name: Build
+      env:
+          WEBHOOK_KEY: ${{ secrets.WEBHOOK_KEY }}
     - name: Run
-      run: |
-        python3 ./Src/main.py <<EOF
-        ${{secrets.USERS}}
-        EOF
+      run: python3 ./Src/main.py 
+        
 
 
