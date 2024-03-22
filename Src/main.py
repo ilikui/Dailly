@@ -18,9 +18,8 @@ def WeChatRobot(message:str):
         }
     }
 
-    url = apiurl+key
 
-    print(url)
+    url = apiurl + key
     
     response = requests.post(url, headers=headers, json=data)
     records = response.json()
