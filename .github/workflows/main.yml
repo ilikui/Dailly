@@ -18,7 +18,10 @@ jobs:
         python-version: "3.10"
     - name: Install The Environment
       run: |
-        pip3 install requests    
+        pip3 install requests 
+    - name: SET Environment
+      env:
+          WEBHOOK_KEY: ${{ secrets.WEBHOOK_KEY }}   
     - name: Run the Task For main ①
       run: python ./Src/main.py
 
