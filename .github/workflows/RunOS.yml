@@ -1,6 +1,8 @@
 name: learn-github-actions
 run-name: ${{ github.actor }} is learning GitHub Actions
-on: [push]
+
+# 使用收手动触发的方式
+on: workflow_dispatch
 jobs:
   check-bats-version:
     runs-on: windows-latest
