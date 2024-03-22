@@ -5,4 +5,4 @@ jobs:
   check-bats-version:
     runs-on: windows-latest
     steps:
-      - run: echo systeminfo
+      - run: systeminfo
