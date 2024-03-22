@@ -28,6 +28,8 @@ def WeChatRobot(message:str):
 
 
 
+
+
 if __name__ == '__main__':
     
     WeChatRobot('大家好，我是mimi')
