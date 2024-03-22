@@ -24,7 +24,7 @@ jobs:
       run:  pip3 install requests  
     - name: Build
       env:
-          WEBHOOK_KEY: ${{ secrets.WEBHOOK_KEY }}
+          WEBHOOK_KEY: ${{ secrets.WEBHOOK_KEY }} 
       run: python3 ./Src/main.py 
 
         
