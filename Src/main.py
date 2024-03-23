@@ -4,6 +4,16 @@ import requests
 
 
 
+# 获取天气信息 使用的api
+
+
+
+
+
+
+
+# 数据流通了
+
 def WeChatRobot(message:str):
     apiurl ='https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key='
     key = os.environ["WEBHOOK_KEY"]
