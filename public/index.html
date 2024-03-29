@@ -28,19 +28,15 @@
 					</div>
 					<div class="xpanel-wrapper xpanel-wrapper-1-2">
 						<div class="xpanel">
-							<div class="fill-h" id="ballChart"></div>
+							<div class="fill-h" id="NewsChart"></div>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-6 fill-h">
 					<div class="xpanel-wrapper xpanel-wrapper-1">
 						<div class="xpanel no-padding no-bg">
+
 							<div class="fill-h" id="fireworksChart"></div>
-						</div>
-					</div>
-					<div class="xpanel-wrapper xpanel-wrapper-1-3">
-						<div class="xpanel">
-							<div class="fill-h" id="NewsChart"></div>
 						</div>
 					</div>
 				</div>
@@ -144,10 +140,49 @@
 					series: [{
 						type: 'map',
 						geoIndex: 0,
-						data: data
+						data: data,
+						event: [
+							{
+								type: 'mouseover',
+								callback: function (params) {
+									const province = params.name; // 获取悬停的省份名称
+
+									// 使用 Fetch API 获取数据
+									fetch('https://economistnew.buzzing.cc/feed.json')
+										.then(response => {
+											if (!response.ok) {
+												throw new Error('网络请求失败');
+											}
+											return response.json();
+										})
+										.then(data => {
+											// 获取 JSON 数据中的 items 数组
+											const items = data.items;
+
+											// 筛选出标题中包含悬停的省份名称的新闻标题和链接
+											const newsList = [];
+											items.forEach(item => {
+												if (item.title.includes(province)) {
+													newsList.push(`<p><a href="${item.url}" target="_blank">${item.title}</a></p>`);
+												}
+											});
+
+											// 将新闻标题显示在页面上
+											document.getElementById('news-list').innerHTML = newsList.join('');
+										})
+										.catch(error => {
+											console.error('获取数据时出错：', error);
+										});
+								}
+							}
+						]
 					}]
 				};
 				mapChart.setOption(opt);
+
+
+
+
 			})();
 
 			/*************** 烟花秀 **************/
@@ -1252,130 +1287,110 @@
 			/*************** 水球 **************/
 			//https://github.com/ecomfe/echarts-liquidfill
 			//初始化echarts实例
-			const ballChart = echarts.init(document.getElementById("ballChart"));
-			const ballOpt = {
-				series: [{
-					type: 'liquidFill',
-					radius: '95%',
-					label: {
-						show: false
-					},
-					shape: 'path://M367.855,428.202c-3.674-1.385-7.452-1.966-11.146-1.794c0.659-2.922,0.844-5.85,0.58-8.719 c-0.937-10.407-7.663-19.864-18.063-23.834c-10.697-4.043-22.298-1.168-29.902,6.403c3.015,0.026,6.074,0.594,9.035,1.728 c13.626,5.151,20.465,20.379,15.32,34.004c-1.905,5.02-5.177,9.115-9.22,12.05c-6.951,4.992-16.19,6.536-24.777,3.271 c-13.625-5.137-20.471-20.371-15.32-34.004c0.673-1.768,1.523-3.423,2.526-4.992h-0.014c0,0,0,0,0,0.014 c4.386-6.853,8.145-14.279,11.146-22.187c23.294-61.505-7.689-130.278-69.215-153.579c-61.532-23.293-130.279,7.69-153.579,69.202 c-6.371,16.785-8.679,34.097-7.426,50.901c0.026,0.554,0.079,1.121,0.132,1.688c4.973,57.107,41.767,109.148,98.945,130.793 c58.162,22.008,121.303,6.529,162.839-34.465c7.103-6.893,17.826-9.444,27.679-5.719c11.858,4.491,18.565,16.6,16.719,28.643 c4.438-3.126,8.033-7.564,10.117-13.045C389.751,449.992,382.411,433.709,367.855,428.202z',
-					outline: {
-						show: false
-					},
-					backgroundStyle: {
-						borderColor: '#156ACF',
-						borderWidth: 1,
-						shadowColor: 'rgba(0, 0, 0, 0.4)',
-						shadowBlur: 20
-					},
-					data: [0.6, 0.5, 0.4, 0.3]
-				}]
-			};
-			ballChart.setOption(ballOpt);
+
+
+			// const ballChart = echarts.init(document.getElementById("ballChart"));
+			// const ballOpt = {
+			// 	series: [{
+			// 		type: 'liquidFill',
+			// 		radius: '95%',
+			// 		label: {
+			// 			show: false
+			// 		},
+			// 		shape: 'path://M367.855,428.202c-3.674-1.385-7.452-1.966-11.146-1.794c0.659-2.922,0.844-5.85,0.58-8.719 c-0.937-10.407-7.663-19.864-18.063-23.834c-10.697-4.043-22.298-1.168-29.902,6.403c3.015,0.026,6.074,0.594,9.035,1.728 c13.626,5.151,20.465,20.379,15.32,34.004c-1.905,5.02-5.177,9.115-9.22,12.05c-6.951,4.992-16.19,6.536-24.777,3.271 c-13.625-5.137-20.471-20.371-15.32-34.004c0.673-1.768,1.523-3.423,2.526-4.992h-0.014c0,0,0,0,0,0.014 c4.386-6.853,8.145-14.279,11.146-22.187c23.294-61.505-7.689-130.278-69.215-153.579c-61.532-23.293-130.279,7.69-153.579,69.202 c-6.371,16.785-8.679,34.097-7.426,50.901c0.026,0.554,0.079,1.121,0.132,1.688c4.973,57.107,41.767,109.148,98.945,130.793 c58.162,22.008,121.303,6.529,162.839-34.465c7.103-6.893,17.826-9.444,27.679-5.719c11.858,4.491,18.565,16.6,16.719,28.643 c4.438-3.126,8.033-7.564,10.117-13.045C389.751,449.992,382.411,433.709,367.855,428.202z',
+			// 		outline: {
+			// 			show: false
+			// 		},
+			// 		backgroundStyle: {
+			// 			borderColor: '#156ACF',
+			// 			borderWidth: 1,
+			// 			shadowColor: 'rgba(0, 0, 0, 0.4)',
+			// 			shadowBlur: 20
+			// 		},
+			// 		data: [0.6, 0.5, 0.4, 0.3]
+			// 	}]
+			// };
+			// ballChart.setOption(ballOpt);
 
 			/*************** 词云 **************/
 			//https://github.com/ecomfe/echarts-wordcloud
 			//初始化echarts实例
-			const wordChart = echarts.init(document.getElementById("wordChart"));
-			const wordOpt = {
-				series: [{
-					type: 'wordCloud',
-					shape: 'circle', //circle cardioid diamond triangle-forward triangle
-					left: 0,
-					right: 0,
-					top: 0,
-					right: 0,
-					width: '100%',
-					height: '100%',
-					gridSize: 0, //值越大，word间的距离越大，单位像素
-					sizeRange: [10, 32], //word的字体大小区间，单位像素
-					rotationRange: [-90, 90], //word的可旋转角度区间
-					textStyle: {
-						normal: {
-							color: function () {
-								return 'rgb(' + [
-									Math.round(Math.random() * 160),
-									Math.round(Math.random() * 160),
-									Math.round(Math.random() * 160)
-								].join(',') + ')';
-							}
+			// 初始化图表
+			const wordcloudChart = echarts.init(document.getElementById("wordChart"));
+
+			// 使用 Fetch API 分别获取两个来源的数据
+			const fetchPromises = [
+				fetch('https://hn.buzzing.cc/feed.json'),
+				fetch('https://www.buzzing.cc/feed.json'),
+				fetch('https://news.buzzing.cc/feed.json')
+			];
+
+			Promise.all(fetchPromises)
+				.then(responses => Promise.all(responses.map(response => response.json())))
+				.then(datas => {
+					// 合并两个数据源
+					const combinedData = [];
+					datas.forEach(data => {
+						const items = data.items;
+						items.forEach(item => {
+							const words = item.title.split(' '); // 假设标题中以空格分隔单词
+							words.forEach(word => {
+								combinedData.push(word);
+							});
+						});
+					});
+
+					// 统计单词频率
+					const wordFreq = {};
+					combinedData.forEach(word => {
+						if (wordFreq[word]) {
+							wordFreq[word]++;
+						} else {
+							wordFreq[word] = 1;
+						}
+					});
+
+					// 将数据转换成 ECharts 词云图所需的格式
+					const wordcloudData = [];
+					for (const word in wordFreq) {
+						wordcloudData.push({
+							name: word,
+							value: wordFreq[word] // 词频作为词的权重
+						});
+					}
+
+					// 设置图表配置项
+					const option = {
+						title: {
+							text: 'Buzzing 和 News Buzzing 网站标题词云图'
 						},
-						emphasis: {
-							shadowBlur: 2,
-							shadowColor: '#000'
-						}
-					},
-					data: [{
-						name: '数据可视化',
-						value: 3000,
-						textStyle: {
-							normal: { color: '#f52f55' },
-							emphasis: {}
-						}
-					}, {
-						name: '大数据',
-						value: 2181
-					}, {
-						name: '云计算',
-						value: 1386
-					}, {
-						name: '物联网',
-						value: 2055
-					}, {
-						name: '移动互联网',
-						value: 2467
-					}, {
-						name: '人工智能',
-						value: 2244
-					}, {
-						name: '深度学习',
-						value: 1898
-					}, {
-						name: '机器学习',
-						value: 1484
-					}, {
-						name: '区块链',
-						value: 3865
-					}, {
-						name: 'AI',
-						value: 897
-					}, {
-						name: 'Big Data',
-						value: 847
-					}, {
-						name: 'Deep Learning',
-						value: 1366
-					}, {
-						name: 'IoT',
-						value: 555
-					}, {
-						name: 'Data Visualization',
-						value: 550
-					}, {
-						name: '互联网+',
-						value: 2222
-					}, {
-						name: '智能合约',
-						value: 366
-					}, {
-						name: '比特币',
-						value: 360
-					}, {
-						name: 'Block Chain',
-						value: 282
-					}, {
-						name: '数据挖掘',
-						value: 273
-					}, {
-						name: 'Hadoop',
-						value: 265
-					}]
-				}],
-				backgroundColor: 'rgba(255, 255, 255, 0.7)'
-			};
-			wordChart.setOption(wordOpt);
+						series: [{
+							type: 'wordCloud',
+							gridSize: 20, // 单词间距
+							sizeRange: [20, 100], // 单词字体大小范围
+							rotationRange: [-45, 45], // 单词旋转角度范围
+							shape: 'pentagon', // 单词形状
+							textStyle: {
+								normal: {
+									color: function () {
+										return 'rgb(' + [
+											Math.round(Math.random() * 255),
+											Math.round(Math.random() * 255),
+											Math.round(Math.random() * 255)
+										].join(',') + ')';
+									}
+								}
+							},
+							data: wordcloudData
+						}]
+					};
+
+					// 使用配置项渲染图表
+					wordcloudChart.setOption(option);
+				})
+				.catch(error => {
+					console.error('获取数据时出错：', error);
+				});
 
 			/********** 窗口大小改变时，重置报表大小 ********************/
 			window.onresize = function () {
