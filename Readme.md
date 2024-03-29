@@ -15,6 +15,7 @@
   * 使用RSS订阅源
   * 数据以json格式存储
 * 数据归类
+  * 数据源： https://www.buzzing.cc/feed.json
 * 数据可视化大屏
   * JS 解析json数据可视化现实
   * 可视化解决方案 https://yyhsong.github.io/iDataV/
