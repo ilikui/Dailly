@@ -1,0 +1,87 @@
+[
+	{
+		"comment": "",
+		"rating": {
+			"count": 1,
+			"max": 5,
+			"star_count": 5,
+			"value": 5
+		},
+		"sharing_text": "我的评分：★★★★★ https://book.douban.com/subject/26899960/ 来自@豆瓣App",
+		"sharing_url": "https://www.douban.com/doubanapp/dispatch?uri=/subject/26899960/interest/3403184352",
+		"tags": [
+			"Simulink"
+		],
+		"charts": [],
+		"platforms": [],
+		"vote_count": 0,
+		"create_time": "2022-06-27 20:30:16",
+		"status": "done",
+		"id": 3403184352,
+		"is_private": false,
+		"subject": {
+			"rating": {
+				"count": 18,
+				"max": 10,
+				"star_count": 4.5,
+				"value": 8.7
+			},
+			"controversy_reason": "",
+			"pubdate": [
+				"2015-10-1"
+			],
+			"pic": {
+				"large": "https://img9.doubanio.com/view/subject/l/public/s29114925.jpg",
+				"normal": "https://qnmob3.doubanio.com/view/subject/m/public/s29114925.jpg?imageView2/2/q/80/w/200/h/300/format/jpg/sharpen/1"
+			},
+			"honor_infos": [],
+			"other_versions_count": 0,
+			"is_show": false,
+			"vendor_icons": [],
+			"card_subtitle": "孙忠潇 / 2015 / 北京航空航天大学出版社",
+			"book_subtitle": "",
+			"id": "26899960",
+			"author": [
+				"孙忠潇"
+			],
+			"is_released": true,
+			"vendor_original_price": "",
+			"color_scheme": {
+				"is_dark": true,
+				"primary_color_light": "6b5472",
+				"_base_color": [
+					0.7916666666666666,
+					0.2608695652173913,
+					0.1803921568627451
+				],
+				"secondary_color": "f8f4f9",
+				"_avg_color": [
+					0.8055555555555555,
+					0.16,
+					0.29411764705882354
+				],
+				"primary_color_dark": "47384c"
+			},
+			"type": "book",
+			"cover_url": "https://dou.img.lithub.cc/book/26899960.jpg",
+			"min_sale_price": null,
+			"press": [
+				"北京航空航天大学出版社"
+			],
+			"pages": [
+				"492"
+			],
+			"sharing_url": "https://book.douban.com/subject/26899960/",
+			"url": "https://book.douban.com/subject/26899960/",
+			"title": "Simulink仿真及代码生成技术入门到精通",
+			"uri": "douban://douban.com/book/26899960",
+			"subtype": "book",
+			"intro": "《Simulink仿真及代码生成技术入门到精通》围绕Simulink软件的仿真和代码生成技术，从原理上展开阐述，把握整体，注重细节，让读者深刻认识Simulink的运行原理。结构化的章节安排和丰富多彩的案例展示了Simulink在模型建立、工业流程仿真及嵌入式控制等方面的应用技巧和方法。本书不拘泥于界面操作，而结合MATLAB脚本语言展示其自动控制模型仿真、代码生成过程的强大功能，带领读者把握宏观架构，攻克细节问题。\n全书共19章，分为入门篇、进阶篇和高级篇3个篇章。入门篇介绍Simulink软件及其基本操作和构成要素；进阶篇讲解Simulink的运行机制和原理、自定义模块及模块封装、自定义模块库的建立和Simulink环境的编辑等功能，并讲解如何使用M语言为模块发布help文档，以及通过工业实例展示综合应用GUI控制Simulink进行仿真的方法及代码生成的应用方法；高级篇重点介绍“基于模型设计”的开发流程、嵌入式C代码生成技术原理及TLC语言编写方法，并展示如何在嵌入式应用中使用TSP。\n本书可作为高等院校计算机、电子、自动化类专业计算机仿真及嵌入式课程的教学用书，也可供嵌入式系统研发工程师、软件公司研发工程师及其他有关专业科研人员参考。\n作者简介",
+			"buy_more_uri": "",
+			"null_rating_reason": "",
+			"article_intros": [],
+			"vendor_sale_price": "",
+			"has_ebook": false
+		}
+	}
+]
