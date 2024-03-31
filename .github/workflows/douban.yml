@@ -9,7 +9,10 @@ on: workflow_dispatch
 #  - cron: "0 0 * * *"
 #  watch:
 #    types: [started]
-
+permissions:
+  actions: write
+  checks:  write
+  
 jobs:
   douban:
     name: Douban mark data sync
