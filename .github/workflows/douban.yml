@@ -17,13 +17,6 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3
-
-    - name: backup data files
-      run: |
-        mv ./data/book.json ./data/douban/book_$(date +%Y-%m-%d).json.bak
-        mv ./data/music.json ./data/douban/music_$(date +%Y-%m-%d).json.bak
-        mv ./data/movie.json ./data/douban/movie_$(date +%Y-%m-%d).json.bak
-
     - name: book
       uses: lizheming/doumark-action@master
       with:
