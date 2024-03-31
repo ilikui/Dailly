@@ -162,8 +162,9 @@
 											// 筛选出标题中包含悬停的省份名称的新闻标题和链接
 											const newsList = [];
 											items.forEach(item => {
-												if (item.title.includes(province)) {
-													newsList.push(`<p><a href="${item.url}" target="_blank">${item.title}</a></p>`);
+												const title = isZhHans ? item._translations['zh-Hans'].title : item.title;
+												if (title.includes(province)) {
+													newsList.push(`<p><a href="${item.url}" target="_blank">${title}</a></p>`);
 												}
 											});
 

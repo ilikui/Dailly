@@ -1,0 +1,54 @@
+# .github/workflows/douban.yml
+name: douban
+
+
+# 使用收手动触发的方式
+on: workflow_dispatch
+#on:
+#  schedule:
+#  - cron: "0 0 * * *"
+#  watch:
+#    types: [started]
+
+jobs:
+  douban:
+    name: Douban mark data sync
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: backup data files
+      run: |
+        mv ./data/book.json ./data/douban/book_$(date +%Y-%m-%d).json.bak
+        mv ./data/music.json ./data/douban/music_$(date +%Y-%m-%d).json.bak
+        mv ./data/movie.json ./data/douban/movie_$(date +%Y-%m-%d).json.bak
+
+    - name: book
+      uses: lizheming/doumark-action@master
+      with:
+        id: olikuio
+        type: book
+        format: json
+        dir: ./data
+
+    - name: movie
+      uses: lizheming/doumark-action@master
+      with:
+        id: olikuio
+        type: movie
+        format: json
+        dir: ./data
+    - name: music
+      uses: lizheming/doumark-action@master
+      with:
+        id: olikuio
+        type: music
+        format: json
+        dir: ./data
+
+    - name: Commit
+      uses: EndBug/add-and-commit@v9
+      with:
+        message: 'chore: update douban data'
+        add: './data'
