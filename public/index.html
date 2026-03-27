@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+DOCTYPE html>
 
 <html lang="zh-CN">
 
@@ -7,14 +7,77 @@
 	<meta name="viewport"
 		content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
-	<title>ECharts扩展示例</title>
+	<title>NewsFlow â€” æ–°é—»æƒ…æŠ¥å¤§å±</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/app.css" />
+	<style>
+		/* ===== åœ°å›¾æ–°é—»å¼¹çª— ===== */
+		#map-news-overlay {
+			display: none;
+			position: fixed;
+			top: 0; left: 0; right: 0; bottom: 0;
+			z-index: 9000;
+			background: rgba(0,0,0,.55);
+			align-items: center;
+			justify-content: center;
+		}
+		#map-news-overlay.active { display: flex; }
+		#map-news-panel {
+			position: relative;
+			width: 680px; max-width: 94vw;
+			max-height: 80vh;
+			background: #0d1b2a;
+			border: 1px solid #2a5298;
+			border-radius: 8px;
+			padding: 20px 24px 16px;
+			box-shadow: 0 0 40px rgba(74,144,226,.4);
+			display: flex; flex-direction: column;
+		}
+		#map-news-title {
+			font-size: 16px; font-weight: bold;
+			color: #7ecfff; margin-bottom: 12px;
+			border-bottom: 1px solid #2a5298; padding-bottom: 8px;
+			flex-shrink: 0;
+		}
+		#map-news-list {
+			overflow-y: auto; flex: 1;
+			padding-right: 4px;
+		}
+		#map-news-list::-webkit-scrollbar { width: 4px; }
+		#map-news-list::-webkit-scrollbar-thumb { background: #2a5298; border-radius: 2px; }
+		.map-news-item {
+			padding: 7px 0;
+			border-bottom: 1px solid #1a2d45;
+			display: flex; align-items: baseline; gap: 8px;
+		}
+		.map-news-item:last-child { border-bottom: none; }
+		.map-news-rank {
+			min-width: 24px; font-size: 11px; font-weight: bold;
+			color: #aaa; text-align: center; flex-shrink: 0;
+		}
+		.map-news-rank.top3 { color: #f5a623; font-size: 13px; }
+		.map-news-item a {
+			color: #cde; font-size: 13px; text-decoration: none;
+			line-height: 1.4;
+		}
+		.map-news-item a:hover { color: #7ecfff; text-decoration: underline; }
+		.map-news-item span { color: #aaa; font-size: 13px; }
+		#map-news-close {
+			position: absolute; top: 12px; right: 16px;
+			background: none; border: none;
+			color: #7ecfff; font-size: 20px;
+			cursor: pointer; line-height: 1;
+		}
+		#map-news-close:hover { color: #fff; }
+		#map-news-loading {
+			color: #7ecfff; font-size: 13px; padding: 20px 0; text-align: center;
+		}
+	</style>
 </head>
 
 <body class="bg06">
 	<header class="header">
-		<h3>ECharts扩展示例</h3>
+		<h3>EChartsæ‰©å±•ç¤ºä¾‹</h3>
 	</header>
 
 	<div class="wrapper">
@@ -56,6 +119,15 @@
 		</div>
 	</div>
 
+	<!-- åœ°å›¾æ–°é—»å¼¹çª— -->
+	<div id="map-news-overlay">
+		<div id="map-news-panel">
+			<button id="map-news-close" title="å…³é—­">&times;</button>
+			<div id="map-news-title">ç‚¹å‡»åœ°å›¾æŸ¥çœ‹åœ°åŒºçƒ­é—»</div>
+			<div id="map-news-list"><div id="map-news-loading">åŠ è½½ä¸­...</div></div>
+		</div>
+	</div>
+
 	<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="js/echarts-3.8.5.min.js"></script>
 	<script type="text/javascript" src="js/echarts-wordcloud.min.js"></script>
@@ -63,44 +135,44 @@
 	<script type="text/javascript" src="js/echarts-map-china.js"></script>
 	<script type="text/javascript">
 		$(function () {
-			/*************** 中国地图 **************/
-			//初始化echarts实例
+			/*************** ä¸­å›½åœ°å›¾ **************/
+			//åˆå§‹åŒ–echartså®žä¾‹
 			const mapChart = echarts.init(document.getElementById("mapChart"));
 			(function () {
 				let data = [
-					{ "name": "辽宁", "value": 77 },
-					{ "name": "吉林", "value": 42 },
-					{ "name": "黑龙江", "value": 72 },
-					{ "name": "四川", "value": 81 },
-					{ "name": "湖北", "value": 47 },
-					{ "name": "福建", "value": 67 },
-					{ "name": "深圳", "value": 82 },
-					{ "name": "广东", "value": 66 },
-					{ "name": "重庆", "value": 24 },
-					{ "name": "湖南", "value": 92 },
-					{ "name": "上海", "value": 95 },
-					{ "name": "江苏", "value": 91 },
-					{ "name": "浙江", "value": 94 },
-					{ "name": "安徽", "value": 64 },
-					{ "name": "北京", "value": 91 },
-					{ "name": "天津", "value": 65 },
-					{ "name": "山东", "value": 98 },
-					{ "name": "山西", "value": 83 },
-					{ "name": "河南", "value": 100 },
-					{ "name": "河北", "value": 70 },
-					{ "name": "内蒙古", "value": 11 },
-					{ "name": "江西", "value": 23 },
-					{ "name": "贵州", "value": 45 },
-					{ "name": "云南", "value": 36 },
-					{ "name": "西藏", "value": 9 },
-					{ "name": "陕西", "value": 21 },
-					{ "name": "甘肃", "value": 54 },
-					{ "name": "青海", "value": 48 },
-					{ "name": "宁夏", "value": 36 },
-					{ "name": "新疆", "value": 24 },
-					{ "name": "广西", "value": 68 },
-					{ "name": "海南", "value": 99 },
-					{ "name": "台湾", "value": 88 }
+					{ "name": "è¾½å®", "value": 77 },
+					{ "name": "å‰æž—", "value": 42 },
+					{ "name": "é»‘é¾™æ±Ÿ", "value": 72 },
+					{ "name": "å››å·", "value": 81 },
+					{ "name": "æ¹–åŒ—", "value": 47 },
+					{ "name": "ç¦å»º", "value": 67 },
+					{ "name": "æ·±åœ³", "value": 82 },
+					{ "name": "å¹¿ä¸œ", "value": 66 },
+					{ "name": "é‡åº†", "value": 24 },
+					{ "name": "æ¹–å—", "value": 92 },
+					{ "name": "ä¸Šæµ·", "value": 95 },
+					{ "name": "æ±Ÿè‹", "value": 91 },
+					{ "name": "æµ™æ±Ÿ", "value": 94 },
+					{ "name": "å®‰å¾½", "value": 64 },
+					{ "name": "åŒ—äº¬", "value": 91 },
+					{ "name": "å¤©æ´¥", "value": 65 },
+					{ "name": "å±±ä¸œ", "value": 98 },
+					{ "name": "å±±è¥¿", "value": 83 },
+					{ "name": "æ²³å—", "value": 100 },
+					{ "name": "æ²³åŒ—", "value": 70 },
+					{ "name": "å†…è’™å¤", "value": 11 },
+					{ "name": "æ±Ÿè¥¿", "value": 23 },
+					{ "name": "è´µå·ž", "value": 45 },
+					{ "name": "äº‘å—", "value": 36 },
+					{ "name": "è¥¿è—", "value": 9 },
+					{ "name": "é™•è¥¿", "value": 21 },
+					{ "name": "ç”˜è‚ƒ", "value": 54 },
+					{ "name": "é’æµ·", "value": 48 },
+					{ "name": "å®å¤", "value": 36 },
+					{ "name": "æ–°ç–†", "value": 24 },
+					{ "name": "å¹¿è¥¿", "value": 68 },
+					{ "name": "æµ·å—", "value": 99 },
+					{ "name": "å°æ¹¾", "value": 88 }
 				];
 
 				let opt = {
@@ -118,15 +190,15 @@
 					},
 					geo: {
 						map: 'china',
-						roam: false, //开启鼠标缩放和漫游
-						zoom: 1, //地图缩放级别
-						selectedMode: false, //选中模式：single | multiple
+						roam: false, //å¼€å¯é¼ æ ‡ç¼©æ”¾å’Œæ¼«æ¸¸
+						zoom: 1, //åœ°å›¾ç¼©æ”¾çº§åˆ«
+						selectedMode: false, //é€‰ä¸­æ¨¡å¼ï¼šsingle | multiple
 						left: 0,
 						right: 0,
 						top: 0,
 						bottom: 0,
-						layoutCenter: ['50%', '50%'], //设置后left/right/top/bottom等属性无效
-						//layoutSize: '100%', //保持地图宽高比
+						layoutCenter: ['50%', '50%'], //è®¾ç½®åŽleft/right/top/bottomç­‰å±žæ€§æ— æ•ˆ
+						//layoutSize: '100%', //ä¿æŒåœ°å›¾å®½é«˜æ¯”
 						label: {
 							emphasis: {
 								show: true,
@@ -140,54 +212,113 @@
 					series: [{
 						type: 'map',
 						geoIndex: 0,
-						data: data,
-						event: [
-							{
-								type: 'mouseover',
-								callback: function (params) {
-									const province = params.name; // 获取悬停的省份名称
+					data: data
+				}]
+			};
+			mapChart.setOption(opt);
 
-									// 使用 Fetch API 获取数据
-									fetch('https://economistnew.buzzing.cc/feed.json')
-										.then(response => {
-											if (!response.ok) {
-												throw new Error('网络请求失败');
-											}
-											return response.json();
-										})
-										.then(data => {
-											// 获取 JSON 数据中的 items 数组
-											const items = data.items;
+			// ===== é¢„åŠ è½½æ–°é—»æ•°æ®ï¼ˆnews.json å’Œå…¨éƒ¨ RSSï¼‰=====
+			let _cachedNews = null;  // [{title, url}, ...]
+			let _cachedRss  = null;  // [{title, url}, ...]
 
-											// 筛选出标题中包含悬停的省份名称的新闻标题和链接
-											const newsList = [];
-											items.forEach(item => {
-												const title = isZhHans ? item._translations['zh-Hans'].title : item.title;
-												if (title.includes(province)) {
-													newsList.push(`<p><a href="${item.url}" target="_blank">${title}</a></p>`);
-												}
-											});
+			function loadNewsCache() {
+				if (_cachedNews) return Promise.resolve();
+				return fetch('/data/news.json')
+					.then(r => r.ok ? r.json() : [])
+					.then(d => { _cachedNews = d || []; })
+					.catch(() => { _cachedNews = []; });
+			}
 
-											// 将新闻标题显示在页面上
-											document.getElementById('news-list').innerHTML = newsList.join('');
-										})
-										.catch(error => {
-											console.error('获取数据时出错：', error);
-										});
-								}
-							}
-						]
-					}]
-				};
-				mapChart.setOption(opt);
+			function loadRssCache() {
+				if (_cachedRss) return Promise.resolve();
+				return Promise.all([
+					'https://www.buzzing.cc/feed.json',
+					'https://economistnew.buzzing.cc/feed.json',
+					'https://news.buzzing.cc/feed.json'
+				].map(u => fetch(u).then(r => r.json()).catch(() => ({ items: [] }))))
+				.then(datas => {
+					const seen = new Set();
+					_cachedRss = [];
+					datas.forEach(d => (d.items || []).forEach(item => {
+						if (item.url && !seen.has(item.url)) {
+							seen.add(item.url);
+							_cachedRss.push({ title: item.title || '', url: item.url });
+						}
+					}));
+				})
+				.catch(() => { _cachedRss = []; });
+			}
 
+			// é¡µé¢åŠ è½½å®Œå³é¢„åŠ è½½
+			loadNewsCache().then(loadRssCache);
 
+			// ===== åœ°å›¾ç‚¹å‡»äº‹ä»¶ =====
+			mapChart.on('click', function (params) {
+				if (params.componentType !== 'series' && params.componentType !== 'geo') return;
+				const place = params.name;
+				if (!place || place === 'å±±æµ·å…³è®º') return;
 
+				// æ˜¾ç¤ºå¼¹çª—
+				const overlay = document.getElementById('map-news-overlay');
+				const listEl  = document.getElementById('map-news-list');
+				const titleEl = document.getElementById('map-news-title');
+				titleEl.textContent = `ã€Š${place}ã€‹ ç›¸å…³çƒ­é—»`;
+				listEl.innerHTML = '<div id="map-news-loading">åŠ è½½ä¸­...</div>';
+				overlay.classList.add('active');
 
-			})();
+				// åŠ è½½å®Œæ¯•å§å†æ¸²æŸ“
+				Promise.all([loadNewsCache(), loadRssCache()]).then(() => {
+					const combined = [];
+					const seen = new Set();
 
-			/*************** 烟花秀 **************/
-			//初始化echarts实例
+					// 1.ã€ä¼˜å…ˆåŒ¹é…æœ¬åœ° news.json
+					(_cachedNews || []).forEach(item => {
+						if (item.title && item.title.includes(place) && !seen.has(item.url)) {
+							seen.add(item.url);
+							combined.push(item);
+						}
+					});
+
+					// 2. å†åŒ¹é… RSS å®žæ—¶æ•°æ®
+					(_cachedRss || []).forEach(item => {
+						if (item.title && item.title.includes(place) && !seen.has(item.url)) {
+							seen.add(item.url);
+							combined.push(item);
+						}
+					});
+
+					// 3. ä»¿ç…§æ±‰å­—åŒ¹é…ä¸åˆ°æ—¶ï¼Œå°è¯•æ‹¼éŸ³/ç¼“å­˜å†…æ‰€æœ‰
+					const display = combined.slice(0, 50);
+
+					if (display.length === 0) {
+						listEl.innerHTML = `<div style="color:#aaa;padding:20px 0;text-align:center">æœªæ‰¾åˆ°ã€Š${place}ã€‹ç›¸å…³æ–°é—»</div>`;
+						return;
+					}
+
+					const html = display.map((item, i) => {
+						const rank = i + 1;
+						const rankCls = rank <= 3 ? 'map-news-rank top3' : 'map-news-rank';
+						const rankTxt = rank <= 3 ? ['\uD83E\uDD47','\uD83E\uDD48','\uD83E\uDD49'][i] : rank;
+						const inner = item.url
+							? `<a href="${item.url}" target="_blank" rel="noopener">${item.title}</a>`
+							: `<span>${item.title}</span>`;
+						return `<div class="map-news-item"><span class="${rankCls}">${rankTxt}</span>${inner}</div>`;
+					}).join('');
+
+					titleEl.textContent = `ã€Š${place}ã€‹ ç›¸å…³çƒ­é—»ï¼ˆ${display.length} æ¡ï¼‰`;
+					listEl.innerHTML = html;
+				});
+			});
+
+			// ===== å…³é—­å¼¹çª— =====
+			document.getElementById('map-news-close').onclick = function () {
+				document.getElementById('map-news-overlay').classList.remove('active');
+			};
+			document.getElementById('map-news-overlay').onclick = function (e) {
+				if (e.target === this) this.classList.remove('active');
+			};
+			/*************** çƒŸèŠ±ç§€ **************/
+			//åˆå§‹åŒ–echartså®žä¾‹
 			const fireworksChart = echarts.init(document.getElementById("fireworksChart"));
 			(function () {
 				let r = function (max) {
@@ -245,9 +376,9 @@
 				};
 
 				let roofs = [
-					/*三角形*/
+					/*ä¸‰è§’å½¢*/
 					[1, 2, 3, 4, 5, 4, 3, 2, 1],
-					/*凸*/
+					/*å‡¸*/
 					[2, 2, 2, 4, 4, 4, 2, 2, 2],
 					[2, 2, 2, 4, 20, 4, 2, 2, 2],
 					[10, 9, 8, 7, 6, 5, 4, 3, 2, 1],
@@ -383,32 +514,32 @@
 							}
 						},
 						data: [{
-							coords: [ // 竖直向上
+							coords: [ // ç«–ç›´å‘ä¸Š
 								[40, 166],
 								[40, 210]
 							]
-						}, { // 水平向右
+						}, { // æ°´å¹³å‘å³
 							coords: [
 								[41, 165],
 								[65, 165]
 
 							]
-						}, { // 水平向左
+						}, { // æ°´å¹³å‘å·¦
 							coords: [
 								[39, 165],
 								[15, 165]
 							]
-						}, { // 垂直向下
+						}, { // åž‚ç›´å‘ä¸‹
 							coords: [
 								[40, 164],
 								[40, 115]
 							]
-						}, { //第一象限
+						}, { //ç¬¬ä¸€è±¡é™
 							coords: [
 								[40, 164],
 								[55, 192]
 							]
-						}, { //第一象限
+						}, { //ç¬¬ä¸€è±¡é™
 							coords: [
 								[40, 164],
 								[56, 175]
@@ -418,7 +549,7 @@
 									color: '#FFFFFF'
 								}
 							}
-						}, { //第一象限
+						}, { //ç¬¬ä¸€è±¡é™
 							coords: [
 								[40, 164],
 								[46, 197]
@@ -428,7 +559,7 @@
 									color: '#FFFFFF'
 								}
 							}
-						}, { //第一象限
+						}, { //ç¬¬ä¸€è±¡é™
 							coords: [
 								[41, 190],
 								[47, 215]
@@ -438,7 +569,7 @@
 									color: '#00FF33'
 								}
 							}
-						}, { //第一象限
+						}, { //ç¬¬ä¸€è±¡é™
 							coords: [
 								[48, 190],
 								[57, 205]
@@ -448,7 +579,7 @@
 									color: '#00FF33'
 								}
 							}
-						}, { //第一象限
+						}, { //ç¬¬ä¸€è±¡é™
 							coords: [
 								[52, 180],
 								[62, 185]
@@ -458,7 +589,7 @@
 									color: '#00FF33'
 								}
 							}
-						}, { //第一象限
+						}, { //ç¬¬ä¸€è±¡é™
 							coords: [
 								[55, 170],
 								[68, 171]
@@ -468,12 +599,12 @@
 									color: '#00FF33'
 								}
 							}
-						}, { //第二象限
+						}, { //ç¬¬äºŒè±¡é™
 							coords: [
 								[39, 166],
 								[24, 190]
 							]
-						}, { //第二象限
+						}, { //ç¬¬äºŒè±¡é™
 							coords: [
 								[40, 164],
 								[24, 175]
@@ -483,7 +614,7 @@
 									color: '#FFFFFF'
 								}
 							}
-						}, { //第二象限
+						}, { //ç¬¬äºŒè±¡é™
 							coords: [
 								[40, 164],
 								[31, 195]
@@ -493,7 +624,7 @@
 									color: '#FFFFFF'
 								}
 							}
-						}, { //第二象限
+						}, { //ç¬¬äºŒè±¡é™
 							coords: [
 								[25, 168],
 								[13, 176]
@@ -503,7 +634,7 @@
 									color: '#00FF33'
 								}
 							}
-						}, { //第二象限
+						}, { //ç¬¬äºŒè±¡é™
 							coords: [
 								[29, 175],
 								[18, 195]
@@ -513,7 +644,7 @@
 									color: '#00FF33'
 								}
 							}
-						}, { //第二象限
+						}, { //ç¬¬äºŒè±¡é™
 							coords: [
 								[33, 179],
 								[24, 210]
@@ -523,7 +654,7 @@
 									color: '#00FF33'
 								}
 							}
-						}, { //第二象限
+						}, { //ç¬¬äºŒè±¡é™
 							coords: [
 								[36, 185],
 								[35, 210]
@@ -533,12 +664,12 @@
 									color: '#00FF33'
 								}
 							}
-						}, { //第三象限
+						}, { //ç¬¬ä¸‰è±¡é™
 							coords: [
 								[40, 164],
 								[26, 137]
 							]
-						}, { //第三象限
+						}, { //ç¬¬ä¸‰è±¡é™
 							coords: [
 								[40, 164],
 								[34, 135]
@@ -548,7 +679,7 @@
 									color: '#FFFFFF'
 								}
 							}
-						}, { //第三象限
+						}, { //ç¬¬ä¸‰è±¡é™
 							coords: [
 								[40, 164],
 								[25, 153]
@@ -558,7 +689,7 @@
 									color: '#FFFFFF'
 								}
 							}
-						}, { //第三象限
+						}, { //ç¬¬ä¸‰è±¡é™
 							coords: [
 								[39, 144],
 								[36, 120]
@@ -568,7 +699,7 @@
 									color: '#00FF33'
 								}
 							}
-						}, { //第三象限
+						}, { //ç¬¬ä¸‰è±¡é™
 							coords: [
 								[34, 144],
 								[22, 123]
@@ -578,7 +709,7 @@
 									color: '#00FF33'
 								}
 							}
-						}, { //第三象限
+						}, { //ç¬¬ä¸‰è±¡é™
 							coords: [
 								[30, 151],
 								[21, 143]
@@ -588,7 +719,7 @@
 									color: '#00FF33'
 								}
 							}
-						}, { //第三象限
+						}, { //ç¬¬ä¸‰è±¡é™
 							coords: [
 								[30, 159],
 								[18, 157]
@@ -598,12 +729,12 @@
 									color: '#00FF33'
 								}
 							}
-						}, { // 第四象限
+						}, { // ç¬¬å››è±¡é™
 							coords: [
 								[40, 164],
 								[55, 135]
 							]
-						}, { // 第四象限
+						}, { // ç¬¬å››è±¡é™
 							coords: [
 								[40, 164],
 								[55, 152]
@@ -613,7 +744,7 @@
 									color: '#FFFFFF'
 								}
 							}
-						}, { // 第四象限
+						}, { // ç¬¬å››è±¡é™
 							coords: [
 								[40, 164],
 								[46, 135]
@@ -623,7 +754,7 @@
 									color: '#FFFFFF'
 								}
 							}
-						}, { //第四象限
+						}, { //ç¬¬å››è±¡é™
 							coords: [
 								[52, 160],
 								[65, 153]
@@ -633,7 +764,7 @@
 									color: '#00FF33'
 								}
 							}
-						}, { //第四象限
+						}, { //ç¬¬å››è±¡é™
 							coords: [
 								[52, 150],
 								[62, 133]
@@ -643,7 +774,7 @@
 									color: '#00FF33'
 								}
 							}
-						}, { //第四象限
+						}, { //ç¬¬å››è±¡é™
 							coords: [
 								[47, 144],
 								[53, 123]
@@ -653,7 +784,7 @@
 									color: '#00FF33'
 								}
 							}
-						}, { //第四象限
+						}, { //ç¬¬å››è±¡é™
 							coords: [
 								[43, 134],
 								[45, 113]
@@ -741,32 +872,32 @@
 							}
 						},
 						data: [{
-							coords: [ // 竖直向上
+							coords: [ // ç«–ç›´å‘ä¸Š
 								[110, 166],
 								[110, 210]
 							]
-						}, { // 水平向右
+						}, { // æ°´å¹³å‘å³
 							coords: [
 								[111, 165],
 								[135, 165]
 
 							]
-						}, { // 水平向左
+						}, { // æ°´å¹³å‘å·¦
 							coords: [
 								[109, 165],
 								[85, 165]
 							]
-						}, { // 垂直向下
+						}, { // åž‚ç›´å‘ä¸‹
 							coords: [
 								[110, 164],
 								[110, 115]
 							]
-						}, { //第一象限
+						}, { //ç¬¬ä¸€è±¡é™
 							coords: [
 								[110, 164],
 								[125, 192]
 							]
-						}, { //第一象限
+						}, { //ç¬¬ä¸€è±¡é™
 							coords: [
 								[110, 164],
 								[126, 175]
@@ -776,7 +907,7 @@
 									color: '#DD2222'
 								}
 							}
-						}, { //第一象限
+						}, { //ç¬¬ä¸€è±¡é™
 							coords: [
 								[110, 164],
 								[116, 197]
@@ -786,7 +917,7 @@
 									color: '#DD2222'
 								}
 							}
-						}, { //第一象限
+						}, { //ç¬¬ä¸€è±¡é™
 							coords: [
 								[111, 190],
 								[117, 215]
@@ -796,7 +927,7 @@
 									color: '#FFFF00'
 								}
 							}
-						}, { //第一象限
+						}, { //ç¬¬ä¸€è±¡é™
 							coords: [
 								[118, 190],
 								[127, 205]
@@ -806,7 +937,7 @@
 									color: '#FFFF00'
 								}
 							}
-						}, { //第一象限
+						}, { //ç¬¬ä¸€è±¡é™
 							coords: [
 								[122, 180],
 								[132, 185]
@@ -816,7 +947,7 @@
 									color: '#FFFF00'
 								}
 							}
-						}, { //第一象限
+						}, { //ç¬¬ä¸€è±¡é™
 							coords: [
 								[125, 170],
 								[138, 171]
@@ -826,12 +957,12 @@
 									color: '#FFFF00'
 								}
 							}
-						}, { //第二象限
+						}, { //ç¬¬äºŒè±¡é™
 							coords: [
 								[109, 166],
 								[94, 190]
 							]
-						}, { //第二象限
+						}, { //ç¬¬äºŒè±¡é™
 							coords: [
 								[110, 164],
 								[94, 175]
@@ -841,7 +972,7 @@
 									color: '#DD2222'
 								}
 							}
-						}, { //第二象限
+						}, { //ç¬¬äºŒè±¡é™
 							coords: [
 								[110, 164],
 								[101, 195]
@@ -851,7 +982,7 @@
 									color: '#DD2222'
 								}
 							}
-						}, { //第二象限
+						}, { //ç¬¬äºŒè±¡é™
 							coords: [
 								[95, 168],
 								[83, 176]
@@ -861,7 +992,7 @@
 									color: '#FFFF00'
 								}
 							}
-						}, { //第二象限
+						}, { //ç¬¬äºŒè±¡é™
 							coords: [
 								[99, 175],
 								[88, 195]
@@ -871,7 +1002,7 @@
 									color: '#FFFF00'
 								}
 							}
-						}, { //第二象限
+						}, { //ç¬¬äºŒè±¡é™
 							coords: [
 								[103, 179],
 								[94, 210]
@@ -881,7 +1012,7 @@
 									color: '#FFFF00'
 								}
 							}
-						}, { //第二象限
+						}, { //ç¬¬äºŒè±¡é™
 							coords: [
 								[106, 185],
 								[105, 210]
@@ -891,12 +1022,12 @@
 									color: '#FFFF00'
 								}
 							}
-						}, { //第三象限
+						}, { //ç¬¬ä¸‰è±¡é™
 							coords: [
 								[110, 164],
 								[96, 137]
 							]
-						}, { //第三象限
+						}, { //ç¬¬ä¸‰è±¡é™
 							coords: [
 								[110, 164],
 								[104, 135]
@@ -906,7 +1037,7 @@
 									color: '#DD2222'
 								}
 							}
-						}, { //第三象限
+						}, { //ç¬¬ä¸‰è±¡é™
 							coords: [
 								[110, 164],
 								[95, 153]
@@ -916,7 +1047,7 @@
 									color: '#DD2222'
 								}
 							}
-						}, { //第三象限
+						}, { //ç¬¬ä¸‰è±¡é™
 							coords: [
 								[109, 144],
 								[106, 120]
@@ -926,7 +1057,7 @@
 									color: '#FFFF00'
 								}
 							}
-						}, { //第三象限
+						}, { //ç¬¬ä¸‰è±¡é™
 							coords: [
 								[104, 144],
 								[92, 123]
@@ -936,7 +1067,7 @@
 									color: '#FFFF00'
 								}
 							}
-						}, { //第三象限
+						}, { //ç¬¬ä¸‰è±¡é™
 							coords: [
 								[100, 151],
 								[91, 143]
@@ -946,7 +1077,7 @@
 									color: '#FFFF00'
 								}
 							}
-						}, { //第三象限
+						}, { //ç¬¬ä¸‰è±¡é™
 							coords: [
 								[100, 159],
 								[88, 157]
@@ -956,12 +1087,12 @@
 									color: '#FFFF00'
 								}
 							}
-						}, { // 第四象限
+						}, { // ç¬¬å››è±¡é™
 							coords: [
 								[110, 164],
 								[125, 135]
 							]
-						}, { // 第四象限
+						}, { // ç¬¬å››è±¡é™
 							coords: [
 								[110, 164],
 								[125, 152]
@@ -971,9 +1102,9 @@
 									color: '#DD2222'
 								}
 							}
-						}, { // 第四象限
+						}, { // ç¬¬å››è±¡é™
 							coords: [
-								[110, 164], // 红色象限位置错乱 由 [555, 164] 改为[110, 164]
+								[110, 164], // çº¢è‰²è±¡é™ä½ç½®é”™ä¹± ç”± [555, 164] æ”¹ä¸º[110, 164]
 								[116, 135]
 							],
 							lineStyle: {
@@ -981,7 +1112,7 @@
 									color: '#DD2222'
 								}
 							}
-						}, { //第四象限
+						}, { //ç¬¬å››è±¡é™
 							coords: [
 								[122, 160],
 								[135, 153]
@@ -991,7 +1122,7 @@
 									color: '#FFFF00'
 								}
 							}
-						}, { //第四象限
+						}, { //ç¬¬å››è±¡é™
 							coords: [
 								[122, 150],
 								[132, 133]
@@ -1001,7 +1132,7 @@
 									color: '#FFFF00'
 								}
 							}
-						}, { //第四象限
+						}, { //ç¬¬å››è±¡é™
 							coords: [
 								[117, 144],
 								[123, 123]
@@ -1011,7 +1142,7 @@
 									color: '#FFFF00'
 								}
 							}
-						}, { //第四象限
+						}, { //ç¬¬å››è±¡é™
 							coords: [
 								[113, 134],
 								[115, 113]
@@ -1033,57 +1164,99 @@
 				fireworksChart.setOption(option);
 			})();
 
-			/***************新闻资讯***************/
-			//初始化echarts实例
+			/***************æ–°é—»èµ„è®¯ â€” çƒ­æ¦œæ»šåŠ¨åˆ—è¡¨***************/
 			const NewsChart = echarts.init(document.getElementById("NewsChart"));
 
-			// 使用 Fetch API 获取数据
-			fetch('https://www.buzzing.cc/feed.json')
-				.then(response => {
-					if (!response.ok) {
-						throw new Error('网络请求失败');
-					}
-					return response.json();
-				})
-				.then(data => {
-					// 获取 JSON 数据中的 items 数组
-					const items = data.items;
+			function renderNewsList(newsItems) {
+				const titles = newsItems.map(n => n.title || '');
+				const urls   = newsItems.map(n => n.url   || '');
+				// ç”¨å€’åºè®©ç¬¬1æ¡åœ¨é¡¶ç«¯ï¼ˆECharts yè½´ä»Žä¸‹å¾€ä¸Šï¼‰
+				const reversedTitles = titles.slice().reverse();
+				const reversedUrls   = urls.slice().reverse();
 
-					// 处理数据
-					const xAxisData = items.map(item => item.title); // 标题作为 x 轴的类别
-					const seriesData = items.map(item => item.url.length); // URL 数量作为柱状图的高度
-
-					// 设置图表配置项
-					const option = {
-						title: {
-							text: 'Buzzing 网站标题和 URL 数量'
-						},
-						tooltip: {},
-						xAxis: {
-							data: xAxisData,
-							axisLabel: {
-								interval: 0,
-								rotate: 45
+				NewsChart.setOption({
+					backgroundColor: 'transparent',
+					grid: { top: 8, bottom: 4, left: 8, right: 8, containLabel: true },
+					tooltip: {
+						trigger: 'axis',
+						axisPointer: { type: 'none' },
+						formatter: function(params) {
+							const idx = params[0].dataIndex;
+							const url = reversedUrls[idx];
+							return url
+								? `<a href="${url}" target="_blank" style="color:#7ecfff">${reversedTitles[idx]}</a>`
+								: reversedTitles[idx];
+						}
+					},
+					xAxis: { show: false, max: newsItems.length },
+					yAxis: {
+						type: 'category',
+						data: reversedTitles,
+						axisLine: { show: false },
+						axisTick: { show: false },
+						axisLabel: {
+							textStyle: { color: '#aee', fontSize: 11 },
+							interval: 0,
+							formatter: function(value) {
+								return value.length > 20 ? value.substring(0, 20) + '…' : value;
+							}
+						}
+					},
+					series: [{
+						type: 'bar',
+						data: reversedTitles.map((_, i) => newsItems.length - i),
+						barMaxWidth: 6,
+						itemStyle: {
+							normal: {
+								color: function(params) {
+									const idx = newsItems.length - 1 - params.dataIndex;
+									if (idx < 3)  return '#f5a623';
+									if (idx < 10) return '#4a90e2';
+									return '#2a5298';
+								}
 							}
 						},
-						yAxis: {},
-						series: [{
-							name: 'URL 数量',
-							type: 'bar',
-							data: seriesData
-						}]
-					};
+						label: {
+							show: true,
+							position: 'insideLeft',
+							color: '#fff',
+							fontSize: 10,
+							formatter: function(params) {
+								const rank = newsItems.length - params.dataIndex;
+								return rank <= 3 ? `TOP${rank}` : `${rank}`;
+							}
+						}
+					}]
+				});
 
-					// 使用配置项渲染图表
-					NewsChart.setOption(option);
-				})
-				.catch(error => {
-					console.error('获取数据时出错：', error);
+				// ç‚¹å‡»è·³è½¬åŽŸæ–‡
+				NewsChart.off('click');
+				NewsChart.on('click', function(params) {
+					const url = reversedUrls[params.dataIndex];
+					if (url) window.open(url, '_blank');
+				});
+			}
+
+			// ä¼˜å…ˆåŠ è½½ Python ç”Ÿæˆçš„ news.jsonï¼Œå›žé€€åˆ°å®žæ—¶ RSS
+			fetch('/data/news.json')
+				.then(r => r.ok ? r.json() : Promise.reject('no local file'))
+				.then(data => renderNewsList(data))
+				.catch(() => {
+					fetch('https://www.buzzing.cc/feed.json')
+						.then(r => r.json())
+						.then(data => {
+							const news = (data.items || []).slice(0, 50).map(item => ({
+								title: item.title || '',
+								url:   item.url   || ''
+							}));
+							renderNewsList(news);
+						})
+						.catch(err => console.error('æ–°é—»åŠ è½½å¤±è´¥:', err));
 				});
 
 
-			/*************** 关系图 **************/
-			//初始化echarts实例
+			/*************** å…³ç³»å›¾ **************/
+			//åˆå§‹åŒ–echartså®žä¾‹
 			const relationChart = echarts.init(document.getElementById("relationChart"));
 			const relationOpt = {
 				animationDurationUpdate: 1500,
@@ -1103,7 +1276,7 @@
 					roam: true,
 					layout: 'force',
 					force: {
-						repulsion: 320 //斥力因子，值越大，斥力越大
+						repulsion: 320 //æ–¥åŠ›å› å­ï¼Œå€¼è¶Šå¤§ï¼Œæ–¥åŠ›è¶Šå¤§
 					},
 					label: {
 						normal: {
@@ -1124,28 +1297,28 @@
 						}
 					},
 					categories: [{
-						name: '全栈',
+						name: 'å…¨æ ˆ',
 						itemStyle: {
 							normal: {
 								color: '#f2637b'
 							}
 						}
 					}, {
-						name: '前端',
+						name: 'å‰ç«¯',
 						itemStyle: {
 							normal: {
 								color: "#eaa674",
 							}
 						}
 					}, {
-						name: '移动端',
+						name: 'ç§»åŠ¨ç«¯',
 						itemStyle: {
 							normal: {
 								color: "#3aa1ff",
 							}
 						}
 					}, {
-						name: '服务端',
+						name: 'æœåŠ¡ç«¯',
 						itemStyle: {
 							normal: {
 								color: "#4ecb73",
@@ -1153,19 +1326,19 @@
 						}
 					}],
 					data: [{
-						name: '全栈',
+						name: 'å…¨æ ˆ',
 						category: 0,
 						draggable: true
 					}, {
-						name: '前端',
+						name: 'å‰ç«¯',
 						category: 1,
 						draggable: true
 					}, {
-						name: '移动端',
+						name: 'ç§»åŠ¨ç«¯',
 						category: 2,
 						draggable: true
 					}, {
-						name: '服务端',
+						name: 'æœåŠ¡ç«¯',
 						category: 3,
 						draggable: true
 					}, {
@@ -1240,7 +1413,7 @@
 					}, {
 						source: 6,
 						target: 7,
-						value: '超集'
+						value: 'è¶…é›†'
 					}, {
 						source: 3,
 						target: 8,
@@ -1256,7 +1429,7 @@
 					}, {
 						source: 9,
 						target: 10,
-						value: '脚本'
+						value: 'è„šæœ¬'
 					}, {
 						source: 2,
 						target: 11,
@@ -1285,9 +1458,9 @@
 			};
 			relationChart.setOption(relationOpt);
 
-			/*************** 水球 **************/
+			/*************** æ°´çƒ **************/
 			//https://github.com/ecomfe/echarts-liquidfill
-			//初始化echarts实例
+			//åˆå§‹åŒ–echartså®žä¾‹
 
 
 			// const ballChart = echarts.init(document.getElementById("ballChart"));
@@ -1313,90 +1486,70 @@
 			// };
 			// ballChart.setOption(ballOpt);
 
-			/*************** 词云 **************/
+			/*************** è¯äº‘ **************/
 			//https://github.com/ecomfe/echarts-wordcloud
-			//初始化echarts实例
-			// 初始化图表
+			//åˆå§‹åŒ–echartså®žä¾‹
+			// åˆå§‹åŒ–è¯äº‘å›¾
 			const wordcloudChart = echarts.init(document.getElementById("wordChart"));
 
-			// 使用 Fetch API 分别获取两个来源的数据
-			const fetchPromises = [
-				fetch('https://hn.buzzing.cc/feed.json'),
-				fetch('https://www.buzzing.cc/feed.json'),
-				fetch('https://news.buzzing.cc/feed.json')
-			];
-
-			Promise.all(fetchPromises)
-				.then(responses => Promise.all(responses.map(response => response.json())))
-				.then(datas => {
-					// 合并两个数据源
-					const combinedData = [];
-					datas.forEach(data => {
-						const items = data.items;
-						items.forEach(item => {
-							const words = item.title.split(' '); // 假设标题中以空格分隔单词
-							words.forEach(word => {
-								combinedData.push(word);
-							});
-						});
-					});
-
-					// 统计单词频率
-					const wordFreq = {};
-					combinedData.forEach(word => {
-						if (wordFreq[word]) {
-							wordFreq[word]++;
-						} else {
-							wordFreq[word] = 1;
-						}
-					});
-
-					// 将数据转换成 ECharts 词云图所需的格式
-					const wordcloudData = [];
-					for (const word in wordFreq) {
-						wordcloudData.push({
-							name: word,
-							value: wordFreq[word] // 词频作为词的权重
-						});
-					}
-
-					// 设置图表配置项
-					const option = {
-						title: {
-							text: 'Buzzing 和 News Buzzing 网站标题词云图'
-						},
-						series: [{
-							type: 'wordCloud',
-							gridSize: 20, // 单词间距
-							sizeRange: [20, 100], // 单词字体大小范围
-							rotationRange: [-45, 45], // 单词旋转角度范围
-							shape: 'pentagon', // 单词形状
-							textStyle: {
-								normal: {
-									color: function () {
-										return 'rgb(' + [
-											Math.round(Math.random() * 255),
-											Math.round(Math.random() * 255),
-											Math.round(Math.random() * 255)
-										].join(',') + ')';
-									}
+			function renderWordCloud(wordcloudData) {
+				wordcloudChart.setOption({
+					title: { text: 'æ–°é—»çƒ­è¯è¯äº‘', textStyle: { color: '#aef' } },
+					series: [{
+						type: 'wordCloud',
+						gridSize: 16,
+						sizeRange: [14, 80],
+						rotationRange: [-45, 45],
+						shape: 'pentagon',
+						textStyle: {
+							normal: {
+								color: function () {
+									return 'rgb(' + [
+										Math.round(Math.random() * 200 + 55),
+										Math.round(Math.random() * 200 + 55),
+										255
+									].join(',') + ')';
 								}
-							},
-							data: wordcloudData
-						}]
-					};
+							}
+						},
+						data: wordcloudData
+					}]
+				});
+			}
 
-					// 使用配置项渲染图表
-					wordcloudChart.setOption(option);
-				})
-				.catch(error => {
-					console.error('获取数据时出错：', error);
+			// ä¼˜å…ˆåŠ è½½ Python è„šæœ¬ç”Ÿæˆçš„è¯é¢‘ JSONï¼ˆå·²åŽ»åœç”¨è¯ã€æƒé‡å‡†ç¡®ï¼‰
+			// è‹¥æ–‡ä»¶ä¸å­˜åœ¨åˆ™å›žé€€åˆ°å®žæ—¶ RSS æ‹‰å–
+			fetch('/data/wordfreq.json')
+				.then(r => r.ok ? r.json() : Promise.reject('no local file'))
+				.then(data => renderWordCloud(data))
+				.catch(() => {
+					// å›žé€€ï¼šå®žæ—¶ä»Ž RSS æ‹‰å–å¹¶åœ¨å‰ç«¯è®¡ç®—è¯é¢‘
+					const stopWords = new Set([
+						'the','a','an','and','or','but','in','on','at','to','for','of',
+						'is','are','was','were','be','by','from','with','this','that',
+						'it','not','no','how','what','why','who','will','can','more',
+						'have','has','do','does','did','just','all','also','over','new'
+					]);
+					Promise.all([
+						'https://www.buzzing.cc/feed.json',
+						'https://hn.buzzing.cc/feed.json',
+						'https://news.buzzing.cc/feed.json'
+					].map(u => fetch(u).then(r => r.json()).catch(() => ({ items: [] }))))
+						.then(datas => {
+							const freq = {};
+							datas.forEach(d => (d.items || []).forEach(item => {
+								(item.title || '').match(/[a-zA-Z]{3,}/g || []).forEach(w => {
+									const lw = w.toLowerCase();
+									if (!stopWords.has(lw)) freq[lw] = (freq[lw] || 0) + 1;
+								});
+							}));
+							renderWordCloud(Object.entries(freq).map(([name, value]) => ({ name, value })));
+						});
 				});
 
-			/********** 窗口大小改变时，重置报表大小 ********************/
+			/********** çª—å£å¤§å°æ”¹å˜æ—¶ï¼Œé‡ç½®æŠ¥è¡¨å¤§å° ********************/
 			window.onresize = function () {
-				wordChart.resize();
-				ballChart.resize();
+				wordcloudChart.resize();
 				relationChart.resize();
 				fireworksChart.resize();
 				NewsChart.resize();
