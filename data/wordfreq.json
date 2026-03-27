@@ -1,47 +1,51 @@
 [
   {
     "name": "news",
-    "value": 52
+    "value": 55
   },
   {
     "name": "times",
-    "value": 50
+    "value": 48
+  },
+  {
+    "name": "com",
+    "value": 41
   },
   {
     "name": "show",
     "value": 39
   },
   {
-    "name": "com",
-    "value": 38
-  },
-  {
     "name": "reuters",
-    "value": 30
+    "value": 31
   },
   {
     "name": "york",
-    "value": 29
+    "value": 27
   },
   {
     "name": "guardian",
-    "value": 20
+    "value": 19
   },
   {
     "name": "jazeera",
-    "value": 17
+    "value": 18
   },
   {
     "name": "post",
-    "value": 16
-  },
-  {
-    "name": "bloomberg",
-    "value": 15
+    "value": 17
   },
   {
     "name": "ask",
-    "value": 15
+    "value": 17
+  },
+  {
+    "name": "bloomberg",
+    "value": 16
+  },
+  {
+    "name": "wsj",
+    "value": 14
   },
   {
     "name": "bbc",
@@ -49,18 +53,6 @@
   },
   {
     "name": "meta",
-    "value": 13
-  },
-  {
-    "name": "wsj",
-    "value": 13
-  },
-  {
-    "name": "claude",
-    "value": 12
-  },
-  {
-    "name": "cnn",
     "value": 11
   },
   {
@@ -68,8 +60,24 @@
     "value": 11
   },
   {
-    "name": "npr",
-    "value": 11
+    "name": "anthropic",
+    "value": 10
+  },
+  {
+    "name": "claude",
+    "value": 10
+  },
+  {
+    "name": "financial",
+    "value": 10
+  },
+  {
+    "name": "cnn",
+    "value": 10
+  },
+  {
+    "name": "windows",
+    "value": 10
   },
   {
     "name": "cbs",
@@ -80,23 +88,15 @@
     "value": 10
   },
   {
-    "name": "windows",
-    "value": 10
+    "name": "npr",
+    "value": 9
   },
   {
     "name": "pro",
     "value": 8
   },
   {
-    "name": "github",
-    "value": 8
-  },
-  {
-    "name": "financial",
-    "value": 8
-  },
-  {
-    "name": "openai",
+    "name": "llm",
     "value": 8
   },
   {
@@ -104,15 +104,7 @@
     "value": 7
   },
   {
-    "name": "yahoo",
-    "value": 7
-  },
-  {
-    "name": "llm",
-    "value": 7
-  },
-  {
-    "name": "rust",
+    "name": "github",
     "value": 7
   },
   {
@@ -120,15 +112,7 @@
     "value": 7
   },
   {
-    "name": "nbc",
-    "value": 7
-  },
-  {
-    "name": "anthropic",
-    "value": 6
-  },
-  {
-    "name": "ice",
+    "name": "mac",
     "value": 6
   },
   {
@@ -136,7 +120,7 @@
     "value": 6
   },
   {
-    "name": "code",
+    "name": "openai",
     "value": 6
   },
   {
@@ -144,35 +128,63 @@
     "value": 6
   },
   {
+    "name": "yahoo",
+    "value": 6
+  },
+  {
+    "name": "youtube",
+    "value": 6
+  },
+  {
+    "name": "rust",
+    "value": 6
+  },
+  {
+    "name": "ice",
+    "value": 5
+  },
+  {
     "name": "washington",
     "value": 5
   },
   {
+    "name": "code",
+    "value": 5
+  },
+  {
+    "name": "haaretz",
+    "value": 5
+  },
+  {
+    "name": "macos",
+    "value": 5
+  },
+  {
+    "name": "nbc",
+    "value": 5
+  },
+  {
+    "name": "india",
+    "value": 4
+  },
+  {
+    "name": "south",
+    "value": 4
+  },
+  {
+    "name": "china",
+    "value": 4
+  },
+  {
+    "name": "morning",
+    "value": 4
+  },
+  {
     "name": "finance",
-    "value": 5
-  },
-  {
-    "name": "iphone",
-    "value": 5
-  },
-  {
-    "name": "business",
-    "value": 5
-  },
-  {
-    "name": "mac",
-    "value": 5
-  },
-  {
-    "name": "youtube",
     "value": 4
   },
   {
-    "name": "france",
-    "value": 4
-  },
-  {
-    "name": "spotify",
+    "name": "fortune",
     "value": 4
   },
   {
@@ -184,28 +196,20 @@
     "value": 4
   },
   {
-    "name": "daily",
+    "name": "spacex",
     "value": 4
   },
   {
-    "name": "cpu",
-    "value": 4
-  },
-  {
-    "name": "agi",
-    "value": 4
-  },
-  {
-    "name": "macos",
-    "value": 4
-  },
-  {
-    "name": "haaretz",
+    "name": "france",
     "value": 4
   },
   {
     "name": "independent",
     "value": 4
+  },
+  {
+    "name": "gpu",
+    "value": 3
   },
   {
     "name": "cern",
@@ -228,31 +232,11 @@
     "value": 3
   },
   {
-    "name": "ipo",
-    "value": 3
-  },
-  {
-    "name": "spacex",
-    "value": 3
-  },
-  {
     "name": "openclaw",
     "value": 3
   },
   {
-    "name": "south",
-    "value": 3
-  },
-  {
-    "name": "china",
-    "value": 3
-  },
-  {
-    "name": "morning",
-    "value": 3
-  },
-  {
-    "name": "ray",
+    "name": "spotify",
     "value": 3
   },
   {
@@ -260,19 +244,19 @@
     "value": 3
   },
   {
+    "name": "macbook",
+    "value": 3
+  },
+  {
+    "name": "google",
+    "value": 3
+  },
+  {
     "name": "agent",
     "value": 3
   },
   {
-    "name": "lovable",
-    "value": 3
-  },
-  {
-    "name": "typescript",
-    "value": 3
-  },
-  {
-    "name": "javascript",
+    "name": "api",
     "value": 3
   },
   {
@@ -280,16 +264,48 @@
     "value": 3
   },
   {
-    "name": "investor",
+    "name": "iphone",
     "value": 3
   },
   {
-    "name": "home",
+    "name": "abc",
     "value": 3
   },
   {
-    "name": "today",
+    "name": "abcnews",
     "value": 3
+  },
+  {
+    "name": "json",
+    "value": 3
+  },
+  {
+    "name": "swift",
+    "value": 3
+  },
+  {
+    "name": "middle",
+    "value": 3
+  },
+  {
+    "name": "east",
+    "value": 3
+  },
+  {
+    "name": "eye",
+    "value": 3
+  },
+  {
+    "name": "agi",
+    "value": 3
+  },
+  {
+    "name": "cpu",
+    "value": 3
+  },
+  {
+    "name": "pdf",
+    "value": 2
   },
   {
     "name": "palantir",
@@ -304,19 +320,7 @@
     "value": 2
   },
   {
-    "name": "english",
-    "value": 2
-  },
-  {
-    "name": "etf",
-    "value": 2
-  },
-  {
-    "name": "gfk",
-    "value": 2
-  },
-  {
-    "name": "india",
+    "name": "excellergy",
     "value": 2
   },
   {
@@ -324,11 +328,11 @@
     "value": 2
   },
   {
-    "name": "mrna",
+    "name": "ray",
     "value": 2
   },
   {
-    "name": "fortune",
+    "name": "mrna",
     "value": 2
   },
   {
@@ -344,19 +348,11 @@
     "value": 2
   },
   {
-    "name": "grand",
-    "value": 2
-  },
-  {
-    "name": "sport",
-    "value": 2
-  },
-  {
     "name": "nasa",
     "value": 2
   },
   {
-    "name": "google",
+    "name": "replay",
     "value": 2
   },
   {
@@ -364,15 +360,7 @@
     "value": 2
   },
   {
-    "name": "api",
-    "value": 2
-  },
-  {
-    "name": "mokkit",
-    "value": 2
-  },
-  {
-    "name": "hub",
+    "name": "lovable",
     "value": 2
   },
   {
@@ -384,19 +372,31 @@
     "value": 2
   },
   {
+    "name": "los",
+    "value": 2
+  },
+  {
+    "name": "angeles",
+    "value": 2
+  },
+  {
+    "name": "suv",
+    "value": 2
+  },
+  {
+    "name": "marketwatch",
+    "value": 2
+  },
+  {
+    "name": "business",
+    "value": 2
+  },
+  {
     "name": "insider",
     "value": 2
   },
   {
-    "name": "ceo",
-    "value": 2
-  },
-  {
     "name": "tsa",
-    "value": 2
-  },
-  {
-    "name": "fpga",
     "value": 2
   }
 ]
