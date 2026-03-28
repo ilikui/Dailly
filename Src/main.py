@@ -13,6 +13,9 @@ PROJECT_ROOT = os.path.dirname(_script_dir)
 DATA_DIR = os.path.join(PROJECT_ROOT, "data")
 PUBLIC_DATA_DIR = os.path.join(PROJECT_ROOT, "public", "data")
 PUBLIC_JS_DIR = os.path.join(PROJECT_ROOT, "public", "js")
+WEATHER_API_KEY = os.environ.get("CAIYUN_API_KEY", "")
+WEATHER_COORDS = os.environ.get("WEATHER_COORDS", "121.4737,31.2304")
+WEATHER_API_URL = "https://api.caiyunapp.com/v2.6/{api_key}/{coords}/weather?dailysteps=3&hourlysteps=48"
 
 # ========= 关键词配置（逗号分隔，从 GitHub Secrets / 环境变量读取） =========
 _kw_env = os.environ.get("KEYWORDS", "")
@@ -190,6 +193,138 @@ def write_javascript_data_file(file_path: str, variable_name: str, payload):
         f.write(js_content)
 
 
+def map_weather_code(code: str) -> str:
+    """将彩云天气 skycon 转换为中文描述"""
+    mapping = {
+        "CLEAR_DAY": "晴",
+        "CLEAR_NIGHT": "晴夜",
+        "PARTLY_CLOUDY_DAY": "多云",
+        "PARTLY_CLOUDY_NIGHT": "多云夜",
+        "CLOUDY": "阴",
+        "LIGHT_HAZE": "轻度雾霾",
+        "MODERATE_HAZE": "中度雾霾",
+        "HEAVY_HAZE": "重度雾霾",
+        "LIGHT_RAIN": "小雨",
+        "MODERATE_RAIN": "中雨",
+        "HEAVY_RAIN": "大雨",
+        "STORM_RAIN": "暴雨",
+        "FOG": "雾",
+        "LIGHT_SNOW": "小雪",
+        "MODERATE_SNOW": "中雪",
+        "HEAVY_SNOW": "大雪",
+        "STORM_SNOW": "暴雪",
+        "DUST": "浮尘",
+        "SAND": "沙尘",
+        "WIND": "大风",
+    }
+    return mapping.get(code or "", code or "未知")
+
+
+def build_weather_payload(raw_weather: dict) -> dict:
+    """提取前端与日报需要的天气字段"""
+    result = raw_weather.get("result", {}) if isinstance(raw_weather, dict) else {}
+    realtime = result.get("realtime", {})
+    daily = result.get("daily", {})
+
+    temperature = realtime.get("temperature")
+    apparent_temperature = realtime.get("apparent_temperature")
+    humidity = realtime.get("humidity")
+    skycon = realtime.get("skycon", "")
+    wind = realtime.get("wind", {})
+    air_quality = (((realtime.get("air_quality") or {}).get("aqi") or {}).get("chn"))
+
+    forecast = []
+    temperatures = daily.get("temperature", []) or []
+    skycons = daily.get("skycon", []) or []
+
+    for index, temp_item in enumerate(temperatures[:3]):
+        sky_item = skycons[index] if index < len(skycons) else {}
+        forecast.append({
+            "date": temp_item.get("date", ""),
+            "min": temp_item.get("min"),
+            "max": temp_item.get("max"),
+            "skycon": sky_item.get("value", ""),
+            "desc": map_weather_code(sky_item.get("value", "")),
+        })
+
+    return {
+        "location": WEATHER_COORDS,
+        "temperature": temperature,
+        "apparent_temperature": apparent_temperature,
+        "humidity": humidity,
+        "skycon": skycon,
+        "desc": map_weather_code(skycon),
+        "wind_speed": (wind.get("speed") if isinstance(wind, dict) else None),
+        "air_quality": air_quality,
+        "forecast": forecast,
+        "updated_at": datetime.now(BJT).strftime("%Y-%m-%d %H:%M:%S"),
+    }
+
+
+def fetch_weather() -> dict | None:
+    """从彩云天气获取天气数据，并输出静态文件供前端展示"""
+    if not WEATHER_API_KEY:
+        print("[WARNING] 未设置 CAIYUN_API_KEY，跳过天气数据拉取")
+        return None
+
+    url = WEATHER_API_URL.format(api_key=WEATHER_API_KEY, coords=WEATHER_COORDS)
+    try:
+        resp = requests.get(url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
+        resp.raise_for_status()
+        payload = resp.json()
+        weather = build_weather_payload(payload)
+
+        json_paths = [
+            os.path.join(DATA_DIR, "weather.json"),
+            os.path.join(PUBLIC_DATA_DIR, "weather.json"),
+        ]
+        for output_path in json_paths:
+            write_json_file(output_path, weather)
+            print(f"[INFO] 天气数据已保存: {output_path}")
+
+        write_javascript_data_file(
+            os.path.join(PUBLIC_JS_DIR, "weather-data.js"),
+            "NEWSFLOW_WEATHER",
+            weather,
+        )
+        print(f"[INFO] 前端静态天气数据已保存: {os.path.join(PUBLIC_JS_DIR, 'weather-data.js')}")
+        return weather
+    except Exception as e:
+        print(f"[WARNING] 获取天气失败: {e}")
+        return None
+
+
+def format_weather_summary(weather: dict | None) -> str:
+    """格式化当天天气摘要，用于企业微信日报"""
+    if not weather:
+        return ""
+
+    temp = weather.get("temperature")
+    feel = weather.get("apparent_temperature")
+    humidity = weather.get("humidity")
+    wind_speed = weather.get("wind_speed")
+    aqi = weather.get("air_quality")
+    desc = weather.get("desc", "未知")
+    today = weather.get("forecast", [{}])[0] if weather.get("forecast") else {}
+    min_temp = today.get("min")
+    max_temp = today.get("max")
+
+    pieces = [f"天气：{desc}"]
+    if temp is not None:
+        pieces.append(f"当前 {temp:.1f}°C")
+    if feel is not None:
+        pieces.append(f"体感 {feel:.1f}°C")
+    if min_temp is not None and max_temp is not None:
+        pieces.append(f"今日 {min_temp:.1f}~{max_temp:.1f}°C")
+    if humidity is not None:
+        pieces.append(f"湿度 {humidity * 100:.0f}%")
+    if wind_speed is not None:
+        pieces.append(f"风速 {wind_speed:.1f}km/h")
+    if aqi is not None:
+        pieces.append(f"AQI {aqi:.0f}")
+    return " | ".join(pieces)
+
+
 def save_news(items: list):
     """保存全部新闻到 data/ 与 public/data/，供前端静态部署按分类展示"""
     news = [
@@ -284,7 +419,7 @@ def filter_by_keywords(items: list, keywords: list) -> list:
 
 
 # ========= 日报格式化 (markdown_v2) =========
-def format_daily_report(items: list, keywords: list) -> str:
+def format_daily_report(items: list, keywords: list, weather: dict | None = None) -> str:
     """格式化新闻日报，使用 markdown_v2 语法，控制在 4096 字节以内"""
     now = datetime.now(BJT).strftime("%Y-%m-%d %H:%M")
 
@@ -301,6 +436,10 @@ def format_daily_report(items: list, keywords: list) -> str:
     if keywords:
         kw_str = " | ".join(f"**{k}**" for k in keywords)
         parts += ["## 关键词过滤", "", kw_str, "", "---", ""]
+
+    weather_summary = format_weather_summary(weather)
+    if weather_summary:
+        parts += ["## 今天天气", "", weather_summary, "", "---", ""]
 
     # --- 新闻列表 ---
     parts += [f"## 今日新闻（共 {len(items)} 条）", ""]
@@ -380,12 +519,15 @@ if __name__ == '__main__':
     save_news(all_items)
     append_daily_news(all_items)
 
+    # 2.1 拉取天气数据（供前端天气卡片与微信天气摘要使用）
+    weather = fetch_weather()
+
     # 3. 关键词过滤（KEYWORDS 未设置时推送全量新闻摘要）
     filtered = filter_by_keywords(all_items, KEYWORDS)
     print(f"[INFO] 关键词 {KEYWORDS} 过滤后: {len(filtered)} 条")
 
     # 4. 格式化日报（markdown_v2）并推送到企业微信
-    report = format_daily_report(filtered if KEYWORDS else all_items, KEYWORDS)
+    report = format_daily_report(filtered if KEYWORDS else all_items, KEYWORDS, weather)
     print(report)
     print(f"[INFO] 消息字节数: {len(report.encode('utf-8'))}")
     WeChatRobot(report)

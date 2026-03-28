@@ -53,6 +53,97 @@
 				white-space:nowrap; flex-shrink:0;
 			}
 			.news-empty { color:#5a7a9a; text-align:center; padding:40px 0; font-size:12px; }
+			#ballChart { position: relative; overflow: hidden; }
+			/* 水球内天气信息容器 */
+			.weather-info-container {
+				position: absolute; inset: 0; z-index: 5;
+				display: flex; flex-direction: column; align-items: center; justify-content: center;
+				gap: 2px;
+				pointer-events: none; padding: 4px 6px 10px; box-sizing: border-box;
+				font-size: 11px; text-align: center;
+				overflow: hidden;
+				transform: translate(-24px, -18px);
+			}
+			/* 地点信息 */
+			.weather-location {
+				color: #7ecfff; font-size: 11px; letter-spacing: 0.5px;
+				text-shadow: 0 0 4px rgba(0,0,0,0.3);
+				min-height: 12px; line-height: 1.2; flex-shrink: 0;
+			}
+			/* 当前天气区域 */
+			.weather-current-section {
+				display: flex; flex-direction: column; align-items: center; gap: 2px;
+				flex: 0 0 auto; justify-content: center;
+			}
+			.weather-center-icon {
+				width: 50px; height: 50px;
+				display: flex; align-items: center; justify-content: center;
+				animation: weather-bounce 2s ease-in-out infinite;
+				flex-shrink: 0;
+			}
+			.weather-center-icon img {
+				width: 100%; height: 100%; object-fit: contain;
+				filter: drop-shadow(0 0 4px rgba(126,207,255,0.3));
+			}
+			@keyframes weather-bounce {
+				0%, 100% { transform: translateY(0) scale(1); }
+				50% { transform: translateY(-3px) scale(1.03); }
+			}
+			.weather-temp-display {
+				font-size: 24px; font-weight: bold; color: #7ecfff;
+				line-height: 1; text-shadow: 0 0 6px rgba(126,207,255,0.3);
+				margin: 0;
+			}
+			.weather-desc-display {
+				font-size: 11px; color: #b8d8ff;
+				text-shadow: 0 0 3px rgba(0,0,0,0.3);
+				min-height: 11px;
+			}
+			.weather-metrics-inline {
+				display: flex; gap: 4px; font-size: 9px; color: #8ab4d8;
+				text-shadow: 0 0 2px rgba(0,0,0,0.3);
+				margin: 1px 0 0 0;
+			}
+			.weather-metric-inline {
+				display: flex; flex-direction: column; align-items: center; gap: 0.5px;
+				min-width: 24px;
+			}
+			.weather-metric-inline-value {
+				font-size: 10px; font-weight: bold; color: #5dc2fe;
+			}
+			/* 未来三天预报 */
+			.weather-forecast-section {
+				display: flex; gap: 2px; width: 82%; justify-content: center; flex-shrink: 0;
+				margin-top: -1px;
+			}
+			.weather-forecast-day {
+				flex: 1; min-width: 22px; padding: 1px 1px;
+				border-radius: 0; background: transparent;
+				font-size: 7px; color: #8ab4d8;
+				text-shadow: 0 0 1px rgba(0,0,0,0.3);
+				display: flex; flex-direction: column; align-items: center; gap: 0.5px;
+			}
+			.weather-forecast-day-date {
+				font-size: 8px; color: #7ecfff; font-weight: bold;
+			}
+			.weather-forecast-day-icon {
+				width: 18px; height: 18px; display: flex; align-items: center; justify-content: center;
+				animation: weather-float 2.5s ease-in-out infinite;
+			}
+			.weather-forecast-day-icon img {
+				width: 100%; height: 100%; object-fit: contain;
+				filter: drop-shadow(0 0 2px rgba(126,207,255,0.2));
+			}
+			@keyframes weather-float {
+				0%, 100% { transform: translateY(0); }
+				50% { transform: translateY(-1.5px); }
+			}
+			.weather-forecast-day-desc {
+				font-size: 7px; color: #b8d8ff; min-height: 8px; line-height: 1.05;
+			}
+			.weather-forecast-day-range {
+				font-size: 7px; color: #7ecfff;
+			}
 		</style>
 	</head>
 	
@@ -108,6 +199,7 @@
 		<script type="text/javascript" src="js/echarts-wordcloud.min.js"></script>
 		<script type="text/javascript" src="js/echarts-liquidfill.min.js"></script>
 		<script type="text/javascript" src="js/echarts-map-china.js"></script>
+		<script type="text/javascript" src="js/weather-data.js"></script>
 		<script type="text/javascript" src="js/news-data.js"></script>
 		<script type="text/javascript" src="js/news-archive-data.js"></script>
 		<script type="text/javascript">
@@ -1401,27 +1493,133 @@
 				//https://github.com/ecomfe/echarts-liquidfill
 				//初始化echarts实例
 				const ballChart= echarts.init(document.getElementById("ballChart"));
-				const ballOpt = {
-					series: [{
-				        type: 'liquidFill',
-				        radius: '95%',
-				        label: {
-				        	show: false
-				        },
-				        shape: 'path://M367.855,428.202c-3.674-1.385-7.452-1.966-11.146-1.794c0.659-2.922,0.844-5.85,0.58-8.719 c-0.937-10.407-7.663-19.864-18.063-23.834c-10.697-4.043-22.298-1.168-29.902,6.403c3.015,0.026,6.074,0.594,9.035,1.728 c13.626,5.151,20.465,20.379,15.32,34.004c-1.905,5.02-5.177,9.115-9.22,12.05c-6.951,4.992-16.19,6.536-24.777,3.271 c-13.625-5.137-20.471-20.371-15.32-34.004c0.673-1.768,1.523-3.423,2.526-4.992h-0.014c0,0,0,0,0,0.014 c4.386-6.853,8.145-14.279,11.146-22.187c23.294-61.505-7.689-130.278-69.215-153.579c-61.532-23.293-130.279,7.69-153.579,69.202 c-6.371,16.785-8.679,34.097-7.426,50.901c0.026,0.554,0.079,1.121,0.132,1.688c4.973,57.107,41.767,109.148,98.945,130.793 c58.162,22.008,121.303,6.529,162.839-34.465c7.103-6.893,17.826-9.444,27.679-5.719c11.858,4.491,18.565,16.6,16.719,28.643 c4.438-3.126,8.033-7.564,10.117-13.045C389.751,449.992,382.411,433.709,367.855,428.202z',
-				        outline: {
-				            show: false
-				        },
-				        backgroundStyle: {
-				            borderColor: '#156ACF',
-				            borderWidth: 1,
-				            shadowColor: 'rgba(0, 0, 0, 0.4)',
-				            shadowBlur: 20
-				        },
-				        data: [0.6, 0.5, 0.4, 0.3]
-				    }]
-				};
-				ballChart.setOption(ballOpt);
+				
+				// 根据天气数据动态生成水球配置
+				(function() {
+					var ballEl = document.getElementById('ballChart');
+					var weather = window.NEWSFLOW_WEATHER || null;
+
+					function hasValue(v) {
+						return v !== null && v !== undefined && v !== '';
+					}
+
+					function toFixedSafe(v, n) {
+						return hasValue(v) ? Number(v).toFixed(n) : '--';
+					}
+					var ballOpt = {
+						series: [{
+					        type: 'liquidFill',
+					        radius: '95%',
+					        waveAnimation: true,
+					        amplitude: 8,
+					        period: 2600,
+					        label: {
+					        	normal: {
+					        		show: true,
+					        		formatter: function() { return ''; },
+					        		textStyle: {
+					        			color: 'rgba(0,0,0,0)',
+					        			fontSize: 1
+					        		}
+					        	}
+					        },
+					        color: [
+					        	'rgba(56,170,255,0.55)',
+					        	'rgba(56,170,255,0.42)',
+					        	'rgba(56,170,255,0.30)',
+					        	'rgba(56,170,255,0.20)'
+					        ],
+					        shape: 'path://M367.855,428.202c-3.674-1.385-7.452-1.966-11.146-1.794c0.659-2.922,0.844-5.85,0.58-8.719 c-0.937-10.407-7.663-19.864-18.063-23.834c-10.697-4.043-22.298-1.168-29.902,6.403c3.015,0.026,6.074,0.594,9.035,1.728 c13.626,5.151,20.465,20.379,15.32,34.004c-1.905,5.02-5.177,9.115-9.22,12.05c-6.951,4.992-16.19,6.536-24.777,3.271 c-13.625-5.137-20.471-20.371-15.32-34.004c0.673-1.768,1.523-3.423,2.526-4.992h-0.014c0,0,0,0,0,0.014 c4.386-6.853,8.145-14.279,11.146-22.187c23.294-61.505-7.689-130.278-69.215-153.579c-61.532-23.293-130.279,7.69-153.579,69.202 c-6.371,16.785-8.679,34.097-7.426,50.901c0.026,0.554,0.079,1.121,0.132,1.688c4.973,57.107,41.767,109.148,98.945,130.793 c58.162,22.008,121.303,6.529,162.839-34.465c7.103-6.893,17.826-9.444,27.679-5.719c11.858,4.491,18.565,16.6,16.719,28.643 c4.438-3.126,8.033-7.564,10.117-13.045C389.751,449.992,382.411,433.709,367.855,428.202z',
+					        outline: { show: false },
+					        backgroundStyle: {
+					            borderColor: '#156ACF',
+					            borderWidth: 1,
+					            color: 'rgba(8, 27, 58, 0.20)',
+					            shadowColor: 'rgba(0, 0, 0, 0.4)',
+					            shadowBlur: 20
+					        },
+					        data: [0.62, 0.54, 0.46, 0.38]
+					    }]
+					};
+					ballChart.setOption(ballOpt);
+
+					if (!ballEl) return;
+
+					function getWeatherIconPath(skycon) {
+						return 'icons/animated/' + (skycon || 'CLOUDY') + '.svg';
+					}
+
+					function getLocationName(coords) {
+						var coordMap = {
+							'101.6656,39.2072': '北京',
+							'121.4737,31.2304': '上海',
+							'113.2644,23.1291': '广州'
+						};
+						return coordMap[coords] || '当前位置';
+					}
+
+					function escHtml(text) {
+						var span = document.createElement('span');
+						span.textContent = text || '';
+						return span.innerHTML;
+					}
+
+					var oldContainer = ballEl.querySelector('.weather-info-container');
+					if (oldContainer && oldContainer.parentNode) {
+						oldContainer.parentNode.removeChild(oldContainer);
+					}
+
+					var container = document.createElement('div');
+					container.className = 'weather-info-container';
+					container.style.transform = 'translate(-79px, 75px)';
+					container.style.justifyContent = 'flex-start';
+					container.style.paddingTop = '2px';
+					ballEl.appendChild(container);
+
+					if (!weather) {
+						container.innerHTML = '<div style="color:#b8d8ff;font-size:12px;">天气数据加载中...</div>';
+						return;
+					}
+
+					// 构建完整天气信息文本
+					var locationName = weather.location === '101.6656,39.2072' ? '北京' : '当前位置';
+					locationName = getLocationName(weather.location);
+					var tempStr = toFixedSafe(weather.temperature, 1);
+					var humidity = hasValue(weather.humidity) ? Math.round(Number(weather.humidity) * 100) : '--';
+					var windStr = toFixedSafe(weather.wind_speed, 1);
+					var aqiStr = hasValue(weather.air_quality) ? Math.round(Number(weather.air_quality)) : '--';
+					var descStr = weather.desc || '--';
+					var iconPath = getWeatherIconPath(weather.skycon);
+					
+					// 构建预报文本
+					var forecast = weather.forecast ? weather.forecast.slice(0, 3) : [];
+					var forecastHtml = forecast.map(function(day) {
+						var dateStr = day.date ? day.date.substring(5, 10) : '';
+						var minTemp = toFixedSafe(day.min, 0);
+						var maxTemp = toFixedSafe(day.max, 0);
+						var fIconPath = getWeatherIconPath(day.skycon);
+						return '<div class="weather-forecast-day">'
+							+ '<div class="weather-forecast-day-date">' + escHtml(dateStr) + '</div>'
+							+ '<div class="weather-forecast-day-icon"><img src="' + escHtml(fIconPath) + '" alt="' + escHtml(day.desc || '--') + '" onerror="this.style.display=\'none\'"></div>'
+							+ '<div class="weather-forecast-day-desc">' + escHtml(day.desc || '--') + '</div>'
+							+ '<div class="weather-forecast-day-range">' + escHtml(minTemp) + '~' + escHtml(maxTemp) + '</div>'
+							+ '</div>';
+					}).join('');
+
+					container.innerHTML = ''
+						+ '<div class="weather-location">' + escHtml(locationName) + '</div>'
+						+ '<div class="weather-current-section">'
+						+ '  <div class="weather-center-icon"><img src="' + escHtml(iconPath) + '" alt="' + escHtml(descStr) + '" onerror="this.style.display=\'none\'"></div>'
+						+ '  <div class="weather-temp-display">' + escHtml(tempStr) + '°C</div>'
+						+ '  <div class="weather-desc-display">' + escHtml(descStr) + '</div>'
+						+ '  <div class="weather-metrics-inline">'
+						+ '    <div class="weather-metric-inline"><div>湿度</div><div class="weather-metric-inline-value">' + escHtml(String(humidity) + '%') + '</div></div>'
+						+ '    <div class="weather-metric-inline"><div>风速</div><div class="weather-metric-inline-value">' + escHtml(String(windStr) + 'km/h') + '</div></div>'
+						+ '    <div class="weather-metric-inline"><div>AQI</div><div class="weather-metric-inline-value">' + escHtml(String(aqiStr)) + '</div></div>'
+						+ '  </div>'
+						+ '</div>'
+						+ '<div class="weather-forecast-section">' + forecastHtml + '</div>';
+				})();
 				
 				/*************** 词云 **************/
 				//https://github.com/ecomfe/echarts-wordcloud

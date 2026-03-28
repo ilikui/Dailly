@@ -37,13 +37,14 @@ jobs:
         env:
           WEBHOOK_KEY: ${{ secrets.WEBHOOK_KEY }}
           KEYWORDS: ${{ secrets.KEYWORDS }}
+          CAIYUN_API_KEY: ${{ secrets.CAIYUN_API_KEY }}
         run: python3 ./Src/main.py
 
       - name: Commit data files
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data public/data
+          git add data public/data public/js/news-data.js public/js/news-archive-data.js public/js/weather-data.js
           git diff --cached --quiet || git commit -m "chore: update news data [skip ci]"
           git push
 
