@@ -9,13 +9,15 @@ on:
     branches:
       - main
   schedule:
-    # 北京时间每天 09:00 = UTC 01:00
-    - cron: "0 1 * * *"
+    # 北京时间每天 08:00、12:00、20:00（GitHub Actions 使用 UTC）
+    - cron: "0 0 * * *"   # 08:00 CST
+    - cron: "0 4 * * *"   # 12:00 CST
+    - cron: "0 12 * * *"  # 20:00 CST
 
 permissions:
   actions: write
   checks: write
-  contents: write   # 需要 write 权限以提交 wordfreq.json
+  contents: write   # 需要 write 权限以提交 news.json
 
 jobs:
   build:
@@ -41,7 +43,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/wordfreq.json data/news.json
+          git add data/news.json
           git diff --cached --quiet || git commit -m "chore: update news data [skip ci]"
           git push
 
