@@ -1,0 +1,792 @@
+[
+  {
+    "type": "Business",
+    "name": "Business Insider",
+    "url": "http://feeds2.feedburner.com/businessinsider"
+  },
+  {
+    "type": "Business",
+    "name": "CNN Money",
+    "url": "http://rss.cnn.com/rss/money_topstories.rss"
+  },
+  {
+    "type": "Business",
+    "name": "Zero Hedge",
+    "url": "http://feeds.feedburner.com/zerohedge/feed"
+  },
+  {
+    "type": "IT新闻",
+    "name": "Solidot",
+    "url": "http://www.solidot.org/index.rss"
+  },
+  {
+    "type": "IT新闻",
+    "name": "爱范儿 · Beats of Bits",
+    "url": "http://www.ifanr.com/feed"
+  },
+  {
+    "type": "IT新闻",
+    "name": "钛媒体：创新挖掘者",
+    "url": "http://www.tmtpost.com/rss.xml"
+  },
+  {
+    "type": "Internet",
+    "name": "BuzzFeed",
+    "url": "http://www.buzzfeed.com/index.xml"
+  },
+  {
+    "type": "Internet",
+    "name": "MetaFilter",
+    "url": "http://feeds.feedburner.com/Metafilter"
+  },
+  {
+    "type": "Long Reads",
+    "name": "Grantland",
+    "url": "http://www.grantland.com/feed"
+  },
+  {
+    "type": "Long Reads",
+    "name": "Longreads",
+    "url": "http://longreads.com/rss"
+  },
+  {
+    "type": "Long Reads",
+    "name": "New Republic",
+    "url": "http://www.newrepublic.com/rss.xml"
+  },
+  {
+    "type": "Long Reads",
+    "name": "The New Yorker",
+    "url": "http://www.newyorker.com/services/rss/feeds/everything.xml"
+  },
+  {
+    "type": "News",
+    "name": "BBC News",
+    "url": "http://feeds.bbci.co.uk/news/rss.xml"
+  },
+  {
+    "type": "News",
+    "name": "Buzzing",
+    "url": "https://www.buzzing.cc/feed.json"
+  },
+  {
+    "type": "News",
+    "name": "CNN/Business",
+    "url": "http://feedmaker.kindle4rss.com/feeds/business.cnn.xml"
+  },
+  {
+    "type": "News",
+    "name": "CNN/Tech",
+    "url": "http://feedmaker.kindle4rss.com/feeds/tech.cnn.xml"
+  },
+  {
+    "type": "News",
+    "name": "CNN/US",
+    "url": "http://feedmaker.kindle4rss.com/feeds/us.cnn.xml"
+  },
+  {
+    "type": "News",
+    "name": "CNN/World",
+    "url": "http://feedmaker.kindle4rss.com/feeds/world.cnn.xml"
+  },
+  {
+    "type": "News",
+    "name": "Daily Intelligencer",
+    "url": "http://feeds.feedburner.com/nymag/intelligencer"
+  },
+  {
+    "type": "News",
+    "name": "NPR's The Two-Way",
+    "url": "http://www.npr.org/rss/rss.php?id=103943429"
+  },
+  {
+    "type": "News",
+    "name": "Pacific Standard",
+    "url": "http://feeds.feedburner.com/miller-mccune/main_feed"
+  },
+  {
+    "type": "News",
+    "name": "The Atlantic",
+    "url": "http://feeds.feedburner.com/TheAtlantic"
+  },
+  {
+    "type": "News",
+    "name": "The Daily Beast",
+    "url": "http://feeds.feedburner.com/thedailybeast/articles"
+  },
+  {
+    "type": "News",
+    "name": "The Guardian/Business",
+    "url": "http://feedmaker.kindle4rss.com/feeds/business.theguardian.xml"
+  },
+  {
+    "type": "News",
+    "name": "The Guardian/US",
+    "url": "http://feedmaker.kindle4rss.com/feeds/us.theguardian.xml"
+  },
+  {
+    "type": "News",
+    "name": "The Guardian/World",
+    "url": "http://feedmaker.kindle4rss.com/feeds/world.theguardian.xml"
+  },
+  {
+    "type": "Science",
+    "name": "LiveScience.com",
+    "url": "http://www.livescience.com//home/feed/site.xml"
+  },
+  {
+    "type": "Science",
+    "name": "Popular Science",
+    "url": "http://www.popsci.com/rss.xml"
+  },
+  {
+    "type": "Science",
+    "name": "Scientific American",
+    "url": "http://rss.sciam.com/ScientificAmerican-Global"
+  },
+  {
+    "type": "TIME",
+    "name": "Top Stories",
+    "url": "http://feeds2.feedburner.com/time/topstories"
+  },
+  {
+    "type": "Technology",
+    "name": "9to5Mac",
+    "url": "http://9to5mac.com/feed/"
+  },
+  {
+    "type": "Technology",
+    "name": "Ars Technica",
+    "url": "http://feeds.arstechnica.com/arstechnica/index/"
+  },
+  {
+    "type": "Technology",
+    "name": "BuzzFeed Tech",
+    "url": "http://www.buzzfeed.com/tech.xml"
+  },
+  {
+    "type": "Technology",
+    "name": "O'Reilly Radar",
+    "url": "http://feeds.feedburner.com/oreilly/radar/atom"
+  },
+  {
+    "type": "其它",
+    "name": "简书",
+    "url": "http://feedmaker.kindle4rss.com/feeds/jianshu.com.xml"
+  },
+  {
+    "type": "外媒",
+    "name": "BBC 中国",
+    "url": "http://feedmaker.kindle4rss.com/feeds/cn-bbc.xml"
+  },
+  {
+    "type": "外媒",
+    "name": "纽约时报",
+    "url": "http://feedmaker.kindle4rss.com/feeds/main.cn-nytimes.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "21世纪经济报道",
+    "url": "http://feedmaker.kindle4rss.com/feeds/jjbd21.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "Knowyourself",
+    "url": "http://feedmaker.kindle4rss.com/feeds/knowyourself2015.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "MOOC",
+    "url": "http://feedmaker.kindle4rss.com/feeds/mooc.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "MacTalk",
+    "url": "http://feedmaker.kindle4rss.com/feeds/sagacity-mac.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "Vista看天下",
+    "url": "http://feedmaker.kindle4rss.com/feeds/vistaweek.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "caoz的梦呓",
+    "url": "http://feedmaker.kindle4rss.com/feeds/caozsay.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "丁香医生",
+    "url": "http://feedmaker.kindle4rss.com/feeds/DingXiangYiSheng.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "丁香妈妈",
+    "url": "http://feedmaker.kindle4rss.com/feeds/DingXiangMaMi.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "三联生活周刊",
+    "url": "http://feedmaker.kindle4rss.com/feeds/lifeweek.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "三节课",
+    "url": "http://feedmaker.kindle4rss.com/feeds/sanjieke01.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "东哥解读电商",
+    "url": "http://feedmaker.kindle4rss.com/feeds/dgjdds.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "中国企业家杂志",
+    "url": "http://feedmaker.kindle4rss.com/feeds/iceo-com-cn.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "中国国家地理",
+    "url": "http://feedmaker.kindle4rss.com/feeds/dili360.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "书单来了",
+    "url": "http://feedmaker.kindle4rss.com/feeds/shudanlaile.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "人人都是产品经理",
+    "url": "http://feedmaker.kindle4rss.com/feeds/woshipm.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "人民日报",
+    "url": "http://feedmaker.kindle4rss.com/feeds/rmrbwx.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "人民网",
+    "url": "http://feedmaker.kindle4rss.com/feeds/people_rmw.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "人物",
+    "url": "http://feedmaker.kindle4rss.com/feeds/renwumag1980.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "侠客岛",
+    "url": "http://feedmaker.kindle4rss.com/feeds/xiake_island.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "六神磊磊读金庸",
+    "url": "http://feedmaker.kindle4rss.com/feeds/dujinyong6.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "刘润",
+    "url": "http://feedmaker.kindle4rss.com/feeds/runliu-pub.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "利维坦",
+    "url": "http://feedmaker.kindle4rss.com/feeds/liweitan2014.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "医学界",
+    "url": "http://feedmaker.kindle4rss.com/feeds/yixuejiezazhi.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "十点读书",
+    "url": "http://feedmaker.kindle4rss.com/feeds/duhaoshu.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "半月谈",
+    "url": "http://feedmaker.kindle4rss.com/feeds/banyuetan-weixin.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "华尔街见闻",
+    "url": "http://feedmaker.kindle4rss.com/feeds/wallstreetcn.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "单读",
+    "url": "http://feedmaker.kindle4rss.com/feeds/dandureading.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "南方周末",
+    "url": "http://feedmaker.kindle4rss.com/feeds/nanfangzhoumo.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "南都周刊",
+    "url": "http://feedmaker.kindle4rss.com/feeds/nbweekly.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "历史研习社",
+    "url": "http://feedmaker.kindle4rss.com/feeds/mingqinghistory.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "参考消息",
+    "url": "http://feedmaker.kindle4rss.com/feeds/ckxxwx.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "吴晓波频道",
+    "url": "http://feedmaker.kindle4rss.com/feeds/wuxiaobopd.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "国家人文历史",
+    "url": "http://feedmaker.kindle4rss.com/feeds/gjrwls.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "地球知识局",
+    "url": "http://feedmaker.kindle4rss.com/feeds/diqiuzhishiju.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "央视财经",
+    "url": "http://feedmaker.kindle4rss.com/feeds/cctvyscj.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "小道消息",
+    "url": "http://feedmaker.kindle4rss.com/feeds/WebNotes.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "张佳玮写字的地方",
+    "url": "http://feedmaker.kindle4rss.com/feeds/zhangjiawei_1983.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "新世相",
+    "url": "http://feedmaker.kindle4rss.com/feeds/thefair2.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "新京报书评周刊",
+    "url": "http://feedmaker.kindle4rss.com/feeds/ibookreview.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "新华网",
+    "url": "http://feedmaker.kindle4rss.com/feeds/newsxinhua.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "新智元",
+    "url": "http://feedmaker.kindle4rss.com/feeds/AI_era.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "新浪体育",
+    "url": "http://feedmaker.kindle4rss.com/feeds/sports_sina.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "新经济100人",
+    "url": "http://feedmaker.kindle4rss.com/feeds/qiyejiagc.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "有书",
+    "url": "http://feedmaker.kindle4rss.com/feeds/youshucc.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "果壳网",
+    "url": "http://feedmaker.kindle4rss.com/feeds/Guokr42.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "棱镜",
+    "url": "http://feedmaker.kindle4rss.com/feeds/lengjing_qqfinance.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "槽边往事",
+    "url": "http://feedmaker.kindle4rss.com/feeds/bitsea.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "洞见",
+    "url": "http://feedmaker.kindle4rss.com/feeds/DJ00123987.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "澎湃新闻",
+    "url": "http://feedmaker.kindle4rss.com/feeds/thepapernews.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "环球时报",
+    "url": "http://feedmaker.kindle4rss.com/feeds/hqsbwx.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "环球科学",
+    "url": "http://feedmaker.kindle4rss.com/feeds/ScientificAmerican.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "理想岛",
+    "url": "http://feedmaker.kindle4rss.com/feeds/lixiangdao002.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "界面",
+    "url": "http://feedmaker.kindle4rss.com/feeds/wowjiemian.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "看理想",
+    "url": "http://feedmaker.kindle4rss.com/feeds/ikanlixiang.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "知识分子",
+    "url": "http://feedmaker.kindle4rss.com/feeds/The-Intellectual.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "福布斯",
+    "url": "http://feedmaker.kindle4rss.com/feeds/forbes_china.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "科技美学",
+    "url": "http://feedmaker.kindle4rss.com/feeds/kejimx.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "笔记侠",
+    "url": "http://feedmaker.kindle4rss.com/feeds/Notesman.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "第一财经周刊",
+    "url": "http://feedmaker.kindle4rss.com/feeds/CBNweekly2008.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "简书",
+    "url": "http://feedmaker.kindle4rss.com/feeds/jianshuio.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "经济学人",
+    "url": "http://feedmaker.kindle4rss.com/feeds/theeconomist.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "经济观察报",
+    "url": "http://feedmaker.kindle4rss.com/feeds/eeo-com-cn.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "罗辑思维",
+    "url": "http://feedmaker.kindle4rss.com/feeds/luojisw.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "脑洞故事板",
+    "url": "http://feedmaker.kindle4rss.com/feeds/ndgs233.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "腾讯科技",
+    "url": "http://feedmaker.kindle4rss.com/feeds/qqtech.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "虎嗅网",
+    "url": "http://feedmaker.kindle4rss.com/feeds/huxiu_com.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "虹膜",
+    "url": "http://feedmaker.kindle4rss.com/feeds/IrisMagazine.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "译言",
+    "url": "http://feedmaker.kindle4rss.com/feeds/yeeyancom.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "读小库",
+    "url": "http://feedmaker.kindle4rss.com/feeds/duxiaoku666.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "读库小报",
+    "url": "http://feedmaker.kindle4rss.com/feeds/dukuxiaobao.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "财新网",
+    "url": "http://feedmaker.kindle4rss.com/feeds/caixinwang.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "连岳",
+    "url": "http://feedmaker.kindle4rss.com/feeds/ilianyue.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "长安街知事",
+    "url": "http://feedmaker.kindle4rss.com/feeds/capitalnews.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "阑夕",
+    "url": "http://feedmaker.kindle4rss.com/feeds/techread.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "青年文摘",
+    "url": "http://feedmaker.kindle4rss.com/feeds/qnwzwx.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "饭统戴老板",
+    "url": "http://feedmaker.kindle4rss.com/feeds/worldofboss.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "香港凤凰周刊",
+    "url": "http://feedmaker.kindle4rss.com/feeds/phoenixweekly.weixin.xml"
+  },
+  {
+    "type": "微信公众号",
+    "name": "魔宙",
+    "url": "http://feedmaker.kindle4rss.com/feeds/mzmojo.weixin.xml"
+  },
+  {
+    "type": "文学",
+    "name": "读写人",
+    "url": "http://www.duxieren.com/duxieren.xml"
+  },
+  {
+    "type": "文学",
+    "name": "豆瓣最受欢迎的书评",
+    "url": "http://feedmaker.kindle4rss.com/feeds/book_review_best.douban.xml"
+  },
+  {
+    "type": "文学",
+    "name": "韩寒·一个",
+    "url": "http://feedmaker.kindle4rss.com/feeds/wufazhuce.com.xml"
+  },
+  {
+    "type": "新闻",
+    "name": "中国日报",
+    "url": "http://feedmaker.kindle4rss.com/feeds/china.chinadaily.xml"
+  },
+  {
+    "type": "新闻",
+    "name": "中国日报",
+    "url": "http://feedmaker.kindle4rss.com/feeds/world.chinadaily.xml"
+  },
+  {
+    "type": "新闻",
+    "name": "南方周末",
+    "url": "http://feedmaker.kindle4rss.com/feeds/hot.infzm.com.xml"
+  },
+  {
+    "type": "独立博客",
+    "name": "Alien外星人",
+    "url": "http://www.aliengu.com/feed"
+  },
+  {
+    "type": "独立博客",
+    "name": "JiaYin's Life",
+    "url": "http://www.imjiayin.com/feed/"
+  },
+  {
+    "type": "独立博客",
+    "name": "佐仔志",
+    "url": "https://www.jinbo123.com/feed"
+  },
+  {
+    "type": "独立博客",
+    "name": "依云's Blog",
+    "url": "https://blog.lilydjwg.me/feed"
+  },
+  {
+    "type": "独立博客",
+    "name": "土木坛子",
+    "url": "https://tumutanzi.com/feed"
+  },
+  {
+    "type": "独立博客",
+    "name": "扯氮集--上海魏武挥的Blog",
+    "url": "http://weiwuhui.com/feed"
+  },
+  {
+    "type": "独立博客",
+    "name": "扯远了",
+    "url": "https://heshizi.com/feed"
+  },
+  {
+    "type": "独立博客",
+    "name": "月光博客",
+    "url": "http://feed.williamlong.info/"
+  },
+  {
+    "type": "独立博客",
+    "name": "碧云飘鹤",
+    "url": "http://www.maguang.net/feed"
+  },
+  {
+    "type": "独立博客",
+    "name": "程序员小辉",
+    "url": "https://www.xiaohui.com/rss/"
+  },
+  {
+    "type": "生活",
+    "name": "中国日报",
+    "url": "http://feedmaker.kindle4rss.com/feeds/column.chinadaily.xml"
+  },
+  {
+    "type": "生活",
+    "name": "喷嚏网-铂程斋",
+    "url": "http://feedmaker.kindle4rss.com/feeds/xilei.dapenti.com.xml"
+  },
+  {
+    "type": "生活",
+    "name": "文怡心厨房",
+    "url": "http://blog.sina.com.cn/rss/wenyi.xml"
+  },
+  {
+    "type": "生活",
+    "name": "理想生活实验室",
+    "url": "http://www.toodaylab.com/feed"
+  },
+  {
+    "type": "生活",
+    "name": "维基百科优良条目供稿",
+    "url": "http://zh.wikipedia.org/w/api.php?action=featuredfeed&feed=good&feedformat=atom"
+  },
+  {
+    "type": "生活",
+    "name": "豆瓣最受欢迎的影评",
+    "url": "http://feedmaker.kindle4rss.com/feeds/movie_review_best.douban.xml"
+  },
+  {
+    "type": "知乎",
+    "name": "知乎日报",
+    "url": "http://feedmaker.kindle4rss.com/feeds/zhihu-daily.xml"
+  },
+  {
+    "type": "精选",
+    "name": "少数派",
+    "url": "http://sspai.com/feed"
+  },
+  {
+    "type": "英语",
+    "name": "BBC 英语教学",
+    "url": "http://feedmaker.kindle4rss.com/feeds/bbc-learningenglish-chinese.xml"
+  },
+  {
+    "type": "英语",
+    "name": "The Atlantic",
+    "url": "https://www.theatlantic.com/feed/all/"
+  },
+  {
+    "type": "英语",
+    "name": "The Week",
+    "url": "http://theweek.com/rss.xml"
+  },
+  {
+    "type": "英语",
+    "name": "中国日报",
+    "url": "http://feedmaker.kindle4rss.com/feeds/language-news.chinadaily.xml"
+  },
+  {
+    "type": "计算机技术",
+    "name": "CSDN",
+    "url": "http://feedmaker.kindle4rss.com/feeds/CSDNnews.weixin.xml"
+  },
+  {
+    "type": "计算机技术",
+    "name": "ImportNew",
+    "url": "http://feedmaker.kindle4rss.com/feeds/importnew.weixin.xml"
+  },
+  {
+    "type": "计算机技术",
+    "name": "InfoQ 英文",
+    "url": "http://feedmaker.kindle4rss.com/feeds/en.infoq.xml"
+  },
+  {
+    "type": "计算机技术",
+    "name": "LinuxTOY",
+    "url": "https://linuxtoy.org/feeds/all.atom.xml"
+  },
+  {
+    "type": "计算机技术",
+    "name": "前端之巅",
+    "url": "http://feedmaker.kindle4rss.com/feeds/frontshow.weixin.xml"
+  },
+  {
+    "type": "计算机技术",
+    "name": "微软研究院AI头条",
+    "url": "http://feedmaker.kindle4rss.com/feeds/MSRAsia.weixin.xml"
+  },
+  {
+    "type": "计算机技术",
+    "name": "机器之心",
+    "url": "http://feedmaker.kindle4rss.com/feeds/almosthuman2014.weixin.xml"
+  },
+  {
+    "type": "计算机技术",
+    "name": "架构师之路",
+    "url": "http://feedmaker.kindle4rss.com/feeds/gh_10a6b96351a9.weixin.xml"
+  },
+  {
+    "type": "财经",
+    "name": "中国日报",
+    "url": "http://feedmaker.kindle4rss.com/feeds/caijing.chinadaily.xml"
+  },
+  {
+    "type": "财经",
+    "name": "和讯-今日头条",
+    "url": "http://feedmaker.kindle4rss.com/feeds/hexun.com.xml"
+  },
+  {
+    "type": "财经",
+    "name": "唐书房",
+    "url": "http://feedmaker.kindle4rss.com/feeds/clouds70.weixin.xml"
+  },
+  {
+    "type": "财经",
+    "name": "喷嚏网-财经风云",
+    "url": "http://feedmaker.kindle4rss.com/feeds/caijing.dapenti.com.xml"
+  },
+  {
+    "type": "财经",
+    "name": "毛有话说",
+    "url": "http://feedmaker.kindle4rss.com/feeds/mao-talk.weixin.xml"
+  },
+  {
+    "type": "软硬件、App",
+    "name": "小众软件",
+    "url": "http://feeds.appinn.com/appinns/"
+  },
+  {
+    "type": "软硬件、App",
+    "name": "驱动之家新闻",
+    "url": "http://feedmaker.kindle4rss.com/feeds/mydrivers.xml"
+  }
+]
