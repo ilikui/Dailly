@@ -9,6 +9,10 @@ from datetime import datetime, timezone, timedelta
 # ========= RSS 订阅源（从 Cfg/rss.json 加载） =========
 _script_dir = os.path.dirname(os.path.abspath(__file__))
 RSS_CONFIG_PATH = os.path.join(os.path.dirname(_script_dir), "Cfg", "rss.json")
+PROJECT_ROOT = os.path.dirname(_script_dir)
+DATA_DIR = os.path.join(PROJECT_ROOT, "data")
+PUBLIC_DATA_DIR = os.path.join(PROJECT_ROOT, "public", "data")
+PUBLIC_JS_DIR = os.path.join(PROJECT_ROOT, "public", "js")
 
 # ========= 关键词配置（逗号分隔，从 GitHub Secrets / 环境变量读取） =========
 _kw_env = os.environ.get("KEYWORDS", "")
@@ -19,21 +23,24 @@ BJT = timezone(timedelta(hours=8))
 
 
 # ========= 数据采集 =========
-def load_rss_urls() -> list:
-    """从 Cfg/rss.json 加载 RSS 源"""
+def load_rss_config() -> list:
+    """从 Cfg/rss.json 加载 RSS 源配置列表 [{url, type, name}, ...]"""
     try:
         with open(RSS_CONFIG_PATH, "r", encoding="utf-8-sig") as f:
             config = json.load(f)
-        
-        # 支持两种格式：1) 数组格式  2) 对象格式 {type, name, url}
+
         if isinstance(config, list):
-            urls = []
+            sources = []
             for item in config:
                 if isinstance(item, dict) and item.get("url"):
-                    urls.append(item["url"])
-            if urls:
-                print(f"[INFO] 从 {RSS_CONFIG_PATH} 加载了 {len(urls)} 个 RSS 源")
-                return urls
+                    sources.append({
+                        "url": item["url"],
+                        "type": item.get("type", "其它"),
+                        "name": item.get("name", ""),
+                    })
+            if sources:
+                print(f"[INFO] 从 {RSS_CONFIG_PATH} 加载了 {len(sources)} 个 RSS 源")
+                return sources
             else:
                 raise ValueError(f"{RSS_CONFIG_PATH} 中没有有效的 URL")
         else:
@@ -141,46 +148,88 @@ def fetch_feed(url: str) -> list:
         return []
 
 
-def fetch_all_feeds(rss_urls: list) -> list:
-    """并发拉取所有 RSS 源，合并去重（以 url 字段为唯一键）"""
+def fetch_all_feeds(sources: list) -> list:
+    """并发拉取所有 RSS 源，合并去重，每条 item 附带 type 和 source"""
     all_items, seen = [], set()
-    worker_count = min(max(len(rss_urls), 1), 20)
+    urls = [s["url"] for s in sources]
+    url_to_meta = {s["url"]: s for s in sources}
+    worker_count = min(max(len(urls), 1), 20)
 
     with ThreadPoolExecutor(max_workers=worker_count) as executor:
-        feed_results = executor.map(fetch_feed, rss_urls)
+        feed_results = list(executor.map(fetch_feed, urls))
 
-    for items in feed_results:
+    for url, items in zip(urls, feed_results):
+        meta = url_to_meta.get(url, {})
         for item in items:
             item_url = item.get("url", "")
             if item_url and item_url not in seen:
                 seen.add(item_url)
+                item["type"] = meta.get("type", "其它")
+                item["source"] = meta.get("name", "")
                 all_items.append(item)
 
     return all_items
 
 
-def save_news(items: list, top_n: int = 50):
-    """保存 Top N 新闻到 data/news.json，供前端大屏热榜列表加载"""
-    os.makedirs("data", exist_ok=True)
+def write_json_file(file_path: str, payload):
+    """写入 JSON 文件，统一使用 UTF-8 编码并自动创建目录"""
+    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+    with open(file_path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+
+
+def write_javascript_data_file(file_path: str, variable_name: str, payload):
+    """写入前端可直接加载的静态 JS 数据文件，避免静态页运行时 fetch 失败"""
+    os.makedirs(os.path.dirname(file_path), exist_ok=True)
+    js_content = (
+        f"window.{variable_name} = "
+        + json.dumps(payload, ensure_ascii=False, indent=2)
+        + ";\n"
+    )
+    with open(file_path, "w", encoding="utf-8") as f:
+        f.write(js_content)
+
+
+def save_news(items: list):
+    """保存全部新闻到 data/ 与 public/data/，供前端静态部署按分类展示"""
     news = [
-        {"title": item.get("title", ""), "url": item.get("url", "")}
-        for item in items[:top_n]
+        {
+            "title": item.get("title", ""),
+            "url": item.get("url", ""),
+            "type": item.get("type", "其它"),
+            "source": item.get("source", ""),
+        }
+        for item in items
         if item.get("title")
     ]
-    with open("data/news.json", "w", encoding="utf-8") as f:
-        json.dump(news, f, ensure_ascii=False, indent=2)
-    print(f"[INFO] 新闻数据已保存: data/news.json ({len(news)} 条)")
+
+    output_paths = [
+        os.path.join(DATA_DIR, "news.json"),
+        os.path.join(PUBLIC_DATA_DIR, "news.json"),
+    ]
+    for output_path in output_paths:
+        write_json_file(output_path, news)
+        print(f"[INFO] 新闻数据已保存: {output_path} ({len(news)} 条)")
+
+    write_javascript_data_file(
+        os.path.join(PUBLIC_JS_DIR, "news-data.js"),
+        "NEWSFLOW_NEWS",
+        news,
+    )
+    print(f"[INFO] 前端静态新闻数据已保存: {os.path.join(PUBLIC_JS_DIR, 'news-data.js')} ({len(news)} 条)")
 
 
 def append_daily_news(items: list):
-    """按年/月目录保存抓取结果；同一天多次运行时向当天文件末尾追加一次快照"""
+    """按年/月目录保存抓取结果，并同步到 public/data 供静态页面直接读取"""
     now = datetime.now(BJT)
-    date_str = now.strftime("%Y-%m-%d")
     archive_name = now.strftime("news_%Y_%m_%d.json")
     run_at = now.strftime("%Y-%m-%d %H:%M:%S")
-    archive_dir = os.path.join("data", str(now.year), str(now.month))
-    os.makedirs(archive_dir, exist_ok=True)
-    archive_path = os.path.join(archive_dir, archive_name)
+    relative_archive_dir = os.path.join(str(now.year), str(now.month))
+    archive_paths = [
+        os.path.join(DATA_DIR, relative_archive_dir, archive_name),
+        os.path.join(PUBLIC_DATA_DIR, relative_archive_dir, archive_name),
+    ]
+    archive_path = archive_paths[0]
 
     snapshot = {
         "run_at": run_at,
@@ -190,6 +239,8 @@ def append_daily_news(items: list):
                 "title": item.get("title", ""),
                 "url": item.get("url", ""),
                 "content_text": item.get("content_text", ""),
+                "type": item.get("type", "其它"),
+                "source": item.get("source", ""),
             }
             for item in items
         ],
@@ -207,10 +258,16 @@ def append_daily_news(items: list):
 
     history.append(snapshot)
 
-    with open(archive_path, "w", encoding="utf-8") as f:
-        json.dump(history, f, ensure_ascii=False, indent=2)
+    for output_path in archive_paths:
+        write_json_file(output_path, history)
+        print(f"[INFO] 已追加保存当日数据: {output_path} (第 {len(history)} 次运行, {len(items)} 条)")
 
-    print(f"[INFO] 已追加保存当日数据: {archive_path} (第 {len(history)} 次运行, {len(items)} 条)")
+    write_javascript_data_file(
+        os.path.join(PUBLIC_JS_DIR, "news-archive-data.js"),
+        "NEWSFLOW_ARCHIVE",
+        history,
+    )
+    print(f"[INFO] 前端静态归档数据已保存: {os.path.join(PUBLIC_JS_DIR, 'news-archive-data.js')} (第 {len(history)} 次运行)")
 
 
 # ========= 关键词过滤 =========
@@ -308,19 +365,19 @@ if __name__ == '__main__':
     # 0. 加载 RSS 源配置
     print("[INFO] 正在加载 RSS 源配置...")
     try:
-        rss_urls = load_rss_urls()
-        print(f"[INFO] 成功加载 {len(rss_urls)} 个 RSS 源")
+        rss_config = load_rss_config()
+        print(f"[INFO] 成功加载 {len(rss_config)} 个 RSS 源")
     except Exception as e:
         print(f"[ERROR] 无法加载 RSS 源: {e}")
         exit(1)
 
     # 1. 拉取全部 RSS 数据
     print("[INFO] 正在拉取 RSS 数据...")
-    all_items = fetch_all_feeds(rss_urls)
+    all_items = fetch_all_feeds(rss_config)
     print(f"[INFO] 共获取 {len(all_items)} 条新闻")
 
-    # 2. 持久化热门新闻（给前端大屏使用）
-    save_news(all_items, top_n=50)
+    # 2. 持久化新闻数据（含分类信息，供前端展示）
+    save_news(all_items)
     append_daily_news(all_items)
 
     # 3. 关键词过滤（KEYWORDS 未设置时推送全量新闻摘要）

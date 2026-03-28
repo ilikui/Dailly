@@ -8,6 +8,52 @@
 		<title>ECharts扩展示例</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/app.css" />
+		<style>
+			/* === RSS News Overlay on Fireworks === */
+			#newsOverlay {
+				position:absolute; top:0; left:0; right:0; bottom:0;
+				z-index:10; display:flex; flex-direction:column;
+			}
+			#newsTabs {
+				display:flex; flex-wrap:wrap; gap:5px;
+				padding:10px 14px 6px;
+				background:linear-gradient(180deg, rgba(0,0,0,0.72) 0%, rgba(0,0,0,0.35) 100%);
+			}
+			.news-tab {
+				padding:3px 12px; border-radius:12px; font-size:11px;
+				cursor:pointer; color:#8ab4d8; background:rgba(42,82,152,0.3);
+				border:1px solid transparent; transition:all .2s; user-select:none;
+				white-space:nowrap;
+			}
+			.news-tab:hover { background:rgba(42,82,152,0.5); color:#cde; }
+			.news-tab.active {
+				background:rgba(93,194,254,0.2); color:#5dc2fe;
+				border-color:#5dc2fe; font-weight:bold;
+			}
+			.news-tab .tab-cnt { font-size:9px; opacity:0.6; margin-left:3px; }
+			#newsContent {
+				flex:1; overflow-y:auto; padding:4px 14px 10px;
+				background:rgba(0,0,0,0.38);
+			}
+			#newsContent::-webkit-scrollbar { width:4px; }
+			#newsContent::-webkit-scrollbar-thumb { background:rgba(93,194,254,0.4); border-radius:2px; }
+			.news-item {
+				padding:5px 0; border-bottom:1px solid rgba(93,194,254,0.1);
+				display:flex; align-items:baseline; gap:6px;
+			}
+			.news-item:last-child { border-bottom:none; }
+			.news-idx { min-width:18px; font-size:10px; color:#556; text-align:right; flex-shrink:0; }
+			.news-item a {
+				color:rgba(220,230,240,0.92); font-size:12px; text-decoration:none;
+				line-height:1.5; word-break:break-all;
+			}
+			.news-item a:hover { color:#7ecfff; text-decoration:underline; }
+			.news-src {
+				margin-left:auto; font-size:9px; color:#4a6a8a;
+				white-space:nowrap; flex-shrink:0;
+			}
+			.news-empty { color:#5a7a9a; text-align:center; padding:40px 0; font-size:12px; }
+		</style>
 	</head>
 	
 	<body class="bg06">
@@ -32,8 +78,12 @@
 					</div>
 					<div class="col-lg-6 fill-h">
 						<div class="xpanel-wrapper xpanel-wrapper-1">
-							<div class="xpanel no-padding no-bg">
+							<div class="xpanel no-padding no-bg" style="position:relative;overflow:hidden;">
 								<div class="fill-h" id="fireworksChart"></div>
+								<div id="newsOverlay">
+									<div id="newsTabs"></div>
+									<div id="newsContent"><div class="news-empty">正在加载新闻...</div></div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -58,6 +108,8 @@
 		<script type="text/javascript" src="js/echarts-wordcloud.min.js"></script>
 		<script type="text/javascript" src="js/echarts-liquidfill.min.js"></script>
 		<script type="text/javascript" src="js/echarts-map-china.js"></script>
+		<script type="text/javascript" src="js/news-data.js"></script>
+		<script type="text/javascript" src="js/news-archive-data.js"></script>
 		<script type="text/javascript">
 			$(function() {
 				/*************** 中国地图 **************/
@@ -988,6 +1040,158 @@
 		            };
 		            
 		            fireworksChart.setOption(option);
+				})();
+				
+				/*************** 烟花秀 — RSS新闻叠加 **************/
+				(function() {
+					var tabsEl = document.getElementById('newsTabs');
+					var contentEl = document.getElementById('newsContent');
+					if (!tabsEl || !contentEl) return;
+
+					function formatArchivePath(date) {
+						var year = date.getFullYear();
+						var month = date.getMonth() + 1;
+						var day = date.getDate();
+						var mm = month < 10 ? '0' + month : '' + month;
+						var dd = day < 10 ? '0' + day : '' + day;
+						return 'data/' + year + '/' + month + '/news_' + year + '_' + mm + '_' + dd + '.json';
+					}
+
+					function getArchiveCandidates() {
+						var today = new Date();
+						var yesterday = new Date(today.getTime());
+						yesterday.setDate(today.getDate() - 1);
+						var todayPath = formatArchivePath(today);
+						var yesterdayPath = formatArchivePath(yesterday);
+						return [
+							'/' + todayPath,
+							todayPath,
+							'/' + yesterdayPath,
+							yesterdayPath,
+							'/data/news.json',
+							'data/news.json'
+						];
+					}
+
+					function normalizeArchiveData(payload) {
+						if (Array.isArray(payload) && payload.length && payload[0] && payload[0].title) {
+							return payload;
+						}
+						if (!Array.isArray(payload) || !payload.length) return [];
+						var latestSnapshot = payload[payload.length - 1] || {};
+						return Array.isArray(latestSnapshot.items) ? latestSnapshot.items : [];
+					}
+
+					function renderArchive(payload) {
+						var allNews = normalizeArchiveData(payload);
+						if (!allNews || !allNews.length) {
+							contentEl.innerHTML = '<div class="news-empty">暂无新闻数据</div>';
+							return false;
+						}
+
+						var typeMap = {};
+						var typeOrder = [];
+						allNews.forEach(function(item) {
+							var typeName = item.type || '其它';
+							if (!typeMap[typeName]) {
+								typeMap[typeName] = [];
+								typeOrder.push(typeName);
+							}
+							typeMap[typeName].push(item);
+						});
+						typeOrder.sort(function(a, b) {
+							return typeMap[b].length - typeMap[a].length;
+						});
+
+						var activeType = null;
+
+						function escHtml(text) {
+							var span = document.createElement('span');
+							span.textContent = text || '';
+							return span.innerHTML;
+						}
+
+						function escAttr(text) {
+							return String(text || '')
+								.replace(/&/g, '&amp;')
+								.replace(/"/g, '&quot;')
+								.replace(/</g, '&lt;')
+								.replace(/>/g, '&gt;');
+						}
+
+						function renderTabs() {
+							var html = '<span class="news-tab' + (activeType === null ? ' active' : '') + '" data-type="__all__">全部<span class="tab-cnt">' + allNews.length + '</span></span>';
+							typeOrder.forEach(function(typeName) {
+								var cls = activeType === typeName ? ' active' : '';
+								html += '<span class="news-tab' + cls + '" data-type="' + escHtml(typeName) + '">' + escHtml(typeName) + '<span class="tab-cnt">' + typeMap[typeName].length + '</span></span>';
+							});
+							tabsEl.innerHTML = html;
+						}
+
+						function renderNews() {
+							var items = activeType ? (typeMap[activeType] || []) : allNews;
+							if (!items.length) {
+								contentEl.innerHTML = '<div class="news-empty">暂无新闻</div>';
+								return;
+							}
+
+							var html = '';
+							items.forEach(function(item, index) {
+								var title = escHtml(item.title || '');
+								var source = escHtml(item.source || '');
+								html += '<div class="news-item">' +
+									'<span class="news-idx">' + (index + 1) + '</span>' +
+									(item.url
+										? '<a href="' + escAttr(item.url) + '" target="_blank" rel="noopener">' + title + '</a>'
+										: '<span style="color:#cde;font-size:12px">' + title + '</span>') +
+									(source ? '<span class="news-src">' + source + '</span>' : '') +
+									'</div>';
+							});
+
+							contentEl.innerHTML = html;
+							contentEl.scrollTop = 0;
+						}
+
+						$(tabsEl).off('click', '.news-tab').on('click', '.news-tab', function() {
+							var typeName = $(this).attr('data-type');
+							activeType = typeName === '__all__' ? null : typeName;
+							renderTabs();
+							renderNews();
+						});
+
+						renderTabs();
+						renderNews();
+						return true;
+					}
+
+					function tryLoadArchive(paths, index) {
+						if (index >= paths.length) {
+							if (renderArchive(window.NEWSFLOW_ARCHIVE || window.NEWSFLOW_NEWS || [])) {
+								return;
+							}
+							contentEl.innerHTML = '<div class="news-empty">新闻数据加载失败，请确认通过静态服务器访问页面且 data 目录已发布</div>';
+							return;
+						}
+
+						$.getJSON(paths[index])
+							.done(function(payload) {
+								if (!renderArchive(payload)) {
+									tryLoadArchive(paths, index + 1);
+								}
+							})
+							.fail(function() {
+								tryLoadArchive(paths, index + 1);
+							});
+					}
+
+					if (renderArchive(window.NEWSFLOW_ARCHIVE || [])) {
+						return;
+					}
+					if (renderArchive(window.NEWSFLOW_NEWS || [])) {
+						return;
+					}
+
+					tryLoadArchive(getArchiveCandidates(), 0);
 				})();
 				
 				/*************** 关系图 **************/

@@ -43,7 +43,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/. *
+          git add data public/data
           git diff --cached --quiet || git commit -m "chore: update news data [skip ci]"
           git push
 
