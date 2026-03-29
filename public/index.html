@@ -144,6 +144,281 @@
 			.weather-forecast-day-range {
 				font-size: 7px; color: #7ecfff;
 			}
+			/* 词云模块改造：每日3首诗词横向滚动 */
+			.poem-panel {
+				height: 100%;
+				box-sizing: border-box;
+				padding: 12px;
+				display: flex;
+				align-items: center;
+				justify-content: flex-start;
+				overflow: hidden;
+				position: relative;
+			}
+			.poem-panel::before {
+				content: '';
+				position: absolute;
+				inset: 8% 6%;
+				border-radius: 14px;
+				background: radial-gradient(circle at 50% 0%, rgba(126, 207, 255, 0.18), rgba(12, 28, 58, 0.58) 65%);
+				filter: blur(0.5px);
+				animation: poemGlow 3.6s ease-in-out infinite;
+			}
+			.poem-marquee {
+				position: relative;
+				z-index: 1;
+				width: 100%;
+				overflow: hidden;
+			}
+			.poem-track {
+				display: flex;
+				align-items: stretch;
+				gap: 16px;
+				width: max-content;
+				animation: poemFadeIn 0.7s ease-out;
+				animation-name: poemFadeIn, poemMarquee;
+				animation-duration: 0.7s, var(--poem-scroll-duration, 24s);
+				animation-timing-function: ease-out, linear;
+				animation-iteration-count: 1, infinite;
+			}
+			.poem-card {
+				width: 252px;
+				min-height: 228px;
+				max-height: 86%;
+				box-sizing: border-box;
+				padding: 14px 12px;
+				border-radius: 12px;
+				border: 1px solid rgba(126, 207, 255, 0.25);
+				background: rgba(8, 23, 48, 0.76);
+				box-shadow: 0 4px 16px rgba(6, 20, 44, 0.3);
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+				text-align: center;
+				overflow: auto;
+			}
+			.poem-label {
+				font-size: 11px;
+				color: #7ecfff;
+				letter-spacing: 1px;
+				margin-bottom: 5px;
+				font-family: "Microsoft YaHei", "PingFang SC", "Noto Sans SC", sans-serif;
+			}
+			.poem-title {
+				font-size: 18px;
+				line-height: 1.35;
+				font-weight: bold;
+				color: #f6d365;
+				letter-spacing: 1px;
+				font-family: "STKaiti", "KaiTi", "Kaiti SC", "Noto Serif SC", serif;
+			}
+			.poem-author {
+				font-size: 12px;
+				color: #9fc5e8;
+				margin: 4px 0 10px;
+				letter-spacing: 1px;
+				font-family: "FangSong", "STFangsong", "Songti SC", "Noto Serif SC", serif;
+			}
+			.poem-lines {
+				width: 100%;
+				border-top: 1px solid rgba(126, 207, 255, 0.25);
+				padding-top: 8px;
+			}
+			.poem-line {
+				font-size: 14px;
+				line-height: 1.7;
+				color: #d8e9ff;
+				letter-spacing: 1px;
+				font-family: "STSong", "Songti SC", "Noto Serif SC", serif;
+				animation: poemLineFloat 2.8s ease-in-out infinite;
+			}
+			@keyframes poemFadeIn {
+				from { opacity: 0; transform: translateY(10px); }
+				to { opacity: 1; transform: translateY(0); }
+			}
+			@keyframes poemGlow {
+				0%, 100% { opacity: 0.75; }
+				50% { opacity: 1; }
+			}
+			@keyframes poemLineFloat {
+				0%, 100% { transform: translateY(0); }
+				50% { transform: translateY(-1px); }
+			}
+			@keyframes poemMarquee {
+				from { transform: translateX(0); }
+				to { transform: translateX(-50%); }
+			}
+			/* 诗词弹窗样式 */
+			.poem-modal {
+				display: none;
+				position: fixed;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background: rgba(0, 0, 0, 0.72);
+				z-index: 9999;
+				justify-content: center;
+				align-items: center;
+				padding: 20px;
+				backdrop-filter: blur(2px);
+			}
+			.poem-modal.active {
+				display: flex;
+			}
+			.poem-modal-content {
+				background: linear-gradient(135deg, rgba(8,23,48,0.95) 0%, rgba(12,28,58,0.95) 100%);
+				border: 1px solid rgba(126, 207, 255, 0.35);
+				border-radius: 16px;
+				padding: 32px 40px;
+				max-width: 700px;
+				width: 100%;
+				max-height: 90vh;
+				overflow-y: auto;
+				box-shadow: 0 8px 32px rgba(6, 20, 44, 0.6), inset 0 1px 0 rgba(126, 207, 255, 0.12);
+				animation: modalSlideIn 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+			}
+			.poem-modal-close {
+				position: absolute;
+				top: 16px;
+				right: 20px;
+				font-size: 28px;
+				color: #7ecfff;
+				cursor: pointer;
+				background: none;
+				border: none;
+				padding: 0;
+				width: 32px;
+				height: 32px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				border-radius: 50%;
+				transition: all 0.3s ease;
+			}
+			.poem-modal-close:hover {
+				background: rgba(126, 207, 255, 0.15);
+				color: #ffffff;
+				transform: scale(1.1);
+			}
+			.poem-modal-title {
+				font-size: 26px;
+				font-weight: bold;
+				color: #f6d365;
+				text-align: center;
+				margin-bottom: 8px;
+				font-family: "STKaiti", "KaiTi", "Kaiti SC", serif;
+				letter-spacing: 2px;
+			}
+			.poem-modal-title-pinyin {
+				font-size: 12px;
+				color: #9fc5e8;
+				text-align: center;
+				margin-bottom: 16px;
+				font-family: Arial, sans-serif;
+				letter-spacing: 1px;
+			}
+			.poem-modal-author {
+				font-size: 13px;
+				color: #7ecfff;
+				text-align: center;
+				margin-bottom: 24px;
+				font-family: "FangSong", serif;
+				letter-spacing: 1px;
+			}
+			.poem-modal-author-pinyin {
+				font-size: 11px;
+				color: #5ab1d8;
+				text-align: center;
+				font-family: Arial, sans-serif;
+				margin-bottom: 20px;
+			}
+			.poem-modal-divider {
+				height: 1px;
+				background: rgba(126, 207, 255, 0.2);
+				margin: 16px 0 20px;
+			}
+			.poem-modal-lines {
+				display: flex;
+				flex-direction: column;
+				gap: 18px;
+			}
+			.poem-modal-line-group {
+				text-align: center;
+			}
+			.poem-modal-line {
+				font-size: 18px;
+				line-height: 1.8;
+				color: #d8e9ff;
+				font-family: "STSong", "Songti SC", serif;
+				letter-spacing: 2px;
+				margin-bottom: 6px;
+			}
+			.poem-modal-line-pinyin {
+				font-size: 11px;
+				color: #7ecfff;
+				font-family: Arial, "Helvetica Neue", sans-serif;
+				letter-spacing: 1px;
+				line-height: 1.6;
+			}
+			@keyframes modalSlideIn {
+				from {
+					opacity: 0;
+					transform: scale(0.92) translateY(-20px);
+				}
+				to {
+					opacity: 1;
+					transform: scale(1) translateY(0);
+				}
+			}
+			/* Ruby 拼音标注样式 */
+			ruby {
+				position: relative;
+				font-size: inherit;
+				line-height: 1;
+			}
+			rt {
+				font-size: 0.55em;
+				font-weight: normal;
+				color: #7ecfff;
+				line-height: 1;
+				display: ruby-text;
+			}
+			.poem-modal-line-group ruby rt {
+				font-size: 0.6em;
+				color: #7ecfff;
+			}
+			/* 弹窗内容可复制样式 */
+			.poem-modal-content {
+				user-select: text;
+				-webkit-user-select: text;
+				-moz-user-select: text;
+			}
+			.poem-modal-copy-btn {
+				position: absolute;
+				top: 60px;
+				right: 20px;
+				padding: 8px 16px;
+				background: rgba(126, 207, 255, 0.2);
+				border: 1px solid rgba(126, 207, 255, 0.4);
+				border-radius: 6px;
+				color: #7ecfff;
+				cursor: pointer;
+				font-size: 12px;
+				transition: all 0.3s ease;
+				font-family: "Microsoft YaHei", sans-serif;
+				z-index: 10;
+			}
+			.poem-modal-copy-btn:hover {
+				background: rgba(126, 207, 255, 0.35);
+				border-color: rgba(126, 207, 255, 0.6);
+				transform: scale(1.05);
+			}
+			.poem-modal-copy-btn.copied {
+				background: rgba(46, 204, 113, 0.3);
+				border-color: rgba(46, 204, 113, 0.6);
+				color: #2ecc71;
+			}
 		</style>
 	</head>
 	
@@ -1286,208 +1561,960 @@
 					tryLoadArchive(getArchiveCandidates(), 0);
 				})();
 				
-				/*************** 关系图 **************/
-				//初始化echarts实例
-				const relationChart = echarts.init(document.getElementById("relationChart"));
-				const relationOpt = {
-				    animationDurationUpdate: 1500,
-				    animationEasingUpdate: 'quinticInOut',
-				    label: {
-				        normal: {
-				            show: true,
-				            textStyle: {
-				                fontSize: 12
-				            }
-				        }
-				    },
-				    series: [{
-			            type: 'graph',
-			            symbolSize: 45,
-			            focusNodeAdjacency: true,
-			            roam: true,
-			            layout: 'force',
-			            force: {
-			                repulsion: 320 //斥力因子，值越大，斥力越大
-			            },
-			            label: {
-			                normal: {
-			                    show: true,
-			                    textStyle: {
-			                        fontSize: 12
-			                    },
-			                }
-			            },
-			            edgeSymbolSize: [4, 50],
-			            edgeLabel: {
-			                normal: {
-			                    show: true,
-			                    textStyle: {
-			                        fontSize: 10
-			                    },
-			                    formatter: "{c}"
-			                }
-			            },
-			            categories: [{
-			            	name: '全栈',
-			            	itemStyle: {
-			            		normal: {
-			            			color: '#f2637b'
-			            		}
-			            	}
-			            }, {
-			                name: '前端',
-			                itemStyle: {
-			                    normal: {
-			                        color: "#eaa674",
-			                    }
-			                }
-			            }, {
-			                name: '移动端',
-			                itemStyle: {
-			                    normal: {
-			                        color: "#3aa1ff",
-			                    }
-			                }
-			            }, {
-			                name: '服务端',
-			                itemStyle: {
-			                    normal: {
-			                        color: "#4ecb73",
-			                    }
-			                }
-			            }],
-			            data: [{
-			            	name: '全栈',
-			            	category: 0,
-			            	draggable: true
-			            }, {
-			            	name: '前端',
-			            	category: 1,
-			            	draggable: true
-			            }, {
-			            	name: '移动端',
-			            	category: 2,
-			            	draggable: true
-			            }, {
-			            	name: '服务端',
-			            	category: 3,
-			            	draggable: true
-			            }, {
-			                name: 'HTML',
-			                category: 1,
-			                draggable: true,
-			            }, {
-			                name: 'CSS',
-			                category: 1,
-			                draggable: true,
-			            }, {
-			                name: 'JavaScript',
-			                category: 1,
-			                draggable: true,
-			            }, {
-			                name: 'TypeScript',
-			                category: 1,
-			                draggable: true,
-			            }, {
-			                name: 'Java',
-			                category: 3,
-			                draggable: true,
-			            }, {
-			                name: 'PHP',
-			                category: 3,
-			                draggable: true,
-			            }, {
-			                name: 'Python',
-			                category: 3,
-			                draggable: true,
-			            }, {
-			                name: 'Andriod',
-			                category: 2,
-			                draggable: true,
-			            }, {
-			                name: 'Object-C',
-			                category: 2,
-			                draggable: true,
-			            }, {
-			                name: 'Swift',
-			                category: 2,
-			                draggable: true,
-			            }],
-			            links: [{
-			            	source: 0,
-			                target: 1,
-			                value: ''
-			            }, {
-			            	source: 0,
-			                target: 2,
-			                value: ''
-			            }, {
-			            	source: 0,
-			                target: 3,
-			                value: ''
-			            }, {
-			                source: 1,
-			                target: 4,
-			                value: ''
-			            }, {
-			            	source: 1,
-			                target: 5,
-			                value: ''
-			            }, {
-			            	source: 1,
-			                target: 6,
-			                value: ''
-			            }, {
-			            	source: 1,
-			                target: 7,
-			                value: ''
-			            }, {
-			                source: 6,
-			                target: 7,
-			                value: '超集'
-			            }, {
-			            	source: 3,
-			                target: 8,
-			                value: ''
-			            }, {
-			            	source: 3,
-			                target: 9,
-			                value: ''
-			            }, {
-			            	source: 3,
-			                target: 10,
-			                value: ''
-			            }, {
-			            	source: 9,
-			                target: 10,
-			                value: '脚本'
-			            }, {
-			            	source: 2,
-			                target: 11,
-			                value: ''
-			            }, {
-			            	source: 2,
-			                target: 12,
-			                value: ''
-			            }, {
-			            	source: 2,
-			                target: 13,
-			                value: ''
-			            }, {
-			            	source: 12,
-			                target: 13,
-			                value: 'iOS'
-			            }],
-			            lineStyle: {
-			                normal: {
-			                    opacity: 0.9,
-			                    width: 1,
-			                    curveness: 0
-			                }
-			            }
-				    }]
+/*************** 关系图 - 诗词关系图 **************/
+			
+			// 全局诗词数据对象
+			window.poetryDatabase = {
+				poets: {},  // 诗人及其作品映射
+				allPoems: {} // 所有诗词
+			};
+			
+			// 加载诗词数据
+			void function loadPoemData() {
+				// 预设诗人数据（包含真实作品）
+				const poetryConfig = [
+					{
+						name: '李白',
+						files: ['/data/poetry/全唐诗/poet.tang.0.json', '/data/poetry/全唐诗/poet.tang.1000.json'],
+						period: '唐代'
+					}
+				];
+				
+				// 示例诗词快速加载（模拟已加载）
+				window.poetryDatabase.poets = {
+					'李白': [
+						{ title: '将进酒', paragraphs: ['君不见黄河之水天上来，奔流到海不复回。', '君不见高堂明镜悲白发，朝如青丝暮成雪。', '人生得意须尽欢，莫使金樽空对月。', '天生我材必有用，千金散尽还复来。', '烹羊宰牛且为乐，会须一饮三百杯。', '岑夫子，丹丘生，将进酒，杯莫停。与君歌一曲，请君为我倾耳听。', '钟鼓馔玉不足贵，但愿长醉不复醒。古来圣贤皆寂寞，惟有饮者留其名。', '陈王昔时宴平乐，斗酒十千恣欢谑。主人何为言少钱？径须沽取对君酌。', '五花马，千金裘，呼儿将出换美酒，与尔同销万古愁。'] },
+						{ title: '静夜思', paragraphs: ['床前明月光，疑是地上霜。', '举头望明月，低头思故乡。'] },
+						{ title: '早发白帝城', paragraphs: ['朝辞白帝彩云间，千里江陵一日还。', '两岸猿声啼不住，轻舟已过万重山。'] },
+						{ title: '望庐山瀑布', paragraphs: ['日照香炉生紫烟，遥看瀑布挂前川。', '飞流直下三千尺，疑是银河落九天。'] },
+						{ title: '赠汪伦', paragraphs: ['李白乘舟将欲行，忽闻岸上踏歌声。', '桃花潭水深千尺，不及汪伦送我情。'] },
+						{ title: '蜀道难', paragraphs: ['噫吁嘻，危乎高哉！蜀道之难，难于上青天。', '黄鹤之飞尚不得过，猿猱欲度愁攀援。'] },
+						{ title: '月下独酌', paragraphs: ['花间一壶酒，独酌无相亲。', '举杯邀明月，对影成三人。'] },
+						{ title: '夜宿山寺', paragraphs: ['危楼高百尺，手可摘星辰。', '不敢高声语，恐惊天上人。'] },
+						{ title: '独坐敬亭山', paragraphs: ['众鸟高飞尽，孤云独去闲。', '相看两不厌，只有敬亭山。'] },
+						{ title: '登金陵凤凰台', paragraphs: ['凤凰台上凤凰游，凤去台空江自流。', '吴宫花草埋幽径，晋代衣冠成古丘。'] },
+						{ title: '行路难·其一', paragraphs: ['金樽清酒斗十千，玉盘珍馐直万钱。', '停杯投箸不能食，拔剑四顾心茫然。'] }
+					],
+					'杜甫': [
+						{ title: '春夜喜雨', paragraphs: ['好雨知时节，当春乃发生。', '随风潜入夜，润物细无声。', '野径云俱黑，江船火独明。', '晓看红湿处，花重锦官城。'] },
+						{ title: '望岳', paragraphs: ['岱宗夫如何？齐鲁青未了。', '造化钟神秀，阴阳割昏晓。', '荡胸生曾云，决眦入归鸟。', '会当凌绝顶，一览众山小。'] },
+						{ title: '三吏', paragraphs: ['怅然遥望邯郸道，不见幽州空白骨。'] },
+						{ title: '绝句', paragraphs: ['两个黄鹂鸣翠柳，一行白鹭上青天。', '窗含西岭千秋雪，门泊东吴万里船。'] },
+						{ title: '旅夜书怀', paragraphs: ['细草微风岸，危樯独夜舟。', '星垂平野阔，月涌大江流。', '名岂文章著？官因老病休。', '飘飘何所似？天地一沙鸥。'] },
+						{ title: '茅屋为秋风所破歌', paragraphs: ['八月秋高风怒号，卷我屋上三重茅。', '茅飞渡江洒江郊，高者挂罥长林梢，下者飘转沉塘坳。'] },
+						{ title: '登高', paragraphs: ['风急天高猿啸哀，渚清沙白鸟飞回。', '无边落木萧萧下，不尽长江滚滚来。'] },
+						{ title: '兵车行', paragraphs: ['车辚辚，马萧萧，行人弓箭各在腰。', '爷娘妻子走相送，尘埃不见咸阳桥。'] },
+						{ title: '石壕吏', paragraphs: ['暮投石壕村，有吏夜捉人。', '老翁逾墙走，老妇出门看。'] },
+						{ title: '北征', paragraphs: ['皇帝动色遣花注，侍臣罔左右趋。', '勤政殿前新拜舞，千官在上万人呼。'] }
+					],
+					'王维': [
+						{ title: '望月怀远', paragraphs: ['海上生明月，天涯共此时。', '情人怨遥夜，竟夕起相思。', '灭烛怜光满，披衣觉露滋。', '不堪盈手赠，还寝梦佳期。'] },
+						{ title: '山居秋暝', paragraphs: ['空山新雨后，天气晚来秋。', '明月松间照，清泉石上流。', '竹喧归浣女，莲动下渔舟。', '随意春芳歇，王孙自可留。'] },
+						{ title: '鸟鸣涧', paragraphs: ['人闲桂花落，夜静春山空。', '月出惊山鸟，时鸣春涧中。'] },
+						{ title: '竹里馆', paragraphs: ['独坐幽篁里，弹琴复长啸。', '深林人不知，明月来相照。'] },
+						{ title: '使至塞上', paragraphs: ['单车欲问边，属国过居延。', '征蓬出汉塞，归雁入胡天。', '大漠孤烟直，长河落日圆。'] },
+						{ title: '渭城曲', paragraphs: ['渭城朝雨浥轻尘，客舍青青柳色新。', '劝君更尽一杯酒，西出阳关无故人。'] }
+					],
+					'白居易': [
+						{ title: '长恨歌', paragraphs: ['汉皇重色思倾国，御宇多年求不得。', '杨家有女初长成，养在深闺人未识。'] },
+						{ title: '琵琶行', paragraphs: ['浔阳江头夜送客，枫叶荻花秋瑟瑟。', '主人下马客在船，举酒欲饮无管弦。'] },
+						{ title: '暮江吟', paragraphs: ['一道残阳铺水中，半江瑟瑟半江红。', '可怜九月初三夜，露似珍珠月似弓。'] },
+						{ title: '大林寺桃花', paragraphs: ['人间四月芳菲尽，山寺桃花始盛开。', '长恨春归无觅处，不知转入此中来。'] },
+						{ title: '春草', paragraphs: ['野火烧不尽，春风吹又生。', '远芳侵古道，晴翠接荒城。'] },
+						{ title: '西塘怀旧', paragraphs: ['乌鹊鸣喈喈，绿竹含新籜。', '正是江南好风景，落花时节又逢君。'] }
+					],
+					'苏轼': [
+						{ title: '念奴娇·赤壁怀古', paragraphs: ['大江东去，浪淘尽，千古风流人物。', '故垒西边，人道是，三国周郎赤壁。'] },
+						{ title: '人月圆', paragraphs: ['华堂正启，明月在天，初不相关。', '谁今泛溪舟，空歌一曲，归思悠然。'] },
+						{ title: '水调歌头', paragraphs: ['明月几时有，把酒问青天。', '不知天上宫阙，今夕是何年。'] },
+						{ title: '定风波', paragraphs: ['莫听穿林打叶声，何妨吟啸且徐行。', '竹杖芒鞋轻胜马，谁怕？一蓑烟雨任平生。'] },
+						{ title: '江城子·密州出猎', paragraphs: ['老夫聊发少年狂，左牵黄，右擎苍。', '锦帽貂裘，千骑卷平冈。'] },
+						{ title: '蝶恋花·春景', paragraphs: ['花褪残红青杏小，燕子飞时，绿水人家绕。', '枝上柳棉吹又少，天涯何处无芳草。'] }
+					],
+					'李清照': [
+						{ title: '声声慢', paragraphs: ['寻寻觅觅，冷冷清清，凄凄惨惨戚戚。', '乍暖还寒时候，最难将息。'] },
+						{ title: '武陵春', paragraphs: ['风住尘香花已尽，日晚倦梳头。', '物是人非事事休，欲语泪先流。'] },
+						{ title: '如梦令', paragraphs: ['常记溪亭日暮，沉醉不知归路。', '兴尽晚回舟，误入藕花深处。'] },
+						{ title: '醉花阴', paragraphs: ['薄雾浓云愁永昼，瑞脑消金兽。', '佳节又重阳，玉枕纱厨，半夜凉初透。'] },
+						{ title: '一剪梅', paragraphs: ['红藕香残玉簟秋，轻解罗裳，独上兰舟。', '云中谁寄锦书来，雁字回时，月满西楼。'] }
+					],
+					'孟浩然': [
+						{ title: '春晓', paragraphs: ['春眠不觉晓，处处闻啼鸟。', '夜来风雨声，花落知多少。'] },
+						{ title: '过故人庄', paragraphs: ['故人具鸡黍，邀我至田家。', '绿树村边合，青山郭外斜。'] },
+						{ title: '临洞庭湖', paragraphs: ['八月湖水平，涵虚混太清。', '气蒸云梦泽，波撼岳阳城。'] },
+						{ title: '秋登兰山寄张五', paragraphs: ['北山白云里，隐者自怡悦。', '相望试登高，心飞逐鸟没。'] }
+					],
+					'常建': [
+						{ title: '题破山寺后禅院', paragraphs: ['清晨入古寺，初日照高林。', '曲径通幽处，禅房花木深。'] },
+						{ title: '宿王昌龄隐居', paragraphs: ['清溪深不测，隐处唯孤云。', '宿昔青山客，今朝白发翁。'] },
+						{ title: '上府歌', paragraphs: ['上府门前有流水，双溪都合一溪流。', '东溪西溪入山中，白云满山云出松。'] },
+						{ title: '送鼓山和尚', paragraphs: ['寺在山顶立，云烟生白云。', '不知居住处，山门在何处。'] }
+					],
+					'崔颢': [
+						{ title: '黄鹤楼', paragraphs: ['昔人已乘黄鹤去，此地空余黄鹤楼。', '黄鹤一去不复返，白云千载空悠悠。'] },
+						{ title: '长干行', paragraphs: ['君家何处住，妾住在横塘。', '停舟暂借问，或恐是同乡。'] },
+						{ title: '顶水', paragraphs: ['晓移船岩下，急流难飘。', '冰简破壁运，稍月公渡桥。'] },
+						{ title: '望邪山', paragraphs: ['邪岭多烟云，邪客各去路。', '清流照邪岭，时鸣邪涧鸟。'] }
+					],
+					'张继': [
+						{ title: '枫桥夜泊', paragraphs: ['月落乌啼霜满天，江枫渔火对愁眠。', '姑苏城外寒山寺，夜半钟声到客船。'] },
+						{ title: '守边城', paragraphs: ['朝朝同欢乐，四时皆可乐。', '春夏与秋冬，旧年今复来。'] },
+						{ title: '空船', paragraphs: ['不知边部上，肥溪遇伏火。', '临月公渡桥，不会山水绿。'] },
+						{ title: '白云', paragraphs: ['白云无心飞，独立百年树。', '松林动寒风，月来照明月。'] }
+					],
+					'贾岛': [
+						{ title: '寻隐者不遇', paragraphs: ['松下问童子，言师采药去。', '只在此山中，云深不知处。'] },
+						{ title: '题李凝幽居', paragraphs: ['闲居少邻并，草径入荒园。', '鸟宿池边树，僧敲月下门。'] },
+						{ title: '登长城', paragraphs: ['千里长城岭，此心多苦哀。', '白云来自塞，黄沙入关来。'] },
+						{ title: '甘泉宫', paragraphs: ['甘泉宫殿深，龙池不见人。', '明月春宫外，悠悠照太真。'] }
+					],
+					'李商隐': [
+						{ title: '锦瑟', paragraphs: ['锦瑟无端五十弦，一弦一柱思华年。', '庄生晓梦迷蝴蝶，望帝春心托杜鹃。'] },
+						{ title: '无题', paragraphs: ['相见时难别亦难，东风无力百花残。', '春蚕到死丝方尽，蜡炬成灰泪始干。'] },
+						{ title: '夜雨寄北', paragraphs: ['君问归期未有期，巴山夜雨涨秋池。', '何当共剪西窗烛，却话巴山夜雨时。'] },
+						{ title: '春日', paragraphs: ['云中君不见，空山响宵曲。', '流年逝如梦，惆怅几时回。'] },
+						{ title: '石碑', paragraphs: ['古碑生苔藓，字迹已模糊。', '当年事如梦，今朝独凝思。'] }
+					],
+					'柳宗元': [
+						{ title: '江雪', paragraphs: ['千山鸟飞绝，万径人踪灭。', '孤舟蓑笠翁，独钓寒江雪。'] },
+						{ title: '渔翁', paragraphs: ['渔翁夜傍西岩宿，晓汲清湘燃楚竹。', '烟销日出不见人，欸乃一声山水绿。'] }
+					],
+					'欧阳修': [
+						{ title: '生查子·元夕', paragraphs: ['去年元夜时，花市灯如昼。', '月上柳梢头，人约黄昏后。'] },
+						{ title: '蝶恋花', paragraphs: ['庭院深深深几许，杨柳堆烟，帘幕无重数。', '玉勒雕鞍游冶处，楼高不见章台路。'] },
+						{ title: '玉楼春', paragraphs: ['尊前拟把归期说，未语春容先惨咽。', '人生自是有情痴，此恨不关风与月。'] },
+						{ title: '采桑子', paragraphs: ['轻舟短棹西湖好，绿水逶迤。', '芳草长堤，隐隐笙歌处处随。'] }
+					],
+					'晏几道': [
+						{ title: '鹧鸪天', paragraphs: ['彩袖殷勤捧玉钟，当年拚却醉颜红。', '舞低杨柳楼心月，歌尽桃花扇影风。'] },
+						{ title: '临江仙', paragraphs: ['梦后楼台高锁，酒醒帘幕低垂。', '去年春恨却来时。落花人独立，微雨燕双飞。'] },
+						{ title: '浣溪沙', paragraphs: ['斜日西斜影晚寒，古台空对月初圆。', '谁知此夜杯中咏，不是欢娱是惆怅。'] }
+					],
+					'晏殊': [
+						{ title: '浣溪沙', paragraphs: ['一曲新词酒一杯，去年天气旧亭台。', '夕阳西下几时回？无可奈何花落去，似曾相识燕归来。'] },
+						{ title: '破阵子', paragraphs: ['燕子来时新社，梨花落后清明。', '池上碧苔三四点，叶底黄鹂一两声。'] },
+						{ title: '踏莎行', paragraphs: ['小径红稀，芳郊绿遍，高台树密阴阴见。', '春风不解禁杨花，蒙蒙乱扑行人面。'] },
+						{ title: '山亭柳', paragraphs: ['山亭柳，烟外两三家。', '朱户闲窗无一字，旧山河。'] }
+					],
+					'柳永': [
+						{ title: '雨霖铃', paragraphs: ['寒蝉凄切，对长亭晚。', '都门帐饮无绪，留恋处、兰舟催发。'] },
+						{ title: '凤栖梧', paragraphs: ['衣带渐宽终不悔，为伊消得人憔悴。', '众里寻他千百度，蓦然回首，那人却在灯火阑珊处。'] },
+						{ title: '望海潮', paragraphs: ['东南形胜，三吴都会，钱塘自古繁华。', '烟柳画桥，风帘翠幕，参差十万人家。'] },
+						{ title: '长相思', paragraphs: ['长相思，在长安。', '络角弦歌，烟火画楼前。'] }
+					],
+					'秦观': [
+						{ title: '鹊桥仙', paragraphs: ['纤云弄巧，飞星传恨，银汉迢迢暗度。', '金风玉露一相逢，便胜却人间无数。'] },
+						{ title: '踏莎行', paragraphs: ['郴州旅舍，暮暮朝朝。', '雨霖铃序写，月溪亭柳老。'] },
+						{ title: '满庭芳', paragraphs: ['山抹微云，天连衰草，画角声断谯门。', '暂驻征帆，喫紧催程，夜深harbor。'] },
+						{ title: '风入松', paragraphs: ['一轮秋影转金波，飞镜又重磨。', '昨宵梦里，渡江南浦，翻身又北辕。'] }
+					]
 				};
-				relationChart.setOption(relationOpt);
+			}();
+			
+			//初始化echarts实例
+			const relationChart = echarts.init(document.getElementById("relationChart"));
+			
+			// 诗词关系图数据
+			const poemRelationData = {
+				categories: [
+					{ name: '诗词分类', itemStyle: { normal: { color: '#f2637b' } } },
+					{ name: '经典作品集', itemStyle: { normal: { color: '#eaa674' } } },
+					{ name: '唐代诗人', itemStyle: { normal: { color: '#3aa1ff' } } },
+					{ name: '宋代词人', itemStyle: { normal: { color: '#4ecb73' } } },
+					{ name: '代表诗词', itemStyle: { normal: { color: '#ffd700' } } }
+				],
+				nodes: [
+					// 分类节点（第一层）
+					{ name: '全唐诗', category: 0, symbolSize: 50, draggable: true },
+					{ name: '宋词', category: 0, symbolSize: 50, draggable: true },
+					{ name: '元曲', category: 0, symbolSize: 50, draggable: true },
+					{ name: '五代诗词', category: 0, symbolSize: 50, draggable: true },
+					{ name: '四书五经', category: 0, symbolSize: 50, draggable: true },
+					{ name: '诗经', category: 0, symbolSize: 50, draggable: true },
+					
+					// 集合节点（第二层）
+					{ name: '唐诗三百首', category: 1, symbolSize: 35, draggable: true },
+					{ name: '宋词精选', category: 1, symbolSize: 35, draggable: true },
+					{ name: '初唐诗人', category: 1, symbolSize: 32, draggable: true },
+					{ name: '盛唐诗人', category: 1, symbolSize: 32, draggable: true },
+					{ name: '中唐诗人', category: 1, symbolSize: 32, draggable: true },
+					{ name: '晚唐诗人', category: 1, symbolSize: 32, draggable: true },
+					{ name: '北宋词人', category: 1, symbolSize: 32, draggable: true },
+					
+					// 唐代诗人（第三层）
+					{ name: '李白', category: 2, symbolSize: 40, draggable: true },
+					{ name: '杜甫', category: 2, symbolSize: 40, draggable: true },
+					{ name: '王维', category: 2, symbolSize: 40, draggable: true },
+					{ name: '白居易', category: 2, symbolSize: 40, draggable: true },
+					{ name: '孟浩然', category: 2, symbolSize: 35, draggable: true },
+					{ name: '常建', category: 2, symbolSize: 35, draggable: true },
+					{ name: '崔颢', category: 2, symbolSize: 35, draggable: true },
+					{ name: '张继', category: 2, symbolSize: 35, draggable: true },
+					{ name: '贾岛', category: 2, symbolSize: 35, draggable: true },
+					{ name: '李商隐', category: 2, symbolSize: 40, draggable: true },
+					{ name: '柳宗元', category: 2, symbolSize: 35, draggable: true },
+					
+					// 宋代词人（第三层）
+					{ name: '苏轼', category: 3, symbolSize: 40, draggable: true },
+					{ name: '李清照', category: 3, symbolSize: 40, draggable: true },
+					{ name: '欧阳修', category: 3, symbolSize: 35, draggable: true },
+					{ name: '晏殊', category: 3, symbolSize: 35, draggable: true },
+					{ name: '晏几道', category: 3, symbolSize: 35, draggable: true },
+					{ name: '柳永', category: 3, symbolSize: 35, draggable: true },
+					{ name: '秦观', category: 3, symbolSize: 35, draggable: true },
+					
+					// 代表作品（第四层）
+					{ name: '将进酒', category: 4, symbolSize: 25, draggable: true },
+					{ name: '蜀道难', category: 4, symbolSize: 25, draggable: true },
+					{ name: '月下独酌', category: 4, symbolSize: 25, draggable: true },
+					{ name: '春夜喜雨', category: 4, symbolSize: 25, draggable: true },
+					{ name: '望岳', category: 4, symbolSize: 25, draggable: true },
+					{ name: '登高', category: 4, symbolSize: 25, draggable: true },
+					{ name: '山居秋暝', category: 4, symbolSize: 25, draggable: true },
+					{ name: '使至塞上', category: 4, symbolSize: 25, draggable: true },
+					{ name: '望月怀远', category: 4, symbolSize: 25, draggable: true },
+					{ name: '长恨歌', category: 4, symbolSize: 25, draggable: true },
+					{ name: '琵琶行', category: 4, symbolSize: 25, draggable: true },
+					{ name: '春晓', category: 4, symbolSize: 25, draggable: true },
+					{ name: '黄鹤楼', category: 4, symbolSize: 25, draggable: true },
+					{ name: '枫桥夜泊', category: 4, symbolSize: 25, draggable: true },
+					{ name: '锦瑟', category: 4, symbolSize: 25, draggable: true },
+					{ name: '江雪', category: 4, symbolSize: 25, draggable: true },
+					{ name: '念奴娇', category: 4, symbolSize: 25, draggable: true },
+					{ name: '声声慢', category: 4, symbolSize: 25, draggable: true },
+					{ name: '鹧鸪天', category: 4, symbolSize: 25, draggable: true },
+					{ name: '浣溪沙', category: 4, symbolSize: 25, draggable: true }
+				],
+				links: [
+					// === 分类到集合 ===
+					{ source: '全唐诗', target: '唐诗三百首', value: '精选' },
+					{ source: '全唐诗', target: '初唐诗人', value: '收录' },
+					{ source: '全唐诗', target: '盛唐诗人', value: '收录' },
+					{ source: '全唐诗', target: '中唐诗人', value: '收录' },
+					{ source: '全唐诗', target: '晚唐诗人', value: '收录' },
+					{ source: '宋词', target: '宋词精选', value: '精选' },
+					{ source: '宋词', target: '北宋词人', value: '收录' },
+					
+					// === 集合到诗人 ===
+					// 盛唐诗人（最璀璨的时代）
+					{ source: '盛唐诗人', target: '李白', value: '诗仙' },
+					{ source: '盛唐诗人', target: '王维', value: '诗佛' },
+					{ source: '唐诗三百首', target: '李白', value: '代表' },
+					{ source: '唐诗三百首', target: '杜甫', value: '代表' },
+					{ source: '唐诗三百首', target: '王维', value: '代表' },
+					
+					// 中唐诗人
+					{ source: '中唐诗人', target: '白居易', value: '诗魔' },
+					{ source: '中唐诗人', target: '李商隐', value: '鬼才' },
+					{ source: '中唐诗人', target: '柳宗元', value: '诗人' },
+					
+					// 初唐诗人
+					{ source: '初唐诗人', target: '孟浩然', value: '诗人' },
+					
+					// 晚唐诗人
+					{ source: '晚唐诗人', target: '张继', value: '诗人' },
+					{ source: '晚唐诗人', target: '贾岛', value: '苦吟' },
+					{ source: '晚唐诗人', target: '崔颢', value: '诗人' },
+					{ source: '晚唐诗人', target: '常建', value: '诗人' },
+					
+					// 宋代词人
+					{ source: '北宋词人', target: '苏轼', value: '豪放派' },
+					{ source: '北宋词人', target: '李清照', value: '婉约派' },
+					{ source: '北宋词人', target: '欧阳修', value: '文豪' },
+					{ source: '北宋词人', target: '晏殊', value: '词人' },
+					{ source: '北宋词人', target: '晏几道', value: '词人' },
+					{ source: '北宋词人', target: '柳永', value: '词人' },
+					{ source: '北宋词人', target: '秦观', value: '词人' },
+					{ source: '宋词精选', target: '苏轼', value: '豪放' },
+					{ source: '宋词精选', target: '李清照', value: '婉约' },
+					
+					// === 诗人到代表作 ===
+					// 李白
+					{ source: '李白', target: '将进酒', value: '名作' },
+					{ source: '李白', target: '蜀道难', value: '名作' },
+					{ source: '李白', target: '月下独酌', value: '名作' },
+					
+					// 杜甫
+					{ source: '杜甫', target: '春夜喜雨', value: '名作' },
+					{ source: '杜甫', target: '望岳', value: '名作' },
+					{ source: '杜甫', target: '登高', value: '名作' },
+					
+					// 王维
+					{ source: '王维', target: '山居秋暝', value: '名作' },
+					{ source: '王维', target: '使至塞上', value: '名作' },
+					{ source: '王维', target: '望月怀远', value: '名作' },
+					
+					// 白居易
+					{ source: '白居易', target: '长恨歌', value: '名作' },
+					{ source: '白居易', target: '琵琶行', value: '名作' },
+					
+					// 孟浩然
+					{ source: '孟浩然', target: '春晓', value: '名作' },
+					
+					// 张继
+					{ source: '张继', target: '枫桥夜泊', value: '名作' },
+					
+					// 崔颢
+					{ source: '崔颢', target: '黄鹤楼', value: '名作' },
+					
+					// 李商隐
+					{ source: '李商隐', target: '锦瑟', value: '名作' },
+					
+					// 柳宗元
+					{ source: '柳宗元', target: '江雪', value: '名作' },
+					
+					// 苏轼
+					{ source: '苏轼', target: '念奴娇', value: '豪放' },
+					
+					// 李清照
+					{ source: '李清照', target: '声声慢', value: '婉约' },
+					
+					// 欧阳修
+					{ source: '欧阳修', target: '浣溪沙', value: '名作' },
+					
+					// 晏几道
+					{ source: '晏几道', target: '鹧鸪天', value: '名作' },
+					
+					// === 诗人间关系 ===
+					// 同代关系
+					{ source: '李白', target: '杜甫', value: '同代' },
+					{ source: '王维', target: '孟浩然', value: '同代' },
+					{ source: '白居易', target: '李商隐', value: '不同代但相关' },
+					{ source: '张继', target: '贾岛', value: '晚唐' },
+					{ source: '苏轼', target: '欧阳修', value: '传承' },
+					{ source: '李清照', target: '晏几道', value: '同代' },
+					
+					// 影响关系
+					{ source: '杜甫', target: '李商隐', value: '影响' },
+					{ source: '王维', target: '柳宗元', value: '影响' }
+				]
+			};
+
+			const relationOpt = {
+			    animationDurationUpdate: 1500,
+			    animationEasingUpdate: 'quinticInOut',
+			    label: {
+			        normal: {
+			            show: true,
+			            textStyle: {
+			                fontSize: 12,
+			                color: '#d8e9ff'
+			            }
+			        }
+			    },
+			    series: [{
+		            type: 'graph',
+		            symbolSize: 45,
+		            focusNodeAdjacency: true,
+		            roam: true,
+		            layout: 'force',
+		            force: {
+		                repulsion: 350,
+		                friction: 0.8,
+		                gravity: 0.2
+		            },
+		            label: {
+		                normal: {
+		                    show: true,
+		                    textStyle: {
+		                        fontSize: 12,
+		                        color: '#d8e9ff',
+		                        fontFamily: 'STKaiti, serif'
+		                    },
+		                }
+		            },
+		            edgeSymbolSize: [4, 50],
+		            edgeLabel: {
+		                normal: {
+		                    show: true,
+		                    textStyle: {
+		                        fontSize: 9,
+		                        color: '#7ecfff'
+		                    },
+		                    formatter: "{c}"
+		                }
+		            },
+		            categories: poemRelationData.categories,
+		            data: poemRelationData.nodes,
+		            links: poemRelationData.links,
+		            lineStyle: {
+		                normal: {
+		                    opacity: 0.6,
+		                    width: 2,
+		                    curveness: 0.3,
+		                    color: 'rgba(126, 207, 255, 0.4)'
+		                }
+		            }
+			    }]
+			};
+
+			relationChart.setOption(relationOpt);
+			
+			// 诗词节点详细数据
+			const poemNodeDetails = {
+				'全唐诗': {
+					type: '分类',
+					desc: '唐代诗歌总汇，收录唐代约2300位诗人的近50000首诗歌，是现存最完整的诗歌典范。',
+					period: '唐代（618-907年）',
+					highlight: '中国诗歌的黄金时代'
+				},
+				'宋词': {
+					type: '分类',
+					desc: '宋代词的统称，词是比较自由的文学体裁，格律比诗灵活，内容更加丰富深刻。',
+					period: '宋代（960-1279年）',
+					highlight: '词的成熟与繁荣时期'
+				},
+				'元曲': {
+					type: '分类',
+					desc: '元代的戏曲艺术形式，包括散曲和杂剧，是中国戏曲的重要发展阶段。',
+					period: '元代（1271-1368年）',
+					highlight: '中国戏曲艺术的高峰'
+				},
+				'五代诗词': {
+					type: '分类',
+					desc: '五代十国时期的诗词作品，风格多样，题材广泛，展现了那个时代的社会风貌。',
+					period: '五代（907-960年）',
+					highlight: '诗词形式的过渡时期'
+				},
+				'四书五经': {
+					type: '分类',
+					desc: '儒家经典著作，包括《大学》《中庸》《论语》《孟子》等，是中国古代文化的重要基石。',
+					period: '春秋战国～汉代整理',
+					highlight: '中国古代文化的经典'
+				},
+				'诗经': {
+					type: '分类',
+					desc: '中国最古老的诗歌总集，收录了西周至春秋中期的诗歌305首（或311首），分为风、雅、颂三部分。',
+					period: '西周～春秋（约1000-600年前）',
+					highlight: '现存最早的诗歌总集'
+				},
+				'李白': {
+					type: '诗人',
+					birth: '701年',
+					death: '762年',
+					desc: '唐代伟大诗人，被誉为"诗仙"。其诗气势磅礴，想象丰富，具有强烈的浪漫主义色彩。',
+					works: '现存诗歌900余首',
+					style: '豪放、奔放、富有想象力'
+				},
+				'杜甫': {
+					type: '诗人',
+					birth: '712年',
+					death: '770年',
+					desc: '唐代伟大诗人，被尊为"诗圣"。其诗风格多样，道德精深，涉及社会现实。',
+					works: '现存诗歌1400余首',
+					style: '沉郁、深刻、现实主义精神'
+				},
+				'王维': {
+					type: '诗人',
+					birth: '701年',
+					death: '761年',
+					desc: '唐代诗人、画家、音乐家。诗歌以山水田园著称，意境深远，禅意明显。',
+					works: '现存诗歌400余首',
+					style: '诗情画意，禅理融合'
+				},
+				'白居易': {
+					type: '诗人',
+					birth: '772年',
+					death: '846年',
+					desc: '唐代著名诗人，被誉为"诗魔"。其诗通俗易懂，内容丰富，社会意义深刻。',
+					works: '现存诗歌2800余首',
+					style: '通俗、生动、富有讽刺意义'
+				},
+				'苏轼': {
+					type: '诗人',
+					birth: '1037年',
+					death: '1101年',
+					desc: '北宋文学巨匠，诗词双绝。词风豪放苍凉，诗歌高妙，散文大气磅礴。',
+					works: '诗词传世最多的宋代文人',
+					style: '豪放、创新、多才多艺'
+				},
+				'李清照': {
+					type: '诗人',
+					birth: '1084年',
+					death: '1155年',
+					desc: '宋代女性文学家，被誉为"词坛第一人"。其词风婉约细腻，充满艺术感染力。',
+					works: '词作传世最多的女性词人',
+					style: '婉约、细腻、独特的女性视角'
+				},
+				'将进酒': {
+					type: '作品',
+					author: '李白',
+					period: '唐代',
+					desc: '李白最著名的诗歌之一，表现了诗人的豪放不羁的精神境界和对人生的独特见解。',
+					theme: '人生哲学、豪迈气概',
+					fame: '中国古代最著名的诗歌之一'
+				},
+				'望月怀远': {
+					type: '作品',
+					author: '王维',
+					period: '唐代',
+					desc: '水调歌头，抒写了诗人对故人的思念之情和对人生的感悟。',
+					theme: '思乡、离愁、人生感悟',
+					fame: '五言古诗的佳作'
+				},
+				'春夜喜雨': {
+					type: '作品',
+					author: '杜甫',
+					period: '唐代',
+					desc: '描写春雨的诗歌，表现了诗人对大自然的热爱和对农业生产的关切。',
+					theme: '春雨、农业、自然',
+					fame: '唐诗咏物诗的典范'
+				},
+				'人月圆': {
+					type: '作品',
+					author: '苏轼',
+					period: '北宋',
+					desc: '缅怀苏轼遭贬期间所作，表现了诗人的人生感悟和对人伦的思索。',
+					theme: '人生哲思、月夜遐想',
+					fame: '宋词豪放派的代表作'
+				},
+				'念奴娇': {
+					type: '作品',
+					author: '苏轼',
+					period: '北宋',
+					desc: '现存最著名的豪放派词作，表现了诗人的旷达心境和历史使命观念。',
+					theme: '历史感怀、人生哲学',
+					fame: '宋词的最高成就之一'
+				},
+				'声声慢': {
+					type: '作品',
+					author: '李清照',
+					period: '北宋',
+					desc: '李清照最著名的词作之一，以"寻寻觅觅"开篇，表现了词人的孤独和悲哀。',
+					theme: '忧伤、孤独、时光流逝',
+					fame: '宋词婉约派的巨作'
+				},
+				'孟浩然': {
+					type: '诗人',
+					birth: '689年',
+					death: '740年',
+					desc: '初唐著名诗人，以山水、田园诗著称。与王维齐名，"诗中有画，画中有诗"。',
+					works: '现存诗歌260余首',
+					style: '田园诗、清新自然、闲适淡雅'
+				},
+				'常建': {
+					type: '诗人',
+					birth: '？',
+					death: '？',
+					desc: '盛唐诗人，以禅意诗歌著称。作品题材多为山水、寺庙等。',
+					works: '现存诗歌50余首',
+					style: '禅意、幽寂、意境深远'
+				},
+				'崔颢': {
+					type: '诗人',
+					birth: '？',
+					death: '754年',
+					desc: '盛唐诗人，代表作《黄鹤楼》被称为唐诗中的完美之作。',
+					works: '现存诗歌40余首',
+					style: '壮阔豪放、意象丰富'
+				},
+				'张继': {
+					type: '诗人',
+					birth: '？',
+					death: '？',
+					desc: '唐代诗人，以《枫桥夜泊》闻名。诗风朴素自然，意境高远。',
+					works: '现存诗歌56首',
+					style: '朴素、深邃、富有哲思'
+				},
+				'贾岛': {
+					type: '诗人',
+					birth: '779年',
+					death: '843年',
+					desc: '中唐诗人，以苦吟著称。追求诗歌的精妙和精艺。',
+					works: '现存诗歌400首',
+					style: '精巧、深沉、独具一格'
+				},
+				'李商隐': {
+					type: '诗人',
+					birth: '813年',
+					death: '858年',
+					desc: '晚唐杰出诗人，诗风唯美精细。善于运用比喻和象征手法，被称为"鬼才"。',
+					works: '现存诗歌600余首',
+					style: '唯美、隐喻、空灵神秘'
+				},
+				'柳宗元': {
+					type: '诗人',
+					birth: '773年',
+					death: '819年',
+					desc: '中唐重要诗人、散文家。以山水诗和寓言诗著称，意境高远。',
+					works: '现存诗歌300余首',
+					style: '清冷、洗练、意蕴深刻'
+				},
+				'欧阳修': {
+					type: '诗人',
+					birth: '1007年',
+					death: '1072年',
+					desc: '北宋文学家、政治家。文学成就杰出，诗词散文俱佳。',
+					works: '诗词散文传世最丰富的宋代文人',
+					style: '古文家、词人、诗人兼备'
+				},
+				'晏殊': {
+					type: '诗人',
+					birth: '991年',
+					death: '1055年',
+					desc: '北宋政治家、文人。词风婉约细致，被列为北宋词坛最重要的词人。',
+					works: '词作130多首',
+					style: '婉约、清丽、情致缠绵'
+				},
+				'晏几道': {
+					type: '诗人',
+					birth: '1030年',
+					death: '1106年',
+					desc: '北宋词人，晏殊之子。词风委婉清丽，富有情趣。',
+					works: '词作300首',
+					style: '婉约、细腻、流畅动人'
+				},
+				'柳永': {
+					type: '诗人',
+					birth: '987年',
+					death: '1053年',
+					desc: '北宋词人，北宋词坛的领军人物之一。善于创作慢词，展现了词的表现力。',
+					works: '词作200多首',
+					style: '豪放、通俗、感染力强'
+				},
+				'秦观': {
+					type: '诗人',
+					birth: '1049年',
+					death: '1100年',
+					desc: '北宋词人、文人。词风婉约，作品富有感人的力量。',
+					works: '词作300多首',
+					style: '婉约、清新、抒情性强'
+				},
+				'蜀道难': {
+					type: '作品',
+					author: '李白',
+					period: '唐代',
+					desc: '李白的代表作，运用夸张、象征等手法，表现蜀道的险恶。',
+					theme: '壮阔、险恶、人生困难',
+					fame: '唐诗中的奇葩之作'
+				},
+				'月下独酌': {
+					type: '作品',
+					author: '李白',
+					period: '唐代',
+					desc: '李白的名作，以月为友、影为伴，表现了诗人的孤独与浪漫情趣。',
+					theme: '孤独、浪漫、自在',
+					fame: '唐诗中的浪漫经典'
+				},
+				'望岳': {
+					type: '作品',
+					author: '杜甫',
+					period: '唐代',
+					desc: '表现诗人抱负远大的作品。以泰山为象征，寄托了诗人的人生理想。',
+					theme: '壮志凌云、不畏险阻',
+					fame: '唐诗中的励志佳作'
+				},
+				'登高': {
+					type: '作品',
+					author: '杜甫',
+					period: '唐代',
+					desc: '杜甫晚年的代表作，表现了诗人的悲壮与感伤。被誉为"诗中之圣"。',
+					theme: '悲壮、沧桑、人生感悟',
+					fame: '唐诗中的最高成就之一'
+				},
+				'山居秋暝': {
+					type: '作品',
+					author: '王维',
+					period: '唐代',
+					desc: '王维最著名的山水诗，表现了诗人对自然的感悟与禅意境界。',
+					theme: '山水、自然、宁静致远',
+					fame: '唐诗田园山水诗的杰作'
+				},
+				'使至塞上': {
+					type: '作品',
+					author: '王维',
+					period: '唐代',
+					desc: '王维的边塞诗名作，展现了大漠的雄浑与壮美。',
+					theme: '边塞、大漠、孤独伟大',
+					fame: '唐诗边塞诗的上乘之作'
+				},
+				'望月怀远': {
+					type: '作品',
+					author: '王维',
+					period: '唐代',
+					desc: '五言古诗的上乘之作，表现了诗人对远方友人的思念。',
+					theme: '怀人、思乡、离愁别绪',
+					fame: '唐诗中的感人佳作'
+				},
+				'长恨歌': {
+					type: '作品',
+					author: '白居易',
+					period: '唐代',
+					desc: '白居易最重要的长诗，叙述了唐玄宗与杨贵妃的爱情故事。',
+					theme: '爱情、悲剧、历史',
+					fame: '唐诗中的宏篇巨制'
+				},
+				'琵琶行': {
+					type: '作品',
+					author: '白居易',
+					period: '唐代',
+					desc: '白居易的代表作，通过琵琶女的遭遇表现社会现实。',
+					theme: '琵琶、音乐、社会悲剧',
+					fame: '唐诗中的艺术瑰宝'
+				},
+				'春晓': {
+					type: '作品',
+					author: '孟浩然',
+					period: '唐代',
+					desc: '孟浩然最著名的诗歌，以简洁的语言表现了春晓的美景。',
+					theme: '春天、自然、美好',
+					fame: '唐诗中最著名的启蒙诗歌'
+				},
+				'黄鹤楼': {
+					type: '作品',
+					author: '崔颢',
+					period: '唐代',
+					desc: '被誉为唐诗中最完美的作品，风格壮阔，意象丰富。',
+					theme: '古迹、怀古、江山壮美',
+					fame: '唐诗之王'
+				},
+				'枫桥夜泊': {
+					type: '作品',
+					author: '张继',
+					period: '唐代',
+					desc: '张继最著名的诗歌，以月夜枫桥为背景，表现诗人的悲凉情绪。',
+					theme: '夜景、孤独、乡愁',
+					fame: '唐诗中的经典夜景诗'
+				},
+				'锦瑟': {
+					type: '作品',
+					author: '李商隐',
+					period: '唐代',
+					desc: '李商隐的代表作，含义深邃，意象繁复，是唐诗中最神秘的作品之一。',
+					theme: '音乐、人生、哲学',
+					fame: '唐诗中最神秘的杰作'
+				},
+				'江雪': {
+					type: '作品',
+					author: '柳宗元',
+					period: '唐代',
+					desc: '柳宗元的著名诗歌，以简洁的画面表现了诗人的内心世界。',
+					theme: '雪景、孤独、清廉',
+					fame: '唐诗中最洗练的小诗'
+				},
+				'念奴娇': {
+					type: '作品',
+					author: '苏轼',
+					period: '北宋',
+					desc: '苏轼最著名的词作，题为《赤壁怀古》，展现了豪放派词风的最高成就。',
+					theme: '历史、豪杰、人生',
+					fame: '宋词中的最高峰'
+				},
+				'声声慢': {
+					type: '作品',
+					author: '李清照',
+					period: '北宋',
+					desc: '李清照最著名的词作，以"寻寻觅觅"开篇，表现了词人的孤独和悲哀。',
+					theme: '忧伤、孤独、时光流逝',
+					fame: '宋词婉约派的巨作'
+				},
+				'鹧鸪天': {
+					type: '作品',
+					author: '晏几道',
+					period: '北宋',
+					desc: '晏几道的代表词作，以委婉的语言表现了青春的美好与人生的感伤。',
+					theme: '青春、爱情、感伤',
+					fame: '宋词中的精巧之作'
+				},
+				'浣溪沙': {
+					type: '作品',
+					author: '欧阳修',
+					period: '北宋',
+					desc: '欧阳修的代表词作，表现了光阴流逝与人生感悟。',
+					theme: '时光、感伤、无常',
+					fame: '宋词中的经典之作'
+				}
+			};
+			
+			// 添加点击事件展示诗词详情
+			relationChart.on('click', function(params) {
+				if (params.dataType === 'node') {
+					var nodeName = params.name;
+					var nodeInfo = poemNodeDetails[nodeName] || { type: '未知', desc: '暂无详细信息' };
+					showPoemNodeInfo(nodeName, nodeInfo);
+				}
+			});
+			
+			// 显示诗词节点信息的函数
+			function showPoemNodeInfo(nodeName, nodeInfo) {
+				// 如果是诗人，显示诗人及其作品列表
+				if (nodeInfo.type === '诗人') {
+					showPoemNodeInfo_Poet(nodeName, nodeInfo);
+					return;
+				}
+				
+				var html = '<div style="padding:20px; color:#d8e9ff; font-family:STKaiti, serif;">';
+				html += '<h3 style="color:#7ecfff; font-size:24px; margin:0 0 10px 0; border-bottom:2px solid #3aa1ff; padding-bottom:8px;">' + nodeName + '</h3>';
+				
+				if (nodeInfo.type) {
+					html += '<div style="color:#a8c5e0; font-size:12px; margin-bottom:8px;"><strong style="color:#5dc2fe;">【' + nodeInfo.type + '】</strong></div>';
+				}
+				
+				if (nodeInfo.desc) {
+					html += '<div style="margin:8px 0; line-height:1.6; font-size:13px; text-align:justify;">' + nodeInfo.desc + '</div>';
+				}
+				
+				if (nodeInfo.period) {
+					html += '<div style="margin:8px 0; color:#b8d8ff;"><strong style="color:#7ecfff;">时期：</strong>' + nodeInfo.period + '</div>';
+				}
+				if (nodeInfo.birth) {
+					html += '<div style="margin:4px 0; color:#b8d8ff;"><strong style="color:#7ecfff;">生年：</strong>' + nodeInfo.birth + '</div>';
+				}
+				if (nodeInfo.death) {
+					html += '<div style="margin:4px 0; color:#b8d8ff;"><strong style="color:#7ecfff;">卒年：</strong>' + nodeInfo.death + '</div>';
+				}
+				if (nodeInfo.works) {
+					html += '<div style="margin:4px 0; color:#b8d8ff;"><strong style="color:#7ecfff;">佳作：</strong>' + nodeInfo.works + '</div>';
+				}
+				if (nodeInfo.style) {
+					html += '<div style="margin:4px 0; color:#b8d8ff;"><strong style="color:#7ecfff;">风格：</strong>' + nodeInfo.style + '</div>';
+				}
+				if (nodeInfo.theme) {
+					html += '<div style="margin:4px 0; color:#b8d8ff;"><strong style="color:#7ecfff;">主题：</strong>' + nodeInfo.theme + '</div>';
+				}
+				if (nodeInfo.author) {
+					html += '<div style="margin:4px 0; color:#b8d8ff;"><strong style="color:#7ecfff;">作者：</strong>' + nodeInfo.author + '</div>';
+				}
+				if (nodeInfo.fame) {
+					html += '<div style="margin:8px 0 0 0; color:#eaa674; font-style:italic;"><strong>★</strong>' + nodeInfo.fame + '</div>';
+				}
+				if (nodeInfo.highlight) {
+					html += '<div style="margin:8px 0 0 0; padding:8px; background:rgba(126,207,255,0.15); border-left:3px solid #3aa1ff; color:#7ecfff; font-size:12px;">' + nodeInfo.highlight + '</div>';
+				}
+				
+				html += '</div>';
+				
+				showPoemNodeModal(html);
+			}
+			
+			// 显示诗人节点和其作品列表
+			function showPoemNodeInfo_Poet(poetName, poetInfo) {
+				var poems = window.poetryDatabase.poets[poetName] || [];
+				
+				var html = '<div style="padding:20px; color:#d8e9ff; font-family:STKaiti, serif;">';
+				html += '<h3 style="color:#7ecfff; font-size:24px; margin:0 0 10px 0; border-bottom:2px solid #3aa1ff; padding-bottom:8px;">' + poetName + '</h3>';
+				html += '<div style="color:#a8c5e0; font-size:12px; margin-bottom:8px;"><strong style="color:#5dc2fe;">【' + poetInfo.type + '】</strong></div>';
+				html += '<div style="margin:8px 0; line-height:1.6; font-size:13px; text-align:justify;">' + poetInfo.desc + '</div>';
+				
+				if (poetInfo.birth) {
+					html += '<div style="margin:4px 0; color:#b8d8ff;"><strong style="color:#7ecfff;">生年：</strong>' + poetInfo.birth + '</div>';
+				}
+				if (poetInfo.death) {
+					html += '<div style="margin:4px 0; color:#b8d8ff;"><strong style="color:#7ecfff;">卒年：</strong>' + poetInfo.death + '</div>';
+				}
+				if (poetInfo.style) {
+					html += '<div style="margin:4px 0; color:#b8d8ff;"><strong style="color:#7ecfff;">风格：</strong>' + poetInfo.style + '</div>';
+				}
+				
+				html += '<div style="margin:16px 0 0 0; color:#5dc2fe;"><strong>代表作品（' + poems.length + '首）</strong></div>';
+				html += '<div style="margin:8px 0 0 0; display:flex; flex-wrap:wrap; gap:6px;">';
+				
+				poems.forEach(function(poem, idx) {
+					html += '<button data-poem-idx="' + idx + '" onclick="showPoemDetail(\'' + escHtml(poetName) + '\', ' + idx + ')" style="padding:6px 10px; background:rgba(58,161,255,0.2); border:1px solid rgba(93,194,254,0.5); border-radius:4px; color:#7ecfff; cursor:pointer; font-size:11px; font-family:STKaiti, serif; transition:all 0.2s;">' + escHtml(poem.title) + '</button>';
+				});
+				
+				html += '</div></div>';
+				
+				showPoemNodeModal(html);
+			}
+			
+			// 显示诗词详细内容
+			window.showPoemDetail = function(poetName, poemIdx) {
+				var poems = window.poetryDatabase.poets[poetName] || [];
+				if (!poems[poemIdx]) return;
+				
+				var poem = poems[poemIdx];
+				var html = '<div style="padding:20px; color:#d8e9ff; font-family:STKaiti, serif;">';
+				html += '<h3 style="color:#7ecfff; font-size:20px; margin:0 0 4px 0; border-bottom:2px solid #3aa1ff; padding-bottom:8px;">' + escHtml(poem.title) + '</h3>';
+				html += '<div style="color:#a8c5e0; font-size:11px; margin-bottom:12px;"><strong>作者：</strong>' + escHtml(poetName) + '</div>';
+				
+				html += '<div style="margin:12px 0; line-height:2.2; font-size:13px; text-align:center; white-space:pre-wrap;">';
+				poem.paragraphs.forEach(function(para) {
+					html += escHtml(para) + '\n';
+				});
+				html += '</div>';
+				
+				html += '<div style="margin:12px 0 0 0; padding-top:12px; border-top:1px solid rgba(93,194,254,0.2);"><button onclick="showPoemNodeInfo(\'' + escHtml(poetName) + '\', window.poemNodeDetails[\'' + escHtml(poetName) + '\'])" style="padding:6px 12px; background:rgba(126,207,255,0.2); border:1px solid rgba(126,207,255,0.4); border-radius:4px; color:#7ecfff; cursor:pointer; font-size:11px; font-family:STKaiti, serif; transition:all 0.2s;">← 返回作品列表</button></div>';
+				
+				html += '</div>';
+				
+				showPoemNodeModal(html);
+			};
+			
+			// 显示弹窗
+			function showPoemNodeModal(html) {
+				// 创建modal进行显示
+				var modal = document.getElementById('poemNodeInfoModal');
+				if (!modal) {
+					modal = document.createElement('div');
+					modal.id = 'poemNodeInfoModal';
+					modal.style.cssText = 'position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.8); display:flex; align-items:center; justify-content:center; z-index:9999; animation:fadeIn 0.3s ease-out;';
+					document.body.appendChild(modal);
+				}
+				
+				var content = modal.querySelector('.node-info-content');
+				if (!content) {
+					content = document.createElement('div');
+					content.className = 'node-info-content';
+					content.style.cssText = 'position:relative; background:rgba(8,27,58,0.95); border:2px solid #3aa1ff; border-radius:12px; box-shadow:0 0 30px rgba(58,161,255,0.3); max-width:520px; max-height:75vh; overflow-y:auto; animation:slideUp 0.3s ease-out;';
+					modal.appendChild(content);
+					
+					// 添加关闭按钮
+					var closeBtn = document.createElement('button');
+					closeBtn.innerHTML = '✕';
+					closeBtn.style.cssText = 'position:absolute; top:10px; right:10px; width:30px; height:30px; border:1px solid #7ecfff; border-radius:50%; background:transparent; color:#7ecfff; cursor:pointer; font-size:18px; transition:all 0.2s; z-index:10;';
+					closeBtn.onmouseover = function() { this.style.background = 'rgba(126,207,255,0.2)'; };
+					closeBtn.onmouseout = function() { this.style.background = 'transparent'; };
+					closeBtn.onclick = function() { modal.style.display = 'none'; };
+					content.appendChild(closeBtn);
+				}
+				
+				// 更新内容
+				var infoDiv = content.querySelector('.node-info-text');
+				if (!infoDiv) {
+					infoDiv = document.createElement('div');
+					infoDiv.className = 'node-info-text';
+					content.appendChild(infoDiv);
+				}
+				infoDiv.innerHTML = html;
+				
+				modal.style.display = 'flex';
+				
+				// 点击背景关闭
+				modal.onclick = function(e) {
+					if (e.target === modal) {
+						modal.style.display = 'none';
+					}
+				};
+			}
+			
+			// 添加样式
+			if (!document.getElementById('poemNodeInfoStyle')) {
+				var style = document.createElement('style');
+				style.id = 'poemNodeInfoStyle';
+				style.innerHTML = `
+					@keyframes fadeIn {
+						from { opacity: 0; }
+						to { opacity: 1; }
+					}
+					@keyframes slideUp {
+						from { transform: translateY(30px); opacity: 0; }
+						to { transform: translateY(0); opacity: 1; }
+					}
+					.node-info-content::-webkit-scrollbar {
+						width: 6px;
+					}
+					.node-info-content::-webkit-scrollbar-thumb {
+						background: rgba(126, 207, 255, 0.4);
+						border-radius: 3px;
+					}
+					.node-info-content::-webkit-scrollbar-track {
+						background: rgba(68, 102, 142, 0.2);
+						border-radius: 3px;
+					}
+				`;
+				document.head.appendChild(style);
+			}
 				
 				/*************** 水球 **************/
 				//https://github.com/ecomfe/echarts-liquidfill
@@ -1497,7 +2524,6 @@
 				// 根据天气数据动态生成水球配置
 				(function() {
 					var ballEl = document.getElementById('ballChart');
-					var weather = window.NEWSFLOW_WEATHER || null;
 
 					function hasValue(v) {
 						return v !== null && v !== undefined && v !== '';
@@ -1564,174 +2590,389 @@
 						return span.innerHTML;
 					}
 
-					var oldContainer = ballEl.querySelector('.weather-info-container');
-					if (oldContainer && oldContainer.parentNode) {
-						oldContainer.parentNode.removeChild(oldContainer);
+					function ensureWeatherContainer() {
+						var oldContainer = ballEl.querySelector('.weather-info-container');
+						if (oldContainer && oldContainer.parentNode) {
+							oldContainer.parentNode.removeChild(oldContainer);
+						}
+
+						var container = document.createElement('div');
+						container.className = 'weather-info-container';
+						container.style.transform = 'translate(-79px, 75px)';
+						container.style.justifyContent = 'flex-start';
+						container.style.paddingTop = '2px';
+						ballEl.appendChild(container);
+						return container;
 					}
 
-					var container = document.createElement('div');
-					container.className = 'weather-info-container';
-					container.style.transform = 'translate(-79px, 75px)';
-					container.style.justifyContent = 'flex-start';
-					container.style.paddingTop = '2px';
-					ballEl.appendChild(container);
+					function renderWeather(weather) {
+						var container = ensureWeatherContainer();
 
-					if (!weather) {
+						if (!weather) {
+							container.innerHTML = '<div style="color:#b8d8ff;font-size:12px;">天气数据加载失败</div>';
+							return;
+						}
+
+						var locationName = getLocationName(weather.location);
+						var tempStr = toFixedSafe(weather.temperature, 1);
+						var humidity = hasValue(weather.humidity) ? Math.round(Number(weather.humidity) * 100) : '--';
+						var windStr = toFixedSafe(weather.wind_speed, 1);
+						var aqiStr = hasValue(weather.air_quality) ? Math.round(Number(weather.air_quality)) : '--';
+						var descStr = weather.desc || '--';
+						var iconPath = getWeatherIconPath(weather.skycon);
+
+						var forecast = weather.forecast ? weather.forecast.slice(0, 3) : [];
+						var forecastHtml = forecast.map(function(day) {
+							var dateStr = day.date ? day.date.substring(5, 10) : '';
+							var minTemp = toFixedSafe(day.min, 0);
+							var maxTemp = toFixedSafe(day.max, 0);
+							var fIconPath = getWeatherIconPath(day.skycon);
+							return '<div class="weather-forecast-day">'
+								+ '<div class="weather-forecast-day-date">' + escHtml(dateStr) + '</div>'
+								+ '<div class="weather-forecast-day-icon"><img src="' + escHtml(fIconPath) + '" alt="' + escHtml(day.desc || '--') + '" onerror="this.style.display=\'none\'"></div>'
+								+ '<div class="weather-forecast-day-desc">' + escHtml(day.desc || '--') + '</div>'
+								+ '<div class="weather-forecast-day-range">' + escHtml(minTemp) + '~' + escHtml(maxTemp) + '</div>'
+								+ '</div>';
+						}).join('');
+
+						container.innerHTML = ''
+							+ '<div class="weather-location">' + escHtml(locationName) + '</div>'
+							+ '<div class="weather-current-section">'
+							+ '  <div class="weather-center-icon"><img src="' + escHtml(iconPath) + '" alt="' + escHtml(descStr) + '" onerror="this.style.display=\'none\'"></div>'
+							+ '  <div class="weather-temp-display">' + escHtml(tempStr) + '°C</div>'
+							+ '  <div class="weather-desc-display">' + escHtml(descStr) + '</div>'
+							+ '  <div class="weather-metrics-inline">'
+							+ '    <div class="weather-metric-inline"><div>湿度</div><div class="weather-metric-inline-value">' + escHtml(String(humidity) + '%') + '</div></div>'
+							+ '    <div class="weather-metric-inline"><div>风速</div><div class="weather-metric-inline-value">' + escHtml(String(windStr) + 'km/h') + '</div></div>'
+							+ '    <div class="weather-metric-inline"><div>AQI</div><div class="weather-metric-inline-value">' + escHtml(String(aqiStr)) + '</div></div>'
+							+ '  </div>'
+							+ '</div>'
+							+ '<div class="weather-forecast-section">' + forecastHtml + '</div>';
+					}
+
+					function loadWeatherData() {
+						var container = ensureWeatherContainer();
 						container.innerHTML = '<div style="color:#b8d8ff;font-size:12px;">天气数据加载中...</div>';
+
+						var candidates = [
+							'data/weather.json',
+							'./data/weather.json',
+							'/data/weather.json',
+							'public/data/weather.json',
+							'./public/data/weather.json'
+						];
+
+						function tryFetchAt(index) {
+							if (index >= candidates.length) {
+								renderWeather(window.NEWSFLOW_WEATHER || null);
+								return;
+							}
+
+							fetch(candidates[index], { cache: 'no-store' })
+								.then(function(response) {
+									if (!response.ok) {
+										throw new Error('weather.json load failed: ' + response.status);
+									}
+									return response.json();
+								})
+								.then(function(data) {
+									window.NEWSFLOW_WEATHER = data;
+									renderWeather(data);
+								})
+								.catch(function() {
+									tryFetchAt(index + 1);
+								});
+						}
+
+						tryFetchAt(0);
+					}
+
+					if (!ballEl) {
 						return;
 					}
 
-					// 构建完整天气信息文本
-					var locationName = weather.location === '101.6656,39.2072' ? '北京' : '当前位置';
-					locationName = getLocationName(weather.location);
-					var tempStr = toFixedSafe(weather.temperature, 1);
-					var humidity = hasValue(weather.humidity) ? Math.round(Number(weather.humidity) * 100) : '--';
-					var windStr = toFixedSafe(weather.wind_speed, 1);
-					var aqiStr = hasValue(weather.air_quality) ? Math.round(Number(weather.air_quality)) : '--';
-					var descStr = weather.desc || '--';
-					var iconPath = getWeatherIconPath(weather.skycon);
-					
-					// 构建预报文本
-					var forecast = weather.forecast ? weather.forecast.slice(0, 3) : [];
-					var forecastHtml = forecast.map(function(day) {
-						var dateStr = day.date ? day.date.substring(5, 10) : '';
-						var minTemp = toFixedSafe(day.min, 0);
-						var maxTemp = toFixedSafe(day.max, 0);
-						var fIconPath = getWeatherIconPath(day.skycon);
-						return '<div class="weather-forecast-day">'
-							+ '<div class="weather-forecast-day-date">' + escHtml(dateStr) + '</div>'
-							+ '<div class="weather-forecast-day-icon"><img src="' + escHtml(fIconPath) + '" alt="' + escHtml(day.desc || '--') + '" onerror="this.style.display=\'none\'"></div>'
-							+ '<div class="weather-forecast-day-desc">' + escHtml(day.desc || '--') + '</div>'
-							+ '<div class="weather-forecast-day-range">' + escHtml(minTemp) + '~' + escHtml(maxTemp) + '</div>'
-							+ '</div>';
-					}).join('');
-
-					container.innerHTML = ''
-						+ '<div class="weather-location">' + escHtml(locationName) + '</div>'
-						+ '<div class="weather-current-section">'
-						+ '  <div class="weather-center-icon"><img src="' + escHtml(iconPath) + '" alt="' + escHtml(descStr) + '" onerror="this.style.display=\'none\'"></div>'
-						+ '  <div class="weather-temp-display">' + escHtml(tempStr) + '°C</div>'
-						+ '  <div class="weather-desc-display">' + escHtml(descStr) + '</div>'
-						+ '  <div class="weather-metrics-inline">'
-						+ '    <div class="weather-metric-inline"><div>湿度</div><div class="weather-metric-inline-value">' + escHtml(String(humidity) + '%') + '</div></div>'
-						+ '    <div class="weather-metric-inline"><div>风速</div><div class="weather-metric-inline-value">' + escHtml(String(windStr) + 'km/h') + '</div></div>'
-						+ '    <div class="weather-metric-inline"><div>AQI</div><div class="weather-metric-inline-value">' + escHtml(String(aqiStr)) + '</div></div>'
-						+ '  </div>'
-						+ '</div>'
-						+ '<div class="weather-forecast-section">' + forecastHtml + '</div>';
+					loadWeatherData();
 				})();
 				
 				/*************** 词云 **************/
-				//https://github.com/ecomfe/echarts-wordcloud
-				//初始化echarts实例
-				const wordChart= echarts.init(document.getElementById("wordChart"));
-				const wordOpt = {
-				    series: [{
-				        type: 'wordCloud',
-				        shape: 'circle', //circle cardioid diamond triangle-forward triangle
-				       	left: 0,
-				       	right: 0,
-				       	top: 0,
-				       	right: 0,
-				       	width: '100%',
-				       	height: '100%',
-				        gridSize: 0, //值越大，word间的距离越大，单位像素
-				        sizeRange: [10, 32], //word的字体大小区间，单位像素
-				        rotationRange: [-90, 90], //word的可旋转角度区间
-				        textStyle: {
-				            normal: {
-				                color: function() {
-				                    return 'rgb(' + [
-				                        Math.round(Math.random() * 160),
-				                        Math.round(Math.random() * 160),
-				                        Math.round(Math.random() * 160)
-				                    ].join(',') + ')';
-				                }
-				            },
-				            emphasis: {
-				                shadowBlur: 2,
-				                shadowColor: '#000'
-				            }
-				        },
-				        data: [{
-				            name: '数据可视化',
-				            value: 3000,
-				            textStyle: {
-				            	normal: {color: '#f52f55'},
-				            	emphasis: {}
-				            }
-				        }, {
-				            name: '大数据',
-				            value: 2181
-				        }, {
-				            name: '云计算',
-				            value: 1386
-				        }, {
-				            name: '物联网',
-				            value: 2055
-				        }, {
-				            name: '移动互联网',
-				            value: 2467
-				        }, {
-				            name: '人工智能',
-				            value: 2244
-				        }, {
-				            name: '深度学习',
-				            value: 1898
-				        }, {
-				            name: '机器学习',
-				            value: 1484
-				        }, {
-				            name: '区块链',
-				            value: 3865
-				        }, {
-				            name: 'AI',
-				            value: 897
-				        }, {
-				            name: 'Big Data',
-				            value: 847
-				        }, {
-				            name: 'Deep Learning',
-				            value: 1366
-				        }, {
-				            name: 'IoT',
-				            value: 555
-				        }, {
-				            name: 'Data Visualization',
-				            value: 550
-				        }, {
-				            name: '互联网+',
-				            value: 2222
-				        }, {
-				            name: '智能合约',
-				            value: 366
-				        }, {
-				            name: '比特币',
-				            value: 360
-				        }, {
-				            name: 'Block Chain',
-				            value: 282
-				        }, {
-				            name: '数据挖掘',
-				            value: 273
-				        }, {
-				            name: 'Hadoop',
-				            value: 265
-				        }]
-				    }],
-				    backgroundColor: 'rgba(255, 255, 255, 0.7)'
+				var wordChartEl = document.getElementById("wordChart");
+				var wordChart = { resize: function() {} };
+				const dailyPoems = [
+					{ title: '春晓', titleRuby: [['春','chūn'],['晓','xiǎo']], author: '孟浩然', authorRuby: [['孟','mèng'],['浩','hào'],['然','rán']], lines: ['春眠不觉晓', '处处闻啼鸟', '夜来风雨声', '花落知多少'], lineRubies: [[['春','chūn'],['眠','mián'],['不','bù'],['觉','jiào'],['晓','xiǎo']], [['处','chù'],['处','chù'],['闻','wén'],['啼','tí'],['鸟','niǎo']], [['夜','yè'],['来','lái'],['风','fēng'],['雨','yǔ'],['声','shēng']], [['花','huā'],['落','luò'],['知','zhī'],['多','duō'],['少','shǎo']]] },
+					{ title: '静夜思', titleRuby: [['静','jìng'],['夜','yè'],['思','sī']], author: '李白', authorRuby: [['李','lǐ'],['白','bái']], lines: ['床前明月光', '疑是地上霜', '举头望明月', '低头思故乡'], lineRubies: [[['床','chuáng'],['前','qián'],['明','míng'],['月','yuè'],['光','guāng']], [['疑','yí'],['是','shì'],['地','dì'],['上','shàng'],['霜','shuāng']], [['举','jǔ'],['头','tóu'],['望','wàng'],['明','míng'],['月','yuè']], [['低','dī'],['头','tóu'],['思','sī'],['故','gù'],['乡','xiāng']]] },
+					{ title: '相思', titleRuby: [['相','xiāng'],['思','sī']], author: '王维', authorRuby: [['王','wáng'],['维','wéi']], lines: ['红豆生南国', '春来发几枝', '愿君多采撷', '此物最相思'], lineRubies: [[['红','hóng'],['豆','dòu'],['生','shēng'],['南','nán'],['国','guó']], [['春','chūn'],['来','lái'],['发','fā'],['几','jǐ'],['枝','zhī']], [['愿','yuàn'],['君','jūn'],['多','duō'],['采','cǎi'],['撷','xié']], [['此','cǐ'],['物','wù'],['最','zuì'],['相','xiāng'],['思','sī']]] },
+				{ title: '登鹳雀楼', titleRuby: [['登','dēng'],['鹳','guàn'],['雀','què'],['楼','lóu']], author: '王之涣', authorRuby: [['王','wáng'],['之','zhī'],['涣','huàn']], lines: ['白日依山尽', '黄河入海流', '欲穷千里目', '更上一层楼'], lineRubies: [[['白','báI'],['日','rì'],['依','yī'],['山','shān'],['尽','jìn']], [['黄','huáng'],['河','hé'],['入','rù'],['海','hǎi'],['流','liú']], [['欲','yù'],['穷','qióng'],['千','qiān'],['里','lǐ'],['目','mù']], [['更','gèng'],['上','shàng'],['一','yī'],['层','céng'],['楼','lóu']]] },
+				{ title: '望庐山瀑布', titleRuby: [['望','wàng'],['庐','lú'],['山','shān'],['瀑','pù'],['布','bù']], author: '李白', authorRuby: [['李','lǐ'],['白','bái']], lines: ['日照香炉生紫烟', '遥看瀑布挂前川', '飞流直下三千尺', '疑是银河落九天'], lineRubies: [[['日','rì'],['照','zhào'],['香','xiāng'],['炉','lú'],['生','shēng'],['紫','zǐ'],['烟','yān']], [['遥','yáo'],['看','kàn'],['瀑','pù'],['布','bù'],['挂','guà'],['前','qián'],['川','chuān']], [['飞','fēi'],['流','liú'],['直','zhí'],['下','xià'],['三','sān'],['千','qiān'],['尺','chǐ']], [['疑','yí'],['是','shì'],['银','yín'],['河','hé'],['落','luò'],['九','jiǔ'],['天','tiān']]] },
+				{ title: '游子吟', titleRuby: [['游','yóu'],['子','zǐ'],['吟','yín']], author: '孟郊', authorRuby: [['孟','mèng'],['郊','jiāo']], lines: ['慈母手中线', '游子身上衣', '临行密密缝', '意恐迟迟归'], lineRubies: [[['慈','cí'],['母','mǔ'],['手','shǒu'],['中','zhōng'],['线','xiàn']], [['游','yóu'],['子','zǐ'],['身','shēn'],['上','shàng'],['衣','yī']], [['临','lín'],['行','xíng'],['密','mì'],['密','mì'],['缝','féng']], [['意','yì'],['恐','kǒng'],['迟','chí'],['迟','chí'],['归','guī']]] },
+				{ title: '黄鹤楼送孟浩然之广陵', titleRuby: [['黄','huáng'],['鹤','hè'],['楼','lóu'],['送','sòng'],['孟','mèng'],['浩','hào'],['然','rán'],['之','zhī'],['广','guǎng'],['陵','líng']], author: '李白', authorRuby: [['李','lǐ'],['白','bái']], lines: ['故人西辞黄鹤楼', '烟花三月下扬州', '孤帆远影碧空尽', '唯见长江天际流'], lineRubies: [[['故','gù'],['人','rén'],['西','xī'],['辞','cí'],['黄','huáng'],['鹤','hè'],['楼','lóu']], [['烟','yān'],['花','huā'],['三','sān'],['月','yuè'],['下','xià'],['扬','yáng'],['州','zhōu']], [['孤','gū'],['帆','fān'],['远','yuǎn'],['影','yǐng'],['碧','bì'],['空','kōng'],['尽','jìn']], [['唯','wéi'],['见','jiàn'],['长','cháng'],['江','jiāng'],['天','tiān'],['际','jì'],['流','liú']]] },
+				{ title: '江雪', titleRuby: [['江','jiāng'],['雪','xuě']], author: '柳宗元', authorRuby: [['柳','liǔ'],['宗','zōng'],['元','yuán']], lines: ['千山鸟飞绝', '万径人踪灭', '孤舟蓑笠翁', '独钓寒江雪'], lineRubies: [[['千','qiān'],['山','shān'],['鸟','niǎo'],['飞','fēi'],['绝','jué']], [['万','wàn'],['径','jìng'],['人','rén'],['踪','zōng'],['灭','miè']], [['孤','gū'],['舟','zhōu'],['蓑','suō'],['笠','lì'],['翁','wēng']], [['独','dú'],['钓','diào'],['寒','hán'],['江','jiāng'],['雪','xuě']]] },
+				{ title: '枫桥夜泊', titleRuby: [['枫','fēng'],['桥','qiáo'],['夜','yè'],['泊','bó']], author: '张继', authorRuby: [['张','zhāng'],['继','jì']], lines: ['月落乌啼霜满天', '江枫渔火对愁眠', '姑苏城外寒山寺', '夜半钟声到客船'], lineRubies: [[['月','yuè'],['落','luò'],['乌','wū'],['啼','tí'],['霜','shuāng'],['满','mǎn'],['天','tiān']], [['江','jiāng'],['枫','fēng'],['渔','yú'],['火','huǒ'],['对','duì'],['愁','chóu'],['眠','mián']], [['姑','gū'],['苏','sū'],['城','chéng'],['外','wài'],['寒','hán'],['山','shān'],['寺','sì']], [['夜','yè'],['半','bàn'],['钟','zhōng'],['声','shēng'],['到','dào'],['客','kè'],['船','chuán']]] },
+				{ title: '早发白帝城', titleRuby: [['早','zǎo'],['发','fā'],['白','báI'],['帝','dì'],['城','chéng']], author: '李白', authorRuby: [['李','lǐ'],['白','bái']], lines: ['朝辞白帝彩云间', '千里江陵一日还', '两岸猿声啼不住', '轻舟已过万重山'], lineRubies: [[['朝','zhāo'],['辞','cí'],['白','báI'],['帝','dì'],['彩','cǎi'],['云','yún'],['间','jiān']], [['千','qiān'],['里','lǐ'],['江','jiāng'],['陵','líng'],['一','yī'],['日','rì'],['还','huái']], [['两','liǎng'],['岸','àn'],['猿','yuán'],['声','shēng'],['啼','tí'],['不','bù'],['住','zhù']], [['轻','qīng'],['舟','zhōu'],['已','yǐ'],['过','guò'],['万','wàn'],['重','zhòng'],['山','shān']]] },
+				{ title: '竹里馆', titleRuby: [['竹','zhú'],['里','lǐ'],['馆','guǎn']], author: '王维', authorRuby: [['王','wáng'],['维','wéi']], lines: ['独坐幽篁里', '弹琴复长啸', '深林人不知', '明月来相照'], lineRubies: [[['独','dú'],['坐','zuò'],['幽','yōu'],['篁','huáng'],['里','lǐ']], [['弹','tán'],['琴','qín'],['复','fù'],['长','cháng'],['啸','xiào']], [['深','shēn'],['林','lín'],['人','rén'],['不','bù'],['知','zhī']], [['明','míng'],['月','yuè'],['来','lái'],['相','xiāng'],['照','zhào']]] },
+				{ title: '题西林壁', titleRuby: [['题','tí'],['西','xī'],['林','lín'],['壁','bì']], author: '苏轼', authorRuby: [['苏','sū'],['轼','shì']], lines: ['横看成岭侧成峰', '远近高低各不同', '不识庐山真面目', '只缘身在此山中'], lineRubies: [[['横','héng'],['看','kàn'],['成','chéng'],['岭','lǐng'],['侧','cè'],['成','chéng'],['峰','fēng']], [['远','yuǎn'],['近','jìn'],['高','gāo'],['低','dī'],['各','gè'],['不','bù'],['同','tóng']], [['不','bù'],['识','shí'],['庐','lú'],['山','shān'],['真','zhēn'],['面','miàn'],['目','mù']], [['只','zhǐ'],['缘','yuán'],['身','shēn'],['在','zài'],['此','cǐ'],['山','shān'],['中','zhōng']]] }
+				];
+
+				function getDailyPoems(count) {
+					var now = new Date();
+					var start = new Date(now.getFullYear(), 0, 1);
+				var dayIndex = Math.floor((now - start) / 86400000);
+				var size = count || 3;
+				var begin = (dayIndex * size) % dailyPoems.length;
+				var result = [];
+				for (var i = 0; i < size; i += 1) {
+					result.push(dailyPoems[(begin + i) % dailyPoems.length]);
+				}
+				return result;
+			}
+
+			function escHtml(text) {
+				var span = document.createElement('span');
+				span.textContent = text || '';
+				return span.innerHTML;
+			}
+
+			function renderDailyPoems(poems) {
+				if (!wordChartEl) return;
+				var cards = (poems || []).map(function(poem, idx) {
+					var lineHtml = (poem.lines || []).map(function(line) {
+						return '<div class="poem-line">' + escHtml(line) + '</div>';
+					}).join('');
+					return ''
+						+ '<div class="poem-card" data-poem-index="' + idx + '" style="cursor: pointer;">'
+						+ '  <div class="poem-label">每日推荐</div>'
+						+ '  <div class="poem-title">' + escHtml(poem.title) + '</div>'
+						+ '  <div class="poem-author">' + escHtml(poem.author) + '</div>'
+						+ '  <div class="poem-lines">' + lineHtml + '</div>'
+						+ '</div>';
+				}).join('');
+
+				var loopCards = cards + cards;
+				var duration = Math.max(24, (poems || []).length * 10);
+
+				wordChartEl.innerHTML = ''
+					+ '<div class="poem-panel">'
+					+ '  <div class="poem-marquee">'
+					+ '    <div class="poem-track" style="--poem-scroll-duration:' + duration + 's;">' + loopCards + '</div>'
+					+ '  </div>'
+					+ '</div>';
+
+				var lineNodes = wordChartEl.querySelectorAll('.poem-line');
+				for (var i = 0; i < lineNodes.length; i += 1) {
+					lineNodes[i].style.animationDelay = (i * 0.16) + 's';
+				}
+
+				// Add click event listeners to cards
+				var poemCards = wordChartEl.querySelectorAll('.poem-card');
+				for (var i = 0; i < poemCards.length; i += 1) {
+					(function(card, poemIdx) {
+						card.addEventListener('click', function(e) {
+							e.stopPropagation();
+							showPoemModal(poems[poemIdx]);
+						});
+						card.addEventListener('mouseenter', function() {
+							this.style.opacity = '0.85';
+							this.style.transform = 'scale(0.98)';
+						});
+						card.addEventListener('mouseleave', function() {
+							this.style.opacity = '1';
+							this.style.transform = 'scale(1)';
+						});
+					})(poemCards[i], parseInt(poemCards[i].getAttribute('data-poem-index'), 10));
+				}
+			}
+
+			// Initialize modal DOM
+			function initPoemModal() {
+				if (document.getElementById('poemModal')) return;
+				var modalHtml = '<div id="poemModal" class="poem-modal">'
+					+ '<div class="poem-modal-content" style="position: relative;">'
+					+ '<button class="poem-modal-close">&times;</button>'
+					+ '<div id="poemModalBody"></div>'
+					+ '</div>'
+					+ '</div>';
+				document.body.insertAdjacentHTML('beforeend', modalHtml);
+				var modal = document.getElementById('poemModal');
+				var closeBtn = modal.querySelector('.poem-modal-close');
+				closeBtn.addEventListener('click', closePoemModal);
+				modal.addEventListener('click', function(e) {
+					if (e.target === this) {
+						closePoemModal();
+					}
+				});
+			}
+
+			function showPoemModal(poem) {
+				if (!poem) return;
+				initPoemModal();
+				var modalBody = document.getElementById('poemModalBody');
+
+				// Generate ruby HTML for text
+				function generateRubyHtml(chars, rubies) {
+					if (!rubies || !Array.isArray(rubies)) return escHtml(chars);
+					return rubies.map(function(item) {
+						if (Array.isArray(item)) {
+							return '<ruby>' + escHtml(item[0]) + '<rt>' + escHtml(item[1]) + '</rt></ruby>';
+						}
+						return escHtml(item);
+					}).join('');
+				}
+
+				// Generate title with ruby
+				var titleHtml = poem.titleRuby && Array.isArray(poem.titleRuby)
+					? generateRubyHtml(poem.title, poem.titleRuby)
+					: escHtml(poem.title);
+
+				// Generate author with ruby
+				var authorHtml = poem.authorRuby && Array.isArray(poem.authorRuby)
+					? generateRubyHtml(poem.author, poem.authorRuby)
+					: escHtml(poem.author);
+
+				// Generate poem lines with ruby
+				var linesHtml = (poem.lines || []).map(function(line, idx) {
+					var lineRubies = poem.lineRubies && poem.lineRubies[idx] ? poem.lineRubies[idx] : null;
+					var lineHtml = lineRubies ? generateRubyHtml(line, lineRubies) : escHtml(line);
+					return '<div class="poem-modal-line-group">'
+						+ '<div class="poem-modal-line">' + lineHtml + '</div>'
+						+ '</div>';
+				}).join('');
+
+				modalBody.innerHTML = ''
+					+ '<div class="poem-modal-title">' + titleHtml + '</div>'
+					+ '<div class="poem-modal-author">' + authorHtml + '</div>'
+					+ '<div class="poem-modal-divider"></div>'
+					+ '<div class="poem-modal-lines" id="poemContent">' + linesHtml + '</div>'
+					+ '<button class="poem-modal-copy-btn" id="copyImageBtn">📋 复制为图片</button>';
+
+				var modal = document.getElementById('poemModal');
+				modal.classList.add('active');
+				document.body.style.overflow = 'hidden';
+
+				// Add copy to image functionality
+				var copyBtn = document.getElementById('copyImageBtn');
+				copyBtn.addEventListener('click', function() {
+					copyPoemAsImage(poem);
+				});
+			}
+
+			function copyPoemAsImage(poem) {
+				// Load html2canvas library dynamically
+				var script = document.createElement('script');
+				script.src = 'https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js';
+				script.onload = function() {
+					var contentDiv = document.getElementById('poemContent');
+					if (!contentDiv) return;
+
+					// Create a temporary container for rendering
+					var tempDiv = document.createElement('div');
+					tempDiv.style.position = 'fixed';
+					tempDiv.style.left = '-9999px';
+					tempDiv.style.top = '-9999px';
+					tempDiv.style.background = 'linear-gradient(135deg, rgba(8,23,48,0.99) 0%, rgba(12,28,58,0.99) 100%)';
+					tempDiv.style.padding = '40px';
+					tempDiv.style.borderRadius = '12px';
+					tempDiv.style.maxWidth = '700px';
+					tempDiv.style.width = '600px';
+					tempDiv.style.fontFamily = '"STSong", "Songti SC", serif';
+					tempDiv.style.color = '#d8e9ff';
+					tempDiv.style.lineHeight = '2.2';
+					tempDiv.style.textAlign = 'center';
+
+					// Create title
+					var titleDiv = document.createElement('div');
+					titleDiv.style.fontSize = '28px';
+					titleDiv.style.fontWeight = 'bold';
+					titleDiv.style.color = '#f6d365';
+					titleDiv.style.marginBottom = '10px';
+					titleDiv.style.fontFamily = '"STKaiti", serif';
+					titleDiv.innerHTML = document.querySelector('.poem-modal-title').innerHTML;
+					tempDiv.appendChild(titleDiv);
+
+					// Create author
+					var authorDiv = document.createElement('div');
+					authorDiv.style.fontSize = '14px';
+					authorDiv.style.color = '#7ecfff';
+					authorDiv.style.marginBottom = '20px';
+					authorDiv.style.fontFamily = '"FangSong", serif';
+					authorDiv.innerHTML = document.querySelector('.poem-modal-author').innerHTML;
+					tempDiv.appendChild(authorDiv);
+
+					// Create divider
+					var divider = document.createElement('div');
+					divider.style.height = '1px';
+					divider.style.background = 'rgba(126, 207, 255, 0.2)';
+					divider.style.margin = '20px 0 24px 0';
+					tempDiv.appendChild(divider);
+
+					// Create content lines
+					var poemDiv = document.createElement('div');
+					poemDiv.style.fontSize = '18px';
+					poemDiv.style.lineHeight = '2.0';
+					poemDiv.innerHTML = contentDiv.innerHTML;
+					tempDiv.appendChild(poemDiv);
+
+					document.body.appendChild(tempDiv);
+
+					// Generate image using html2canvas
+					html2canvas(tempDiv, {
+						scale: 2,
+						backgroundColor: null,
+						allowTaint: true,
+						useCORS: true,
+						logging: false
+					}).then(function(canvas) {
+						document.body.removeChild(tempDiv);
+
+						// Copy to clipboard
+						canvas.toBlob(function(blob) {
+							try {
+								navigator.clipboard.write([
+									new ClipboardItem({ 'image/png': blob })
+								]).then(function() {
+									// Show success message
+									var copyBtn = document.getElementById('copyImageBtn');
+									if (copyBtn) {
+										var originalText = copyBtn.textContent;
+										copyBtn.textContent = '✓ 已复制';
+										copyBtn.classList.add('copied');
+										setTimeout(function() {
+											copyBtn.textContent = originalText;
+											copyBtn.classList.remove('copied');
+										}, 2000);
+									}
+								}).catch(function(err) {
+									alert('复制失败，请重试');
+									console.error('Clipboard error:', err);
+								});
+							} catch (e) {
+								alert('您的浏览器不支持此功能，请使用现代浏览器');
+								console.error('Copy error:', e);
+							}
+						});
+					}).catch(function(err) {
+						document.body.removeChild(tempDiv);
+						alert('生成图片失败');
+						console.error('html2canvas error:', err);
+					});
 				};
-				wordChart.setOption(wordOpt);
-				
-				/********** 窗口大小改变时，重置报表大小 ********************/
-				window.onresize = function() {
-					wordChart.resize();
-					ballChart.resize();
-					relationChart.resize();
-					fireworksChart.resize();
-					mapChart.resize();
-				};
-			});
+				document.head.appendChild(script);
+			}
+
+			function closePoemModal() {
+				var modal = document.getElementById('poemModal');
+				if (modal) {
+					modal.classList.remove('active');
+					document.body.style.overflow = '';
+				}
+			}
+
+			var todayPoems = getDailyPoems(3);
+			renderDailyPoems(todayPoems);
+			
+			/********** 窗口大小改变时，重置报表大小 ********************/
+			window.onresize = function() {
+				// 图表响应式调整
+			};
+		});
 		</script>
 	</body>
 </html>
