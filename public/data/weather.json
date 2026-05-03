@@ -1,17 +1,17 @@
 {
   "location": "121.4737,31.2304",
-  "temperature": 20.88,
-  "apparent_temperature": 19.2,
-  "humidity": 0.6,
+  "temperature": 18.17,
+  "apparent_temperature": 17.6,
+  "humidity": 0.69,
   "skycon": "CLOUDY",
   "desc": "阴",
-  "wind_speed": 15.24,
-  "air_quality": 43,
+  "wind_speed": 7.91,
+  "air_quality": 28,
   "forecast": [
     {
       "date": "2026-05-03T00:00+08:00",
-      "min": 16.21,
-      "max": 21.27,
+      "min": 16.45,
+      "max": 22.14,
       "skycon": "CLOUDY",
       "desc": "阴"
     },
@@ -24,11 +24,11 @@
     },
     {
       "date": "2026-05-05T00:00+08:00",
-      "min": 14.7,
+      "min": 14.69,
       "max": 24.68,
       "skycon": "CLEAR_DAY",
       "desc": "晴"
     }
   ],
-  "updated_at": "2026-05-03 14:33:02"
+  "updated_at": "2026-05-03 20:52:34"
 }
