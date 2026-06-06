@@ -1,4 +1,4 @@
-window.NEWSFLOW_ARCHIVE = [
+[
   {
     "run_at": "2026-06-06 10:15:56",
     "count": 2366,
@@ -16567,4 +16567,4 @@ window.NEWSFLOW_ARCHIVE = [
       }
     ]
   }
-];
+]
