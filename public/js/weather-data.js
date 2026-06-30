@@ -1,34 +1,34 @@
 window.NEWSFLOW_WEATHER = {
   "location": "121.4737,31.2304",
-  "temperature": 23.88,
-  "apparent_temperature": 26.9,
-  "humidity": 0.93,
-  "skycon": "LIGHT_RAIN",
-  "desc": "小雨",
-  "wind_speed": 4.21,
-  "air_quality": 17,
+  "temperature": 26.47,
+  "apparent_temperature": 30.0,
+  "humidity": 0.91,
+  "skycon": "CLOUDY",
+  "desc": "阴",
+  "wind_speed": 6.14,
+  "air_quality": 14,
   "forecast": [
     {
       "date": "2026-06-30T00:00+08:00",
-      "min": 23.88,
-      "max": 26.1,
-      "skycon": "LIGHT_RAIN",
-      "desc": "小雨"
+      "min": 24.52,
+      "max": 26.91,
+      "skycon": "STORM_RAIN",
+      "desc": "暴雨"
     },
     {
       "date": "2026-07-01T00:00+08:00",
-      "min": 24.36,
-      "max": 26.29,
+      "min": 23.75,
+      "max": 26.76,
       "skycon": "HEAVY_RAIN",
       "desc": "大雨"
     },
     {
       "date": "2026-07-02T00:00+08:00",
-      "min": 23.87,
-      "max": 26.91,
+      "min": 22.83,
+      "max": 26.99,
       "skycon": "LIGHT_RAIN",
       "desc": "小雨"
     }
   ],
-  "updated_at": "2026-06-30 10:34:33"
+  "updated_at": "2026-06-30 15:59:11"
 };
