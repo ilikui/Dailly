@@ -1,34 +1,34 @@
 window.NEWSFLOW_WEATHER = {
   "location": "121.4737,31.2304",
-  "temperature": 29.37,
-  "apparent_temperature": 32.7,
-  "humidity": 0.7,
-  "skycon": "CLEAR_NIGHT",
-  "desc": "晴夜",
-  "wind_speed": 4.77,
-  "air_quality": 43,
+  "temperature": 35.98,
+  "apparent_temperature": 40.6,
+  "humidity": 0.54,
+  "skycon": "CLEAR_DAY",
+  "desc": "晴",
+  "wind_speed": 2.85,
+  "air_quality": 24,
   "forecast": [
     {
-      "date": "2026-08-01T00:00+08:00",
-      "min": 29.37,
-      "max": 39.47,
-      "skycon": "CLEAR_NIGHT",
-      "desc": "晴夜"
-    },
-    {
       "date": "2026-08-02T00:00+08:00",
-      "min": 29.7,
-      "max": 38.79,
-      "skycon": "LIGHT_RAIN",
-      "desc": "小雨"
+      "min": 29.4,
+      "max": 37.0,
+      "skycon": "CLEAR_DAY",
+      "desc": "晴"
     },
     {
       "date": "2026-08-03T00:00+08:00",
-      "min": 28.52,
-      "max": 36.64,
-      "skycon": "PARTLY_CLOUDY_DAY",
-      "desc": "多云"
+      "min": 28.79,
+      "max": 36.59,
+      "skycon": "CLEAR_DAY",
+      "desc": "晴"
+    },
+    {
+      "date": "2026-08-04T00:00+08:00",
+      "min": 26.7,
+      "max": 35.77,
+      "skycon": "CLOUDY",
+      "desc": "阴"
     }
   ],
-  "updated_at": "2026-08-01 21:04:05"
+  "updated_at": "2026-08-02 09:56:55"
 };
