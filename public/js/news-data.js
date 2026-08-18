@@ -1,5 +1,125 @@
 window.NEWSFLOW_NEWS = [
   {
+    "title": "Ukrainian forces are repurposing assault robots for logistics missions because of supply bot shortages",
+    "url": "https://www.businessinsider.com/ukrainian-forces-using-assault-ground-robots-for-logistics-because-shortages-2026-8",
+    "type": "Business",
+    "source": "Business Insider"
+  },
+  {
+    "title": "DARPA wants robots to 3D print concrete underwater to build and repair ports",
+    "url": "https://www.businessinsider.com/darpa-wants-to-3d-print-concrete-underwater-for-military-ports-2026-8",
+    "type": "Business",
+    "source": "Business Insider"
+  },
+  {
+    "title": "Walmart store workers have a new responsibility: correcting AI errors",
+    "url": "https://www.businessinsider.com/walmart-workers-new-responsibility-correcting-ai-errors-retail-2026-7",
+    "type": "Business",
+    "source": "Business Insider"
+  },
+  {
+    "title": "NBA star Jaylen Brown says there's a downside to wealth that people don't talk about",
+    "url": "https://www.businessinsider.com/nba-star-jaylen-brown-getting-rich-success-cost-interpersonal-relationships-2026-8",
+    "type": "Business",
+    "source": "Business Insider"
+  },
+  {
+    "title": "Best robot lawn mowers (2026)",
+    "url": "https://www.businessinsider.com/guides/home/best-robot-lawn-mowers",
+    "type": "Business",
+    "source": "Business Insider"
+  },
+  {
+    "title": "This doctor turned a stroke at 24 into a $75 million bet on smart rings. Read his pitch deck.",
+    "url": "https://www.businessinsider.com/happy-health-75-million-ai-sleep-apnea-ring-pitch-deck-2026-8",
+    "type": "Business",
+    "source": "Business Insider"
+  },
+  {
+    "title": "The stock market's Goldilocks moment has one big problem",
+    "url": "https://www.businessinsider.com/bond-yields-stock-market-outlook-analysis-fed-rate-hike-forecast-2026-8",
+    "type": "Business",
+    "source": "Business Insider"
+  },
+  {
+    "title": "I make over $250k as a Meta AI researcher. Publishing research helped me land the job.",
+    "url": "https://www.businessinsider.com/meta-ai-researcher-says-research-helped-land-job-2026-8",
+    "type": "Business",
+    "source": "Business Insider"
+  },
+  {
+    "title": "A chief strategist at a $31 billion firm says to stick with the AI power bottleneck — and shares 3 stock picks",
+    "url": "https://www.businessinsider.com/ai-power-bottleneck-stocks-to-buy-now-infrastructure-gev-ftai-2026-8",
+    "type": "Business",
+    "source": "Business Insider"
+  },
+  {
+    "title": "3 arguments for and against AI watermarks",
+    "url": "https://www.businessinsider.com/ai-watermarks-claude-debate-reasons-for-against-2026-8",
+    "type": "Business",
+    "source": "Business Insider"
+  },
+  {
+    "title": "Gen Z friendships have entered their nickel-and-diming era",
+    "url": "https://www.businessinsider.com/gen-z-friendship-venmo-etiquette-splitting-bills-money-manners-2026-8",
+    "type": "Business",
+    "source": "Business Insider"
+  },
+  {
+    "title": "I was obsessed with looking rich and overspent in my 20s. Then one HR meeting exposed how little I knew about money.",
+    "url": "https://www.businessinsider.com/haley-sacks-mrs-dow-jones-future-rich-person-excerpt-2026-8",
+    "type": "Business",
+    "source": "Business Insider"
+  },
+  {
+    "title": "Is ChatGPT dropping more f-bombs lately? Users think so.",
+    "url": "https://www.businessinsider.com/is-chatgpt-swearing-more-users-notice-2026-8",
+    "type": "Business",
+    "source": "Business Insider"
+  },
+  {
+    "title": "Uber COO is ‘tempted to say’ the company will have fewer employees in five years",
+    "url": "https://www.businessinsider.com/uber-coo-employees-five-years-2026-8",
+    "type": "Business",
+    "source": "Business Insider"
+  },
+  {
+    "title": "These café owners started a shop with credit cards and a $30,000 loan. They say it's worth it to run a business in NYC.",
+    "url": "https://www.businessinsider.com/bushwick-cafe-nyc-affordability-coffee",
+    "type": "Business",
+    "source": "Business Insider"
+  },
+  {
+    "title": "Mamdani is going to town on the annoyance economy",
+    "url": "https://www.businessinsider.com/zohran-mamdani-new-york-city-actions-political-strategy-2026-8",
+    "type": "Business",
+    "source": "Business Insider"
+  },
+  {
+    "title": "Balaji Srinivasan's attempt to build a 'techno-optimist' commune got shut down. Now he's trying again in Kazakhstan.",
+    "url": "https://www.businessinsider.com/balaji-srinivasan-network-school-reopen-kazakhstan-2026-8",
+    "type": "Business",
+    "source": "Business Insider"
+  },
+  {
+    "title": "The $500 longevity body scanner from Spotify's cofounder is coming to the US",
+    "url": "https://www.businessinsider.com/neko-health-body-scanner-announces-us-launch-2026-8",
+    "type": "Business",
+    "source": "Business Insider"
+  },
+  {
+    "title": "I quit my job in media while pregnant and battling an autoimmune disease. It led me to start my own company.",
+    "url": "https://www.businessinsider.com/autoimmune-disease-quit-job-pregnant-started-supplement-brand-perelel-2026-8",
+    "type": "Business",
+    "source": "Business Insider"
+  },
+  {
+    "title": "Taking out a Russian soldier costs twice as much as hitting the Kremlin's infrastructure, Ukraine says",
+    "url": "https://www.businessinsider.com/ukraine-drone-attack-cost-russian-soldier-kill-wound-3000-dollars-2026-8",
+    "type": "Business",
+    "source": "Business Insider"
+  },
+  {
     "title": "Andreessen Horowitz could make close to $1.5 billion from OpenRouter's potential sale to Stripe",
     "url": "https://www.businessinsider.com/stripe-is-finalizing-8b-openrouter-purchase-investors-could-gain-2026-8",
     "type": "Business",
@@ -180,126 +300,6 @@ window.NEWSFLOW_NEWS = [
     "source": "Business Insider"
   },
   {
-    "title": "OpenAI president says companies should do 10 things ASAP to defend against AI cyber threats",
-    "url": "https://www.businessinsider.com/openai-president-greg-brockman-10-cybersecurity-tips-hugging-face-2026-8",
-    "type": "Business",
-    "source": "Business Insider"
-  },
-  {
-    "title": "The 10 British universities with the most American students, ranked",
-    "url": "https://www.businessinsider.com/british-universities-with-most-american-students-ranked-2026-8",
-    "type": "Business",
-    "source": "Business Insider"
-  },
-  {
-    "title": "I ordered milkshakes from Dairy Queen, Carvel, and Baskin-Robbins. There was a clear winner in terms of flavor and value.",
-    "url": "https://www.businessinsider.com/trying-milkshakes-dairy-queen-carvel-baskin-robbins-clear-winner-2026-5",
-    "type": "Business",
-    "source": "Business Insider"
-  },
-  {
-    "title": "The US Army wants machines that can pull drinking water from the air for fights far from reliable supply lines",
-    "url": "https://www.businessinsider.com/us-army-machines-that-pull-drinking-water-from-the-air-2026-8",
-    "type": "Business",
-    "source": "Business Insider"
-  },
-  {
-    "title": "I locked in a 3.25% mortgage rate in a desirable suburb. It looks like success on the surface, but feels far from it.",
-    "url": "https://www.businessinsider.com/bought-house-good-rate-desirable-suburb-not-happy-2026-8",
-    "type": "Business",
-    "source": "Business Insider"
-  },
-  {
-    "title": "What hike? Why Wall Street is abandoning its call for higher rates.",
-    "url": "https://www.businessinsider.com/why-wall-street-is-abandoning-higher-interest-rates-federal-reserve-2026-8",
-    "type": "Business",
-    "source": "Business Insider"
-  },
-  {
-    "title": "An interior designer with 27 years of experience shares 10 things he'd never have in his own home",
-    "url": "https://www.businessinsider.com/things-interior-designer-never-have-in-own-home-list-photos-2026-8",
-    "type": "Business",
-    "source": "Business Insider"
-  },
-  {
-    "title": "First came self-driving cars. Now, Waymo veterans are building autonomous construction equipment.",
-    "url": "https://www.businessinsider.com/bedrock-robotics-construction-ai-excavators-2026-8",
-    "type": "Business",
-    "source": "Business Insider"
-  },
-  {
-    "title": "Goldman Sachs warns that a consumer slowdown could soon hit the economy as tax refunds dry up",
-    "url": "https://www.businessinsider.com/us-economic-outlook-consumer-slowdown-goldman-sachs-2026-8",
-    "type": "Business",
-    "source": "Business Insider"
-  },
-  {
-    "title": "Billionaire investor Jeff Gundlach warns of a market top as AI chips become a 'new asset class'",
-    "url": "https://www.businessinsider.com/jeff-gundlach-warns-ai-chip-strategy-may-signal-market-peak-2026-8",
-    "type": "Business",
-    "source": "Business Insider"
-  },
-  {
-    "title": "The US military is paying RTX's Raytheon big for more Tomahawk missiles. It burned through many of them fighting Iran.",
-    "url": "https://www.businessinsider.com/us-paying-raytheon-big-more-tomahawk-missiles-iran-war-2026-8",
-    "type": "Business",
-    "source": "Business Insider"
-  },
-  {
-    "title": "Leopold Aschenbrenner's Situational Awareness bet big on SanDisk and Micron before it blew up",
-    "url": "https://www.businessinsider.com/situational-awareness-leopold-aschenbrenner-bet-big-sandisk-micron-before-blowup-2026-8",
-    "type": "Business",
-    "source": "Business Insider"
-  },
-  {
-    "title": "Inside Ukraine's war robot revolution",
-    "url": "https://www.businessinsider.com/inside-ukraines-war-robot-revolution-2026-7",
-    "type": "Business",
-    "source": "Business Insider"
-  },
-  {
-    "title": "Only 64 movies have ever hit $1 billion at the box office — here they all are",
-    "url": "https://www.businessinsider.com/highest-grossing-movies-ever-box-office",
-    "type": "Business",
-    "source": "Business Insider"
-  },
-  {
-    "title": "Only 7 movies have ever made $2 billion at the box office — here they all are",
-    "url": "https://www.businessinsider.com/movies-that-made-2-billion-box-office",
-    "type": "Business",
-    "source": "Business Insider"
-  },
-  {
-    "title": "Meet Russia's richest woman, a billionaire whose e-commerce company is being targeted by Ukrainian drone strikes",
-    "url": "https://www.businessinsider.com/russia-richest-woman-self-made-billionaire-wildberries-2024-6",
-    "type": "Business",
-    "source": "Business Insider"
-  },
-  {
-    "title": "See 6 repurposed Boeing 747s with unusual second lives, from a Swedish hotel to a scuba site in Bahrain",
-    "url": "https://www.businessinsider.com/retired-boeing-747-repurposed-photos",
-    "type": "Business",
-    "source": "Business Insider"
-  },
-  {
-    "title": "EY is turning its internships into yearlong residencies as AI changes entry-level work",
-    "url": "https://www.businessinsider.com/ey-internship-residency-career-ai-skills-2026-8",
-    "type": "Business",
-    "source": "Business Insider"
-  },
-  {
-    "title": "Layoff fears are pushing some visa holders out of Big Tech",
-    "url": "https://www.businessinsider.com/visa-holders-immigrants-big-tech-layoffs-job-security-work-careers-2026-8",
-    "type": "Business",
-    "source": "Business Insider"
-  },
-  {
-    "title": "My parents thought I was wasting my life playing video games. I became a millionaire by 27.",
-    "url": "https://www.businessinsider.com/college-dropout-gaming-business-millionaire-2026-8",
-    "type": "Business",
-    "source": "Business Insider"
-  },
-  {
     "title": "7 things to know before the bell",
     "url": "http://money.cnn.com/2018/10/04/investing/premarket-stocks-trading/index.html?section=money_topstories",
     "type": "Business",
@@ -420,6 +420,78 @@ window.NEWSFLOW_NEWS = [
     "source": "CNN Money"
   },
   {
+    "title": "Uber Eyes 1 Million Daily Drone Deliveries With Zipline Partnership",
+    "url": "https://www.zerohedge.com/political/uber-eyes-1-million-daily-drone-deliveries-zipline-partnership",
+    "type": "Business",
+    "source": "Zero Hedge"
+  },
+  {
+    "title": "As Japanese Bond Yields Soar, Unrealized Losses At Life Insurers Hit $200 Billion",
+    "url": "https://www.zerohedge.com/markets/japanese-bond-yields-soar-unrealized-losses-life-insurers-hit-200-billion",
+    "type": "Business",
+    "source": "Zero Hedge"
+  },
+  {
+    "title": "\"Absolutely Unprecedented\": Diesel Crack Spread Hits Record As Refined-Products Crisis Arrives",
+    "url": "https://www.zerohedge.com/energy/absolutely-unprecedented-diesel-crack-spread-hits-record-refined-products-crisis-arrives",
+    "type": "Business",
+    "source": "Zero Hedge"
+  },
+  {
+    "title": "Top Admiral Visits USS Lincoln, Suggests Reports Of Dire Conditions Are Greatly Exaggerated",
+    "url": "https://www.zerohedge.com/military/top-admiral-visits-uss-lincoln-suggests-reports-dire-conditions-are-greatly-exaggerated",
+    "type": "Business",
+    "source": "Zero Hedge"
+  },
+  {
+    "title": "Blasphemy Law Is Back: Retired British Police Officer Fined For Islam Joke",
+    "url": "https://www.zerohedge.com/political/blasphemy-law-back-retired-british-police-officer-fined-islam-joke",
+    "type": "Business",
+    "source": "Zero Hedge"
+  },
+  {
+    "title": "Humanoid War Robots Could Soon Patrol US Southern Border To Combat Weaponized Migrant Flows",
+    "url": "https://www.zerohedge.com/technology/humanoid-war-robots-could-soon-patrol-us-southern-border-combat-weaponized-migrant-flows",
+    "type": "Business",
+    "source": "Zero Hedge"
+  },
+  {
+    "title": "Trump Doubles Down On Plans To Make Hormuz Strait A US Territory: \"A Great Idea\"",
+    "url": "https://www.zerohedge.com/geopolitical/trump-threatens-bomb-st-out-oman-touts-irgc-backchannel",
+    "type": "Business",
+    "source": "Zero Hedge"
+  },
+  {
+    "title": "If Other Countries Give Fewer Shots, Why Can't We Ask Why?",
+    "url": "https://www.zerohedge.com/medical/if-other-countries-give-fewer-shots-why-cant-we-ask-why",
+    "type": "Business",
+    "source": "Zero Hedge"
+  },
+  {
+    "title": "'Do What Israel Tells You!' - Graffiti On USAF Jet Suggests Troops Think War Isn't For America",
+    "url": "https://www.zerohedge.com/geopolitical/do-what-israel-tells-you-graffiti-usaf-jet-suggests-troops-think-war-isnt-america",
+    "type": "Business",
+    "source": "Zero Hedge"
+  },
+  {
+    "title": "Meta Flags Migration Searches... Then Offers UN Asylum Help",
+    "url": "https://www.zerohedge.com/geopolitical/meta-flags-migration-searches-then-offers-un-asylum-help",
+    "type": "Business",
+    "source": "Zero Hedge"
+  },
+  {
+    "title": "\"Generates A Number Of Risks\": UBS Warns German NatGas Storage Levels Alarmingly Below Seasonal Norms",
+    "url": "https://www.zerohedge.com/commodities/generates-number-risks-ubs-warns-german-natgas-storage-levels-alarmingly-below-seasonal",
+    "type": "Business",
+    "source": "Zero Hedge"
+  },
+  {
+    "title": "Europe's Looming Existential Crisis",
+    "url": "https://www.zerohedge.com/geopolitical/europes-looming-existential-crisis",
+    "type": "Business",
+    "source": "Zero Hedge"
+  },
+  {
     "title": "What's Behind Trump's Unexpected Favor To Kim Jong Un?",
     "url": "https://www.zerohedge.com/geopolitical/whats-behind-trumps-unexpected-favor-kim-jong-un",
     "type": "Business",
@@ -498,76 +570,46 @@ window.NEWSFLOW_NEWS = [
     "source": "Zero Hedge"
   },
   {
-    "title": "The Never-Ending Cycle Of Taking Offense...",
-    "url": "https://www.zerohedge.com/political/never-ending-cycle-taking-offense",
-    "type": "Business",
-    "source": "Zero Hedge"
+    "title": "极端高温对老年人口的危害比预期的更大",
+    "url": "https://www.solidot.org/story?sid=85126",
+    "type": "IT新闻",
+    "source": "Solidot"
   },
   {
-    "title": "Colombia Begins Mass Mobilization Against Terror Group As Moscow Warns Of New \"Anti-Russia Provocation In Latin America\"",
-    "url": "https://www.zerohedge.com/geopolitical/colombia-begins-mass-mobilization-against-terror-group-moscow-warns-new-anti-russia",
-    "type": "Business",
-    "source": "Zero Hedge"
+    "title": "40 岁女性患有四种自身免疫性疾病",
+    "url": "https://www.solidot.org/story?sid=85125",
+    "type": "IT新闻",
+    "source": "Solidot"
   },
   {
-    "title": "Half Of Typical US Family's Paycheck Swallowed By Housing, Childcare",
-    "url": "https://www.zerohedge.com/personal-finance/half-typical-us-familys-paycheck-swallowed-housing-childcare",
-    "type": "Business",
-    "source": "Zero Hedge"
+    "title": "日常饮用含糖饮料与胃癌风险上升相关",
+    "url": "https://www.solidot.org/story?sid=85124",
+    "type": "IT新闻",
+    "source": "Solidot"
   },
   {
-    "title": "Reddit's Woke WNBA Forum Just Banned Sophie Cunningham's Name Amid Trans Row",
-    "url": "https://www.zerohedge.com/political/reddits-woke-wnba-forum-just-banned-sophie-cunninghams-name-over-trans-comments",
-    "type": "Business",
-    "source": "Zero Hedge"
+    "title": "Meta 面临修改社媒算法和设计的诉讼",
+    "url": "https://www.solidot.org/story?sid=85123",
+    "type": "IT新闻",
+    "source": "Solidot"
   },
   {
-    "title": "Geopolitical Reality Has Ended The Rush To Renewables",
-    "url": "https://www.zerohedge.com/energy/geopolitical-reality-has-ended-rush-renewables",
-    "type": "Business",
-    "source": "Zero Hedge"
+    "title": "Anthropic CEO 称对 AI 的抵触根源在于信任危机",
+    "url": "https://www.solidot.org/story?sid=85122",
+    "type": "IT新闻",
+    "source": "Solidot"
   },
   {
-    "title": "Rand Paul Goes To Fort Knox To Verify That US Gold Stockpile Still Exists",
-    "url": "https://www.zerohedge.com/economics/rand-paul-goes-fort-knox-verify-us-gold-stockpile-still-exists",
-    "type": "Business",
-    "source": "Zero Hedge"
+    "title": "Web 开发者不再重视 Web 标准",
+    "url": "https://www.solidot.org/story?sid=85121",
+    "type": "IT新闻",
+    "source": "Solidot"
   },
   {
-    "title": "\"Both Parties Are Whirling Around The Drain Of Extinction...\"",
-    "url": "https://www.zerohedge.com/political/both-parties-are-whirling-around-drain-extinction",
-    "type": "Business",
-    "source": "Zero Hedge"
-  },
-  {
-    "title": "\"Cash Crunch\" Deepens? Mark Walter Explores Chelsea FC Stake Sale To Clearlake",
-    "url": "https://www.zerohedge.com/markets/cash-crunch-deepens-mark-walter-explores-chelsea-fc-stake-sale-clearlake",
-    "type": "Business",
-    "source": "Zero Hedge"
-  },
-  {
-    "title": "Almost 60% Of Democrats Have A Favorable View Of Socialism",
-    "url": "https://www.zerohedge.com/political/almost-60-democrats-have-favorable-view-socialism",
-    "type": "Business",
-    "source": "Zero Hedge"
-  },
-  {
-    "title": "Trump Doubles Down On Plans To Make Hormuz Strait A US Territory: \"A Great Idea\"",
-    "url": "https://www.zerohedge.com/geopolitical/trump-threatens-bomb-st-out-oman-touts-irgc-backchannel",
-    "type": "Business",
-    "source": "Zero Hedge"
-  },
-  {
-    "title": "Bill Maher Draws The Line: American Values Are Not Negotiable",
-    "url": "https://www.zerohedge.com/political/bill-maher-draws-line-american-values-are-not-negotiable",
-    "type": "Business",
-    "source": "Zero Hedge"
-  },
-  {
-    "title": "Trump Accuses BBC Of Harassing His Family In $10bn Lawsuit",
-    "url": "https://www.zerohedge.com/political/trump-accuses-bbc-harassing-his-family-10bn-lawsuit",
-    "type": "Business",
-    "source": "Zero Hedge"
+    "title": "通过 Zoom 解雇 900 名雇员的 CEO 被解雇",
+    "url": "https://www.solidot.org/story?sid=85120",
+    "type": "IT新闻",
+    "source": "Solidot"
   },
   {
     "title": "对一批珍稀图书的跟踪显示它们进入了亚马逊的 AI 训练设施",
@@ -648,34 +690,28 @@ window.NEWSFLOW_NEWS = [
     "source": "Solidot"
   },
   {
-    "title": "美国历史上的奴隶制可预测今天的黑人白人死亡率差异",
-    "url": "https://www.solidot.org/story?sid=85105",
+    "title": "网易传媒发布了「蜜蜂AI」 ：想探索 AI 与年轻化社区的新连接",
+    "url": "https://www.ifanr.com/1675521?utm_source=rss&utm_medium=rss&utm_campaign=",
     "type": "IT新闻",
-    "source": "Solidot"
+    "source": "爱范儿 · Beats of Bits"
   },
   {
-    "title": "俄罗斯导弹使用了英伟达的 Jetson Orin",
-    "url": "https://www.solidot.org/story?sid=85104",
+    "title": "一台诞生于 AI 时代的电脑，该是什么样？",
+    "url": "https://www.ifanr.com/1675518?utm_source=rss&utm_medium=rss&utm_campaign=",
     "type": "IT新闻",
-    "source": "Solidot"
+    "source": "爱范儿 · Beats of Bits"
   },
   {
-    "title": "年轻美国人日益不信任 AI 及 AI 公司高管",
-    "url": "https://www.solidot.org/story?sid=85103",
+    "title": "支付宝拉上手机、汽车、大模型，准备让 AI 办一件大事",
+    "url": "https://www.ifanr.com/1675514?utm_source=rss&utm_medium=rss&utm_campaign=",
     "type": "IT新闻",
-    "source": "Solidot"
+    "source": "爱范儿 · Beats of Bits"
   },
   {
-    "title": "身陷剽窃丑闻的前剑桥大学教授死亡",
-    "url": "https://www.solidot.org/story?sid=85102",
+    "title": "奔驰连发两款重磅油车：C 级全面焕新，国产 GLE 剑指 X5L",
+    "url": "https://www.ifanr.com/1675486?utm_source=rss&utm_medium=rss&utm_campaign=",
     "type": "IT新闻",
-    "source": "Solidot"
-  },
-  {
-    "title": "法国宪法委员会否决青少年社媒禁令",
-    "url": "https://www.solidot.org/story?sid=85101",
-    "type": "IT新闻",
-    "source": "Solidot"
+    "source": "爱范儿 · Beats of Bits"
   },
   {
     "title": "Claude 给所有 AI 文字加了水印，全球用户彻底怒了！",
@@ -774,448 +810,430 @@ window.NEWSFLOW_NEWS = [
     "source": "爱范儿 · Beats of Bits"
   },
   {
-    "title": "DeepSeek V4 Flash 之后，大模型开始卷「智效比」了",
-    "url": "https://www.ifanr.com/1675156?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "type": "IT新闻",
-    "source": "爱范儿 · Beats of Bits"
-  },
-  {
-    "title": "早报｜曝iPhone全线涨价100美元/ChatGPT开始拥有你的电脑历史/长鑫科技市值超过腾讯",
-    "url": "https://www.ifanr.com/1675193?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "type": "IT新闻",
-    "source": "爱范儿 · Beats of Bits"
-  },
-  {
-    "title": "9.99 万元起，EV 版 9 分钟充到 97%，秦 MAX 正式上市",
-    "url": "https://www.ifanr.com/1675157?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "type": "IT新闻",
-    "source": "爱范儿 · Beats of Bits"
-  },
-  {
-    "title": "首发体验 | DeepSeek Harness 来了，它不想做下一个Codex",
-    "url": "https://www.ifanr.com/1675083?utm_source=rss&utm_medium=rss&utm_campaign=",
-    "type": "IT新闻",
-    "source": "爱范儿 · Beats of Bits"
-  },
-  {
-    "title": "一年吸金超10亿的商场“顶流”，一夜之间不再是“大王”",
-    "url": "https://www.tmtpost.com/8106946.html",
+    "title": "DTC的5大阶段3.0：社交媒体与数字原生品牌时代",
+    "url": "https://www.tmtpost.com/8107477.html",
     "type": "IT新闻",
     "source": "钛媒体：创新挖掘者"
   },
   {
-    "title": "文远知行在变好，但韩旭还没说服市场",
-    "url": "https://www.tmtpost.com/8106821.html",
+    "title": "订单已排到2030年，电子织布机需求爆发，国产织机迎来窗口期",
+    "url": "https://www.tmtpost.com/8107442.html",
     "type": "IT新闻",
     "source": "钛媒体：创新挖掘者"
   },
   {
-    "title": "沦为“抢饭食堂”的行政酒廊：可以烂，但不能被清算",
-    "url": "https://www.tmtpost.com/8106580.html",
+    "title": "字节下场“漫剧工业化”，LibTV们迎来大考？",
+    "url": "https://www.tmtpost.com/8107419.html",
     "type": "IT新闻",
     "source": "钛媒体：创新挖掘者"
   },
   {
-    "title": "旺旺不旺的锅，糖背不起",
-    "url": "https://www.tmtpost.com/8106509.html",
+    "title": "英伟达开始给电做担保了：1050亿美元押注8GW算力的电力账",
+    "url": "https://www.tmtpost.com/8107418.html",
     "type": "IT新闻",
     "source": "钛媒体：创新挖掘者"
   },
   {
-    "title": "阿里“大生态”退潮，AI成唯一主线",
-    "url": "https://www.tmtpost.com/8106658.html",
+    "title": "一份精确到小数点后两位的\"错误作业\"",
+    "url": "https://www.tmtpost.com/8105820.html",
     "type": "IT新闻",
     "source": "钛媒体：创新挖掘者"
   },
   {
-    "title": "小龙虾降价也卖不动了吗？",
-    "url": "https://www.tmtpost.com/8106654.html",
+    "title": "不产松子，它凭何垄断全球七成加工市场？",
+    "url": "https://www.tmtpost.com/8106728.html",
     "type": "IT新闻",
     "source": "钛媒体：创新挖掘者"
   },
   {
-    "title": "《牛来》在海外爆火，竟成了老外眼里的“人类艺术之光”？",
-    "url": "https://www.tmtpost.com/8106541.html",
+    "title": "Nokia Closes Hangzhou R&D Site and Cuts 1,600 Jobs as China Business Shrinks",
+    "url": "https://www.tmtpost.com/8107475.html",
     "type": "IT新闻",
     "source": "钛媒体：创新挖掘者"
   },
   {
-    "title": "磷酸铁锂龙头湖南裕能最新赴港递表，比亚迪和宁德时代此前双双减持，业绩已缩水八成",
-    "url": "https://www.tmtpost.com/8106540.html",
+    "title": "银行风控逻辑开始\"看Token不看砖头\"了",
+    "url": "https://www.tmtpost.com/8106372.html",
     "type": "IT新闻",
     "source": "钛媒体：创新挖掘者"
   },
   {
-    "title": "夫妻店养大的汇通达，要抢夫妻店的生意？",
-    "url": "https://www.tmtpost.com/8106484.html",
+    "title": "从厨师到高管，黄仁勋女儿四年薪资暴涨670%",
+    "url": "https://www.tmtpost.com/8107359.html",
     "type": "IT新闻",
     "source": "钛媒体：创新挖掘者"
   },
   {
-    "title": "从“像人”到“超人”，IPO前夜宇树悄然变化的传播策略",
-    "url": "https://www.tmtpost.com/8106294.html",
+    "title": "3 个月亏掉 100 亿美元，DAT 公司开始回归理性",
+    "url": "https://www.tmtpost.com/8107344.html",
     "type": "IT新闻",
     "source": "钛媒体：创新挖掘者"
   },
   {
-    "title": "武汉人的白月光汽水，终究是“败”了",
-    "url": "https://www.tmtpost.com/8106401.html",
+    "title": "腾讯的AI Capex，还可以更高",
+    "url": "https://www.tmtpost.com/8106867.html",
     "type": "IT新闻",
     "source": "钛媒体：创新挖掘者"
   },
   {
-    "title": "长安基金成立15年规模不足百亿，新东家入主一周即换帅",
-    "url": "https://www.tmtpost.com/8106304.html",
+    "title": "AI中转站的生死一梦",
+    "url": "https://www.tmtpost.com/8107107.html",
     "type": "IT新闻",
     "source": "钛媒体：创新挖掘者"
   },
   {
-    "title": "假如用AI搓一部《牛来》，得花多少钱？",
-    "url": "https://www.tmtpost.com/8106427.html",
+    "title": "AI代码过剩后，给代码“冲厕所”的公司贵了十倍",
+    "url": "https://www.tmtpost.com/8107004.html",
     "type": "IT新闻",
     "source": "钛媒体：创新挖掘者"
   },
   {
-    "title": "魏桥集团增资210亿，山东首富三兄妹夯实控制权",
-    "url": "https://www.tmtpost.com/8106297.html",
+    "title": "年费2100元，英超开始做自己的「Netflix」",
+    "url": "https://www.tmtpost.com/8107003.html",
     "type": "IT新闻",
     "source": "钛媒体：创新挖掘者"
   },
   {
-    "title": "《牛来》拿到暑期档大结果了？",
-    "url": "https://www.tmtpost.com/8106288.html",
+    "title": "WorkBuddy们，正在终结钉钉、飞书、企业微信的旧战争",
+    "url": "https://www.tmtpost.com/8107000.html",
     "type": "IT新闻",
     "source": "钛媒体：创新挖掘者"
   },
   {
-    "title": "独到科技完成近亿元A+轮融资，赛富领投，清华系AI Agent公司打造业务世界的Agent编译器｜独家",
-    "url": "https://www.tmtpost.com/8106792.html",
-    "type": "IT新闻",
-    "source": "钛媒体：创新挖掘者"
-  },
-  {
-    "title": "“老登股”，迷失2026",
-    "url": "https://www.tmtpost.com/8106558.html",
-    "type": "IT新闻",
-    "source": "钛媒体：创新挖掘者"
-  },
-  {
-    "title": "五人开发流水破亿，连环造富的Steam品类，又出了个全球Top 2？",
-    "url": "https://www.tmtpost.com/8106552.html",
-    "type": "IT新闻",
-    "source": "钛媒体：创新挖掘者"
-  },
-  {
-    "title": "22家亏超200亿，光伏上市公司上半年报预告出炉，光伏这次真的在渡劫",
-    "url": "https://www.tmtpost.com/8106547.html",
-    "type": "IT新闻",
-    "source": "钛媒体：创新挖掘者"
-  },
-  {
-    "title": "胖东来无法复制胖东来",
-    "url": "https://www.tmtpost.com/8106328.html",
-    "type": "IT新闻",
-    "source": "钛媒体：创新挖掘者"
-  },
-  {
-    "title": "Y como último acto de amor... escribí un post de despedida",
-    "url": "https://www.buzzfeed.com/mx/buzzfeedstaff/y-como-ultimo-acto-de-amor-escribi-un-post-de-despedida",
+    "title": "“Boy Meets World” Star Danielle Fishel Has Revealed That She Has Breast Cancer",
+    "url": "https://www.buzzfeednews.com/article/stephaniesoteriou/boy-meets-world-danielle-fishel-breast-cancer",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Te diré que deporte Olímpico de Invierno te representa con solo 5 preguntas",
-    "url": "https://www.buzzfeed.com/mx/mikebarcena/te-dire-que-deporte-olimpico-invierno-te-representa",
+    "title": "Just 36 Products You'll Kick Yourself For Not Buying Sooner",
+    "url": "https://www.buzzfeed.com/danielboan/products-wish-you-bought-sooner",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "11 ideas de pasteles para cumplir 25 y sentirte main character",
-    "url": "https://www.buzzfeed.com/mx/belitescalante/11-ideas-de-pasteles-para-cumplir-25-y-sentirte-main",
+    "title": "“I Attract Beings From The Other Dimension”: Kaia Gerber Had An Exorcism As A Child Because She Was “Possessed” — And You'll Never Guess How They Did It",
+    "url": "https://www.buzzfeed.com/ellendurney/kaia-gerber-details-childhood-exorcism",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Dime tu nombre y te diré cómo serías si fueras un therian",
-    "url": "https://www.buzzfeed.com/mx/bety_lara/test-de-personalidad-que-therian-serias",
+    "title": "These Are The 38 Products That’ll *Actually* Make A Difference In Your Daily Routine",
+    "url": "https://www.buzzfeed.com/courtney_lynch/daily-routine-products",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Elige un montón de objetos azul bebé y te diremos qué parte de tu infancia no has sanado",
-    "url": "https://www.buzzfeed.com/mx/belitescalante/te-diremos-que-parte-de-tu-infancia-no-has-sanado",
+    "title": "22 Multi-Functional Furniture Pieces That’ll Help You Make The Most Of Your Itty-Bitty Living Space",
+    "url": "https://www.buzzfeed.com/moumita_roy/multi-functional-furniture-pieces",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "¿Qué personaje de Jacob Elordi te rompería el corazón?",
-    "url": "https://www.buzzfeed.com/mx/garden_/que-personaje-de-jacob-elordi-te-romperia-el-corazon",
+    "title": "If You Can Do Better Than 25/49 On This General Knowledge Quiz, You're Smarter Than 95% Of Humanity",
+    "url": "https://www.buzzfeed.com/harrisonberger/general-knowledge-trivia-bingo-edition-39",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "¿Sabes quién es el piloto mejor pagado de la Fórmula 1?",
-    "url": "https://www.buzzfeed.com/mx/mikebarcena/sabes-quien-es-el-piloto-mejor-pagado-de-la-formula-1",
+    "title": "It's Literally My Job To Scour The Internet For Cool Things, And These Are My Favorite Home Finds Of 2026 So Far",
+    "url": "https://www.buzzfeed.com/amandadavis3/the-coolest-home-finds-of-2026-so-far",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "¿Qué personaje de Helluva Boss eres?",
-    "url": "https://www.buzzfeed.com/mx/bety_lara/test-que-personaje-de-helluva-boss-eres",
+    "title": "35 Products That Prove You Don’t Have To Spend A Fortune To Fix That Growing List Of Problems",
+    "url": "https://www.buzzfeed.com/diviniatarin/affordable-products-that-solve-your-problems",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Responde 4 preguntas sobre ti y armaré una playlist de SKZ inspirada en tu personalidad",
-    "url": "https://www.buzzfeed.com/mx/bety_lara/test-de-stray-kids-crea-una-playlist-basada-en-tu",
+    "title": "27 Weird Little Treats That’ll Make You Go \"Well, Now I Need That\"",
+    "url": "https://www.buzzfeed.com/karlyjacklin/weird-little-treats-august-2026-an",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Elige entre estos colores y te diré a qué país pertenece realmente tu alma",
-    "url": "https://www.buzzfeed.com/mx/belitescalante/elige-entre-estos-colores-y-te-dire-a-que-pais-pertenece",
+    "title": "Just 28 Incredibly Cool Products You Didn’t Know About Until This Very Moment",
+    "url": "https://www.buzzfeed.com/jenae_sitzes/cool-products-you-didnt-know-about-august-2026-an",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Con 5 preguntas random te diré qué furro de la LigaMX te representa",
-    "url": "https://www.buzzfeed.com/mx/amaurysalyano/que-furro-de-la-liga-mx-eres",
+    "title": "23 Products To Put You In The Mood For Fall Even If It’s Still 90 Degrees Where You Live",
+    "url": "https://www.buzzfeed.com/marielguzman/products-to-put-you-in-the-mood-for-fall-2026",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Responde estas preguntas y te digo quién sería tu secuaz malvado de Disney",
-    "url": "https://www.buzzfeed.com/mx/garden_/test-de-personalidad-descubre-tu-secuaz-de-disney-malvado",
+    "title": "An Ex Peter Pan Performer Has Spoken Out About His Personal Experience With The So-Called “Peter Pan Girl” After She Went Super Viral On TikTok",
+    "url": "https://www.buzzfeed.com/stephaniesoteriou/ex-peter-pan-performer-shares-harrowing-stalker-experience",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "9 Cosas que descubrimos al viajar a Chiapas para conocer el corazón de los cafetales en México",
-    "url": "https://www.buzzfeed.com/mx/andreasanchez2/9-cosas-que-descubrimos-al-viajar-a-chiapas-para-conocer-el",
+    "title": "Sure, You LIKE Waffles, But How Loyal To Them Are You ~Really~?",
+    "url": "https://www.buzzfeed.com/lizotteape/choose-between-waffles-and-other-breakfast-foods-and-well-re",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Elige entre estos olores y te diré qué piensan los demás de ti",
-    "url": "https://www.buzzfeed.com/mx/belitescalante/elige-entre-estos-olores-y-te-dire-que-piensan-los-demas-de",
+    "title": "From “Biggest Flop” To Box Office Hit, “Niu Lai” Is Now Making Waves Alongside “The Odyssey” And “Spider-Man”",
+    "url": "https://www.buzzfeed.com/beccamonaghan/niu-lai-chinese-animation-film-box-office-hit",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "¿Qué personaje de Cumbres Borrascosas eres?",
-    "url": "https://www.buzzfeed.com/mx/garden_/descubre-que-personaje-de-cumbres-borrascosas-eres",
+    "title": "Most People Can't Name Half Of These Basic Colorful Foods, And It's Deeply Concerning",
+    "url": "https://www.buzzfeed.com/morganmcfadden/rainbow-food-vision-quiz",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Elige entre estas galletas de la fortuna y te diré qué te espera en el Año Nuevo Chino",
-    "url": "https://www.buzzfeed.com/mx/bety_lara/rituales-y-predicciones-para-el-ano-nuevo-chino-2026",
+    "title": "I’m Sorry, But There’s No Way You’re Solving This Huedoku Without Making At Least One Mistake",
+    "url": "https://www.buzzfeed.com/buzzfeed_games/huedoku-puzzle-aug-18-2026",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Elige a tus deportistas favoritos y te diré si tu inteligencia es científica, académica o intuitiva",
-    "url": "https://www.buzzfeed.com/mx/mikebarcena/elige-deportistas-favoritos-dire-tu-tipo-inteligencia",
+    "title": "Make A Pop Playlist And I'll Accurately Guess Your Zodiac Sign",
+    "url": "https://www.buzzfeed.com/furryunicorn231/it-might-sound-crazy-but-i-know-youre-zodiac-sign",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Puedo adivinar tu tipo de apego con tu selección de personajes literarios",
-    "url": "https://www.buzzfeed.com/mx/bety_lara/descubre-tu-tipo-de-apego-con-este-test-de-personajes",
+    "title": "Law Roach Gave An Update On His “Unofficial Red Carpet Boycott” Against The Luxury Designers Who Refused To Work With Zendaya Early In Her Career, And Yikes",
+    "url": "https://www.buzzfeed.com/leylamohammed/law-roach-update-designer-brands-snubbed-zendaya",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Arma un plan con tus amigos y te diremos qué comentarista es tu animal espiritual",
-    "url": "https://www.buzzfeed.com/mx/mikebarcena/arma-plan-con-amigos-te-diremos-que-comentarista-eres",
+    "title": "\"Let’s Marry Harry\": Did Harry Jowsey And Amber Mozo Actually Get Married?",
+    "url": "https://www.buzzfeed.com/beccamonaghan/harry-jowsey-amber-mozo-lets-marry-harry",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "¿A qué protagonista de comedia romántica te pareces?",
-    "url": "https://www.buzzfeed.com/mx/garden_/a-que-protagonista-de-comedia-romantica-te-pareces",
+    "title": "Cook Dinner For Less With The BuzzFeed Tasty Newsletter!",
+    "url": "https://www.buzzfeed.com/buzzfeedpromotions/save-money-buzzfeed-food-newsletter",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Este quiz revelará qué mezcla de café va perfecto con tu personalidad",
-    "url": "https://www.buzzfeed.com/mx/andreasanchez2/este-quiz-revelara-que-mezcla-de-cafe-va-perfecto-con-tu",
+    "title": "33 TikTok Beauty Products That Work So Exceedingly Well, You’ll Wonder If Magic Is Involved",
+    "url": "https://www.buzzfeed.com/jordanagrigs/tiktok-beauty-products-that-work-exceedingly-well",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Escoge un paisaje por cada estación del año te diré qué tipo de inteligencia te domina",
-    "url": "https://www.buzzfeed.com/mx/bety_lara/test-de-inteligencias-multiples-selecciona-paisajes-y-te",
+    "title": "16 Movies That Singlehandedly Saved An Actor’s Career And Made Them Bigger Than They Ever Were",
+    "url": "https://www.buzzfeed.com/kbball27/movies-saved-actors-career",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Este quiz te dirá si tienes vibras de furro o de therian",
-    "url": "https://www.buzzfeed.com/mx/bety_lara/diferencia-entre-furro-y-therian-cual-eres-tu-test",
+    "title": "22 Shoes From Amazon That Really Were Made For Walking",
+    "url": "https://www.buzzfeed.com/cierracowan/shoes-amazon-that-really-were-made-walking-august-an",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Responde 6 preguntas sobre ti y te diré qué autora romántica escribió tu vida amorosa",
-    "url": "https://www.buzzfeed.com/mx/bety_lara/descubre-que-autora-romantica-escribio-tu-vida-con-este-test",
+    "title": "Javier Bardem Is Being Praised For His “No Tolerance” Response To A Misogynistic Question About His Wife, Penélope Cruz",
+    "url": "https://www.buzzfeed.com/stephaniesoteriou/javier-bardem-shut-down-misogynistic-penelope-cruz-question",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Arma una playlist de amor y te diremos quién se te declarará este mes",
-    "url": "https://www.buzzfeed.com/mx/belitescalante/arma-una-playlist-de-amor-y-te-diremos-quien-se-te",
+    "title": "\"You're Setting Them Up For Disappointment\": People With Kids Are Sharing The Modern Parenting Trends They 100% Disagree With",
+    "url": "https://www.buzzfeed.com/hannahloewentheil/parenting-trend-opinions-fs2",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Este quiz revelará con qué personaje de Disney que usa lentes compartes vibras",
-    "url": "https://www.buzzfeed.com/mx/andreasanchez2/este-quiz-revelara-con-que-personaje-de-disney-que-usa",
+    "title": "If You've Always Wanted To Ask A Pelvic Floor Therapist A Question, Now Is Your Time",
+    "url": "https://www.buzzfeed.com/remytepner/pelvic-floor-therapist-questions-add-yours",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Puedo adivinar tu personalidad MBTI solo con tu selección de personajes de animé",
-    "url": "https://www.buzzfeed.com/mx/bety_lara/test-mbti-descubre-tu-tipo-con-personajes-de-anime",
+    "title": "If Your Home Office Needs An Upgrade, Check Out These 27 Things From Ikea",
+    "url": "https://www.buzzfeed.com/bykitstone/if-your-home-office-needs-an-upgrade-check-out-these",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Este quiz te dirá si eres más Catherine o Heathcliff en el amor",
-    "url": "https://www.buzzfeed.com/mx/bety_lara/test-que-personaje-de-cumbres-borrascosas-eres",
+    "title": "Hayden Panettiere’s Ex, Wladimir Klitschko, Shared An Emotional Message To Their 11-Year-Old Daughter Following Hayden’s Tragic Death",
+    "url": "https://www.buzzfeed.com/ellendurney/wladimir-klitschko-statement-hayden-panettiere-death",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Solo un experto sabe qué deporte practican estos atletas de los Juegos Olímpicos de Invierno",
-    "url": "https://www.buzzfeed.com/mx/mikebarcena/experto-sabe-deporte-practican-atletas-juegos-olimpicos",
+    "title": "'F*cking Problematic': 7 Scenes Actors Reportedly Refused To Film",
+    "url": "https://www.buzzfeed.com/aglover/scenes-actors-refused-to-film",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Decora tu cuarto y te diré en qué etapa de la vida te encuentras",
-    "url": "https://www.buzzfeed.com/mx/belitescalante/en-que-etapa-de-la-vida-te-encuentras-test",
+    "title": "If You Wanna Travel Like A Pro, Flight Attendants Adore These 31 Things",
+    "url": "https://www.buzzfeed.com/ashleyschumacher/wanna-travel-like-a-pro-flight-attendants-adore-august-2026",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "El corazón no es monogámico cuando se trata de fandom",
-    "url": "https://www.buzzfeed.com/mx/belitescalante/el-corazon-no-es-monogamico-cuando-se-trata-de-fandom",
+    "title": "The Soup Of The Day Is \"ACFOPS\" — Can Your Brain Solve All The Words?",
+    "url": "https://www.buzzfeed.com/sarathompson1/soup-of-the-day-august-18-2026",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Si tienes menos de 25 años no hay forma en que conozcas estas canciones emo",
-    "url": "https://www.buzzfeed.com/mx/bety_lara/test-canciones-emo-de-los-2000",
+    "title": "Just 36 Walmart Personal Care Products That Will Improve Your Human Existence",
+    "url": "https://www.buzzfeed.com/jordanagrigs/walmart-personal-care-products-improve-human-existence",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Dime tu nombre y te convertiré en un personaje Pixar con tu vibra real",
-    "url": "https://www.buzzfeed.com/mx/belitescalante/dime-tu-nombre-y-te-convertire-en-un-personaje-pixar-con-tu",
+    "title": "21 Things From Madewell That’ll Make You Think “Where Have You Been All My Life?”",
+    "url": "https://www.buzzfeed.com/jamiesanders/where-have-you-been-all-my-life-things-from-madewell-an",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Solo una persona con un IQ de 154 podría sacar 10 en este examen de lógica",
-    "url": "https://www.buzzfeed.com/mx/belitescalante/iq-de-154-quiz-de-logica",
+    "title": "Bad News For Anyone Who Hates Word Searches Because The Only Way Through This One Is To Actually Do It",
+    "url": "https://www.buzzfeed.com/avalonlustick/pyramid-scheme-august-18-2026",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Arma un equipo con personajes de Harry Potter y te diré si eres de Chivas o del América",
-    "url": "https://www.buzzfeed.com/mx/mikebarcena/arma-equipo-harry-potter-dire-si-eres-chivas-america",
+    "title": "Only True Music Nerds Can Tell Whether These 14 Songs Start With A Verse Or A Chorus",
+    "url": "https://www.buzzfeed.com/avinashnarayanan1/which-comes-first-in-these-songs-the-verse-or-cho",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Dime los equipos que más odias y te recomendaré una película para el 14 de febrero",
-    "url": "https://www.buzzfeed.com/mx/mikebarcena/dime-equipos-mas-odias-te-recomendare-pelicula-14-febrero",
+    "title": "Choose A Cat For Every Situation And We'll Guess If You're A Dog Or Cat Person",
+    "url": "https://www.buzzfeed.com/alpacagalore/choose-a-cat-for-every-situation-and-well-guess-if-youre-a-d",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Si tienes menos de 25 no hay forma de que sepas quiénes son estas celebs",
-    "url": "https://www.buzzfeed.com/mx/belitescalante/si-tienes-menos-de-25-no-hay-forma-de-que-sepas-quienes-son",
+    "title": "This Crossword Is Basically Your For You Page In Puzzle Form",
+    "url": "https://www.buzzfeed.com/amanda_webber/crossword-august-17-2026",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Dime a qué equipos le vas y te diré por qué estás solo en San Valentín",
-    "url": "https://www.buzzfeed.com/mx/mikebarcena/dime-equipos-vas-dire-por-que-estas-solo-en-san-valentin",
+    "title": "27 Walmart Products That'll Make Your Backyard The Place Everyone Actually Wants To Hang Out",
+    "url": "https://www.buzzfeed.com/brock_pirtle/walmart-products-make-backyard-cool-hang-out-place-an",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "¿Quieres oler rico? Este quiz te dirá qué perfume va con tu personalidad",
-    "url": "https://www.buzzfeed.com/mx/andreasanchez2/quieres-oler-rico-este-quiz-te-dira-que-perfume-va-con-tu",
+    "title": "35 Skincare Products That, Trust Me, You’re Going To Want ASAP",
+    "url": "https://www.buzzfeed.com/dayshavedewi/skincare-products-that-youre-going-to-want-asap",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Este quiz dirá si tienes el IQ necesario para sobrevivir al fin del mundo",
-    "url": "https://www.buzzfeed.com/mx/bety_lara/test-de-iq-podrias-sobrevivir-al-fin-del-mundo",
+    "title": "I'll Be Impressed If You Can Match Even Half Of These 2010s Boy Band Songs To The Right Group",
+    "url": "https://www.buzzfeed.com/silvertree3048/only-true-2010s-pop-fans-can-match-these-songs-to",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Solo los americanistas de verdad podrán pasar este quiz del América",
-    "url": "https://www.buzzfeed.com/mx/mikebarcena/americanistas-de-verdad-podran-pasar-este-quiz-del-america",
+    "title": "\"I Felt Like A Prudish American, But It's The Norm In Europe\": People Are Sharing Common Customs Abroad That They Want The US To Adopt",
+    "url": "https://www.buzzfeed.com/hannahloewentheil/people-are-sharing-specific-norms-habits-and-traditions-fs2",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Este quiz revelará qué historia de amor de Prime Video te representa",
-    "url": "https://www.buzzfeed.com/mx/andreasanchez2/quiz-de-amor-que-historia-de-prime-video-te-define",
+    "title": "If Your Living Room Lacks Personality, Check Out These 27 Products From Anthropologie And Start Decorating",
+    "url": "https://www.buzzfeed.com/courtneylynneh/anthropologie-products-if-living-room-lacks-personality",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Elige entre estos personajes de My Little Pony y te diré si eres bonita, guapa o linda",
-    "url": "https://www.buzzfeed.com/mx/belitescalante/my-little-pony-eres-bonita-guapa-o-linda",
+    "title": "\"Back In The '70s, It Would Have Killed A Career\": 17 Queer Celebs Who Were Afraid To Come Out In Hollywood",
+    "url": "https://www.buzzfeed.com/kristenharris1/celebrities-who-hid-their-sexuality-to-protect-their-careers",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Las 7 parejas del mundo del deporte que nos hacen creer en el amor",
-    "url": "https://www.buzzfeed.com/mx/mikebarcena/7-parejas-del-deporte-que-nos-hacen-creer-en-amor",
+    "title": "What's your most unpopular food opinion?",
+    "url": "https://www.buzzfeed.com/discuss/unpopular-food-dq",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "5 Películas para ver con tus amigas este San Valentín (porque ellas también son el amor de tu vida)",
-    "url": "https://www.buzzfeed.com/mx/garden_/5-peliculas-para-ver-con-tus-amigas-este-san-valentin",
+    "title": "Upgrading Your Kitchen? Here Are 27 Small Appliances From Amazon That Reviewers *REALLY* Love",
+    "url": "https://www.buzzfeed.com/colingorenstein/upgrading-your-kitchen",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Este quiz de 5 preguntas revelará cuál es el lenguaje del amor que te gusta recibir",
-    "url": "https://www.buzzfeed.com/mx/andreasanchez2/este-quiz-de-5-preguntas-revelara-cual-es-el-lenguaje-del",
+    "title": "How Many Summerween-Coded Movies Have You Seen?",
+    "url": "https://www.buzzfeed.com/sarathompson1/summerween-movie-checklist-quiz",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "11 Recetas de San Valentín súuuuuuper sencillas para sorprender a tu amorcito",
-    "url": "https://www.buzzfeed.com/mx/belitescalante/11-recetas-de-san-valentin-suuuuuuper-sencillas",
+    "title": "31 Things That’ll Make Your Bedroom Such A Great Space, You’ll Feel Like Sleeping In It Is A Gosh Darn Waste",
+    "url": "https://www.buzzfeed.com/jordanagrigs/things-make-bedroom-a-great-space",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Dime qué deporte practicas y armaré una playlist para este 14 de febrero",
-    "url": "https://www.buzzfeed.com/mx/mikebarcena/dime-deporte-practicas-armare-playlist-14-febrero",
+    "title": "Need A New Purse? I'm Here To Help With 27 Options Under $50 From Amazon",
+    "url": "https://www.buzzfeed.com/emmagkershaw/amazon-purses-under-50-dollars",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "Necesitas un IQ mayor a 125 para pasar este quiz de vocabulario de San Valentín",
-    "url": "https://www.buzzfeed.com/mx/bety_lara/test-de-vocabulario-con-palabras-de-amor-san-valentin",
+    "title": "Get Your Pour On With The 12 Best Wine Subscription Boxes And Clubs",
+    "url": "https://www.buzzfeed.com/danielboan/best-wine-subscription-boxes",
     "type": "Internet",
     "source": "BuzzFeed"
   },
   {
-    "title": "¿LOL 8 es la mejor temporada? Vimos los primeros episodios y tenemos un veredicto",
-    "url": "https://www.buzzfeed.com/mx/andreasanchez2/lol-8-es-la-mejor-temporada-vimos-los-primeros-episodios-y",
+    "title": "Churchill Falls Agreement Reached",
+    "url": "https://www.metafilter.com/214199/Churchill-Falls-Agreement-Reached",
     "type": "Internet",
-    "source": "BuzzFeed"
+    "source": "MetaFilter"
+  },
+  {
+    "title": "The last person in US history to get a homestead patent",
+    "url": "https://www.metafilter.com/214198/The-last-person-in-US-history-to-get-a-homestead-patent",
+    "type": "Internet",
+    "source": "MetaFilter"
+  },
+  {
+    "title": "GEORGE by name, Jazz by nature",
+    "url": "https://www.metafilter.com/214197/GEORGE-by-name-Jazz-by-nature",
+    "type": "Internet",
+    "source": "MetaFilter"
+  },
+  {
+    "title": "I was making things awkward, but for the right reasons",
+    "url": "https://www.metafilter.com/214196/I-was-making-things-awkward-but-for-the-right-reasons",
+    "type": "Internet",
+    "source": "MetaFilter"
+  },
+  {
+    "title": "China achieves first-ever controlled rocket recovery",
+    "url": "https://www.metafilter.com/214195/China-achieves-first-ever-controlled-rocket-recovery",
+    "type": "Internet",
+    "source": "MetaFilter"
+  },
+  {
+    "title": "Hiya kids! Hiya hiya hiya!",
+    "url": "https://www.metafilter.com/214194/Hiya-kids-Hiya-hiya-hiya",
+    "type": "Internet",
+    "source": "MetaFilter"
+  },
+  {
+    "title": "CORGI ORGY",
+    "url": "https://www.metafilter.com/214193/CORGI-ORGY",
+    "type": "Internet",
+    "source": "MetaFilter"
   },
   {
     "title": "Scapegoating Fauci Won't Protect Us From the Next Pandemic",
@@ -1256,24 +1274,6 @@ window.NEWSFLOW_NEWS = [
   {
     "title": "Witch Hat Atelier: Who Gets to Learn?",
     "url": "https://www.metafilter.com/214186/Witch-Hat-Atelier-Who-Gets-to-Learn",
-    "type": "Internet",
-    "source": "MetaFilter"
-  },
-  {
-    "title": "Pivot to novels",
-    "url": "https://www.metafilter.com/214185/Pivot-to-novels",
-    "type": "Internet",
-    "source": "MetaFilter"
-  },
-  {
-    "title": "Frasier found his secret stash of SHERRY!",
-    "url": "https://www.metafilter.com/214184/Frasier-found-his-secret-stash-of-SHERRY",
-    "type": "Internet",
-    "source": "MetaFilter"
-  },
-  {
-    "title": "The walking archive helping First Nations people discover family history",
-    "url": "https://www.metafilter.com/214183/The-walking-archive-helping-First-Nations-people-discover-family-history",
     "type": "Internet",
     "source": "MetaFilter"
   },
@@ -1338,6 +1338,18 @@ window.NEWSFLOW_NEWS = [
     "source": "Grantland"
   },
   {
+    "title": "Worm Munch Matters",
+    "url": "https://longreads.com/2026/08/18/underground-soil-sounds/",
+    "type": "Long Reads",
+    "source": "Longreads"
+  },
+  {
+    "title": "Bucking Expectations: A Conversation with Rachel Hartigan",
+    "url": "https://longreads.com/2026/08/18/bucking-expectations-rachel-hartigan/",
+    "type": "Long Reads",
+    "source": "Longreads"
+  },
+  {
     "title": "G.P.S. and the Lost Art of Getting Lost",
     "url": "https://longreads.com/2026/08/17/gps-getting-lost/",
     "type": "Long Reads",
@@ -1346,12 +1358,6 @@ window.NEWSFLOW_NEWS = [
   {
     "title": "The Great Romance Slump",
     "url": "https://longreads.com/2026/08/14/romance-dating-decline/",
-    "type": "Long Reads",
-    "source": "Longreads"
-  },
-  {
-    "title": "The Top 5 Longreads of the Week",
-    "url": "https://longreads.com/2026/08/14/top-5-621/",
     "type": "Long Reads",
     "source": "Longreads"
   },
@@ -1428,12 +1434,6 @@ window.NEWSFLOW_NEWS = [
     "source": "Longreads"
   },
   {
-    "title": "The Top 5 Longreads of the Week",
-    "url": "https://longreads.com/2026/08/07/the-top-5-longreads-of-the-week-620/",
-    "type": "Long Reads",
-    "source": "Longreads"
-  },
-  {
     "title": "How War Has Redefined Marriage in Gaza",
     "url": "https://longreads.com/2026/08/06/gaza-israel-war-marriage/",
     "type": "Long Reads",
@@ -1486,6 +1486,54 @@ window.NEWSFLOW_NEWS = [
     "url": "https://longreads.com/2026/08/03/flock-police-surveillance-abuse-stalking/",
     "type": "Long Reads",
     "source": "Longreads"
+  },
+  {
+    "title": "Transcript: Trump Erupts as Aides Leak Humiliating Iran Truth: He Lost",
+    "url": "https://newrepublic.com/article/214446/transcript-trump-erupts-aides-leak-humiliating-iran-truth-lost",
+    "type": "Long Reads",
+    "source": "New Republic"
+  },
+  {
+    "title": "What AOC’s ‘Woke” Comments Say About Her and the Left",
+    "url": "https://newrepublic.com/article/214426/aoc-woke-comments-say-left",
+    "type": "Long Reads",
+    "source": "New Republic"
+  },
+  {
+    "title": "Transcript: What AOC’s ‘Woke” Comments Say About Her and the Left",
+    "url": "https://newrepublic.com/article/214434/transcript-aoc-woke-comments-say-left",
+    "type": "Long Reads",
+    "source": "New Republic"
+  },
+  {
+    "title": "MAGA Christianity and the Return of Religious Coercion",
+    "url": "https://newrepublic.com/article/214330/maga-christianity-return-religious-coercion",
+    "type": "Long Reads",
+    "source": "New Republic"
+  },
+  {
+    "title": "A County Attorney Makes a Stand Against ICE in Montana",
+    "url": "https://newrepublic.com/article/213785/county-attorney-makes-stand-ice-montana",
+    "type": "Long Reads",
+    "source": "New Republic"
+  },
+  {
+    "title": "Trump’s New Bank Is His Most Naked Scandal Yet",
+    "url": "https://newrepublic.com/article/214440/trump-new-crypto-bank-scandal",
+    "type": "Long Reads",
+    "source": "New Republic"
+  },
+  {
+    "title": "Was a French Aristocrat the First Fascist?",
+    "url": "https://newrepublic.com/article/213468/french-aristocrat-first-fascist",
+    "type": "Long Reads",
+    "source": "New Republic"
+  },
+  {
+    "title": "Trump Rage Erupts Over Iran as Aides Leak Embarrassing Truth: He Lost",
+    "url": "https://newrepublic.com/article/214443/trump-rage-erupts-iran-aides-leak-embarrassing-truth-lost",
+    "type": "Long Reads",
+    "source": "New Republic"
   },
   {
     "title": "Embattled GOP Rep Doesn’t Deny Dating Teenager While In Congress",
@@ -1590,14 +1638,14 @@ window.NEWSFLOW_NEWS = [
     "source": "New Republic"
   },
   {
-    "title": "The Very Trumpy State That Leads the Country in Renewable Energy",
-    "url": "https://newrepublic.com/article/214288/texas-solar-wind-energy-renewables-trump",
+    "title": "How MAGA Stole Animal Rights from the Left",
+    "url": "https://newrepublic.com/article/213747/maga-stole-animal-rights-left",
     "type": "Long Reads",
     "source": "New Republic"
   },
   {
-    "title": "How MAGA Stole Animal Rights from the Left",
-    "url": "https://newrepublic.com/article/213747/maga-stole-animal-rights-left",
+    "title": "The Very Trumpy State That Leads the Country in Renewable Energy",
+    "url": "https://newrepublic.com/article/214288/texas-solar-wind-energy-renewables-trump",
     "type": "Long Reads",
     "source": "New Republic"
   },
@@ -1860,14 +1908,14 @@ window.NEWSFLOW_NEWS = [
     "source": "New Republic"
   },
   {
-    "title": "Apricity",
-    "url": "https://newrepublic.com/article/213870/apricity",
+    "title": "The Endless, Maddening Wait for a Woman President",
+    "url": "https://newrepublic.com/article/213744/america-first-woman-president-endless-maddening-wait",
     "type": "Long Reads",
     "source": "New Republic"
   },
   {
-    "title": "The Endless, Maddening Wait for a Woman President",
-    "url": "https://newrepublic.com/article/213744/america-first-woman-president-endless-maddening-wait",
+    "title": "Apricity",
+    "url": "https://newrepublic.com/article/213870/apricity",
     "type": "Long Reads",
     "source": "New Republic"
   },
@@ -1992,14 +2040,14 @@ window.NEWSFLOW_NEWS = [
     "source": "New Republic"
   },
   {
-    "title": "Colson Whitehead’s Long Con",
-    "url": "https://newrepublic.com/article/213447/colson-whitehead-long-con",
+    "title": "ICE’s Airport Crackdowns Are Designed to Spread Fear",
+    "url": "https://newrepublic.com/article/213971/trump-confusion-ice-airport-crackdowns",
     "type": "Long Reads",
     "source": "New Republic"
   },
   {
-    "title": "ICE’s Airport Crackdowns Are Designed to Spread Fear",
-    "url": "https://newrepublic.com/article/213971/trump-confusion-ice-airport-crackdowns",
+    "title": "Colson Whitehead’s Long Con",
+    "url": "https://newrepublic.com/article/213447/colson-whitehead-long-con",
     "type": "Long Reads",
     "source": "New Republic"
   },
@@ -2040,52 +2088,28 @@ window.NEWSFLOW_NEWS = [
     "source": "New Republic"
   },
   {
-    "title": "Trump Hit With New Legal Trouble for Defying Supreme Court",
-    "url": "https://newrepublic.com/post/214195/donald-trump-legal-trouble-supreme-court-birthright-citizenship",
+    "title": "Everything That Will Happen After I Silence My Phone at the Movie Theatre",
+    "url": "https://www.newyorker.com/humor/shouts-murmurs/everything-that-will-happen-after-i-silence-my-phone-at-the-movie-theatre",
     "type": "Long Reads",
-    "source": "New Republic"
+    "source": "The New Yorker"
   },
   {
-    "title": "Trump Goes Over Jeanine Pirro’s Head on Reflecting Pool Lawsuit",
-    "url": "https://newrepublic.com/post/214196/donald-trump-new-reflecting-pool-lawsuit",
+    "title": "Nayib Bukele’s Content Machine Is Reshaping Latin America",
+    "url": "https://www.newyorker.com/news/the-lede/nayib-bukeles-content-machine-is-reshaping-latin-america",
     "type": "Long Reads",
-    "source": "New Republic"
+    "source": "The New Yorker"
   },
   {
-    "title": "Trump Blames Biden For Firing the U.S.’s Missile Stockpile at Iran",
-    "url": "https://newrepublic.com/post/214190/trump-biden-missile-weapons-stockpile-depleted",
+    "title": "Usher and Chris Brown’s Audacious Joint Tour",
+    "url": "https://www.newyorker.com/culture/pop-music/usher-and-chris-browns-audacious-joint-tour",
     "type": "Long Reads",
-    "source": "New Republic"
+    "source": "The New Yorker"
   },
   {
-    "title": "Trump Openly Mulls Dystopian Plan for Stealing the Midterm Elections",
-    "url": "https://newrepublic.com/post/214189/donald-trump-national-emergency-voter-id-midterm-elections",
+    "title": "How I Became a Subaru Socialist",
+    "url": "https://www.newyorker.com/news/fault-lines/how-i-became-a-subaru-socialist",
     "type": "Long Reads",
-    "source": "New Republic"
-  },
-  {
-    "title": "Surprise! Todd Blanche Immediately Breaks His Promises to GOP Senators",
-    "url": "https://newrepublic.com/post/214186/todd-blanche-breaks-promises-donald-trump",
-    "type": "Long Reads",
-    "source": "New Republic"
-  },
-  {
-    "title": "FIFA Peace Prize Recipient Sticks Up For FIFA Peace Prize Inventor",
-    "url": "https://newrepublic.com/post/214184/fifa-peace-prize-recipient-sticks-fifa-peace-prize-inventor",
-    "type": "Long Reads",
-    "source": "New Republic"
-  },
-  {
-    "title": "The Big Question in Iowa’s Senate Race",
-    "url": "https://newrepublic.com/post/214176/iowa-turek-senate-swing",
-    "type": "Long Reads",
-    "source": "New Republic"
-  },
-  {
-    "title": "Trump Sneaks Far-Right Goon Into Job Overseeing Reflecting Pool Probe",
-    "url": "https://newrepublic.com/post/214180/donald-trump-project-2025-investigative-office-reflecting-pool",
-    "type": "Long Reads",
-    "source": "New Republic"
+    "source": "The New Yorker"
   },
   {
     "title": "“The End of Oak Street” Is a Weirdly Alienated Jurassic Lark",
@@ -2108,12 +2132,6 @@ window.NEWSFLOW_NEWS = [
   {
     "title": "The Big, Dumb, Gluttonous Fun of America’s Semiquincentennial",
     "url": "https://www.newyorker.com/magazine/2026/08/24/the-big-dumb-gluttonous-fun-of-americas-semiquincentennial",
-    "type": "Long Reads",
-    "source": "The New Yorker"
-  },
-  {
-    "title": "Diana Ejaita’s “Before the Plunge”",
-    "url": "https://www.newyorker.com/culture/cover-story/cover-story-2026-08-24",
     "type": "Long Reads",
     "source": "The New Yorker"
   },
@@ -2154,14 +2172,20 @@ window.NEWSFLOW_NEWS = [
     "source": "The New Yorker"
   },
   {
-    "title": "A Trump Grift Too Far?",
-    "url": "https://www.newyorker.com/news/the-financial-page/selling-fast-access-to-truth-social-posts-a-trump-grift-too-far",
+    "title": "Anatomy of a Sex Scandal",
+    "url": "https://www.newyorker.com/magazine/2026/08/24/a-scandal-in-konigsberg-christopher-clark-book-review",
     "type": "Long Reads",
     "source": "The New Yorker"
   },
   {
-    "title": "Anatomy of a Sex Scandal",
-    "url": "https://www.newyorker.com/magazine/2026/08/24/a-scandal-in-konigsberg-christopher-clark-book-review",
+    "title": "Diana Ejaita’s “Before the Plunge”",
+    "url": "https://www.newyorker.com/culture/cover-story/cover-story-2026-08-24",
+    "type": "Long Reads",
+    "source": "The New Yorker"
+  },
+  {
+    "title": "A Trump Grift Too Far?",
+    "url": "https://www.newyorker.com/news/the-financial-page/selling-fast-access-to-truth-social-posts-a-trump-grift-too-far",
     "type": "Long Reads",
     "source": "The New Yorker"
   },
@@ -2190,14 +2214,14 @@ window.NEWSFLOW_NEWS = [
     "source": "The New Yorker"
   },
   {
-    "title": "The Improbable Longevity of “It’s Always Sunny in Philadelphia”",
-    "url": "https://www.newyorker.com/culture/on-television/the-secret-to-the-longevity-of-its-always-sunny-in-philadelphia",
+    "title": "The End of the European Summer",
+    "url": "https://www.newyorker.com/magazine/2026/08/24/the-end-of-the-european-summer",
     "type": "Long Reads",
     "source": "The New Yorker"
   },
   {
-    "title": "The End of the European Summer",
-    "url": "https://www.newyorker.com/magazine/2026/08/24/the-end-of-the-european-summer",
+    "title": "The Improbable Longevity of “It’s Always Sunny in Philadelphia”",
+    "url": "https://www.newyorker.com/culture/on-television/the-secret-to-the-longevity-of-its-always-sunny-in-philadelphia",
     "type": "Long Reads",
     "source": "The New Yorker"
   },
@@ -2238,14 +2262,14 @@ window.NEWSFLOW_NEWS = [
     "source": "The New Yorker"
   },
   {
-    "title": "Madhuri Vijay Reads “Hidden Life”",
-    "url": "https://www.newyorker.com/podcast/the-writers-voice/madhuri-vijay-reads-hidden-life",
+    "title": "Restaurant Review: A Tasting Menu That Uses Every Last Scrap",
+    "url": "https://www.newyorker.com/culture/the-food-scene/a-tasting-menu-that-uses-every-last-scrap",
     "type": "Long Reads",
     "source": "The New Yorker"
   },
   {
-    "title": "Restaurant Review: A Tasting Menu That Uses Every Last Scrap",
-    "url": "https://www.newyorker.com/culture/the-food-scene/a-tasting-menu-that-uses-every-last-scrap",
+    "title": "Madhuri Vijay Reads “Hidden Life”",
+    "url": "https://www.newyorker.com/podcast/the-writers-voice/madhuri-vijay-reads-hidden-life",
     "type": "Long Reads",
     "source": "The New Yorker"
   },
@@ -2364,56 +2388,26 @@ window.NEWSFLOW_NEWS = [
     "source": "The New Yorker"
   },
   {
-    "title": "Critics’ Cult Classics: Hannah Goldfield on the Food World’s Secret Tastemakers",
-    "url": "https://www.newyorker.com/podcast/critics-at-large/critics-cult-classics-hannah-goldfield-on-the-food-worlds-secret-tastemakers",
-    "type": "Long Reads",
-    "source": "The New Yorker"
-  },
-  {
-    "title": "Who Killed Lorenzo Salgado Araujo?",
-    "url": "https://www.newyorker.com/news/the-lede/who-killed-lorenzo-salgado-araujo",
-    "type": "Long Reads",
-    "source": "The New Yorker"
-  },
-  {
-    "title": "The Mystery of Dark Oxygen",
-    "url": "https://www.newyorker.com/science/elements/the-mystery-of-dark-oxygen",
-    "type": "Long Reads",
-    "source": "The New Yorker"
-  },
-  {
-    "title": "What Is Ibogaine and Why Is Trump Talking About It?",
-    "url": "https://www.newyorker.com/podcast/political-scene/what-is-ibogaine-and-why-is-trump-talking-about-it",
-    "type": "Long Reads",
-    "source": "The New Yorker"
-  },
-  {
-    "title": "Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal",
-    "url": "https://www.bbc.co.uk/news/articles/cy5dzk0ryzdo?at_medium=RSS&at_campaign=rss",
-    "type": "News",
-    "source": "BBC News"
-  },
-  {
-    "title": "Russia warns UK over supplying drones to Ukraine",
+    "title": "UK 'supports Ukraine 100%', Burnham says, after Russia's drone warning",
     "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
   },
   {
-    "title": "Fifa official sacked after Infantino plan criticism",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cn7n4d6vy03o?at_medium=RSS&at_campaign=rss",
+    "title": "British couple on honeymoon killed in helicopter crash on Greek island",
+    "url": "https://www.bbc.co.uk/news/articles/cx2lzj91d84o?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
   },
   {
-    "title": "Tributes to actress Hayden Panettiere as coroner finds 'no signs of trauma'",
-    "url": "https://www.bbc.co.uk/news/articles/cq5665zgg1po?at_medium=RSS&at_campaign=rss",
+    "title": "IVF staff accused of misleading UK parents about sperm and egg donors in northern Cyprus",
+    "url": "https://www.bbc.co.uk/news/articles/c75gv9xnr3po?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
   },
   {
-    "title": "BBC breaks down Trump's latest shift on North and South Korea",
-    "url": "https://www.bbc.co.uk/news/videos/cy45zjw424xo?at_medium=RSS&at_campaign=rss",
+    "title": "Inside secret police warehouse as Germany targets small boats gangs",
+    "url": "https://www.bbc.co.uk/news/articles/cpq809zrvqdo?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
   },
@@ -2424,20 +2418,14 @@ window.NEWSFLOW_NEWS = [
     "source": "BBC News"
   },
   {
-    "title": "Jason Arday's family 'still coming to terms' with his death as vigil held",
-    "url": "https://www.bbc.co.uk/news/articles/ceqe87lelvgo?at_medium=RSS&at_campaign=rss",
+    "title": "Man charged with sharing asylum seeker addresses",
+    "url": "https://www.bbc.co.uk/news/articles/cly8mpp9r8no?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
   },
   {
-    "title": "Disabled people in England to get 24-hour free bus travel",
-    "url": "https://www.bbc.co.uk/news/articles/cjwx5vx21y2o?at_medium=RSS&at_campaign=rss",
-    "type": "News",
-    "source": "BBC News"
-  },
-  {
-    "title": "Watch: What we learned from opening statements in Tupac murder trial",
-    "url": "https://www.bbc.co.uk/news/videos/cevmw1pl9kvo?at_medium=RSS&at_campaign=rss",
+    "title": "Hayden Panettiere's ex Volodymyr Klitschko says family in 'profound shock and grief'",
+    "url": "https://www.bbc.co.uk/news/articles/c5ywe951z80o?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
   },
@@ -2448,44 +2436,44 @@ window.NEWSFLOW_NEWS = [
     "source": "BBC News"
   },
   {
+    "title": "OpenAI makes ChatGPT less 'human' for teens in new safety update",
+    "url": "https://www.bbc.co.uk/news/articles/czxqz91n5n8o?at_medium=RSS&at_campaign=rss",
+    "type": "News",
+    "source": "BBC News"
+  },
+  {
+    "title": "Officers told not to pursue car on wrong side of motorway before crash, says Ireland's police body",
+    "url": "https://www.bbc.co.uk/news/articles/cj036d6vj09o?at_medium=RSS&at_campaign=rss",
+    "type": "News",
+    "source": "BBC News"
+  },
+  {
+    "title": "Kanye West announces tour dates in Russia",
+    "url": "https://www.bbc.co.uk/news/articles/cd9w4v1nx93o?at_medium=RSS&at_campaign=rss",
+    "type": "News",
+    "source": "BBC News"
+  },
+  {
     "title": "Ex-workers tell of 'chaotic atmosphere' at new £400m prison",
     "url": "https://www.bbc.co.uk/news/articles/cwyjxvp4vdqo?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
   },
   {
-    "title": "Over 8,000 affected by water supply disruption",
-    "url": "https://www.bbc.co.uk/news/articles/cwymzly270zo?at_medium=RSS&at_campaign=rss",
-    "type": "News",
-    "source": "BBC News"
-  },
-  {
-    "title": "To joke or not to joke?: How to write a good out-of-office message",
+    "title": "'I'm in Barbados': The dos and don'ts of writing an out-of-office reply",
     "url": "https://www.bbc.co.uk/news/articles/c934xy32919o?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
   },
   {
-    "title": "Instagram and Facebook could change forever if Meta loses child privacy trial",
+    "title": "What's at stake as US states take Meta to court over child privacy?",
     "url": "https://www.bbc.co.uk/news/articles/clyqpx6xk69o?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
   },
   {
-    "title": "What to know about Tupac's murder trial and the gang leader accused of orchestrating his death",
-    "url": "https://www.bbc.co.uk/news/articles/cgmkl1j3dwvo?at_medium=RSS&at_campaign=rss",
-    "type": "News",
-    "source": "BBC News"
-  },
-  {
-    "title": "Guardiola-Walker fallout revealed in new documentary",
-    "url": "https://www.bbc.co.uk/sport/football/articles/c62xj5evpjpo?at_medium=RSS&at_campaign=rss",
-    "type": "News",
-    "source": "BBC News"
-  },
-  {
-    "title": "The Papers: 'Who duped PM?' and 'Pep's agony'",
-    "url": "https://www.bbc.co.uk/news/articles/cvgjy03d2n1o?at_medium=RSS&at_campaign=rss",
+    "title": "Why is feeding deer in the Royal Parks dangerous?",
+    "url": "https://www.bbc.co.uk/news/articles/cx2dz18gkk2o?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
   },
@@ -2496,50 +2484,50 @@ window.NEWSFLOW_NEWS = [
     "source": "BBC News"
   },
   {
-    "title": "Australia's mushroom murderer Erin Patterson is appealing - here's what you need to know",
-    "url": "https://www.bbc.co.uk/news/articles/cj9dx03jrgjo?at_medium=RSS&at_campaign=rss",
+    "title": "What it's like to be on a warship like the USS Abraham Lincoln",
+    "url": "https://www.bbc.co.uk/news/articles/c5y6z4krrx3o?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
   },
   {
-    "title": "Burnham exchanged messages with person posing as Trump's chief of staff",
-    "url": "https://www.bbc.co.uk/news/articles/clyvj5zdjj2o?at_medium=RSS&at_campaign=rss",
+    "title": "AI to help planes avoid climate-warming vapour trails",
+    "url": "https://www.bbc.co.uk/news/articles/c62em5lpvnjo?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
   },
   {
-    "title": "Norway's king admitted to hospital and put on sick leave",
-    "url": "https://www.bbc.co.uk/news/articles/c4g3qdj1z77o?at_medium=RSS&at_campaign=rss",
+    "title": "National Television Awards pick first all-female shortlist for drama acting award",
+    "url": "https://www.bbc.co.uk/news/articles/crk53pr44kjo?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
   },
   {
-    "title": "Wildfire phone alert was 'entirely appropriate', government says",
-    "url": "https://www.bbc.co.uk/news/articles/cwy4zepzp7eo?at_medium=RSS&at_campaign=rss",
+    "title": "Saudi-hosted Esports Nations Cup delayed to 2027 as Iran conflict continues",
+    "url": "https://www.bbc.co.uk/news/articles/cr7kdp2edk0o?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
   },
   {
-    "title": "Princess Eugenie announces name of baby daughter",
-    "url": "https://www.bbc.co.uk/news/articles/cn4nkww841xo?at_medium=RSS&at_campaign=rss",
+    "title": "Job vacancies at five-year low as smaller firms scale back recruitment",
+    "url": "https://www.bbc.co.uk/news/articles/cn9nwx090v9o?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
   },
   {
-    "title": "Boy, seven, among four injured after crash that killed five teenagers",
-    "url": "https://www.bbc.co.uk/news/articles/ce8lx172kero?at_medium=RSS&at_campaign=rss",
+    "title": "Scotland's state-owned shipyard to cut a quarter of its workforce",
+    "url": "https://www.bbc.co.uk/news/articles/c20e2qe1lqpo?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
   },
   {
-    "title": "'Britain's most bashed' bridge hit twice in two days",
-    "url": "https://www.bbc.co.uk/news/articles/c1j14p3w255o?at_medium=RSS&at_campaign=rss",
+    "title": "Wetherspoons bans customers playing music from phones in pubs",
+    "url": "https://www.bbc.co.uk/news/articles/cnvnl8gy22lo?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
   },
   {
-    "title": "Lennon criticises 'nasty' Scottish Labour as leadership bid fails",
-    "url": "https://www.bbc.co.uk/news/articles/cp8741dvre1o?at_medium=RSS&at_campaign=rss",
+    "title": "Man who rates benches on Instagram finally finds his 10/10",
+    "url": "https://www.bbc.co.uk/news/articles/cp8x9lz0zp2o?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
   },
@@ -2562,28 +2550,82 @@ window.NEWSFLOW_NEWS = [
     "source": "BBC News"
   },
   {
-    "title": "LIV cancels final event to focus on 'next chapter'",
-    "url": "https://www.bbc.co.uk/sport/golf/articles/c7vg4rn7v6ro?at_medium=RSS&at_campaign=rss",
+    "title": "Why Fernandez uncertainty has echoes of Isak saga",
+    "url": "https://www.bbc.co.uk/sport/football/articles/cx2dzj2w25vo?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
   },
   {
-    "title": "Man City move for £85m Bouaddi and still want Fernandez",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cd7l9n4qnlno?at_medium=RSS&at_campaign=rss",
+    "title": "Newcastle complete £30m move for Benfica's Dedic",
+    "url": "https://www.bbc.co.uk/sport/football/articles/czekzxd09zlo?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
   },
   {
-    "title": "Rodri lands in Barcelona to complete 'dream' move",
-    "url": "https://www.bbc.co.uk/sport/football/articles/cevmw02j4nyo?at_medium=RSS&at_campaign=rss",
+    "title": "What's going on at Cadillac and Haas? F1 Q&A",
+    "url": "https://www.bbc.co.uk/sport/formula1/articles/c1w1ypg102po?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
   },
   {
-    "title": "'Are you not entertained?' - Hunt enters stardom with iconic quadruple",
-    "url": "https://www.bbc.co.uk/sport/athletics/articles/clyqqxgrdqqo?at_medium=RSS&at_campaign=rss",
+    "title": "Guardiola-Walker fallout revealed in new documentary",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c62xj5evpjpo?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "BBC News"
+  },
+  {
+    "title": "Premier League to publish verdicts on referee and VAR decisions",
+    "url": "https://www.bbc.co.uk/sport/football/articles/c98v0mrerz2o?at_medium=RSS&at_campaign=rss",
+    "type": "News",
+    "source": "BBC News"
+  },
+  {
+    "title": "Williams sisters lose on doubles return",
+    "url": "https://www.bbc.co.uk/sport/tennis/articles/c4g6m08nnn8o?at_medium=RSS&at_campaign=rss",
+    "type": "News",
+    "source": "BBC News"
+  },
+  {
+    "title": "谷歌在拍卖会上购得已破产的Spirit航空公司数据，原因在于人工智能",
+    "url": "https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "Linux 7.3 在 vRAM 耗尽时提升了性能",
+    "url": "https://pixelcluster.dev/VRAM-Overcommit/",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "基准测试末日",
+    "url": "https://danluu.com/benchpocalypse/",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "我不再喜欢上网了",
+    "url": "https://btao.org/posts/2026-08-17-i-dont-enjoy-the-internet/",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "维修咖啡馆——修好你的坏掉的东西",
+    "url": "https://www.repaircafe.org/",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "Launch HN: Speko（YC S26）——面向语音AI的OpenRouter",
+    "url": "https://speko.ai/",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "内存价格在12个月内上涨了500%，达到有记录以来最低价格的10倍",
+    "url": "https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399",
+    "type": "News",
+    "source": "Buzzing"
   },
   {
     "title": "Fairphone 6 搭配 PostmarketOS 时主摄像头可正常工作",
@@ -2682,188 +2724,152 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
-    "title": "在Deflock展示了业主委员会使用的两台摄像头后，买家取消了看房",
-    "url": "https://twitter.com/lydiakauppi/status/2089196932413452386",
+    "title": "伊朗实时报道：霍尔木兹海峡发生船只遇袭事件，特朗普对和平协议表示怀疑 - The Independent",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTEN6TWJuLW5tMWpOMGUzZWowSEhhTVdueEh2YU96RlFrR2c5OUJPUjV5aC1ZOHZvVXJSc3Z0ZncxVHUyWHdaZ1ZUWllrM0stbWc0eGV3Z1F2MzJwclZTMzI4b1RIazhMb2FwQzRzeXR4YTRyODJpM2lORmhWUFZGdjZ1eE5xMW42RDRYR0FpQVlQTWJnSWxSZkk4WjE4TDhoVHJweW5OOTNMV3NjaERKNnRQbzFfQ2xTOWxYUmtKUQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "给朋友买电池吧",
-    "url": "https://domenkozar.com/2026/08/17/buy-your-friends-batteries/",
+    "title": "“本福尔德”号驱逐舰完成停电故障维修后离开日本 - USNI News",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPYnlLNjNndTJsaDVlaE9TXzBWRmNXNEpEcDFLaUhqRmdUQVJEaTV2aFcxUEF0Mi1uUTJDbnlNcUJxU19EYmxKQlZya1VMaE5mTjVjTlREQTQyQi03bnNEcXhiQldTcDlyWjdJN1Vjdm83aXRNclRKdExKS3ZuRHFXcUJ1UzhOYTBuUkJjOUQ3RnVTS1dwYWh2WXREQW5kVjdKa2c?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Anthropic对开源AI的战争",
-    "url": "https://twitter.com/TheAhmadOsman/status/2065307070044234186",
+    "title": "联合国防治荒漠化峰会成为焦点，会议正商讨如何使用120亿美元的资金储备 - The Guardian",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObFpHbmI2YnFQa0xpNWphTk5kZ1ZYMEQyc0RmUWh2T1c3Q3VvaTc1eVhNcGJONjdkODJteUE3OTJnYTJ1Njh1aURjeDgxLXpoU0dXMWtCRzZ6N1RqNk9OZk9pM2NyVndpVFI2b1NPTHRSTXdPLV9xR3o0WFo2eDhsWTZDcnVFay1qTmJad0VOVjYtUnZfdHNWSnRyb0w1TWdHMFZWNHJJU1I?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Qwen3.8 27B 在人工分析中获得52分",
-    "url": "https://artificialanalysis.ai/models/qwen3-8-27b",
+    "title": "那场可能给美国带来毁灭性打击的大停电 - The New York Times",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPM2ktTjlrSjZHdlZUUm5aUTAycXBCNE1qRmNMVmhMMVhfdWFSNzd4a2tzcFJVaDY0bl9sbkF4U04yai05djNELUg3bjNMNDYtQk9UWWVrVmY0eEZ3d3N5VlRwenV6QlF4YzhqVXIzNnNKSl9jci1pMll2SC1uNExuT0Mycm5QTHZPRTlNX2RGb2s3TUJUZkE?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "墨西哥严打沿海开发",
-    "url": "https://yucatanmagazine.com/mexico-crackdown-on-coastal-development/",
+    "title": "韩国总统强调与美国的同盟关系，而特朗普下令削减军事演习令许多人感到困惑 - AP News",
+    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPRE1vVzA4NWdOVmhDdjVHT0ZoWTNvQWRpTmdXTVNjbmlROWNTbnBDYUpCeTI2bnctckRaWTM2NUwyVTJlN2M5UlNJdWYzZXRHdkJMNks3RkFVMmYzNklRMk1RblNGYXBuc2ZkRmd4aXFuRjJpRkxnMGU5OFNPWFVma3JwVzBXd1hzMHc0dkV0SXFuQWtock9PZG9iQVJSNzA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "我们追踪了一批珍本图书的运输过程。最终，这些书被送到了亚马逊的一处人工智能训练中心",
-    "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/",
+    "title": "俄罗斯正向伊朗运送爆炸物，以增强其在与美国战争中的导弹和无人机武库 - NBC News",
+    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbF8wR1I1bFRQZ19BMTFONWpQdnJhSk1aVlpZWkU5WFVRMjlTSWFwS1h6czRvLUlraS1TY3RIQ1ViVGFrLWIxa2U4SUlBRnZ2U1Y2eF9Ga0JCTVN3Zk5FeVBZSjVPb0NVb3d0MDU2SG1RLW1uMjg1YkI2bXBlemhvNTdhR1lSWTJGcTlaMnhLQll6TkhjS3ZzNlhvaTNFU0NQRkNYLU02c3VoOHp3Nk5lRXpISU1vZ1FKRVp3eWNtRHF0dWlWSVhDdlJn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "如何禁用或避免侵入式人工智能",
-    "url": "https://www.librarian.net/notoai/",
+    "title": "中国外交部长王毅将于8月19日至20日访问韩国 - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNam1tQk9VWXN1MWV5V0dMX1hMYUREWkV6aUk5VXpUa1lLb0FfTGtiN3RTWXpMR0R4QTI2Yi14eWlnSTVPd0pXUm1lSm1mMXJrQ09FMVNyVlNFV09qSmRVbFdtaUkzcE11cXNidnpYWG9pVHhtbnJNTUpoWjRKUEoxUVRGT0IyZXU5UUhiQVkxWW1VTGRDdW5OX3d1YUsyRzdLTEEyc3NHeC1NeU9yNDhz?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "俄罗斯就英国向乌克兰提供无人机一事向英国发出警告 - BBC",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5FOV9IY1V1dlNiOW1UV3Z6a2w5dG9zQk9MaVNiUV83MGhmYzN5NDFZdVlGSFFXVlN3SWxkdTFZbmJIQlk3UTJCNVRkb09UOUJ2ekc5ckN0M2k1dw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "哥伦比亚一处偏远地区在地震后面临更严峻的困境 - The New York Times",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdmR5ek4wamFDVkRBeWVYSnEzaC1GOVZ1aktJU2xFc2ZpTVp1eWc5ZVNIMU1nNVBDOHZxOFlQRlQzUlg2a19WcTFXUHI1NDA5RkNJZWZ1V096MHRIcGJxNFVBNXdrQnBzaWlVdGU4QlN5enhOQ3piMWQ3NXZWcUlybFE4SDkzREU?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "美国海军一艘驱逐舰在南海断电4天 - The Washington Post",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQVHBtekJyZU9aX0R1ZXF2ei1GY2x2YW5UZWFWQm1lNkthOGhtUUh2LVBudHJNTXBFbHJuRnA5empjTUpYLTlTVDE4bmF3RDFWVzc4b1ZQeTR1ZEw4MklhazhzaDdlSE10ZThvRlFiUEtmNVlEQ3hqREZwN1Ytam5RdXlWeVNpM0dmWGlNM1lsQWRPQ2E1ZXhya1ZUY3Z5NzRtTUdBbjRzaFNNeHd5WWZhQ1dR?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "俄罗斯称有600多架无人机袭击了莫斯科地区 - Al Jazeera",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaW1wR0ZhajM4bElWb2RxLWRldW43a0VBQWh2ZHBJcFNoT055Nm51b09PbGZ1N1VSWXBoU2ZJdlg3UWkwS2ZMVC15YXBOTkhOMXB6LVQ3aTNwSF83ejU4MUtKNTQ1THNMNnIwVnlwYnVEYzljYktfamF0T01Xb1pPSTdrOXdKc0o4RENyWUgwVjlXWEt6UnNGNm5CZHbSAaIBQVVfeXFMTmZsYlVWVHEzUEQ4bFBxaFFYc2sycnlWZElwbUxWdHFzS2dFSHduY3huaUF0YzVhRHJXRWxZWjJQZlZtSVdjR1hsOG5kblNDUWNyamFOd1hoSW5kNFVFN1RpZFdqV2tOeEZpU3NrUHB2Q2JmMDluOVRIUGc1QTlfVE8yQmtxRDBfaExrV0tMb2VfTk5aakV1MFVyMW5qY3hwR3F3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "库什纳表示：“在哈马斯解除武装之前，我们绝不会允许加沙重建” - Al Jazeera",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUmgyejFsV0U5RU5jOUxLNUNsX2tPLUxTbk8zeFZ1VUxxYjZCdy1kdm5mdURoVkJFY1NLVXFVMU8zZXpoaDgtdlBxQV9JNGxBM0Q4YWhtZEV3dlZSNjhOWnkyQjZpdHJtZ1VPc3FVU3p1VnljVEhBdm9HbnJIQTRKcG1mQTFaUy13WUQySEZ2R3pLMlZuZTFlYktLcHRTdEJfU3F5aEdORWNkWDg0UlRV0gG0AUFVX3lxTFBYQnN0THV1R0ZKNWc1TjVsTG1BYmpTOUZfOTJXeVoxUlh2cTczd2I0dnJfUHgtM2x3S1M1bXRpXzl3bFVEYzFJYjRueFNpbThVN1dHNXcwRE1UOG14dERTcGtLTUs5c2xDdFBEa3dyU3VmZmJVcmV5MlphZEh2d0MwMDMwOEhDdHFqQnQwOHVfMU9ONTNvb2xpZmwxUEZ4M3R3UDcyOW9vRDVUUnpnX1JDSW5FTQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "在特朗普呼吁削减联合演习后，韩国总统呼吁实现军事自主 - The Guardian",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQU9PcnNSS2ZQQmxoOFNldmdkQ0RWTmwtVEFQdGl5bkJTcnBoUWR6TUJjS0lnSXFTeG5qU1JZRFNiS2tnTGw0R040YkVYUHFDZHkzdzFmMnpEUmFpanRPR045cmNlYXhPbEZnN0JvZ0pRaHhvY2JHQWJiNHRtNlBIbWVKRnFCaDlnSmc1T3VaRExIVEFsRGw5QWJzMjZzZ2RxZzRWQ3JLTlcwRFpCQXdqeFh6eThGZw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "呼吁英国就前剑桥大学学者杰森·阿代遭“围剿”一事展开公开调查 - Euronews.com",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLXIwSUVOaGl2ODBBZ0xNdkdHX1AwOXlWLUN6MTNjU2RKZ19Bc3RYZElwN1FORkZwQTR5VWV4N2VrUjdKMW1sU0JibzFvcVRZR1RkUXduU1o0ZjZKd1U3cU83eDc3QWw1dHdkX3lrbUNha1JXcHViLWVEc1dEZ3RZanU2bnZ4QUJPekptLXZNRWpBRjFRN3Z0MEs0ZlhXZ1daal9wY19aRkVTNEV1QXFMRFNSRW1ZMjVKbTZCSU9GQWR0dw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "英国海事贸易组织（UKMTO）称，一艘船只在霍尔木兹海峡遭不明弹体击中，据报有船员伤亡 - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdC1DbUtnYVo3NzVqcVBVR3FXcm1WQXBOWHI2b1d0SG5NOG1wS25jdjJJeUx3NFc0Ym13OTlZTzl5Q1hnR3dVWFpuTkF6cVlic0NNdXJDWHBIcGZlRVRLWUtJclYybUxvNTJ5RWFDZjJOaGR2aGFrS21Ibzg3b1FudnZjVkZTQV9ra2ZmMnNZNGZWWGdDZXpxUmpoMXEybC1oMjd2T3RYVjJwZ3NacE9XcERRWEZhcHZtbVE1VmhsaDNiWkhlV2hyei1QZ3c?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "欧洲热浪导致企业损失不断增加，保险保障缺口暴露无遗 - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPV1I5Nno4ZTlfSzdpV1JwbVVMdDZtODFfaUl3SnJHZ1pGdW41M2hGVW9NUTd1ZWo2UW1iZkQ5cWVpcnQyY09GYnRFZ2l3QzBlN0NRWWZ1Skt4a1NzcnFUWlY0bi12OTZUNGdhblB0VFdrcDhOdWRuSm1EZlYzQUJ4YkQxdlpjeFNwTzZMWGZ4SmRtXzh2Vm9vWDRkMTdtSUR0ZlZCRjV2bnM?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "印尼发生强烈地震后，民众等待救援（图集） - AP News",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTDk5M09OOFNDQXdUREk5ZS1id09rb2hOMUwyeXVXeW1KZDhweHJHWWhJdGdGOXczU2UwUlhSaWRSemF6NmZWSFlqbzEtSlgzSmxiYm5LX3RpcDNmcVdBX0tMZURJUVBRdVpWclp1eFNubHN2QUtPM2tBY1VyckwyQ3VwUW53ZktpT1FMYkJ5Q3lPMHp4WUJGaGRrS08ycXRjVGxwTUFkZVoyYVV6UFVoMklRcVNsUHRWQTR6NGE2Ym1hVTA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "一名巴勒斯坦裔美国人回到被定居者围困的库斯拉家中时升起了美国国旗 - The Times of Israel",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNXzVLWjh0WG5FRmg5MWpPYWd6dFRlMEptcmFPTFUtTkxGak5WSHdtRm9Kb3RFMTdfVFZwQnhSRy02WGJnZkFQTG0wNjhCWG1YV0g5UE45SUNmNUtGNnFURkp6bDFBWi1PZWwzYmJlT3ptVm9wUlJpd2hGNldBZHoycjhNZk1iTU5RUTR4N00zVmFPOW5jX2JsWFZCT0xhajNGNnhXR3ZDN2RpQlFGdjBoUWVmY9IBuAFBVV95cUxPbDVoTVloNHB4UGpDVl9ERzg5a1ZrcXdaeUJPLU9BSk55d1k2RE9BT0RZV0VsbTNCaTBBVk50RlEzV3IxdHpYc1pXazExdENMbURSeFFpcTVpalpFVTVLOERGTFh6RG45YTdzdmFQTEgwSjcwcWJkanlWazNDZnlUNk9WeHZzMUlfb0tVWmFpQXRBcXJiVU5Ha0xZdnRFM0Z4NDFidUtjQnpuaHJGUll2RFBvak5jUGp0?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "全球柯基犬齐聚一堂，参加最萌装扮大赛和年度高速赛跑 - nypost.com",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYlZPdjBSdENwMzU4QzZobGFyekNtZUg2WENUeUJLVmpnQVhaZDZXT1IzRFZqb0NBcXFlOXg5TkJGYWtlQW9CRWt0V2NBYkVDSkpWa2wwOERQXzhsRS1ybkVib2tPTWlETFJtV28tc05KclhtbjE4NzFQVTBCV1pLMXk4c25FYmljY2FtX2E5ek9rODg4engtRQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "库什纳与内塔尼亚胡会晤后，在推动加沙协议方面进展甚微 - The Washington Post",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPd3lGVlRVWXZIQms1SjhydXhxTmNiX1drNURRNjR1WHg1ek1nSktCc1B5YkRQN0dDaXB4ZWVJWUU2V0hIOEhERXVBSXZ6SFcwdzljeFk2NllrSjV6YnNYZFV0MUNVYXlLZG15aE1BcW0zYXNaZW9vVzNzZkY0bjk5dDF4U2lQa0V1TW95M2FmY1NFOURBa0EtWVducWozSXo3YksycUk3UkJpNUE?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "俄罗斯警告英国，若向乌克兰提供无人机将面临“后果” - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPZUVfTGNVRktRc2R4dkg0YXI4SndIblJaQngxMHlLNFZ5Z285ZzF3UHBIMTl2VGVUanpfRmhSR1BXcDJoNTNPNV9GUFZDSTcyMGFSQU4wblUtWm9zOWZ0cFU3eEdxc0dtNDdsS2tBUWRlX3hTOGtzemJiSi1nek1QWm9lb3c3NC1ZYllvb3RiTS1yX1ZrdHNrbzFJZi1uNHVzTGJfUHFB?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "伊朗和平协议60天的最后期限即将到期。以下是当前局势 - AP News",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQU3BhNEdxTFpDOGtvRmx2RU5kNWtFR1oxYXhsOEFWWm1NdG9IMkRaeEJvUmE5WUN0UjMxbXdwSXFmcXNKTjNGbkNfY1hrdjJtZnl0QVZXNk5jeVNFRV9qSklqTUhBVFpyTnFkdVBMeEZGRkJmWFFCWC1Ca3EtN2xGMzYtd3loMXdrTGhDSXpjV1ZzcGRnZUJfdEZueHdmSmFZR1BkcXV3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "官员称，菲律宾发生一起罕见的校园枪击案，一名学生和一名青少年枪手均已死亡 - CNN",
+    "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBfaXl0Y29xai1VSlhOSXd0RzlSUDBBSTVfZTBuSjkwTUpSemxPb0NvRVJWUEJEUXhDMXdJMUJCZjZ3TWc2WWd4Z1hKYzk5MVo0TkNfd3p0YzBqSGlKanFZeU5KLUFHQXNLYVdSM2RXMHhYYlZndmJjeEVCYy0?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "面对伊朗的困境，特朗普求助于一位熟面孔：朝鲜的金正恩 - The New York Times",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMG1fMlJhVHBiT1FxMWZnVWdDaXQxZjZORnE1Tl80dDNLX1ZnWDV5bnNRTHU3Rk9GLTFwZFVXNmJwWkYyRmphZkZYeHQ0OC1sVGFJc0ZQZ1NNUGU5alhXOWFUUWFkS0hFN1FnV0I1S0xPTUZ6VFN4Q3VsSjkxbFpWRFM5UGk0NFFSNFJJbVYwRQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "印尼地震死亡人数逼近70人，该国独立日当天数千人仍在等待救援 - CBS News",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTGVnOWlyNm9QTW5hS1JDbTk2Skx5YkZMaExDUDdMOFZHVDFBRElXZzhNTkltU0lPZy03NEl2OG1QODlIN0FQQV82ODMwdVJ5OFVZc3FCTjNaQWRaYjFLb25WdUlMdU9sRWlod0VJbHM4VkV3QWR3T25CLWVCam1SZGJLMGh3MG9IT2hLdGFzaHg5aUprTlMw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "一名巴勒斯坦裔美国人在定居者围困下返回西岸家园的历程 - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPemVlSmx3ZkppbzZ6WE9oMzdjekdXOEIzUTBldm5NbG1DY3ZaUkUwSjlwdHFFekRjRDl6elZGdlUxQ1F5YmxTUXlDQTM0RHhKbGNMRlJxN3VsWHI2cGZ6Yjc2V2NaenFxRENiS003SmVYZlhReXEzYW9reUd6UWhyQnJZT1RwZFZyUk1rUFVMTk1ZZVR0MXJxdG1TREs5Sy0xOFdYeFFTemVqejJsN1RmQVZEbGlZY3A4NzJSZW5EWQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "短腿又个性鲜明的犬种：柯基犬席卷维尔纽斯 - Euronews.com",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcGtLejhpM1Fyb0Fpa0tueExUZ3FaRjFOM1JTaXBENnRWT05hNEtMRDd2R3NpRm4xOGlrYkk2MV8wVGZiMFM4WFJfUERLZG5zOTJwejZYcnl3YjRfR09JSF94YXVGRkxHVklZYlREWUFlamhEbDNGaDEyWVFlQV90VkRCUU5fYW5JZ2FaRkIzM0RqbHhRNndhdlJ5ZU1kTFFRTDdBQzYyUnloM256bkltbw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "卡拉斯称，欧盟计划对俄罗斯实施迄今为止最严厉的制裁 - The Moscow Times",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcDlpa19YT3dFbzlqcmhISERsXzVLZl9tekpNV3BjVFZfNGd1MmhxRGJHd2NlRERmVUlzR1dlMUViUXdxLVFoMWxFYzVHbl82VW9JdEZmQ3FiTFJSNFpwQ0h2X2FVNXdFem45SjhOUk1oc3VIeXYwU0tvemxyRWZJVk92SzF2SXNWWTk0a3V2MXNqMk54bDRRdkV3V3VDQzhiY1p1UXRVMmNxZlNvWkZnZTdn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "英国制造的无人机袭击俄罗斯本土后，俄罗斯警告将面临“后果” - The Independent",
+    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWDdMMUpqWUpkOEdrTkRvNFVSRDdiYUFWR0VicnplMXNxN2VaZmkzbllpSXlucFRzLTY2MjQ1am9vNmJNTzROTmx0TUQ2MHp6R2s3MFhINFhjMXJHTWhtLVNTMkYtamNJSUhobGhVRGFFeTdWWlVmc3lIVFI2bl9Vc3Nqb3FLcmNJbGIzUk40UFNsTFZKRGVVZk1n?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "俄罗斯维持对反对党“苹果党”的选举禁令，并将其副党魁收监 - Al Jazeera",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPME9aaGUtSWhubXhKSTVkSkdFdlJIZW1SWmJvUW5UZ0dkN1l2ZXJwd0xpeExRSlByRnRBekhZSFpuZTU5dnRHUFM0Nm9uamJzOWxOXzBOSE1TYTVzNnc4Z0VCNlU3UmVBSk53ZS03QkY4Zm44VlhlTWI0ODRjVjY0LTVvaEVReWt4VkFLaHB6dmJmUk45RnhhVmh6SnJQSkRoem1fQWpSbXpyTm9hUWpF0gG0AUFVX3lxTE8zaHpPOVBlLWliOFNUSml0TTFTdkY0bzlxYU1XdUdpVVJhRFExZ0pLUng1T0FnNnZlRzNELWpBS3lBeERPdlh5OEtUNGJxSmhRRFlqMWs2ajlWRGQ4US1aWlVoVGVUd0V6VzN4X1ZCMk9rb0RYTjRzT2JhQW5jU25HeUUzTlAwSEREajJadllNTHk3bTlhcXExY3pjanYzQWROamY3MWpOaHdIYlhSZkMtcmo3VQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "夏奇拉意外造访遭受地震破坏的哥伦比亚，并承诺重建学校 - AP News",
+    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOQk85aFc5OVpMc3pHdWFaS2xjYzQyUmJhRVdQd2ZVc1dIZGY2Szd3b0V0bEdUOG02RnZ4VDV1cnllejNQM203bmkxcG5sS3BYSHlMVXg3ZGNNUldOWVgyOHBHTDlQOFJlS2VGWmlLQmJib0VXM2czT3BQTDAwc05JQnZ1RjFEdG5ORWE2TXBhYVc5MXNOSUs0YU52UUF1eDBaS1Zhc0JB?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "在与库什纳会晤时，总理重申以色列国防军将留在加沙，直到哈马斯解除武装 - The Times of Israel",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWGt3YXNfTklfMWlmZ2F2bUR5MTJ4NlZHYU1vSzM2c04xVzZ6dFU5UFlOelU5emVXZ0JhR1NselJ3NnJmSTZvaVFvUnNOWXhhT3JvTjhvNEtad29GRWNaOHc3ckw1QjlSbzBvZkFiLXJ6WUlZeFI5YW02azZtMGd1SEo1MGgwT29rQlhqSFYzTkVnUlIwWXY1dTVpZXVEdVpZbXlsSklXZUZsMUw2VFFZ0gG0AUFVX3lxTE1GLXl1VGdFN1Zqa0NfTFI1RUZVTEw5M2RGTGZGYUR4SGNIMTlqaUJ2RjhQUnlVam5MN3VxaUprbTdRZFNialk5Tjd3NHJOS2VFTE50RVNkZ1pOUnp2VHBzOTVqeHFnMjVKZi04OUZTZThUR0xTbW1qcUZwSnJkb0RWbjlFdjdBbUQ3eXdZbWZXSnZnRUxud1hTY18xZnJ0eVh1dF96QXA2SHVmRzI0cGJBQXRuQg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "月影飞掠过西班牙腹地，而我恰好在那里目睹了这一幕 - Ars Technica",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQmlVR2ZKT1Z4cDBZTG9sVUhoWkJVMVhONDk1ZEQ4TFdFZzVsbmpZSTJ4YWVuaHBGRGQ4OXAzLVpUSDlDTFluYkk1Qmt6VDNzUkcwcFVpM3RQNDNvbjVxR3BmS2FCWGhUTU5YdHVaUnMxdlR3LXRKVFJTcndYUmk5R1M0MWo1WjVYbktJUWpiVDBQSG1rY3RMTG5FTFVTM0hrUWxySnQ3Y0xDYW1jQTlJQjR2QQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "乌克兰通过攻击在线零售商Wildberries，旨在打击俄罗斯的经济和士气 - PBS",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMnBzRnYtdUFQVi1PMGQxTnp5WWhjQXdnSEFXNktETHNZNENRZjJrdWtyaVFKMkFnUll4em5FQXhYSS13MC1vRHZMSDJqX1Nub1Z2aTJVSE1FNzQwcEFhODRnZ3MyWlJ2Y0JhUDdPQ2oyaFdQU01JQXZSRkZ3bl9peHQ0cHd0b3R2UVI0UFBhTEE3c3AzSERIVHdVbllwOV9Nb2JmTEdzVEFWSzdfVkd5ZHUyMXdDVGdLVUxCZkx3SzTSAcYBQVVfeXFMUGRwTjlBdlgxeDJncTVrMXF6eTVDRnFIOThGVnhRLUFMYUpHUGxMM1VleWp2Um5pVk15di1jVDdxWE5VNXJYMElxWFRRRFlvelhKYUpuSTJmODZhOVBSTlkxejFlOVVCMlJDVWZ4RUNzZF9yWkZ3ZDhfYkNwcVkxVEZIaHV5UTBYamVULWhYYUtHM2JCbXFzR0pHbEp1b1FHSGlBNjQwbTZzMmF1c09YR2tGdGt0VS1UQTc0VjFfZ2lNWER4QmR3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "特朗普称，朝鲜领导人金正恩已回应了他提出的对话请求 - Al Jazeera",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdlZ3REdjRkxidjdjTmlMNnUxcUhlNUstbFF1MDZCLXI0UVo4QmhrNU12clBFNTBsT1dTNU9fVXRNbmpRZ3ZibmNmWnBUVGVrUUFmVkRWTFYwRXRGbGlnY1RhclpnanJkMzNXRmgxY0FsTWxJV2YzTG0zdU10UmY2aTVFYmgyLThxZjdBeUZLRWJiQi1ZM1BiVFR5Wjk1OUlOX1E2QkhiX214d3pIeTdWM1BB0gG3AUFVX3lxTFAySnFLRVJXNWhGRUFkZTVTbjhfNGhFcjNXRnpzbmllU08wa3pDdnhfSktKenM1U2RGWGdYYUNSNGZjYU5jNlYyX2VpelV5NnFCcDR1YklaVXBtUHNfa3l3cUxWcG5CQmZ4Y1FYMHM2U1lES3ZDNDVBZGlTYnhfSFJWY01hb2Z4MXBjb0ZDNEZxUEoxMzJSZmdSbHdfZ3h0dDdZS19jc0ZKX1hra3Q5ZklnbG1CM3cwYw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "法官以发表反战言论为由，判处莱夫·施洛斯伯格11年监禁 - themoscowtimes.com",
-    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNM29tdy1zR2dFSi1BanhiN1BZZkRNMTI1UzRlX2xXSG93emZ1S3dzZ0UtVE9UQTJnZ1BVRGFiUmxncGdsYnI1UGdoUzc5XzEwci10b2ZFVm1NNTNfNHNMQTktekw2R0dSZWJDa2otTjdDVnFMOWlkeVpYWFlEcFlwakdOQXduY1dVdkRROXR0V3RoOVp4b1U4RnBtbFFBU0NUcnJPMlB5U05mRDkybzVITExnM1RESV9wQWVHRXc5NHZDZw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "“必将付出代价”：英国制造的无人机袭击俄罗斯后，莫斯科向英国发出警告 - NDTV",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPem9wME4tSHplbWU4N2E5d09YY2JhUGh6YlNtYy0tRTNrUXhMamF4OU1MNDNHdzI5WHpPZVhaZG5RQ1h4QndpQmg1dE1ieU5XeldFLUtnYXRLQkNmdzNPOVFzckc2a2NiR0pzd3Q3WU92d29mRWYwY0oyYlk5M3I0Rmk1MmRHdnFaTVFUMUhKUlZ1RGtESnY1bNIBoAFBVV95cUxNQzBYUjZvUS03NWJJREFVV3l2VVIzdkdPMHBPMTlkajVvR25mcFZPMGdvbnhpcTVnTVhjcGwtbmU0NlFyNkJRbjVwaDZtcDlYOTR0VWowTjdCSHk0YWlOMmZLbnRMRWJvMnkyTVBZc0g1c3kxTlY1dEhlclctTzlJZm9WZXhzMi00SmEtcnFObnB1R0o3bFpGUzdJdm5ndGFf?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "事实核查：特朗普这则关于韩国的报道，每个细节都是错误的 - CNN",
-    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSmFIbEM1ZzY0Vm03YkJpZHU0WHVUUS0zbS1BRWJsNVhxcFUzWTVRQm9VSXNCZTR2QnlhQ3NPVTFrQkVJVVhtSzdqYXNuOGdWdzN1WjRkem01QTB3QWZ5SEx1ZWRmLUxka2h5dHBOMVNNRGJRMDlsMFlsREJrSmJPeTdhcWxtVTdNbzlZVDBUR2M?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "美国和以色列成立加沙解除武装工作组 - Politico",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMjNzUEo0T216UXZoRG8zeTlGNkxLN1p4djd4aW5rZUthUTZSblNvd2JFLWFtVTRIeUhNazQtajkxV2tMSHljQ3Y2bldWeHNVZ2tvUzZwZ2NYNy1DUDBoTVg1Q1hsQ1NJZWVVaXZtODRpUy1EVF9HcjhZbnhzSDJQOTdvWVBxU1FidFZubWhVbklLU0NvR0tVVy1WTW5YbHItQjRZTg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "“史上最慢的谈判者”：韩国投资承诺滞后如何损害其与美国的安全关系 - Politico",
-    "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxORjBPXzBRV2Vxd21LZFdyY0lZX0lpMnQtVEFubmx6dXNpTWstdFp0aGozUHJaYjRFVFdtbnVWQ1J5RTRiTFo5NTdoWWw5Yzg0UTBZT0V0cE9FWFFqMWVFQno5MmRZTkZZWXJSN0t6QVRNQTFudVhiY0JmZEx2bm5sQ2dDY0xWMTFLT3F1QU9ZOVAwZWFUSjQza2pCa2xYUmpfTl9ReWtLSXlTLTBqWEFXeTRUY3NSeWNodm5HblY0NUxnT2tKOERYR1gtTzZfdXdaV2J5UUF1Y2RSLXh4aWpCR3oxcHI4WXo0eVIzNlFnUk9NV0U?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "乌克兰战争实时报道：克里姆林宫就基辅在袭击中“使用英国无人机”一事对英国发出威胁 - The Independent",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQ0lWYUx5RXk2aHVtRVdxWER5bHBKbnloRkUwN09aSENnYVI4WndnRUVUdk9NVzBJcWc4dTJyRS1UOU1EbWllSFJYSEtSbzBXYXd3MDM3RlU1VW1aQUx6SkJTblZfVGcyVDJmWWdNbHRrb0hlU1Q4bW1hRk5ibUVHcnZ4U1pJN012MFBlT1J2SnZISFVXV1g0WXBLS25SSy1oWmNYOUw5NEE4X1lQSmtidHJRYnkzQU5Y?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "一名美国游客在西西里岛埃特纳火山徒步时遭雷击身亡 - AP News",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPNkhmSklyVXlNc2NGM3BXVnlJOFFNaTlBNUNmUjJ3ODZRRjZWUkhsZEI3N0EwcHd0aFdYLTVpNU85OHA1NlItNkp2M0hMR3VwNjBmYXktT2phbDVmakU2Q2FIZmxobUlrMWlZbmViRWhjckxIYTZ5SWV6d2Y2SHVUc0llR05pdTR2X2dsdU9GODQ3S3Y0eHVMdS10MGNYeWpsWTkw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "俄罗斯法院以反对乌克兰战争为由，判处一名克里姆林宫批评者11年监禁 - AP News",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWTJGanpSbTFGQ3JFeXRVNlN3bHk1RExpaTA2cl90ek1WcVEwc2RkZVdCcWJDc0V2aDlxejN4MXYzeHY5UFc0UmNZOVFDRVJfWXBBdmExVVpndFRvRjAxVjJUVkRQVHU1eHRDTzZLVUo2a2hPbG5EY0dRMHJoTm9jM1NObkpMX1VjUjZyUHlPMUZDemVyZGlwSVdFYVoza2JUemUyR3A5OHVPVVROZV9rd1BGT21oUQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "俄罗斯判处一名重要反战人士刑期 - Newser",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT2lPenY4MnlkeHU2dUFlZ0RZR2ttWU9mOVJteVZaclZsWWFOYi1xV2x3TDdUS2xTXzdSNnVDRlUwX0dTZk9VTWdGRm5RdUN6UG1MM19qSXhsZUVRSVU3TDhmMW9wWUdVNHRMNkhWQ1Q4X2MtdlBMaW9sbnZBeHBZcVo4bHU5VnlubG9veHptT2pqWXhFNXhjNENEeXQ3UQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "高市在二战相关活动中的微妙信号背后 - The Japan Times",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOck5CeElsV1puMWVRQVVkbmRQMmloTWJOY1NDalA5Z08xOVRqOTZiSGxXdWNDT2p2M1pXaWtwb21Hc0dzazcwQXNLbUlTaXpjVXA4Mlp1SUlQTkRzVlFibkU3TmZyaHJydlExUWxUVUN6STdFM0Rvd05FTFQ5VlRtM1hRNkNqOTc4Vzg3Nm9vVjNIYmQ2cW03aFJMUmZfV2M?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "俄罗斯一位著名的反战政治家被判处11年监禁 - BBC",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE45MVdaTkVkbnVORm1fOExwVExGX0daRDAwX05fYk1FSV9sUm5ienZaLUM2Yk1VZ0FyX2d2Wk1Za2ZGQUduVy1nMDBYcEw0aFRoVHpQc0lnaGpuQQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "普京因数十亿美元的耻辱遭遇国内危机 - thedailybeast.com",
-    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNczBvZlJ1M0dwS1A0OGdLNDg5cUlWSWFwbFRjN3puZ0FaWUVFaDI5ejZtOFg3d0R6M1oyWFhja2ZZNnZETGp1QWNMOHVFSXBqVHBFelplMG56dzVuVGMyWjZMLXAtQnUyZ3hFTlB2ZDVONXZMU2ktOUI2cFFPWjJ2UGtmSnBreEJrMW9pRW9HMGtvZXJKTnc?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "当被问及缩减美韩联合军演一事时，特朗普表示金正恩已对他的善意姿态作出了回应——直播 - The Guardian",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOd3Y0Z0tKWld6a1JidC0xdWtsRHVMMGE5Y3llMHNOUnhTcDEyWS1teWNUenFvTmlVcUhwc0VSdTJZTEJfTEpBQ3k2ZUZYSElkZnRrdDBNeUxwMlJNb0FDa3Nqc0kzcEd1NFZMbTZfY1c5aEVOMF9hTmNmUlFIY0U4R2JWSm0ydFNMM0tzeGFjWVBUVXI1cS02OEl6Nm44LWFQZDF6bVRZTGhGMXZZTkg0NlJkWElvMFhQN3RN?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "为您介绍我们的最新通讯《为您而来的〈经济学人〉》",
+    "url": "https://www.economist.com/international/2026/08/18/introducing-our-latest-newsletter-the-economist-for-you",
     "type": "News",
     "source": "Buzzing"
   },
@@ -3006,152 +3012,176 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
-    "title": "唐纳德·特朗普再次抨击儿童疫苗",
-    "url": "https://www.economist.com/united-states/2026/08/13/donald-trump-takes-a-fresh-swipe-at-childhood-vaccines",
+    "title": "围绕AI选举的负面反应正在影响华尔街对股市的看法",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-18/ai-election-backlash-is-shaping-wall-street-s-stock-market-views",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "随着预算争端预计将升级，交易员做空法国国债",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-18/traders-short-french-bonds-as-fight-over-budget-set-to-escalate",
+    "title": "Klarna 扩大用户服务范围，下调营收预期",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-18/klarna-reports-second-quarter-profit-as-it-widens-user-offerings",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Situational Awareness 向 Citadel 等机构出售了 Taiyo Yuden 的股份",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-18/situational-awareness-sold-taiyo-yuden-shares-to-citadel-others-msy5e92j",
+    "title": "据称，阿里巴巴支持的机器人制造商LimX计划在香港进行最高3亿美元的首次公开募股",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-18/alibaba-backed-robot-maker-limx-said-to-plan-up-to-300-million-hong-kong-ipo",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "债券市场迎来“30年周期”——巴西也不例外",
-    "url": "https://www.bloomberg.com/opinion/newsletters/2026-08-18/the-30-year-itch-comes-for-bonds-and-brazil",
+    "title": "家得宝业绩超出预期，成功克服了房地产市场低迷的影响",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-18/home-depot-overcomes-housing-drag-to-post-faster-sales-growth",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "为什么中国的DeepSeek、Qwen和Moonshot让美国的人工智能竞争对手感到担忧",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-18/why-china-s-deepseek-qwen-and-moonshot-are-a-worry-for-us-ai-rivals",
+    "title": "债券抛售持续，科技股下跌：市场综述",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-17/stock-market-today-dow-s-p-live-updates",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "中国格力、海尔、海信、美的、TCL在欧洲热浪中空调销量激增",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-18/china-s-gree-haier-hisense-midea-tcl-see-ac-sales-surge-in-europe-heat-waves",
+    "title": "美国页岩产业的蜕变给科技巨头们上了一课",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-08-18/us-shale-s-metamorphosis-is-a-lesson-for-big-tech",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "迈克·阿什利旗下的弗雷泽集团如何打造了一个价值20亿英镑的房地产帝国",
-    "url": "https://www.bloomberg.com/graphics/2026-mike-ashley-frasers-property-empire/",
+    "title": "随着特朗普设定的最后期限临近，美国和加拿大正朝着征收50%关税的方向快速推进",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-18/us-canada-barrel-toward-50-tariff-as-trump-deadline-approaches",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "为什么伊朗的新领导人需要继续这场战争",
-    "url": "https://www.bloomberg.com/opinion/articles/2026-08-18/why-iran-s-new-leaders-need-to-continue-the-war",
+    "title": "斯坦福大学因外国捐款问题面临美国司法部日益严格的审查",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-17/doj-official-flags-stanford-for-scrutiny-over-foreign-donations",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "AI说谎和欺骗的倾向已植根于其训练过程中",
-    "url": "https://www.bloomberg.com/opinion/articles/2026-08-18/ai-s-tendency-to-lie-and-cheat-is-written-into-its-training",
+    "title": "“林肯号”航母受审视，加剧了民主党人对伊朗战争的批评",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-08-18/uss-lincoln-scrutiny-amplifies-democrats-iran-war-critiques",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "英国社会护理领域的困境可能是安迪·伯纳姆迄今面临的最大考验",
-    "url": "https://www.bloomberg.com/opinion/articles/2026-08-18/uk-s-social-care-morass-may-be-andy-burnham-s-biggest-test-yet",
+    "title": "太平洋投资管理公司（Pimco）的斯特拉克表示，财富管理公司对私募信贷持谨慎态度",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-18/pimco-s-stracke-says-wealth-firms-running-shy-of-private-credit",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "刚果埃博拉疫情：随着不信任感加剧，财务监督成为重中之重",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-18/congo-ebola-outbreak-financial-oversight-takes-priority-as-distrust-grows",
+    "title": "利物浦押注美甲沙龙和金融产品以抵消经济放缓的影响",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-18/liverpool-bets-on-nail-salons-financial-products-to-offset-slowdown",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "随着人民币支撑力度减弱，中国企业在7月放缓了外汇销售",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-18/chinese-companies-slow-fx-sales-in-july-as-yuan-support-fades",
+    "title": "截至6月底，Intesa持有的SpaceX股份价值近10亿美元",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-18/intesa-s-spacex-stake-worth-almost-1-billion-at-end-of-june",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "美元互换窗口提前关闭，印度卢比及债券市场押注情绪退潮",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-18/indian-rupee-bond-bets-retreat-as-dollar-swap-window-ends-early",
+    "title": "受内存短缺加剧行业低迷影响，小米利润大幅下滑",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-18/xiaomi-profit-falls-after-memory-crunch-hits-smartphone-demand",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "亚尔德尼表示，目前尚不打算针对“债券义警”按下恐慌按钮",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-18/yardeni-warns-bond-vigilantes-stirring-as-us-yields-near-5",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "Alphabet在澳大利亚发行的债券表现优于美元债券",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-17/alphabet-kicks-off-aussie-dollar-bond-sale-as-ai-spending-soars",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "受加息预期减弱影响，金价在4,400美元附近持稳",
+    "title": "金价小幅跌破4,400美元，交易员关注长期债券的下跌走势",
     "url": "https://www.bloomberg.com/news/articles/2026-08-17/gold-holds-two-day-gain-on-reduced-rate-hike-expectations",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Anthropic在IPO前年化营收突破650亿美元",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-17/anthropic-revenue-run-rate-surpasses-65-billion-ahead-of-ipo",
+    "title": "Integral AI的倒闭预示着机器人技术领域未来将面临挑战",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-08-18/integral-ai-s-demise-signals-hurdles-ahead-for-robotics",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "随着IPO市场繁荣，香港交易所与首席执行官陈先生续签了合同",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-17/hkex-renews-ceo-chan-s-contract-for-three-years-amid-ipo-boom",
+    "title": "数据中心燃气发电厂将使美国电力行业排放量增加20%",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-18/data-center-gas-plants-to-boost-us-power-emissions-by-20",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "在经济增长大幅放缓后，习近平的二号人物呼吁加大对经济的支持力度",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-18/xi-s-no-2-urges-more-support-for-economy-after-big-growth-slump",
+    "title": "墨西哥及绕过巴拿马运河的铁路路线",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-08-18/mexico-and-rail-route-to-avoid-panama-canal",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "CSL因有望重回盈利增长轨道，股价创2001年以来最大涨幅",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-17/australia-s-csl-sees-2027-npat-growth-at-5-at-constant-currency",
+    "title": "贝森特针对日元的举措让人联想到美国过去对汇率的干预",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-08-18/bessent-s-japan-yen-move-echoes-past-us-currency-interventions",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "法庭获悉，巴伦乔伊人对贾登的突袭是一次“有组织的袭击”",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-18/barrenjoey-raid-on-jarden-was-a-coordinated-attack-court-told",
+    "title": "类人机器人需要建立北美供应链",
+    "url": "https://www.bloomberg.com/opinion/articles/2026-08-18/humanoid-robots-need-a-supply-chain-in-north-america",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "德国希望在裕信银行胜诉德国商业银行一案中寻求和平解决",
-    "url": "https://www.bloomberg.com/opinion/articles/2026-08-18/germany-is-seeking-peace-in-unicredit-s-commerzbank-victory",
+    "title": "德国发行的30年期国债收益率创下2011年以来最高水平",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-18/germany-is-set-to-sell-30-year-bonds-at-highest-yield-since-2011",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "供应紧缩席卷铜市，关键价差大幅扩大",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-18/supply-crunch-grips-copper-market-as-key-spread-flares-out",
+    "title": "期货价格下跌，因长期债务成本攀升至十年最高水平",
+    "url": "https://www.bloomberg.com/news/newsletters/2026-08-18/futures-dip-as-long-term-debt-cost-climb-to-highest-in-decade",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "普拉博沃的“务实”演讲安抚了疲惫的印尼投资者",
-    "url": "https://www.bloomberg.com/news/articles/2026-08-18/prabowo-s-pragmatic-speech-comforts-weary-indonesia-investors",
+    "title": "推土机抵达后，大弯边境项目暂停",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-17/trump-s-big-bend-border-project-paused-after-bulldozers-arrive",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "尽管Nifty指数势头减弱，印度新股发行依然表现亮眼",
-    "url": "https://www.bloomberg.com/news/newsletters/2026-08-18/indian-ipos-shine-bright-even-as-nifty-loses-momentum",
+    "title": "受油价上涨和债券抛售影响，新兴市场资产涨势止步",
+    "url": "https://www.bloomberg.com/news/articles/2026-08-18/emerging-assets-halt-rally-on-higher-oil-prices-bond-selloff",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "LinkedIn 个人资料的更新本身就是一种就业市场数据",
+    "url": "https://www.bloomberg.com/opinion/articles/2026-08-18/linkedin-profile-revisions-are-their-own-form-of-job-market-data",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "艾伦·德肖维茨不会忘记拉里·大卫对他做过的事",
+    "url": "https://www.theatlantic.com/ideas/2026/08/alan-dershowitz-larry-david-vineyard/688293/",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "伊斯兰恐惧症侵蚀了美国价值观",
+    "url": "https://www.theatlantic.com/ideas/2026/08/muslim-experience-islamaphobia-united-states/688277/",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "年度最佳犯罪剧聚焦女性的愤怒",
+    "url": "https://www.theatlantic.com/culture/2026/08/furious-hulu-tv-review-female-monsters/688313/",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "亨里克·易卜生的《杰森·阿尔代》",
+    "url": "https://www.theatlantic.com/ideas/2026/08/jason-arday-death-lies-delusion/688311/",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "特朗普把自己的脸印在各种东西上",
+    "url": "https://www.theatlantic.com/politics/2026/08/trump-name-on-everything/688090/",
     "type": "News",
     "source": "Buzzing"
   },
@@ -3270,38 +3300,80 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
-    "title": "名义上的民主党人",
-    "url": "https://www.theatlantic.com/politics/2026/08/rob-sand-zach-lahn-iowa-governor/688267/",
+    "title": "卡里巴渡轮事故死亡人数升至93人，成为津巴布韦史上最严重的交通灾难",
+    "url": "https://www.bbc.co.uk/news/articles/cjwx58n1153o?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "反正Bumble本来就不打算解决约会问题",
-    "url": "https://www.theatlantic.com/family/2026/08/bumble-dating-app-men-message-first/688298/",
+    "title": "为什么印度法学院学生不希望顶级法官出席他们的毕业典礼",
+    "url": "https://www.bbc.co.uk/news/articles/c171j0k74d8o?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "八部完美的剧集大结局",
-    "url": "https://www.theatlantic.com/newsletters/2026/08/eight-perfect-tv-series-finales/688301/",
+    "title": "一只作为毕业礼物赠送的山羊是如何走红网络的",
+    "url": "https://www.bbc.co.uk/news/articles/c3w03y2wgxeo?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "好莱坞最坚不可摧的超级英雄",
-    "url": "https://www.theatlantic.com/culture/2026/08/spider-man-superhero-movies-box-office-records/688296/",
+    "title": "印度学生领袖结束了持续16天的绝食抗议",
+    "url": "https://www.bbc.co.uk/news/articles/cly8m31nvmgo?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "一部阴郁而暴力的小说带来的意外惊喜",
-    "url": "https://www.theatlantic.com/newsletters/2026/08/books-briefing-marlon-james-disappearers/688292/",
+    "title": "赞比亚总统以60%的得票率赢得连任",
+    "url": "https://www.bbc.co.uk/news/articles/c5y6j4jl03xo?at_medium=RSS&at_campaign=rss",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "中国在前总理葬礼期间限制公众悼念活动",
+    "url": "https://www.bbc.co.uk/news/articles/c8dn3rqlyrgo?at_medium=RSS&at_campaign=rss",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "医生从一名男子膀胱中取出重达3.1公斤的结石，并宣称创下纪录",
+    "url": "https://www.bbc.co.uk/news/articles/cg5l9n7d803o?at_medium=RSS&at_campaign=rss",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "菲律宾一所天主教学校发生枪击案，一名学生遇害",
+    "url": "https://www.bbc.co.uk/news/articles/c1e154qjw96o?at_medium=RSS&at_campaign=rss",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "视频：从图帕克谋杀案庭审的开庭陈词中我们学到了什么",
+    "url": "https://www.bbc.co.uk/news/videos/cevmw1pl9kvo?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "Buzzing"
   },
   {
     "title": "图帕克谋杀案庭审：目击者称，说唱歌手中弹当晚“现场一片混乱”",
     "url": "https://www.bbc.co.uk/news/articles/cp3r0kz775ko?at_medium=RSS&at_campaign=rss",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "BBC 深入剖析特朗普对朝鲜和韩国立场的最新转变",
+    "url": "https://www.bbc.co.uk/news/videos/cy45zjw424xo?at_medium=RSS&at_campaign=rss",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "挪威国王入院治疗并开始休病假",
+    "url": "https://www.bbc.co.uk/news/articles/c4g3qdj1z77o?at_medium=RSS&at_campaign=rss",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "“蘑菇杀手”艾琳·帕特森正在上诉——以下是您需要了解的情况",
+    "url": "https://www.bbc.co.uk/news/articles/cj9dx03jrgjo?at_medium=RSS&at_campaign=rss",
     "type": "News",
     "source": "Buzzing"
   },
@@ -3324,6 +3396,12 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
+    "title": "特朗普威胁称，如果阿曼在伊朗问题上“横加干涉”，将对阿曼发动空袭",
+    "url": "https://www.bbc.co.uk/news/articles/cy5dzk0ryzdo?at_medium=RSS&at_campaign=rss",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
     "title": "一名美国徒步者在埃特纳山遭雷击后身亡",
     "url": "https://www.bbc.co.uk/news/articles/ce34rlkw6q7o?at_medium=RSS&at_campaign=rss",
     "type": "News",
@@ -3336,80 +3414,98 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
-    "title": "印度尼西亚遭受致命地震重创，救援物资短缺，饥荒阴影笼罩",
-    "url": "https://www.bbc.co.uk/news/articles/crl7686r71yo?at_medium=RSS&at_campaign=rss",
+    "title": "观点 中俄如何让伊朗保持武装且具有威胁性 - The Washington Post",
+    "url": "https://news.google.com/read/CBMimgFBVV95cUxQY3J2OF9JZGxxZk5qbEhkbWZRQjJRTmEyV0Y4WEhRRlpkbU5ZVVFOLWpxZXVzUl93TWRHRGozNk5RNUhzZlZHWkF2NkRBdnBMTUNZRTNYN3k0OGN4eDNYcDBhRGU2bzNWYVB6anE2c1FhdjR2cG5aY2pGRVJ2NWNDS2VLa3JhYVRPZUZZOGlHVVpRMFpCTEoyUHZn?hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "赞比亚总统大选结束数日后，该国主要反对派人士被捕",
-    "url": "https://www.bbc.co.uk/news/articles/cn0nj3ln8r5o?at_medium=RSS&at_campaign=rss",
+    "title": "Unitree的IPO或将开启中国机器人行业的新纪元 - WSJ",
+    "url": "https://news.google.com/read/CBMimgFBVV95cUxQUDE1TzFCOTBnVkZzQ0Z6RXFacFVEYTZnYmhJLTh3cGRZblNiVDNnSERSS0kxd0R0Wl9qZGczYUxDMGV0RkRWOGl5UURKUV94UmdIOERZWFN3Um5CNUZqMnhmU2Nid20yc0lEekFDWmZPdC1QOWpOOW43cHQ2OFRXZ2JtSnFvYXl5MUVuS1ZqcU0zV3JlWlpjTFR3?hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "“我想让我的哥哥回来”——图帕克的哥哥告诉BBC，谋杀案审判无法伸张正义",
-    "url": "https://www.bbc.co.uk/news/videos/cj4kglpl55lo?at_medium=RSS&at_campaign=rss",
+    "title": "中国最著名的喜剧演员因调侃一首共产主义歌曲而受到调查 - CNN",
+    "url": "https://news.google.com/read/CBMijAFBVV95cUxOYS1fa3g4RG5PWS13Z1BEUUtmcGVkOVRJUExLRnpic3JqdWF4ZjhDRXUxN2NwV1hRWnVTWVZKVTh1R2RZQmd1UDhmRXRKSkRtaVBETHhrbm4zN0NKZ3FfbXNxYVdNVDl2MDVmSEVuekJlRE44djZVdFlWaFZIcmNzU0o0UnYzZVhkQnZIOQ?hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "乌克兰空袭致俄罗斯6人死亡，代理州长称",
-    "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss",
+    "title": "全球顶尖人形机器人制造商及其舞蹈机器人正翩然起舞，迈向在中国创纪录的首次公开募股 - cnn.com",
+    "url": "https://news.google.com/read/CBMib0FVX3lxTE5zZVJGVUFoSDcySWg5a01lc3otc2t5elFfaVNXYkUwNVZuV0xXcFJVazQ2eDlpSFozSmtEdktkMXdlSTgwaHZfN1pSd3JnbnRZcmltUFVDQk83cTJJXzEzNUVEcmdVUk5HVmJoazE5UQ?hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "刚果（金）的埃博拉疫情已成为该国历史上致死人数最多的一次",
-    "url": "https://www.bbc.co.uk/news/articles/cvgll74vvydo?at_medium=RSS&at_campaign=rss",
+    "title": "中国通往欧洲的新北极海路能否取代中东的战略要冲？ - Al Jazeera",
+    "url": "https://news.google.com/read/CBMitAFBVV95cUxPeUlkN2w1dEtDLTlqSkdHT3FDQkR1SklJd0dhTWtualB6TVQzQUdMR1lTbTlTY21HUmhtR2lPaHVFS1ZXNmxHMXl4RFhqV1htek5ZYzNTOFBzUTBVb0dEamVWUHVOd3FYUFV3MVd2OEhPSlNuN19vRmxyd3ZSYlFxQlVWeUd3LXdOQ2U1VlNSeE5qdzNqOGEzZ2JfZHRDYnlXenN0dWk5Z3hnb1Nkc3RaN2hDd0vSAboBQVVfeXFMTzVoYVhnSFZKYWtPTHY2eU5Nc2ZzWklhaS1QT3BCX09PZzgzNkxKeXNxWG5xbHJLMi1GZFpjQTNmajB5LUpINTN1TlkydExUbmdJVDBwbEVxY0hQRVFKcE1NOU9lRk9IYUR2LWJhdFlVMnZHZ3UtakN3MXU2TFNWOWdoTlVhaTU4YklVS1cxS2Vsbms4dUZROWk0Nk5OSXFtZmoxRzEzaHlTTzgwWWpKakMweDFrN0hyOUVB?hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "韩国某城市遭遇创纪录暴雨，山体滑坡致一人死亡",
-    "url": "https://www.bbc.co.uk/news/articles/cvgww971nn2o?at_medium=RSS&at_campaign=rss",
+    "title": "中国海军作战软件专家赵晓哲从海军学院网站上消失 - South China Morning Post",
+    "url": "https://news.google.com/read/CBMiygFBVV95cUxNSFltU0RLQkNrUUszdy1MbXZKdlhuazNIU01aYXlHZG1lWTJ1QzZESkk3ekExMVpDRkR4YklXbE10ZHhuRDlTTUdNazlaR2d4TXJZLWY0OEVqM2ZIWWdHOUFxUlNvcGNiYi1aMEs0eWc3dXlQZkZucDVMUE5ORGNNRm5UUTd6SGtab2EwLU52dURyMWJkUlItWW5heHZkSEpLOEpMTWZSZ1FnWXkzb3oxYW1reVVoYVJJYjM4YTlqbkF1aWcxTEwwYmZn0gHKAUFVX3lxTFA0bHo4dDQ2cF9FdDBCNXBOU3V1TF9fTng2UFMyRUhXWS10OG5kUk9kczh1WE5va2lIdmNpTkFsYk1hMnZLbzRnaEN0em5zY1VyWmlZbEludFNhaE90UmhRSDNJTWNhYlM5c19DZ1hkTzFKMl9ydFMtN0VUa3dsVEpIVkQ5aFVLU3JEeGkzTVh6MlBBTHZpR2VRLUNXVG9HSlNXN0w0NVhVS21FMzdMd1ZFU0t6TklrdnB2bUQtWVcyaFgxcTZCUWZNRmc?hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "随着侦探们对性侵案展开调查，澳式橄榄球运动员被移交警方处理",
-    "url": "https://www.bbc.co.uk/news/articles/cg4dd420ezlo?at_medium=RSS&at_campaign=rss",
+    "title": "收紧管控：中国加强出境规定 - France 24",
+    "url": "https://news.google.com/read/CBMikwFBVV95cUxNbmJGY2FwdUpSbHNOVG9tMXk0SGMxMWNIanVJVV9mZEUxZW9RU19Sd2dZa1FlTWxQdGxuZEdZV19RcVk1MTY0c2lBNWJyQWtqdmZ2VkMzVEVySlNscnhHRFBVNFFBOER0WGZIS1NqRkltNThpQ2tlVEhQaklKRG9MNTQyNGZiMGRXUlRUenpDRlIxU1E?hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "法拉利首款电动汽车在拍卖会上以创纪录的4000万美元成交",
-    "url": "https://www.bbc.co.uk/news/articles/c77ggpgrp2do?at_medium=RSS&at_campaign=rss",
+    "title": "中国Unitree公司发布“超人”机器人，上海首秀前热度持续升温 - The Japan Times",
+    "url": "https://news.google.com/read/CBMiyAFBVV95cUxNRTRXZWVFVzBYeDJwYVVfeE9vZmU3ejlmak5YdjJmMl8xMUZyQllqWnJFOEFnaUZ6aXF2RU1UMkJtdDkxbHpIZm90MlMwQzRlZjV1WWk3UlJNUzhkOUhWSkxYWGVSUUlodng2TmtadWhaS0h4UzdKSGhqSnNiLWowdWQ2QmVtWHY5Vm9nLW9BeWxpdVBldEhtM1NHZm1peDRQUHlxd21sbDd5V080WlduVUJlcnZEMm1qQm1QdVg1RFdkdndrYVBEbQ?hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "“加纳就是犯罪现场”——这个国家正带头呼吁就奴隶制问题提供赔偿",
-    "url": "https://www.bbc.co.uk/news/articles/cy0j2r15dr1o?at_medium=RSS&at_campaign=rss",
+    "title": "中国10年期国债收益率跌至13个月低点 - ft.com",
+    "url": "https://news.google.com/read/CBMihAFBVV95cUxNV0w4YUxGTTJKcEE2YkVvV1NBTE9SSkVoYTdGekUxb3BBaU1wSzB1TkFHS0xFaVdza1Q4M1QzTFVHZ3VCSndwcUx3R0lrN3lpM044LV9ObGd4VTZ4aFkxUnB2bUdvUDhhdUdDclVrMHdpWTNnVnYweGhoWWRqSDhtTzlac2g?hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "泰国面临枪支问题——共有1000万支枪",
-    "url": "https://www.bbc.co.uk/news/articles/cevml4701emo?at_medium=RSS&at_campaign=rss",
+    "title": "中国提前实施计划，从政府机构中淘汰微软Windows系统 - Bloomberg.com",
+    "url": "https://news.google.com/read/CBMitAFBVV95cUxOMDB5VzVCWnlmakExeHp0VklabHhsZng2bXMtcnhvVUJGUUpVNmhHTVFadTM0bThRN0JlamRLUFktWW52aVlLd2VTSnk0TnRhc01qRTVmNFl6c3lDQW5Od3d6VHNCM0Z5am55TTM0V2NmTTJPYjNEZlhiOUxrQ3dZMGVINEhjZURadkhHR0FvcjgxUjc1cGpVdThneFFWNEYzS1RaWHFEbVd3S2x1S2lxRmFJMkg?hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "特朗普表示，美国将缩减与韩国的联合军演规模",
-    "url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss",
+    "title": "朱镕基：中国在前总理葬礼期间限制公众悼念活动 - BBC",
+    "url": "https://news.google.com/read/CBMiWkFVX3lxTFBLd1ZSTENHbEJscmFUY3hfSDA1eGJsU08zSjJJOGVJekZnVFpsX3h4a0VnMmZqTUl1TlZOS3dOVm1YMnJPZ3Z1SHc5YnFNLTRTR0NaTFlYUWt0UQ?hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "美军指挥官称心理健康是“林肯号”航母上的“优先事项”",
-    "url": "https://www.bbc.co.uk/news/articles/ceqeeendz42o?at_medium=RSS&at_campaign=rss",
+    "title": "为什么中国平价的人工智能让硅谷感到担忧 - bloomberg.com",
+    "url": "https://news.google.com/read/CBMiugFBVV95cUxQNHlXQnR2VElTbFIwRjFSbm5aVW4wdTJHWE9LdnAyLWZSbWh2WkF2R0J4d1Q1Y2xkenF3ZVU1WmlpX0w3dzQ0TEpRbHBRU2MzVUsta19LLTdQZk8zY2JsY3dVLVFMdWpPRmRuNHdGUGlwT0o0UElVSWNRQzd2bXMzSE8xVTd3Unl6dzREMEFCc0FPSFJRUllhU01aelRSdk14a292TTIteV9uQnpVYThGTDN6Y043SDI1M1E?hl=en-US&gl=US&ceid=US%3Aen",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "“不值得冒险”：全球私募股权基金在中国零交易 - Financial Times",
+    "url": "https://news.google.com/read/CBMihAFBVV95cUxOQ2IzNmlTUGJyN2pyd3dGb0U0Y3FVby04d1pIaEFlekZkQVhRbDA5dUJ0TEtQcC1pb0x6OGJMWG9RY2JNQ2hhZGQ5dHUzWk1sZUNFb0xYbGJlclZ1TzVYa0d0RkVUWjNkVmpOQmtVTkhWbHh5NFZwbU5TbEpuSlBERnp1LVk?hl=en-US&gl=US&ceid=US%3Aen",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "中国出台措施提振县级消费 - news.cgtn.com",
+    "url": "https://news.google.com/read/CBMiswFBVV95cUxQWU9VUThYM3Vjb0RiVUFLaFRsYVVoZ3dzUUE4NjIyR1o4WUpFNzhmRWhoZUdFTWJzLWI4d042LWd0WE92eXpsYlFZaDNScGsyM0xldUctOVRmeWdUaURwcTFKQmVIQng1Yno1Ti1RS1JWYllQbExqaTl0ZkhhOE9ISkhmYWFRVU1Sa3p1dmNZQ1c0bHNyamhJeUo1dGI2SXdPcVN3MFVkRHZyNGhHU3ZHT2VKWQ?hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
     "title": "一部被嘲笑为“糟糕透顶”的中国动画片竟成为票房黑马 - AP News",
     "url": "https://news.google.com/read/CBMikgFBVV95cUxPNGFpNXpGekZfeTNFUnZHV1hsaGZ4MGE5emFoZFpYYk9xRkFRTkpzUmcyN0NGQ01DcUU4X0tJYzNWVXVZQmdLQXNhUDIzU2Z3aFVSeUI5bGc0MzVMbmlfUGNPU0U2LWFJc2o1T3NCN202Y2lJbjFkV18tbFRfY0xNQlA5RF90dDdqYXQ1R2ZDRU1LQQ?hl=en-US&gl=US&ceid=US%3Aen",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "中国首个面向外国注册公务机的SAF合规服务已成功实施 - PR Newswire",
+    "url": "https://news.google.com/read/CBMi7wFBVV95cUxPdGxoV1daVGlFZDk1T0RyTWNWQV9QOUFieHJzXzV1OFFyVEFVUGRNNWJ5NEppcDh2TE1VQmpHVVBaWXAxcE9lcnZwdnpHVlNxWmgtNDNoalZGRnJwQkhkNUhGeWR1Nlo1REhBeXNkM1owV3ZveGlFcWhGWTRsT21acmNfb2N0UG52emprdlFFemtZWjdTMzgwX2hvMDh6ZV9ycXBpLUpzc21WZ2VhQlplaGx2d3M4M3ozakRCYVlJekRGcUJJYTd5VGhqdmFIWURqLTdjUXBiSEFYaHNhRzBFY2gxZjV6SzNVbko0WWs2cw?hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
@@ -3438,6 +3534,12 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
+    "title": "报道称，中国国家主席习近平访美期间将缺席联合国会议 - Yahoo Finance",
+    "url": "https://news.google.com/read/CBMikwFBVV95cUxNQ05tRW9feGJqUWtqRTJjakdWQUdRU0NPQkJpU0ZrV1Rpb1Vrb0hxOHB2WU5aYXV2VHItMnhGRGdfTEhRcnNCeDBXUGZEbDAxZWhNOEFHTzNuLU1mc05hYTNsN200LTNNUjlDNFl2RjE3ODR5VDFSV1N2ckFhUDRvTjVNdUlYV2NQdjZ6RjNkb1MtNE0?hl=en-US&gl=US&ceid=US%3Aen",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
     "title": "西伯利亚变暖如何可能粉碎特朗普的北极雄心 - South China Morning Post",
     "url": "https://news.google.com/read/CBMiwgFBVV95cUxNRDdZVXllU3YzWW1WbWlSZUVhOHMyc1JJS2ZtQjkyZkpKd2NjdnZqT1l2UWJaVmFlSVJlMEZRazUyUXNxMDRSemFSRFpqVC1xSV9RTFB0d1dibl9BQ0Z4d3BxNEV5RUFvWXR0VS15Umdpc2JhQzJVU1pyZ0laVmhHN3ZGSWhMRDRreUhNS1JwWHVyNWh4dTZfMkxqRVVuVEVJTnpwQ1Jqb2VqM3NnaXVnbl81MjdaYm9tdEplYUxjMlYwZ9IBwgFBVV95cUxNYVlYU1R2cU5vdldEUWVPek8zblkwelZDYy14NmRzNkxSdkJqZC0zZEduQnlwdUdtallLbTE2TDFJVVNtQUs4dDU3SDEwQ3FOZkFWdUpVbHlzOFdfR2lrc2tnSl9LLW1qRE4wVy1aRHM0V3k2QkpnV2lhWWVXMjRfZkJqa2lOYkhNRkNvR20xaXZNYkNtZVh2QlhYZEVoS1BCT2hqWHRTMlZjT0hrTTRVTEIyNU1TNkFSaVVvOGNyYWZJdw?hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
@@ -3450,104 +3552,20 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
-    "title": "CNBC《中国连线》通讯：是金钱还是权力？赢得人工智能竞赛的关键 - CNBC",
-    "url": "https://news.google.com/read/CBMilgFBVV95cUxQdUNTLWJSZFBUUlNEY25fMWtOR0dRTm9PenVCY3dNYTVwdUtwM0EtMWFpOFVyR0k3b3NWT083VEVBQnVnTktFQl90czN0NkdkUFV1dkxHMWNQZjBZeEdGSExVZXh4b1hDQkttTjlRMjlTbVlfbFVvdXBTSnp6anFMRlBENFhzMkJhSGg3MTFzbkc1TEg4MGfSAZsBQVVfeXFMTzA5TThXbXNXZ3NIaFI2OVl4VnNXYWNTQnM0UWZOM25CVGJCVlNSa1JaclN2akZnbnVWRTZGX1dmd0ZMeFBpaFpwSmpZTGV2cjM2bEVJcjgzWVM5YWEzY1JEeVJPT1FKMFRJNV9VUElMM044ZzRyTDNKQlIxX01hRWRtX0gwNGVvX2Y4YVBxdjVfYmE4U2Rla3hicXM?hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "国际简讯：唐纳德·特朗普威胁阿曼；中韩关系日益密切 - The Economist",
+    "url": "https://news.google.com/read/CBMilwFBVV95cUxQQ1dqOE42cWZWM2lPb0d4cjVZanFfbWYtWDhrSmJyWUp4NXRtd3dsQ3pDOWwtdTNkOFRpYnFTVUUwa19qT01GVXdqTExMSlpwMEZ4T1p0WkZtZU1CLXRwQ3lERWNWS1JhSFR4MzFuaWN6SUV0ZlVFOE1FSXVudlFSZlZRb3ZsZkRpb0cwakhmVVpJQ2JZRFNj?hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "美国海军一艘驱逐舰在南海停电4天 - The Washington Post",
-    "url": "https://news.google.com/read/CBMisgFBVV95cUxQVHBtekJyZU9aX0R1ZXF2ei1GY2x2YW5UZWFWQm1lNkthOGhtUUh2LVBudHJNTXBFbHJuRnA5empjTUpYLTlTVDE4bmF3RDFWVzc4b1ZQeTR1ZEw4MklhazhzaDdlSE10ZThvRlFiUEtmNVlEQ3hqREZwN1Ytam5RdXlWeVNpM0dmWGlNM1lsQWRPQ2E1ZXhya1ZUY3Z5NzRtTUdBbjRzaFNNeHd5WWZhQ1dR?hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "为什么指数基金需要主动选择",
+    "url": "https://bit.ly/4xa2LlM",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "独家 有关赫格塞特即将离职的传闻引发对中美未来防务关系走向的质疑 - South China Morning Post",
-    "url": "https://news.google.com/read/CBMi1wFBVV95cUxPbGRJd2VxSTdGbldONXBya0JCbXZZXzBaWFNjYlJlNW1LYTlPZEM1dGZKZm52U1hZcXFRaU9ZLU1BOGlBMU9SeEdJdFFSZU9CajUtek5FTGZVUnF3ci0zbGRCZDRhZnlWZnczR0JqNnBONHBCdUt1djJRS3FWdWQxUFFkSlFENHBKMWNVaXdsSUNaMDBDQjJqb3RfQlRRUGR1VjhQNjNVZ3hwbVI1S1VHVGdHTkktbTB0VmxFZUlVSkZJdWEzSk9uLU9uSHotd0FpeXF3NExYb9IB1wFBVV95cUxQTDVaUnJsaklCekE3M0N5Y0dLY1NkZW5oYUlDN29kN0RfZUVVaThqYTZOX0tuZ0xnM0ZWQzdBVFFUU0R6VDJvNVR5SmJLM01hMU02b0hfSmFBNmpjZ0l6T2xfNUVIRGFnalh5OTcyQ1h0RmVUWFY5T2x1aTRwWE1uN1dRV25aeWZfUmRObTRvb1NVUmdMVlBnbnU4aUNOcmhuakowMXVGUTRlMkluSEdRX3FQWllvUGVPY3VmS1RNZ3ZFR0dwV1dsdlNSdjJ0V0xyRXJka1lwSQ?hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "数据显示，6月份外国持有的美国国债规模下降，其中日本、英国和中国是主要减少国 - Reuters",
-    "url": "https://news.google.com/read/CBMivgFBVV95cUxQN2xCVXk0Xy1vWHo0TXM0Rkg2STU1dExBMEdMQlpaVEFrd1I1aDlNRHRQNG9oUlNMWkUtNW5jMFgxN2NsQXZEbmtlcUNtc2xQUWl2N3ZxQ01wWDgweXhuSk92UDdXank2RWdXLThMQXhjYzlfOXZKdXlHUlE1MFFrM0ZOVE1kakFRQWU2WmJ2ME1mUnNFdFNmS004ang4QnhQaS13cWJESnN4WGE5TDE3UENiUWhTZXZLN3dzOVln?hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "随着无人机和中国改变地缘政治格局，日本正准备进行战略调整 - Nikkei Asia",
-    "url": "https://news.google.com/read/CBMipwFBVV95cUxQWThmQmVOMUtpanRITmY1eHdCYjdSeUcySDdPVE5paUVrSXJjbUNyUmx4MVFOZXJiVGVFbG1XdzZVRU5BdGk1T0NMS1FGWklKOTZsMkFYcEwwVm9feXdMV1RncDRKMTlXT0tjSzc3X2E3S2ptenpTeHA3YTZlU3F5RjRKNjE1V1BqYkp0V2NSYTJkZnFLYmZ2NkZfWUcwRGlRVWRzNk03NA?hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "中国经济出现放缓可能持续的迹象 - The Guardian",
-    "url": "https://news.google.com/read/CBMikAFBVV95cUxPbmdlcXN2cGVYYmM1UXVjSUFOTE1WZjRCODdqYl9oNlF2SGdvSnRueTlKWVlBQkVScE13SFBoWXF5YmpJQ0h5d2NlVjBfcTZZS1F1YkxsTTJHY2syMXZqRVFoMkFHTTI5aWl1QXlxemNtN25GMDFQNF9fcjBkaWltbXFXUzRnZ09FaC1VY2VhY2w?hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "中国解放军称从伊朗战争中汲取了哪些经验 - Breaking Defense",
-    "url": "https://news.google.com/read/CBMilAFBVV95cUxNT3ptVm1YY2x6c0xqeUYzek1HZ3NHUVdPbHNMQmJxVWpRLTh0akNjYTd4bUJIVkhMdXJ0ZlpsMWxDcGkzcmJWa212b01MMEVNcWZSQlBLU3NoUVNMa0d6NlVrYUFwcTBmLXI1SENNVkhMeWczRldadW5jZjlvaTZ5eGhmaWlvcjRSTEFiS1BnemlvYlB4?hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "中国经济放缓对全球的影响 - Axios",
-    "url": "https://news.google.com/read/CBMiXkFVX3lxTE5mcXBKNFVDUWZQbFp2Z3RPQTcxVFVUTDVteVdZVUJzSURxQUpaX3ZSaUtrUWM3STEtNkY0aTdwcWphc1RQQkttUktLMnVqOFRTX3RVaW5lQ1FBdDV3eGc?hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "中国优树机器人公司发布“超人”机器人，上海首秀前热度持续升温 - Reuters",
-    "url": "https://news.google.com/read/CBMitgFBVV95cUxPQnNhSnVxWm9qdEhnUThPOU0yMGlfdTNkX3pzMU9tSnFsdGh2dURudDVOV1UyUTJIblpEV19iMUdqMGJITVc1eUI3SVA4MDRpOTNhQVo3RThxVWdNaHc2SjQ3ejBvOU05ZU1FWkhkbjZRN0NjUmVwWDZackZCYkhIZ2ktVjJFR1QzRzRBaEF3aTc2bVJHOUptOW43QkU0clBsc2FCREQ0Mm12cmMydWk3RHZzRkVfQQ?hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "中国的新法律正让西方企业陷入困境 - Foreign Policy",
-    "url": "https://news.google.com/read/CBMirwFBVV95cUxPaXhqbFVKMmdEU2ZTVWRWVXRDQ1dYYi1RUldFcWpmSUNndmJORFNpRTBEaHR2aUNDX1R3YUI1VlZ5QWRVVDZkX25vTlFUbGRoOE9XZmhtMFUzQ3U2dHhHcURTX3o5cE1uNnlkN3MzT2NRWXFIVVFuY0IzVjZmcl8ybmNuUVBGdkEwZXUxTGZQOWZQM21rVDdBYnR2bzFCbHdjQ0piZzV0R0NYUm1UaG9J?hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "Z.ai的GLM-5.3：中国能否缩小与美国的“前沿差距”？ - AI Magazine",
-    "url": "https://news.google.com/read/CBMigwFBVV95cUxQVjA1cU5JSXVOdVNJWHQ3MVl4VVdCWUl0OEszVGtPdVlyZ3FhM0VyQV91eHlwMlp1M0VCMnpVdWJyQkhfNHdwT0o4NUVoc0ItbFRFMjZxQTBiNVo1M25yaFNoMWhLR2hFS092ajg5XzFBXzg4U09YWlo2akc2M3pFVUtORQ?hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "中国新增8家银行加入数字人民币网络，以加快其推广应用 - South China Morning Post",
-    "url": "https://news.google.com/read/CBMiyAFBVV95cUxPZ1QzTjUydmRjTWZNeC1vZGFKdllEdHFnVXdWWGN1RUMtM1AyenJlbndLVWdDbkstOXZjU2ZjdG5KN01lUmdDQkpjZkswd1Z2eW4xUzhNcDc0dUVqS092Uzg1akpqRzF3bGlqM1Z5X0g5SUR6RlVSZW52dGhEUGVjTmVUZHhKdWNNUk5LY0V5Z2p0T0F1Uk8xbDZQaHRJejJBTHVDTGNuSlhfTWRkdzlTVnJ0akFRTE8wdERrRUJVcUljczRNbVoyWQ?hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "在发生两起未公开的基因疗法致死事件后，中国的替代性监管路径还能让人放心吗？ - Fierce Biotech",
-    "url": "https://news.google.com/read/CBMixwFBVV95cUxPd0dIT003Z1RQRTJ2eVdWZjMzc0NVVWJ0dHBLU3k4eGNkellUNU42SFNULUxRbXVmcXZfUEFnWXQtU3VTV2dfbk9tRG9laXI5TUxvRUhyUVoxR29TN0xJR19xQ1lmOWprVzZNanlBMEVWeHhoNnZ1dmdicWZ3RmFSbjVuakhvOEVkbmxoZ213RWppWFZ1cEo1NGI3THdfWDZpdTBpMmY0SmxYSzNidUNyLUg2YlluUzRiblhLdXduX2N1ZjdLOVRv?hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "北约的噩梦 - The Atlantic",
-    "url": "https://news.google.com/read/CBMikwFBVV95cUxOdnJWYVdfVE1EZzdXeXZvc1ppdnE0SjN6SUlzTjRXWlBfam1iSHJBWGxZR0JLT1pRdmxOZkNjZmRVYlkwUUxRc1VDYUVDVXA5aDJQelU4T1pZdUtvNS1RMG8wVXVpX1psN0o5VVczbFBoQ185dGdDTUltZUkycVRKaW9ZbWVsM2w4OTltWGNPTWpibUE?hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "中印边境因越界指控而紧张局势再度升级 - Al Jazeera",
-    "url": "https://news.google.com/read/CBMiqgFBVV95cUxOcGlTLXZ0SkFDdnU0YWNWNGhZZlcwWFJpeFpZWlhGVmZtUXMxYXlCenpVb25jOUdLQ1JYNEpxdWlfeUNKM044a2xIOGZRdjZDZEZLdWlIWVBOQzRqeWJaOGZodTFXWW5hNUVUcUowNDZCYnp4WHdLNnRlREdDUExrZE93UzJTU0lwX2cyZDhXVXluVHBid0hiREw4dWRjNVdBTXNfUC1CeE5uQdIBrwFBVV95cUxOZWZxX0FDMDUxb0VSZFZnUGVfZDNaT3ZMYUc4NlYyM01oaFFHakVGVy1CUnN2ODJJS1NDdVlHU1hnbE5xUUVVQTRzUTlLZ3FmdjZDejFUbW1sd01YLUd3R1FMekdhOVBCUHZPSlhhUWl0dVB2RzNQd0VjTmxJaUk1aUlwanpEdVJ5UHFOZTNMeW83bURNNENaUURSTk50YWR1eWg3NElrZzdQVGhTcFJn?hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "中国是否正在侵犯印度阿鲁纳恰尔邦的领土？ - Al Jazeera",
-    "url": "https://news.google.com/read/CBMiqgFBVV95cUxOcGlTLXZ0SkFDdnU0YWNWNGhZZlcwWFJpeFpZWlhGVmZtUXMxYXlCenpVb25jOUdLQ1JYNEpxdWlfeUNKM044a2xIOGZRdjZDZEZLdWlIWVBOQzRqeWJaOGZodTFXWW5hNUVUcUowNDZCYnp4WHdLNnRlREdDUExrZE93UzJTU0lwX2cyZDhXVXluVHBid0hiREw4dWRjNVdBTXNfUC1CeE5uQQ?hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "深度解析：特朗普旗下的加密货币公司支持一家提供中国受限企业人工智能技术风险投资项目 - Reuters",
-    "url": "https://news.google.com/read/CBMivAFBVV95cUxQTHhDcEM5cGN4V2duaGh3RmNtbVZndFdfWHBjSkF5ekRiN1JBVnRULTBUeTVld0I3czliYWZsckdXbVJfLTdJcldxY0V1VnV6NU1sME1uM3BWLUttZzR4RDVPSkJsTXlRQkRSTkFJc2pLelNEYXNBWHpUX1BGdzFBTGtmaFFwdE1DclphZDZncHMyTk5oNmFZSWhQRmVrUHdkaFpCb3ZBWWY4eExmcGZEMkJZekFPTEI3VG4zUQ?hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "为您介绍我们的最新通讯《为您而作的〈经济学人〉》",
+    "url": "https://bit.ly/4xRyVma",
     "type": "News",
     "source": "Buzzing"
   },
@@ -3684,14 +3702,14 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
-    "title": "TikTok的人道主义精神",
-    "url": "https://bit.ly/45u65vW",
+    "title": "随着气温升高，农药对农场工人的危害也随之加大",
+    "url": "https://arstechnica.com/science/2026/08/as-temperatures-get-hotter-pesticides-are-more-dangerous-to-farmworkers/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "全球民主的状况比你想象的要好",
-    "url": "https://bit.ly/4xCQLZH",
+    "title": "底比斯墓葬揭示了埃及葬俗随时间推移的演变过程",
+    "url": "https://arstechnica.com/science/2026/08/theban-tomb-reveals-how-egyptian-burial-trends-evolved-in-time/",
     "type": "News",
     "source": "Buzzing"
   },
@@ -3822,14 +3840,38 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
-    "title": "法官要求谷歌在一周内整改Google Play中“反竞争”的应用商店下载行为",
-    "url": "https://arstechnica.com/gadgets/2026/08/google-ordered-to-make-it-easier-to-download-alternative-android-app-stores/",
+    "title": "Superflow AI - 在网站上线前对其进行质量保证的AI代理",
+    "url": "https://www.producthunt.com/r/EYRCRDAZWHCYXQ",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "《X档案》电影的R级导演剪辑版还原了克里斯·卡特的原始恐怖构想",
-    "url": "https://arstechnica.com/culture/2026/08/r-rated-directors-cut-of-x-files-film-restores-chris-carters-original-horror-vision/",
+    "title": "Clara AI SDR - 将网站访客转化为合格的销售线索",
+    "url": "https://www.producthunt.com/r/GUZOAGUD6W6XFS",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "Taku AI - 借鉴最优秀的人工智能方案，并将其融入自己的体系。",
+    "url": "https://www.producthunt.com/r/4SO4LDF6AEJUCI",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "Hansel by Seedling - 您的电子邮件、您的服务器、您的密钥——这样您就不会被锁在门外了",
+    "url": "https://www.producthunt.com/r/H4IPIZL2UOS7JN",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "Samepage Artifacts - 一款面向产品团队的、具备情境感知能力的联网书写板",
+    "url": "https://www.producthunt.com/r/NQ6C6SFB7NJOUE",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "Skriptr - 面向学生的AI工作区",
+    "url": "https://www.producthunt.com/r/EHNATGTZF2CDC4",
     "type": "News",
     "source": "Buzzing"
   },
@@ -3942,470 +3984,452 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
-    "title": "Expeditione - 交互式3D百科全书",
-    "url": "https://www.producthunt.com/r/D7ZI6MYC6S5UNF",
+    "title": "格雷格·阿贝尔刚刚向这只股票押注了170亿美元",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/greg-abel-just-bet-17-121053106.html",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "HarnessRouter Community Edition - 面向代理测试平台的开源统一接口",
-    "url": "https://www.producthunt.com/r/C247JURJJIF5WQ",
+    "title": "特朗普已不再扮演股市“啦啦队长”的角色",
+    "url": "https://www.barrons.com/articles/stock-market-trump-things-to-know-today-88c6cc6d?siteid=yhoof2&yptr=yahoo",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Blume - 支持人工智能、以 Markdown 为核心的文档框架",
-    "url": "https://www.producthunt.com/r/ONQG5RFDF5YWMO",
+    "title": "雄厚的财务实力彰显了市场对Copart（CPRT）新任首席执行官的信心",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/financial-firepower-signals-confidence-copart-120314079.html",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "FileRouter - 掌控文件和编辑器",
-    "url": "https://www.producthunt.com/r/JJB7QS6OHPVJDX",
+    "title": "Upstart首席执行官概述了推动AI贷款业务增长的计划，并致力于在住房和汽车贷款领域实现盈利性扩张",
+    "url": "https://finance.yahoo.com/technology/ai/articles/upstart-ceo-outlines-ai-lending-120202301.html",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Joy - 一款 Mac 菜单栏应用，会在你获胜时撒出彩纸屑",
-    "url": "https://www.producthunt.com/r/H344PK7NRKALNU",
+    "title": "Klarna股价暴跌20%，首席财务官离职加剧了盈利压力",
+    "url": "https://www.barrons.com/articles/klarna-earnings-stock-price-cfo-departure-ea8673af?siteid=yhoof2&yptr=yahoo",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "nenspace - 大型语言模型（LLM）的“低保真”风格：让你的思维更开阔",
-    "url": "https://www.producthunt.com/r/A3I5QRDNO2ESIA",
+    "title": "品牌传承为KKR（KKR）奠定了持久优势的基础",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/brand-legacy-positions-kkr-kkr-120118343.html",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Quanterix调整销售策略，力争在第四季度获得FDA对阿尔茨海默病血液检测的审批决定",
-    "url": "https://finance.yahoo.com/healthcare/articles/quanterix-reshapes-sales-strategy-targets-180202066.html",
+    "title": "芯片设计公司Velaura AI在完成本轮融资后估值超过10亿美元",
+    "url": "https://finance.yahoo.com/technology/ai/articles/chip-designer-velaura-ai-valued-120112868.html",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Qualys 会议：ETM 和补丁管理推动增长目标",
-    "url": "https://finance.yahoo.com/technology/ai/articles/qualys-conference-etm-patch-management-170159377.html",
+    "title": "英伟达5000亿美元的人工智能押注“几乎就像一项数字基础设施法案”",
+    "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-500-billion-ai-bet-120037277.html",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "这家金属公司的大胆押注如今全系于一张许可证",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/metals-company-big-bet-now-163500744.html",
+    "title": "Pitchbook称，私募信贷违约率可能低估了风险",
+    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-18-2026/card/private-credit-default-rates-could-be-downplaying-risk-pitchbook-says-ZcEorZSxrFw55uM7iieA?siteid=yhoof2&yptr=yahoo",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "雷蒙德·詹姆斯公司米尔斯表示，AI数据中心建设暂停已成为中期风险",
-    "url": "https://www.barrons.com/livecoverage/sunday0816/card/ai-data-center-moratoriums-emerge-as-midterm-risk-raymond-james-mills-says-iA3lVTKIuYOlFAplwuzm?siteid=yhoof2&yptr=yahoo",
+    "title": "如果你在Bloom Energy股价触及52周低点时投资了2,000美元，现在你的投资会增值到多少？",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/invested-2-000-bloom-energy-120000350.html",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "我已经还清了所有债务，并花了好几年时间储蓄和投资。我的女朋友却带着35万美元的学生贷款步入婚姻。",
-    "url": "https://finance.yahoo.com/small-business/articles/im-debt-free-spent-years-154651082.html",
+    "title": "财报实时动态：Klarna因下调业绩指引股价暴跌，家得宝股价上涨",
+    "url": "https://finance.yahoo.com/markets/live/earnings-live-updates-klarna-stock-plunges-on-trimmed-guidance-home-depot-gains-115925351.html",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "两大催化因素正推动IREN股价上涨。当前应如何操作？",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/2-major-catalysts-lifting-iren-193002600.html",
+    "title": "以下是周二华尔街分析师发布的重点研究报告：Abercrombie & Fitch、America Movil、Bath & Body Works、Duolingo、Gorilla Technology、Lumentum Holdings、美光科技（Micron Technology）、Tapestry等",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/tuesday-top-wall-street-analyst-115757859.html",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "华尔街认为Monolithic Power是值得买入的股票。以下是其观点可能正确的理由。",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-thinks-monolithic-power-183002705.html",
+    "title": "阿尔法冶金公司（AMR）在多方面经历了艰难的一个季度",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/alpha-metallurgical-amr-weathers-rough-115508588.html",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "高盛美国股票首席策略师探讨人工智能应用的影响",
-    "url": "https://www.barrons.com/livecoverage/sunday0816/card/goldman-s-chief-u-s-equity-strategist-looks-at-effects-of-ai-adoption-8cS8s4hbTqaxPE88N6CD?siteid=yhoof2&yptr=yahoo",
+    "title": "Hagerty（HGTY）的高增长故事是否仍被低估？",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/hagerty-hgty-higher-growth-story-115507049.html",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "随着阿尔伯森斯在与克罗格合并失败后调整业务布局，Safeway将关闭更多门店",
-    "url": "https://finance.yahoo.com/small-business/articles/safeway-closing-more-stores-albertsons-153916190.html",
+    "title": "Compass Diversified (CODI)：回购价格低于内在价值，预示着股价有望翻倍数倍的潜力",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/compass-diversified-codi-buybacks-below-115236721.html",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "OneSpaWorld 持续将邮轮需求转化为创纪录的收益",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/onespaworld-keeps-turning-cruise-demand-151500064.html",
+    "title": "“不可辩解且丑陋”：20美元的墨西哥卷饼让塔克·卡尔森、J·D·万斯和本·夏皮罗就美国的通胀困境争论不休",
+    "url": "https://finance.yahoo.com/economy/articles/indefensible-ugly-20-burritos-tucker-115500194.html",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "黄金价格刚刚触及4,400美元，矿企股价终于开始跟上涨势",
-    "url": "https://finance.yahoo.com/markets/commodities/articles/gold-just-hit-4-400-142144156.html",
+    "title": "Doximity一位董事在股价暴涨33%当天抛售了7,500股。以下是您需要了解的情况",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/doximity-director-moved-7-500-115301416.html",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "我们计算了在5只最受欢迎的收益型ETF中，10万美元能带来多少收益，结果发现差距巨大",
-    "url": "https://finance.yahoo.com/markets/options/articles/did-math-100-000-earns-142050525.html",
+    "title": "先锋晨星全市场股票ETF对大多数投资者而言，是否仍是最佳的长期核心持仓？",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/vanguard-morningstar-total-stock-market-115100536.html",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "CD算是一种投资吗？",
-    "url": "https://finance.yahoo.com/personal-finance/banking/article/are-cds-investments-140025965.html",
+    "title": "Cellebrite（CLBT）日益亮眼的业绩表现要求对企业级软件进行重新估值",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/cellebrite-clbt-compounding-track-record-115027224.html",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "比尔·阿克曼对奈飞的态度发生180度大转弯，并作出大胆断言",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/bill-ackman-does-u-turn-141700652.html",
+    "title": "3项夏末财务举措，助您在2026年减少税款",
+    "url": "https://finance.yahoo.com/markets/articles/3-end-summer-financial-moves-115000308.html",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "我今年30岁，已婚，投资额超过30万美元。我的理财顾问认为我应该买房",
-    "url": "https://finance.yahoo.com/real-estate/articles/im-30-married-more-300k-141104950.html",
+    "title": "Verizon的股息看似稳健，但投资者应密切关注其增长情况",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/verizon-dividend-looks-secure-investors-114804997.html",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Meta和特斯拉正从超卖水平反弹——接下来会怎样？",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/meta-tesla-rebounding-oversold-levels-140500790.html",
+    "title": "据报道，摩根大通首席执行官告诫英国财政大臣不要加税银行——",
+    "url": "https://finance.yahoo.com/economy/policy/articles/jpmorgan-chief-cautions-uk-chancellor-114714968.html",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "中东暗中流动的石油正抑制着全球油价",
-    "url": "https://finance.yahoo.com/energy/articles/covert-mideast-oil-flows-keeping-140457099.html",
+    "title": "派拉蒙在华纳兄弟合并反垄断案中寻求18.8亿美元债券",
+    "url": "https://finance.yahoo.com/media-advertising/articles/paramount-seeks-1-88-billion-114529195.html",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "她几年前就还清了房贷。但靠着社会保障金，房税和维护费还是让她负担不起。",
-    "url": "https://finance.yahoo.com/real-estate/articles/she-paid-off-her-house-140438009.html",
+    "title": "为何高露洁-棕榄依然是一只被低估的“股息之王”",
+    "url": "https://finance.yahoo.com/markets/stocks/articles/why-colgate-palmolive-remains-overlooked-114500190.html",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "史密斯菲尔德食品公司股价本周为何暴跌",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/why-smithfield-foods-stock-sank-140302283.html",
+    "title": "近100万辆克莱斯勒、吉普、道奇和公羊汽车因摄像头故障被召回 - Fox Business",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQzhGWXRsMEFGR3VWN0hmMmFuZ1J5ZWJmdFlEeEFPT1AxMmNsZ29MWXBtTEdNN3JQMDU1SHZJQ3ZZZ0xlRXdrSW5XbDVMenh0N3NILWlEcWJaU0xEdUljUlAtOU5wRXhWblc1YnJ5RnhjRHpyWnhWU29qVEFoMkNHUXRDYVRXNVNIdDB1MDJpVVhCSE9pR3dfMWlFTFAtQ3FSY3Fva0pvZXBhd9IBrwFBVV95cUxON1VsS3NCa3NHdDJwRlY3M043MVl4eTFfREdrVXBEZldMQ0R3QUJTRGh3YmNrWWlhSmh4SGFPZ3lmN1pONHZnc2xMZnJRNFptbXR3WmJBUmZFY2s4NUZ4QXpkWXBfSWVCeGhRZllMbUhySlMyUy1id05pd2YyeVBNVDJVeGU3UUVxeUMwZEhtSDU3STNDaTZJMjdpN1pMVm1iR1phaG9FYjllOGM4NUpR?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "People Inc. 瞄准与MGM的交易及股票回购，同时寻求出售非核心资产",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/people-inc-targets-mgm-deal-140158606.html",
+    "title": "随着各国政府为美伊僵局付出代价，全球债券收益率升至数十年来的高位 - CNBC",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQN3YyVk9MRC0xNm1kT2lRV2xGeGxnekVnREVxaTZSV0JRUVU5eXE3Q0hBWGtSVUlhV0o2c3ZKcHFJUlJWaVoxRGtQYXBBQXpYNFhaUEc4aEw2R1pmYUdJOWlmX05jNW9oemRrTWh2dXBuY29IVW1MOEFPNUZHLWw3a3RaNHBiZWtaVU9lddIBkgFBVV95cUxNMjNpMkZqeEpfb2kzR3Y0cHV0WVVXaU5yX3Z0elc0ZGx2SWM2S3Z2RGVtSUtiNHlKY1ZYUHJobVA4eGZYTlJtNGdoNUUyU280eWtweFJUTll4Rkw5MWRVc2ZGU2lXSmxQX1VQMjVDNjNYdC1rLVAweHJ5UThzWk5YLWl0RHZJRkZvTm1UV2hCdUk3dw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "斯坦利·德鲁肯米勒的重磅押注：单季度新增对博通、英特尔和Arm的持股",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/stanley-druckenmiller-big-bet-broadcom-140036254.html",
+    "title": "被解职的L3Harris首席执行官克里斯·库巴西克将没收4500万美元——但他仍将带走价值8000万美元的股票和期权 - Fortune",
+    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNQTNic1BuRk1wSlppdjhPbjgzNkl3RkFJMjRaN1NIVGhyaEd1ZXFjNVhuY3k1OHhQeEZ2UFJCbXJQWGxWaS1MMEtaS2l2QU1hY1NVUFpYWV9FVmVHMXdfaHFQelprTnkyaDloVk5HS3FaSmhnSGNVUTJibURlSENObw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "系好安全带，今年秋天市场可能会出现波动",
-    "url": "https://www.barrons.com/articles/market-volatility-protect-portfolio-stocks-ai-aff80441?siteid=yhoof2&yptr=yahoo",
+    "title": "周二股市要闻：哪些因素可能影响下一交易日的市场走势 - CNBC",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcDZGYkd1czJkZ2t0OXJLQV9XTXRIWWFwQXk1amVJSzFBX3p2OFFpSnYtRl9RbTBJYU1ZOTRwQ1AyTkxpTU9uVUpaX2IzdFdDaU1LVWRTNWF3MzRMaVRURlQ4ME55dHJ3UGFPSFFOMzk3Q0FvYUpxclBpNnVwUUtrQ1VjeThJemJnYzlZWGJzeXRSRmZrNXZFVkp5QQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "如果2026年将迎来熊市，历史经验表明投资者现在应该这样做",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/bear-market-coming-2026-heres-135000276.html",
+    "title": "L3Harris公司表示，库巴西克因违反行为准则被免去首席执行官职务 - Breaking Defense",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNDlBeHAyS2xnZm1teXR3aGdWWG5KQXNkRThhNm8zc0dWX1JkZGpQbUp4QVFDUThadzNsRGYyYUVsN3VobldyQzJzZTNvZ1pqM195bll1N2RiYjJUQ0ljYnd2aVNEMFFVSUpNdmduUTV3ajV3RTA3RG8zS1p0VEJkU1BqU010Rkd6ckxKLVN2NzdQYWU3UVhZcWRNcERadlFWdHNvTWltNjZ5MWpW?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "摩根大通将标普500指数目标价上调至8,000点，因企业盈利和人工智能领域的增长提振了市场前景",
-    "url": "https://finance.yahoo.com/markets/stocks/articles/jpmorgan-raises-p-500-target-134100944.html",
+    "title": "美国各州就儿童社交媒体成瘾指控，在关键诉讼中对Meta提起诉讼 - The Guardian",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPdTdkRkVtcHNhaTRmcEp2VGRVQUgwcG9MUlJEX0xwRjVXLVljOUZjclJSbTk4Y2hYSWxnX3BDNUlUbmpLY2dRMkMtSFN0VzZTOHVabTB4MEI4RUM3NXVaTUF1OGpUOGVBWndfOGFGZEViamt1N1lrOE1lbS1sLTYyZklEME9fWXhINzV0Zm0ydXdNUEtCX1pzVg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "自1982年里根政府开始储备以来，战略石油储备从未如此之低。批评者不禁要问：储备量低到什么程度才算过低？ - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPTWM4QllEM3RfblFRZGZ4NEVXNHhUczgtRFloTGFBdGFaT3JYVUg1dU9udm5YSC0zRWVEMzRpbVkyS09fdzRyYmdIaFozQVlzc1VXX2lhaGhIVHhabDFpZENtYVFTRVpITnBJU280d1BhVDRtb1NwWG5MOXRrUVNYOVBlSGw5UWptdVptTnRoY1R4VjJMcFdFTU9zTDRmbjFGWkRXVTlMQjJUTjMtMzA4WUViWmhJdHUtNHhfYlY3U0lvejFZZExocFgtUzhoX3V4ZlFsM1BUQWlXTmVyNWpZa3dKWTYyei1tUExVWmhfNkFOc2I2bWZCRjRHaWJIcUNSSHZqc25MVkc?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "在“房地产市场陷入僵局”的情况下，家得宝重申业绩指引 - CNBC",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5odE44aTh0V3JNckJkRnU1VzZsdHFiLWM1OFJpdmNYc1R1ZC1mWjk1ZWtFamhtQ0k1dWJ3TGVkYW5nZnJic0Rvb2ZiejJrSVdrVGRLX0E2VGFDa2hueldndFlyaWFqTS1OT1dyVGFudUVNX1JldEHSAXtBVV95cUxPNEYyTmNCWUxSdWlJSzZNNnRYZi1aZnVoMkg2M1JUUU1feWpfdlhjc1lacGhkcS1YbFl4SkwwUnZSVll4SzdSZnFta1BmT1R0UnRnaWZvZ2lSSnR6bzI2aUlwRFRtSnRCUGRvWkgyNjFpaWFDU05sTFJabjg?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Stripe 与 OpenRouter 达成巨额交易 - axios.com",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6cGl6ZHBsckVvVlFwWUplclVONlg4WTNnTFdqWHNDU3Z5emNrd0FpaERuMm9oTkVnd0xvLXhuelR1d3M0TlVvUTRncko4aEp6NUpBcGkyelR2RHVIVXRiRlM3Ull4T0du?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "L3Harris首席执行官在行为调查后辞职 - 13wham.com",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZlhQUFB3OGExSEZ1SjRsNzY3dThKaE1vU0U2b3F3dzdRUzJORzdHN01GTFAwME8tNzEzQmNmekJDWmlGNlRtU1RtZ2tuZnVDQ1d6eWFHZFo4bXhGcHpNUkgxaHhrc21FYmxwMTlubG5OSzRjS2huTFJaZWRoX3QwaURuQjlIX3l1NWpNSmJvOU52ZjVDNzVZdnNyZy1kbGpEanVr?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "油价上涨，因美伊和解希望渐逝，加剧了供应风险 - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOLWFFMnZIN09zQ01kSjJtOWZDTzJHTk1xazNXM09aamwwLTBjeVRhc3VodGhQNWI4UlFaUFdEaFhNNDhFRzR6emlja2xYSTRhaHdFYzQwcnBWZnpkckpXSU5qUkFWZ0UyS0xzZ0lFbHdQRTFkWHJYY1JLM3gydXlKTllCLUFkclJiTEFTcFNOMTdEME95ekVaUHRtZmgwTmVDSWQzeHVodGtGNHkx?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "芝加哥一家律师事务所针对泰森食品公司乔斯林一案启动《预警法》调查 - KWQC",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOLXQ0NjBWTHJSRWFRYUU0aDNyVnhXY0N1TExjeXhZS1UtNEhiMWdHOGZIZlVweEtKWmI1ZWFCU2dtUUltOU5XUlVSTi10Qm9Sa0JYRDlyMFoxSmo2UGhNOXRGbFM3TkNlVGJPZnk1WjdpSHUyLV9aTlVpcnk0dlVKcXJEUklPT05JLVpxWTBjNmJhd0UtcVBob0xvVDZvWEM1NXNHdHhCRk_SAbwBQVVfeXFMUDdUc1pmM0ZFZGFWNTA1b1dELTlJSElUa2NLVmpwR3NNc0ZCY2Y3V041dmVUb0tvY21SOVhDeEtCWkRoV3FFTHJrUFE3eUt1WHp3Tjl2bWQ3YzRORnFkcjdRenV2aU5kZlRxc0ktSjN5ZWxHb0pOZ3hTMkg0VktURG5FcC1EMEt2MFhwUUhWUjczT1Ztck90VFg2VXp2Q0hRQk0xcWpJOG9nNUNCQnl1aHBXWHp4UkFNSjJPRWk?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "OpenAI宣布将在俄亥俄州建设大型数据中心，并获得英伟达的担保 - Axios",
-    "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1WTVZYTGFrandXeVZjWnV6TllsTjRzOEF3b0JLdy1QN2wzbFFFdC1TNXdWOU9LQ1lMbFFoQkUzY3RwU1dYbllrS2xSaE1hN1ZjOEd2ZVpuS2xvSDV2Q0pXRXFtMG43S0ZRWkZFdDRUZXJhRk54M2ZqQmFfMzl1QQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "Meta Platforms 股票今天为何下跌 - finance.yahoo.com",
+    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbExXX05pa2xsVEdydTNwQ09uUlUwY0Q4b05Ddk5EbjNrbUFoUUxxRlBlRXByeXlBWC1yVVUyWThsQnBVYklzTkRkNG9LZ0lia0NWcE5EaFN4bHBSVUU3VUhBaVcwVzI5c1VXTEZZa0lHNGVWNDdtNmlCemliUVJGV1NHd0FRRlUzbkdGX0hob0s2M0oxcWIyVGktZUg2Zw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "随着美伊停火协议到期，油价上涨，债券收益率上升 - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1IRXVLRUlydV9LUjVfX3hOQ0hKc2d0aE5MS0hqLXBrbTg2QXNhcEc2MnlhOU15dkxXSDV4V2hTM2lCR19Gc3BUWUpJYk0za3VXTTFTYTlDdXk3cjhoa19SdFJxcWk3N01rSGkwSmF3MUlMcm9BU09ZMW5QNA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "萨斯奎汉纳表示，期权投资者正在押注这一黄金价格走势 - CNBC",
+    "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPOHZmcWQySzBjWm82SVFqV1FhQnBGS0czRVBhaHE1WVFEZXRpWnFBcEUwUzJla2NDaUZxYm5kV05sd19pRkJkd2ZCOEZDQ1RHSDNWdXRiTDJlNHFkT0ZkSi1pU3d2ZERyUkFabUNGTmhSS3hkV3FHWlF2R1ktS1RuSHp5U29hMWhheXl6UXhyTHNObHZ0blE?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "据报道，Anthropic在IPO前的年化营收已超过650亿美元 - Axios",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9iSnBXWEFaa1hJVXNlT3YxM3VJalNlaEhTMGtmeUVXMUotcTJ4bzVRbWJIcDVjS0xMZVpEY2hZdTJhZjdtcUd2RHpRazJvRGdPNGlfTFhUc29nZkV5aFk2VXVSclI4aDl5WlNKa2VyTEdISW1TLVdyQ0R3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "今日股市：全球债券市场抛售加剧，纳斯达克期货下跌 - WSJ",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQdFM0dVhmTXVxX3VFRjlPeW5RSUJRa3NNbUVzNTl0LWtHeTd1TW9ZLXNOM0lPVS01aU9wZVl3RHhZWFJmVlpaSVZMR1J4WTF0ckVZU0lQaXoyZXpLMmF6alNsN01FNUpzbGNoeHZyNVBjLVJSUHR6SzdlcWo4UHBRNnV3VVUyZmc?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "为何坚持持有股票更划算：无论出现多少坏消息，都无法阻挡股市25多年来最强劲的上涨势头 - MarketWatch",
-    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPLVF4VzBtMjBIUkQ5TEZvYjUwUFlkRkpNdXozYTc1WFY5VFhGSGt5cnNlREVLSUY4V1ZDT2tnZ1hrckU0dmMwNEU4TG12bk1aTmlPOXNVYnQ2dDVTRVhQNFdkb2Y0cTFyb0hTR005QmdyS25VWmdWN3NmODRkYlUtR0xibnJSYlRMYlFBZFI2Vm1jRFhlQldaa1BwdGd2aFowQi1COEt6cE9oaHBGbENlNWloSEFHQUtJclNBVGUtXzR4TThhX2VpLVozeWNWXzB4c19JNkFnWkVQMkpZdmhUWXhwM0FuLWFvQjgxaUN3MA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "今日股市：受美伊紧张局势影响，道指、标普500指数和纳斯达克指数期货延续跌势 - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQb05YTlhtdm5CWWFjelNPMWFrWWtzUk9Vb05PZVRJT2FiSHc0em50elRIQ0lQX3Y1R0xlbVNKZjNPMDFKdHA1VWVjWnllN0ZqYUN4SWhWb01GWC16WTBCRXFGUUtBem54QVNrUE9SZnVZV19NRU1jQ245bEE5eHpzYWx4RTVWQXUwZjVZVG9LTlhKVGx6SXFsUjhORDY1dUhCYW1GNUMwdUdTQnJf?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Stripe以70亿至80亿美元收购OpenRouter的交易或将催生AI领域的Ledger - Yahoo Finance UK",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaUtHNGVLb1JlQTNjanV2LVlKQ0lZazUwa3E3cThSOG5VTDFRRGtsdGR2dDhhOTNSWVl3dmtyTHVudGJnU2o1bl9WUUoyVXB1VG5hc2JZcDg0dGY5X1ZvZktRem9lVFNTZ3dYSnZFQXJ4MkNUSzdkd1JZSGxzZ3BCcGlLR3M0Y0JWWkdZdndpRQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "8月每个投资组合都应持有的4只先锋ETF - 24/7 Wall St.",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPaHd2OGNXSVBXc1JINC1VYkZZcTQ0WWJoQkN2TFBMZ2ZMY1hTZ0syOG80eDBlY0p5bVd3bUotbjlMUlgyWS1Ub2FxSDVWTTdTRldlVmdITllFOTl0V0o0dEtRVVpYSzNCWjhOczNQMEZscHo4ODE3UFE1WnluOVUwb2hzTkptSEozZ205VjUxaVU1S0JVUzVqZHBoci01bWNGWUE?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "监管机构指出存在儿童安全问题后，Discord暂停了在巴西的直播服务 - AP News",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSkJZNVRseVRaejdSaEVfMDlXMGlXVDV4bVd0MjVOYWNmQzVIQ19kYkgtbUwxbmV3YURuT2daMk5zYl95RTZFQzFlanFnaVh6NTc3ZjFsZEJKZ1pIMmdraVByZnJyb3ZCUGFpcHJnWWtkS3VDeVRDLXlGRDhFZmktNDNId1BvaUs3R2dic1RBdkp3NGQ0enFPLVNmc2M?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "随着战争和石油问题持续发酵，美国30年期国债收益率升至2007年以来的最高水平 - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdzFVRER2LTY3b1FZNkxaZ1NXeVJKVEUxRVB0bEpFWnRyVE5rLTZaV0EtaFVRaUhHUjNpRmtMUXgzR0J1VFFPV2ZOMTVkV0VRNW45dGp4TGt0N1ZORVJwUUtrV1FrNnZvVzRSVkFUcURwb0lvcmdUWlRfQmJCeGxva3lmOVZlbDhONVJ0WDVmQnNaMlp6WHoteHhoOTBaLVN5V2ZBTUo5bmZ1OFF3QUdVZkU2X0Y?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Jane Street 150亿美元的亏损暴露了其对冲基金的一面 - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNVHBvY18wdlY1QXJGS1NxQUVMSGplM0phWG90cDB6eXdJdndkN3Bab2hCRWNLYk9fcnVvTE96OU9xbDlSQTNQbUNBRVBnUjYxNV9JZnZKeFNyRzY3VmVWM1k5Y21zMGt6VndyaEdzRnN2NFZxOXV2VW9UdFMteEV5ZnVjSmJrSi1XV09iUThKTE9lZjFkdHY0dXBkeEZIRE91TXRscVZyVlFhUEZCRDdZ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "Quant对阿帕卢萨管理公司（Appaloosa Management）主要持仓股票的评级：AMZN、MU、TSM（AMZN：纳斯达克） - Seeking Alpha",
+    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNb3dWbWJaY1BaeC1lWGJsVlJCTHp2NW1ZVXM2REVYY3RWV1AzMzczNTNQWDJ1UlhQdU5oTkpZU0F3cEVNS3BjMWl2ajh5YTlNMHllRGZ2eUlCWlNVeG05SzRrZ09XQ2lrZlRINkVkM3VQR2J3MXFxVXRmWFBldGM2UTBBalRnZ2lGYmdEMldLN19iZUxnOVhKQXdRekVnUzlsMlhn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "随着美伊停火协议到期，霍尔木兹海峡过境量下降 - Yahoo Finance",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRW51MFdTRmExS0NXMjZIRzlKaDgtY0tUeHFxV05HbEYxUXRmNFJ3b1pMVS1jMk9aQWphaEhwd0lUVlJibDlDcE1xR05saW56V3JiM3ZJS1hEOWFLbk54RkFnUUg4T3lhU1BBcWxtS29OWUp4cTF2ZFVBdnlUMUp0bklfOWE3YWdhMW82bGZULW81dw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "受中东局势影响，油价和国债收益率双双上涨 - WSJ",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSGVnWG44UWFHcmJvMlowWjVjWkp4MzQ1YW1WY3VzcldoMHBFZFFYemhYUWJRM1RwSUJZNC1KTURzN242Wkx2el9MNFVzU1NBY1o5ektMbFNfdUZ0a1ljVDVjVDd0Um40Wl8wbkx2WVJHeEswcmtjREZxNEo0a3JmaFRoYzBiaDJ3Qm5fYmJKUUc0eEx5ajdrWE5OWUN5UUpLTEE?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "湖人队易主案和联邦调查让马克·沃尔特身处他从未寻求过的聚光灯下——《The Athletic》 - The New York Times",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPMk1vYnQzYVc0LVBRMkhleFJpSXBCZmowc3oweThYNy0wdUpqbnlPVW0xcUJRSFY5MHdxa2tJZmVSei1INWZNaldzRzFVZGtpd19oTmhycVdjaVVIaGtvbWlYMXkxRm5aQXA5cVB2UUFBenh6UEotU1BRX0RTRkRTRW13Y3pFLTFHOW9odXN1ZjZJczkyTXBSb1I1Qm41ZEU?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "L3Harris因首席执行官克里斯·库巴西克存在未指明的“不当行为”将其解职，股价下跌4% - CNBC",
+    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQS3pXS1FnWVZ3NFZvT0laUHVKVU5OdlFRRkZBclIyNXUtQUxabmRaM2ljaFNnNXd1aWFNWmpJcWJxdU1KVmw3RG16OWZrY1JnMXZTVHN3Ukd2amFTNnVhZHdGYlFNa2dmYzRlOU42NmdhMXBDX2RtODRqbTJZYlB5NTB6OVZlLVpp0gGOAUFVX3lxTE10ZXd5Tjg4Rnp3QUdqbGdiQXlFUlNuUHdTS3dSVWY5NUFoZjJyZmZQZERtMGw2TXdMeVJoaW1qQ3ZQRXVmZGFPdzVWYmt3c3VtbEZwcU9CUGozQWpKUlR0MGFXSkROeDdDbUx1X0dUT2FOd0RWRHpyOXh4M3FOWWpfQ0tFX3hHYzlaZlBUYUE?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "继伊利诺伊州和佛罗里达州出现强力球中奖者后，8月17日（周一）开奖结果 - tcpalm.com",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPdzRnMzNhV01UM1ExSndDb0REazVVMjM0RWQzeWhOTnR0S19wT1F6NE9KOU5XNFBtRGxpQ1UzbXozekFrNUkwWkIwSTF5a2dqcjZQX1F2Nk1BRl90d0FEU2tzdVZDUWdMMTdfRU5OQkpodWZIWXg2Zk5mSzJseFpIa3hMYURlWmIydHVNWG9fWld2RW1ZMEpwVDFJQjBaZndxZndlYVNJcE9SMlJQczB0OUJn?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "Rivian今年股价下跌25%，下半年1.64亿美元的信用额度蒸发 - 24/7 Wall St.",
+    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVC1OUWNubHR3di1FV2FWem9MOUtaVXJhY1hXOFV2WnVzeGdvSjVIdGZIb3JJWlM4ckl6OVFTdy12em1FYVFkUmdiTEVsTElhMk9wZUFTVjR4Q0JUbkJjMEtnREpXVmx2TEJYNEtlQkMyTTNDR1BONmdyY1BkSkI2SUpaODU2bVlsem5jdEFtYmliZXJTME5GTkVoaUlycURpVUxURmNvZkhydnoyWDJPU2x0dXNCNHNkazVB?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "英伟达将向OpenAI数据中心注资逾1050亿美元 - Yahoo! Finance Canada",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUU9rLWg2bExwWTlnOFZnSnFLNnotQmNZR0cwbDRjY2x6SkFRQ2tQZjVMc0xSVEZKZm1MYVZ3c1ItOU11MDdoTkNld2w5QW1PRjd4OTdxOUtNVjZLVHR0NjVpSmlLRlh1cE83T3VIWXA4TDBhSjNuZFZaRzlHcTlKQTYtX1ByMFNLZVVVZEFuWXZEeThTYVQtNE1IeW9mRUxYaGc?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "简街（Jane Street）一位合伙人谈及仅7月份就亏损150亿美元一事 - eFinancialCareers",
+    "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5JTUNIcmJqOElVUjVpZG9NRlJ4RER0ckMzVlE2RTdkMXBfTjM5V3VYaXQxSG5vdUVPdDB5LXp1YmN2d3l3X0lQcDd4b1VueUkzOXpsUW5DSVpJeGJnQU04Zy1WbHZKekpGZTZ0Ug?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "投资者重温了为何钟爱存储芯片股 - Investor's Business Daily",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOUnBXVmJsLUhCcHhhNEI5TDZxbThrQjRNb01JaFhZU0lXVGlJLTd5YkZIU2QzYWF6S29hX1hRNHY5MTd2NWVTVWZUOFNmZGt6VlAtYzVkYm9LUnd5QmRVenNyQmlTSHRJTlRRSEdpbHJMYkloR0pTVUVUc0VsbXpEZXdmMlVtN0NlMlRxOE9R?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "鸡蛋价格终于回落了。如今，近1900万枚鸡蛋却面临另一个问题 - Fortune",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQl9VZVJ6QkVKOFpRSm4xcTRHMkdyd0F2dzBsYThNVmZjdHhvU0tvTDQ0d05jUTN6WTJFanN1a1BZaV80cDFBbXdvd3NFNjA4RUw5ZWhJNHpxQllBLXB6NDgwY1ZtUUZpYnJDa3VRU1lIWGdMOU1LWHpyZVdScHpSc0xsTlVYTmVEU0E?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Anthropic的年化营收飙升至650亿美元 - TechCrunch",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMnpDcllWWXdBcDQtQzdDajFvRlF2aUhoaTFvRGh1VjUtR2lsWUVGVmFxaHd0dHZMOE00MVQtTndYbWlNT1NjMFFCcGkxTk5mUFlOay1aa1YzUWRhMWxrVll4dTdOZVFYMVUwWHBiTzZGYjQwVUEzcG1zcDRQRGg4NWh4UU4?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "随着全球利率攀升，债券面临的威胁比美联储更大 - Yahoo Finance",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYy11bUZKc1dJbWoxd1JrZXBsNk9sNVJzcnpQX0VtWS1xbkZhcWl5YzZMQXVCTTJNem04SFhOcVdEZWEtM3VjQXVhYTlZQkJhNU43c1E4MzNJMTZuWlB0YU5LUzhCQ2FTOHFnMEVuRWN6N0NMeEMzVXVkTWxlLTRZR3oybS1Ua05qMWhjemFjRHVGcWRxQUoteQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "“作物考察之旅”西部路段的初步路线报告 - Pro Farmer",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTXVycHFFWGk2aFBMdUtMcGVYcDdjM21OQW14U0taaEtVT1pZUy00UGQ5RS10dFJmeDdWbDJOa2lRMVIzaG9BOXU3VUkwd1RlMHdIdkVDU05CZHpYeHhqeFJldzVvdGsxV3BMRVVIdS05V2N2TnpxM2NXb0Y4VWxXNXVhMWYyay0tbWRKSTd6TWZCYnFwcThEbFVlZw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "受油价上涨和收益率攀升影响，华尔街本周开盘走低，股指期货基本持平：实时更新 - CNBC",
+    "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbTl6YmIwMk5iZFRFdDN1Ui11VTRNUGlDRjlEclNDNl9HTlhUM1lIZWZUVHpudmFHWHM5cUVnOGRqOW1EUjVBSFBYNzJvSTBqMVRma3piQmozU1BLRnZrS2xoNjUyeFUxV1lOZzQ3bUFkMzJNV0530gF8QVVfeXFMTjVFc3dmV1gybFdhUzhwTFJMMmIwYXZvVjhuMzNHdU0wNktMTWZYRzh4YmtsclhkY1dlU1YzUHRWRjhmR0w0M19rWjd1bGk0Yy1UekduWGFoekR2bkNYWGNjb19tLTNCeVk5R3FrbVhlUGowX2dIYkNCNXZrOA?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "“强力球”头奖金额在即将举行的开奖前突破10亿美元 - Yahoo",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNd3Bvbmt3Y19QNXdpT1B1UWsyWF83T0ZUQUQ5WkZtNmdMWldFLWROUkx0RUNlMTYwZ3lyTzVvRF9EQnZHQ1lVNlZjZFgtdUNHS1UyNTBLclN0NE9tbTgxaTJfbHdQZDM4b1A4OW5QMDJidkYzelJZX3lzNFBEOHBQRVN5Tjd4RktMS1ZjUVhCbw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "“先买后付”贷款机构力推用于支付电费和房租等开支的贷款 - The New York Times",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE11VVpiQlJJdzBuTTJub1lMd2RUMXFreVhBS2h0TGQwZDFXUnRMdi1saDczN3VhNmFMWDFxQkVDZm9LVnFEekJleXlvSl9jako5NWVGRm5fT2lCOXhrZENlODNvb2JqcEZfMmZ2d01ad2s1czNZ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "雪佛龙在安哥拉近海发现石油和天然气凝析液 - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOX09LcTdRbFRXLV84VmNIaHRQOF9WSkh2bUdXajA2SHRjMEVnUGViVHpZMXgtaUxkcG5LUzVvRHhsYmVDTV9pMzBhd2VYcWxNNlpESGM3alAtRDM5bUtWb0VnNEVGQ1E1MUFPbl90YzBZR0d0VHplTTZjbUJFbE5BVU1mNzQtZThlbVN5UHh3RU9MX3BZRnBQS0o3Y1lTdzJJN3c?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "《戴安娜的真相》：查尔斯·斯宾塞将出版一本关于已故妹妹的书",
+    "url": "https://www.theguardian.com/books/2026/aug/18/charles-spencer-diana-book-swan-song",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "加利福尼亚州监管机构批准了新规定，限制了车主可为车辆购买的替换轮胎种类 - KCRA",
-    "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOM2JldGpndkNCc1dScHljOElxc0VpUUtfRkZlTWlPeTJxNFNfNTFnSFJ6OU1LZUU1a0NRY1g1UVoyN0dRbzlOanRWdlpZOTlNSU85eEtndkpTYUp1eWFUaXZUbU1EWjhKcDc5VzlQT09oNkRCOWtWdHdHTzg3cDBGVTJvX1MtaXFvejZvcEVUejAtQQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "一名佐治亚州男子被从斐济遣返，将面临涉及1.65亿美元加密货币庞氏骗局的指控",
+    "url": "https://www.theguardian.com/us-news/2026/aug/18/georgia-man-ponzi-scheme-deported-fiji",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "英伟达将斥资高达1050亿美元支持俄亥俄州数据中心建设 - The New York Times",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPV21oUjRuVXdHME9CRklXR2RFM3Fad3ZYSnVLYzVVaFd4eGFJOHBFaTNmTkIxNDJ0Z1hSSW9LczZObEl5SFF0NnNKSmV5MDFSX1gwVC1GTzVXb1lJYVFoY2hCV0ZPNk9rWHpjYm5GdWxmVThaNW9lb1V1emlPTnlYV1I3dnU2OUhQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "冷静自若：助你在热浪中轻松下厨的食谱与小贴士 Kitchen aide",
+    "url": "https://www.theguardian.com/food/2026/aug/18/no-cook-in-a-heatwave-recipes-tips-toast",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "据《华尔街日报》报道，美国检方将调查重点放在与亿万富翁马克·沃尔特有关的四家企业上 - Reuters",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNa2pOdmhCampySWUzY0tFVzczS1VNUUJSWU4ycVdacTVfNjR6aUpvak5NMk8yelBDTl9IM3l4eVhqVFpuN01KNnk4OG8tX3hwZndQNWJWVHgxWUhTRGd0dVp6MzRwWUYwWk82SjNjZFpuZ293NmdkWkVZQ0lGVTZaM1prMEt2Y0tIRzhFbTVLVlVwY1I1ck9KLTBGeHRKcHRUYWxRSkRnc3pEd1pZc2JwMlp3WjBlRF9qZWNrcGVMOHFhb2hudkktSkhB?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "奴隶制赔偿如何有助于让“回归非洲”的夙愿成为现实",
+    "url": "https://www.theguardian.com/news/2026/aug/18/how-slavery-reparations-could-make-yearning-return-africa-reality",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "特朗普家族的加密货币企业“世界自由”（World Liberty）获得设立银行的初步批准 - CBS News",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9VMDlxUGR4dUdobkFCaWRwZzA2MmFHcDlyUDYtU05mcFNpandEM3pfZjBRRmxRdjF1VGF6M05DZXBQY1hJQzl1M1otQ3BBY2VrMXQwdEZBejItUktZRGdFSWJVOFNNRTdwa0x4X0JnRQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "“我们的任务就是嘲笑这些敌人”：乌克兰部队发布无人机拍摄的俄军士兵最后时刻的视频",
+    "url": "https://www.theguardian.com/world/2026/aug/18/ukraine-drone-chase-videos-russian-soldiers",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "标志性社交媒体诉讼案开庭，Meta直面万亿美元级威胁 - Bloomberg.com",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQTjZPQmdMQXg4RndQMEJWdGpNNS1yaWJSVXdSYjdpRlBHdlRkUkxZRmdodlMzMUlQRTlNc3JyamJvTG14WVhRVzBaS2hMUUlDX2NPZ2w5Q25PU3dkc3loenNUY1YzbnZZYm1MZnZCXzVfVTcxbUF2TkdOT2dFLTRaLU5WaXZoNVF2UlduOGlZTGhldC1HQVdqVWppZUJaUkVhaDdlYWZFM2F3RGpXNjJOYXZnVm15WlVrdFNMYm93?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "“新常态”：随着大量藻类冲上海滩，迈阿密面临日益严重的海藻问题",
+    "url": "https://www.theguardian.com/us-news/2026/aug/18/miami-sargassum-seaweed-problem-climate-crisis",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "极右翼如何从内部加强对欧盟的控制 阿尔贝托·阿莱曼诺",
-    "url": "https://www.theguardian.com/commentisfree/2026/aug/18/far-right-grip-eu-centrist-coalition-afd-national-rally",
+    "title": "“游戏玩家的终极吉祥物”：《索尼克》迎来35周年——从2D到3D，再到价值10亿美元的电影系列",
+    "url": "https://www.theguardian.com/games/2026/aug/18/sonic-the-hedgehog-at-35",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "“我们冒着生命危险只为250英镑”：钢管舞如何从脱衣舞俱乐部中脱颖而出，成为一门严肃的艺术",
-    "url": "https://www.theguardian.com/stage/2026/aug/18/pole-dancing-strip-clubs-serious-art-edinburgh-fringe",
+    "title": "随着美伊和解希望逐渐破灭，各国政府的借贷成本再创新高，达到数十年来的最高水平",
+    "url": "https://www.theguardian.com/business/2026/aug/18/governments-borrowing-costs-us-iran-bond-yields-trump",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "我小时候曾遭受过虐待——本以为自己已经走出了阴影。后来在封城期间，我开始酗酒",
-    "url": "https://www.theguardian.com/society/2026/aug/18/abused-as-child-drinking-lockdown-frank-spinelli-shame",
+    "title": "2026-27赛季英超前瞻第14期：利物浦",
+    "url": "https://www.theguardian.com/football/2026/aug/18/premier-league-2026-27-preview-no-14-liverpool",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "民主与机器：数字时代的诞生与被忽视的警告",
-    "url": "https://www.theguardian.com/news/2026/aug/18/the-long-read-democracy-v-the-machine-digital-age-warnings-computer-history-technology",
+    "title": "我绝不退让的原则：轻装出行是懦夫的行为。要重装上阵 马克斯·奥莱斯克",
+    "url": "https://www.theguardian.com/commentisfree/2026/aug/18/hill-i-will-die-on-packing-light-cowards",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "机器人助手与飞行房屋：爱丁堡艺穗节家庭游玩指南",
-    "url": "https://www.theguardian.com/stage/2026/aug/18/robot-helpers-and-flying-houses-edinburgh-fringe-tips-for-families",
+    "title": "极端高温干旱天气导致英格兰的古橡树死亡",
+    "url": "https://www.theguardian.com/environment/2026/aug/18/england-ancient-oak-trees-dying-extreme-hot-dry-weather",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "乌克兰战争简报：俄罗斯“将冬季作为武器”的行动正在进行中",
-    "url": "https://www.theguardian.com/world/2026/aug/18/ukraine-war-briefing-russian-campaign-to-weaponise-winter-under-way",
+    "title": "Vans、幽灵、沙发，还有凯蒂·佩里的一吻：艺术家弗朗斯-莉丝·麦格恩及其“无所不画”的创作理念",
+    "url": "https://www.theguardian.com/artanddesign/2026/aug/18/france-lise-mcgurn-interview-katy-perry-dundee-contemporary-arts",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "邦迪图书馆在接到投诉后，将《如何贩卖一场种族灭绝》一书从书架上撤下",
-    "url": "https://www.theguardian.com/culture/2026/aug/18/sydney-waverley-library-removes-book-how-to-sell-a-genocide-from-shelves-ntwnfb",
+    "title": "希腊直升机坠毁致一对英国新婚夫妇遇难，疑似机械故障所致",
+    "url": "https://www.theguardian.com/world/2026/aug/18/mechanical-fault-helicopter-crash-killed-british-newlyweds-sifnos-greece",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "韩国暴雨致一人死亡，菲律宾首都则正与严重洪灾作斗争",
-    "url": "https://www.theguardian.com/world/2026/aug/18/south-korea-rain-deadly-landslide-philippines-major-flooding",
+    "title": "内塔尼亚胡与库什纳的会谈未能就陷入僵局的加沙协议取得突破",
+    "url": "https://www.theguardian.com/world/2026/aug/17/netanyahu-kushner-talks-gaza-israel-us-board-of-peace",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "2026-27赛季英超前瞻第13期：利兹联",
-    "url": "https://www.theguardian.com/football/2026/aug/18/premier-league-2026-27-preview-no-13-leeds",
+    "title": "“移民问题已被当作政治工具”：一名摩洛哥男子在警方控制过程中死亡，意大利《安全法》因此遭到批评",
+    "url": "https://www.theguardian.com/world/2026/aug/18/italy-security-law-death-moroccan-man-police-custody-abderrahim-fakir",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "墨尔本的亚美尼亚-黎巴嫩风味餐厅Zareh荣获《Gourmet Traveller》“年度餐厅”称号",
-    "url": "https://www.theguardian.com/food/2026/aug/18/melbournes-armenian-lebanese-eatery-zareh-named-gourmet-travellers-restaurant-of-the-year",
+    "title": "大卫·斯奎尔斯谈……英超重启前引发热议的新帅们",
+    "url": "https://www.theguardian.com/football/picture/2026/aug/18/david-squires-new-managers-causing-stir-premier-league-return",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "极端高温对60岁及以上人群的危害比此前认为的更为严重",
-    "url": "https://www.theguardian.com/society/2026/aug/17/extreme-heat-more-dangerous-for-people-60-and-over-than-previously-thought",
+    "title": "民主党高层在佛罗里达州初选中展开角逐，但进步自由主义并未成为议题",
+    "url": "https://www.theguardian.com/us-news/2026/aug/18/florida-primary-election-senate-governor-races",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "否认选举结果的蒂娜·彼得斯将被聘为加利福尼亚州某保守派县的选举顾问",
-    "url": "https://www.theguardian.com/us-news/2026/aug/17/election-denier-tina-peters-shasta-county",
+    "title": "“非常开心”的阿马尔·德迪奇以2950万英镑的身价从本菲卡转会至纽卡斯尔",
+    "url": "https://www.theguardian.com/football/2026/aug/18/newcastle-sign-amar-dedic-benfica-transfer-window",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "诺兰·韦尔斯的去世让黑人父母将心底的隐忧说破了——《与凯和卡特在美国》",
-    "url": "https://www.theguardian.com/us-news/video/2026/aug/17/nolan-wells-death-impact-black-families-stateside-podcast",
+    "title": "亚马逊新纪录片揭露了瓜迪奥拉在曼城与沃克之间的争执",
+    "url": "https://www.theguardian.com/football/2026/aug/18/pep-guardiola-row-kyle-walker-manchester-city-revealed-new-amazon-documentary",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "路易吉·曼吉奥内因在联邦案件中认罪，其在纽约的谋杀案审判被推迟",
-    "url": "https://www.theguardian.com/us-news/2026/aug/17/luigi-mangione-new-york-murder-trial",
+    "title": "影评——一部血腥且暗含讽刺的“猫鱼”题材恐怖片，专为Hinge时代打造",
+    "url": "https://www.theguardian.com/film/2026/aug/18/match-review-gory-and-slyly-satirical-catfishing-horror-for-the-age-of-hinge",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "数万人聚集在特拉法加广场，参加悼念杰森·阿戴的守夜活动",
-    "url": "https://www.theguardian.com/uk-news/2026/aug/17/tens-of-thousands-pay-tribute-jason-arday-trafalgar-square-vigil",
+    "title": "“特朗普2.0”删除了或篡改了近400个美国数据集，危及公共卫生、教育等领域",
+    "url": "https://www.theguardian.com/us-news/ng-interactive/2026/aug/18/trump-federal-data-deleted-altered",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "因批评因凡蒂诺的世界杯“变卖”计划，国际足联高管遭解职",
-    "url": "https://www.theguardian.com/football/2026/aug/17/fifa-chief-sacked-criticism-infantino-world-cup-sell-off-plan-kevin-lamour",
+    "title": "建筑师保罗·里维尔·威廉姆斯如何抗击种族主义并改变了洛杉矶的面貌",
+    "url": "https://www.theguardian.com/artanddesign/2026/aug/18/architect-paul-revere-williams-racism-los-angeles",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "内塔尼亚胡所在政党的竞选广告牌将马姆达尼比作伊朗和真主党的领导人",
-    "url": "https://www.theguardian.com/world/2026/aug/17/netanyahu-party-campaign-billboard-mamdani-iran-hezbollah",
+    "title": "“我们无处可去”：这位难民自10岁起便未曾享受过片刻安宁",
+    "url": "https://www.theguardian.com/global-development/2026/aug/18/sudanese-refugee-samira-war-injury",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "好莱坞继续辜负童星，海登·潘妮蒂尔成了最新的牺牲品 杰西·哈森格",
-    "url": "https://www.theguardian.com/tv-and-radio/2026/aug/17/hayden-panettiere-hollywood-child-stars",
+    "title": "英格兰儿童事务专员表示，“预防”计划未能帮助那些“痴迷于暴力”的年轻人",
+    "url": "https://www.theguardian.com/uk-news/2026/aug/18/england-childrens-commissioner-rachel-de-souza-prevent-young-people-fixated-violence",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "特朗普对一名被青少年救生员救起的10岁男孩说：“我不确定自己会不会这么做。”",
-    "url": "https://www.theguardian.com/us-news/2026/aug/17/trump-oval-office-california-resuced-teen-viral",
+    "title": "海登·帕内蒂尔是在镜头前长大的。这让她付出了代价。",
+    "url": "https://nyti.ms/3Sfp0Yk",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "托德·博利和马克·沃尔特正考虑向克利尔莱克资本出售切尔西的股份",
-    "url": "https://www.theguardian.com/football/2026/aug/17/chelsea-todd-boehly-mark-walter-consider-selling-shares-clearlake-capital",
+    "title": "观点 硅谷从一开始就做对了",
+    "url": "https://nyti.ms/4wtwc17",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "当被问及缩减美韩联合军演一事时，特朗普表示金正恩已对他的善意姿态作出了回应——现场报道",
-    "url": "https://www.theguardian.com/us-news/live/2026/aug/17/politics-trump-south-korea-military-pentagon-republicans-democrats",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "《卫报》关于杰森·阿代的观点：一场值得深思的悲剧 社论",
-    "url": "https://www.theguardian.com/commentisfree/2026/aug/17/the-guardian-view-on-jason-arday-a-tragedy-that-demands-reflection",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "美国海军一艘驱逐舰因失去动力，在南海漂流了四天",
-    "url": "https://www.theguardian.com/us-news/2026/aug/17/us-navy-destroyer-south-china-sea",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "严重智力障碍者的平均寿命比常人短24年",
-    "url": "https://www.theguardian.com/society/2026/aug/17/severe-intellectual-disabilities-life-expectancy-study",
+    "title": "阿拉斯加州参议院初选前几天，玛丽·佩尔托拉对竞选团队进行了大调整",
+    "url": "https://nyti.ms/4xMilDR",
     "type": "News",
     "source": "Buzzing"
   },
@@ -4536,20 +4560,62 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
-    "title": "最高法院再次驳回特朗普就向E·珍·卡罗尔支付500万美元一事提出的上诉",
-    "url": "https://nyti.ms/4genYDN",
+    "title": "财政部无法避免英格兰银行的亏损",
+    "url": "https://www.ft.com/content/be40ad57-a847-43a3-8ade-9282914b965e?syn-25a6b1a6=1",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "特朗普实时动态：美伊和平协议未能在最后期限前达成",
-    "url": "https://nyti.ms/4bWdAiR",
+    "title": "OpenAI 将青少年用户限制在专为青少年设计的 ChatGPT 版本上，并承诺提供更多安全保障",
+    "url": "https://www.ft.com/content/9eccad94-56f5-4adf-aa61-c39e2e542226?syn-25a6b1a6=1",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "特朗普政府实时动态：库什纳就加沙问题与内塔尼亚胡举行会谈",
-    "url": "https://nyti.ms/4qj6XNk",
+    "title": "对人工智能的恐惧已成为美国的新共识",
+    "url": "https://www.ft.com/content/7d5f7e30-88de-4dcb-9fd5-f41a4ff03804?syn-25a6b1a6=1",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "俄罗斯就乌克兰使用英国制造的无人机一事警告英国将面临“后果”",
+    "url": "https://www.ft.com/content/3a96c015-2c9f-4897-97ea-d3f13571aa71?syn-25a6b1a6=1",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "受通胀担忧和人工智能相关债券发行影响，全球债券抛售潮进一步加剧",
+    "url": "https://www.ft.com/content/61354e68-c4ba-4716-b849-b332608c8c65?syn-25a6b1a6=1",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "工党在监狱问题上别无良策",
+    "url": "https://www.ft.com/content/bfc3fbe6-7bd8-41d5-b185-0865cf22ae95?syn-25a6b1a6=1",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "英国薪资增长乏力缓解了对二阶通胀效应的担忧",
+    "url": "https://www.ft.com/content/3b211986-f6ea-47f9-8b7c-b58f261ad483",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "随着劳动力市场进一步疲软，英国雇主纷纷裁员",
+    "url": "https://www.ft.com/content/1e9a7365-ee1f-489c-9dea-39a6fc33837b?syn-25a6b1a6=1",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "中国10年期国债收益率跌至13个月低点",
+    "url": "https://www.ft.com/content/c3223b7c-6683-42df-9e60-9dbd2dbdfe07?syn-25a6b1a6=1",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "AI：就像一台债务制造机",
+    "url": "https://www.ft.com/content/b2cbbab2-a51a-48f2-a9da-86d858cd4e86?syn-25a6b1a6=1",
     "type": "News",
     "source": "Buzzing"
   },
@@ -4638,62 +4704,56 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
-    "title": "欧洲仍然需要前瞻性指引——但不应将其视为桎梏",
-    "url": "https://www.ft.com/content/770c003e-17bc-4bf5-8f5a-3f45a4f15c36",
+    "title": "Rust 中的 GPU 卸载：可移植、安全且快速",
+    "url": "https://arxiv.org/pdf/2608.13759",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "随着航空燃油成本下降，各航空公司就降价问题陷入“僵持”",
-    "url": "https://www.ft.com/content/9d8f4215-4d19-43df-ab81-b9f8adb057c8?syn-25a6b1a6=1",
+    "title": "Tsampi BFT：具有参数化最终性的无领导者单轮投票",
+    "url": "https://www.tsampi.com/tsampi-bft-1.1.pdf",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "克里斯·霍恩的对冲基金押注意大利豪华酒店",
-    "url": "https://www.ft.com/content/351cf8e1-cdef-46a9-ac32-b2e76c72ed1a?syn-25a6b1a6=1",
+    "title": "将铁路网络作为平板扫描仪使用",
+    "url": "https://philo.gay/linecam/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "人工智能并没有失控。情况比这更糟",
-    "url": "https://www.ft.com/content/a9947be4-5c0c-47ee-acae-a2aeaf01a0a0?syn-25a6b1a6=1",
+    "title": "重新思考数据库编程",
+    "url": "https://acadia.engineering/blog/rethinking-database-programming",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "校园枪击案揭示了土耳其青年心中积压已久的不满",
-    "url": "https://www.ft.com/content/87791f55-f08a-49c7-a5d9-ab6c6f5ee54a?syn-25a6b1a6=1",
+    "title": "编程珍珠：采样唯一的 (x, y) 坐标对",
+    "url": "https://pagedout.institute/webview.php?issue=9&page=50&article=Programming+Pearl%3A+Sampling+Unique+%28x%2Cy%29+Pairs",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "反垄断调查开始对苹果的1000亿美元服务业务造成冲击",
-    "url": "https://www.ft.com/content/e5533f32-e4c2-4ce1-9d2e-a831e96546b4?syn-25a6b1a6=1",
+    "title": "选择性应用函子",
+    "url": "https://blog.veritates.love/selective-applicatives-theoretical-basis",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "马加进军欧洲",
-    "url": "https://www.ft.com/content/730534f3-bb50-425d-abee-657b06048ade?syn-25a6b1a6=1",
+    "title": "vcmpps 和 vcmppd 的编码",
+    "url": "https://www.corsix.org/content/encoding-vcmpps-vcmppd",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "大型制药公司警告称，德国遏制药价的举措将适得其反",
-    "url": "https://www.ft.com/content/8891d59f-f4e0-4f81-bfae-b686cd1c4d98?syn-25a6b1a6=1",
+    "title": "Biboumi——连接XMPP与IRC的网关",
+    "url": "https://biboumi.codeberg.page/doc/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "德国极右翼与“让美国再次伟大”（MAGA）之间的艰难博弈",
-    "url": "https://www.ft.com/content/f12c330e-bed7-4f9d-9b37-c301ffd78b03?syn-25a6b1a6=1",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "“不值得费这个劲”：全球私募股权基金在中国未达成任何交易",
-    "url": "https://www.ft.com/content/55cb2786-c7ef-438e-8830-c3dc2c1452ce?syn-25a6b1a6=1",
+    "title": "实际预算",
+    "url": "https://actualbudget.org/",
     "type": "News",
     "source": "Buzzing"
   },
@@ -4706,12 +4766,6 @@ window.NEWSFLOW_NEWS = [
   {
     "title": "将构建系统改造为编译器",
     "url": "https://www.dra27.uk/blog/platform/2025/09/25/building-with-effects.html",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "基准指数末日",
-    "url": "https://danluu.com/benchpocalypse/",
     "type": "News",
     "source": "Buzzing"
   },
@@ -4770,200 +4824,170 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
-    "title": "改用 GitHub 的替代方案有意义吗？",
-    "url": "https://lobste.rs/s/0zdh32/does_it_make_sense_switch_github",
+    "title": "Show HN: 按固定格式操作：粘贴一个 CSV 文件，即可获得与之匹配的 Excel 公式",
+    "url": "https://codebypeace.gumroad.com/l/Formulaic",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "超越 WASI：借助 BrowserPod 3.0 在浏览器中运行任何 Rust 应用程序",
-    "url": "https://labs.leaningtech.com/blog/browserpod-rust.html",
+    "title": "Show HN: 我让可穿戴数据的采集成本降低了25倍",
+    "url": "https://platform.stridee.fit/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "当向下箭头并非倒置的向上箭头时（2022）",
-    "url": "https://thefloatingcontinent.com/blog/upside-down-arrow-unicode/",
+    "title": "Show HN: Dreadsweeper – 基于光线投射的扫雷游戏",
+    "url": "https://dreadsweeper.franzai.com/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "使用 Docker 沙箱进行 ESP32 固件开发",
-    "url": "https://www.docker.com/blog/reproducible-esp32-firmware-development-with-docker-and-docker-sandboxes/",
+    "title": "Show HN: Kutta——一款基于浏览器的二维风洞",
+    "url": "https://crgimenes.github.io/kutta/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Anthropic在Claude中对文本进行的“水印”篡改是对写作的扭曲",
-    "url": "https://daringfireball.net/2026/08/anthropics_watermark_text_adulteration_in_claude_is_a_perversion_of_writing",
+    "title": "Show HN: FundNI——整合北爱尔兰各地分散的社区资助项目",
+    "url": "https://www.fundni.org/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "第1层PTP Grandmaster：CM4 SR1723U10（第1部分）",
-    "url": "https://opscode.io/posts/ptp-grandmaster-cm4-sr1723u10/",
+    "title": "Show HN: 针对特定职位的AI简历优化工具",
+    "url": "https://aiomniu.top/services/resume-builder",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "事实：为人类和智能体精选的知识",
-    "url": "https://gist.github.com/iamalnewkirk/22ae2d8c8cc1b8790236da9edf2f7b73",
+    "title": "Show HN: InnerSight——一款我设计的日记应用，这样我就无法阅读你的日记内容了",
+    "url": "https://www.innersightjournal.com/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Apple II 上的 AppleWorks",
-    "url": "https://stonetools.ghost.io/appleworks-apple2/",
+    "title": "Show HN: Zeroparams，一个零参数的编程代理——因为它就是我一个人",
+    "url": "https://zeroparams.itdata.nu/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Con Kolivas 编写的适用于 Linux 7.2 的 MuQSS CPU 调度器",
-    "url": "https://lore.kernel.org/lkml/CABqErrH=oQ3povVuSPhRON97v63=mB85jQmZjf443ofdYAuxxw@mail.gmail.com/",
+    "title": "Show HN: H2AI Chat——一款可使用本地模型（AGPL）自行部署的多AI辩论工具",
+    "url": "https://github.com/Tonterias/h2aichat",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Show HN: Google Critique 的开源替代方案",
-    "url": "https://twigg.vc/",
+    "title": "Show HN: Kitsunagu——一个帮助您在日本寻找英语专业人士的平台",
+    "url": "https://kitsunagu.com/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Show HN: 一款适用于 DeepSeek 调用的、类似 n8n 的协调工具包",
-    "url": "https://github.com/ahamoment-101/Open-DeepSeek-Harness-Desktop",
+    "title": "Show HN: AirStats——Mac 菜单栏系统监控工具，CPU 空闲率 0.046%，麻省理工学院",
+    "url": "https://github.com/byrencheema/airstats",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Show HN: Honeymatcha.io 连接您的 Grok 机器人，助您约会、结识新朋友，以及做任何事情",
-    "url": "https://honeymatcha.io/",
+    "title": "Show HN: MCP-Proxy 为任何 REST API 添加 MCP 支持——无需修改代码",
+    "url": "https://github.com/crhuber/mcp-proxy",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Show HN: 使用 UiSvelte 更快地构建精美的 Web 应用",
-    "url": "https://github.com/sappsdev/ui-svelte",
+    "title": "Show HN: MyPdfly – 30 款免费 PDF 工具，无需注册",
+    "url": "https://mypdfly.com/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Show HN: Turtle——历时两年从零开始开发的网页浏览器",
-    "url": "https://news.ycombinator.com/item?id=49340294",
+    "title": "Show HN: DynaJS——一款功能齐全的新型 JavaScript 运行时",
+    "url": "https://github.com/corporatepiyush/dynajs",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Show HN: SacredCal——一个以七天为周期的、包含13个月、364天的日历",
-    "url": "https://sacredcal.one/",
+    "title": "Show HN: 《Hacker News 谜题》",
+    "url": "https://pzlgames.com/games/hackernews/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Show HN: Tsampi BFT——具有参数化最终性的无领导者单轮投票 [pdf]",
-    "url": "https://www.tsampi.com/tsampi-bft-1.0.pdf",
+    "title": "Show HN: 塞缪尔，一个滑稽的语音模型",
+    "url": "https://samuel.vvolhejn.com/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Show HN: Cogni：面向大型语言模型（LLM）的MCP内存，检索路径中不包含大型语言模型",
-    "url": "https://getcogni.io/",
+    "title": "Show HN: AnyCreature。通过代理生成3D生物。利用3D资源管道进行制作",
+    "url": "https://github.com/Ariescar/anyCreature",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Show HN: 一款基于浏览器的、无需FlashFrame的快速多人电影猜谜游戏",
-    "url": "https://playflashframe.com/",
+    "title": "Show HN: MeetMoves——适用于 Google Meet 的视频/GIF 背景，无需 OBS",
+    "url": "https://chromewebstore.google.com/detail/meetmoves/pcihfjkbfcfademdaplkhmgngdlkfepg",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Show HN: 面向开发团队和代理的多人编程环境",
-    "url": "https://forklane.ai/",
+    "title": "Show HN: Self University——通过互动谜题学习编程",
+    "url": "https://selfuniversity.site/en/welcome",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Show HN: 一个针对 AI 代理安全防护措施的基准测试，我的插件也被它检测到了",
-    "url": "https://github.com/couldbeme/holdline",
+    "title": "Show HN: Reproof——一款专为完美主义者设计的非线性写作应用",
+    "url": "https://reproof.app/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Show HN: Graphlib——在 C 中创建有向图的新方法",
-    "url": "https://github.com/RANDOMFNP/Graphlib",
+    "title": "Show HN: Roadmark——一种分支式路线图，而非覆盖原有计划",
+    "url": "https://yourroadmark.com/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Show HN: 任何歌曲的AI生成音乐盒版本（适合宝宝）",
-    "url": "https://lullabyconverter.com/",
+    "title": "Show HN: Dozenal——每日空间数学谜题",
+    "url": "https://dozenal.game/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Show HN: 我根据你的MRR，制作了一个3D地球仪平台来推广你的初创公司",
-    "url": "https://mrrglo.be/",
+    "title": "Show HN: Phi——一款基于浏览器的原生游戏引擎和桌面游戏引擎",
+    "url": "https://github.com/float64co/Phi",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Show HN: 一种通过验证而非存储来实现的区块链",
-    "url": "https://github.com/ignotusnemo/parano1d",
+    "title": "Show HN: Vianta Connect——适用于 Android 和 Mac 的文件传输与剪贴板同步工具",
+    "url": "https://play.google.com/store/apps/details?id=com.vianta.android&hl=en_US",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Show HN: 加密的 Git 远程服务器",
-    "url": "https://ghostfork.io/",
+    "title": "派拉蒙要求对华纳协议提出异议的各州和编剧提供18.8亿美元的保证金",
+    "url": "https://on.wsj.com/4qj4Uc5",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Show HN: Solo——便携式 Linux 二进制文件，问题已解决",
-    "url": "https://github.com/pg83/solo",
+    "title": "好市多销售旅游产品、汽油，不久还将推出医疗保险计划",
+    "url": "https://on.wsj.com/4xJsLUR",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Show HN: 一款能够帮助您建立并检验理解程度的个人AI辅导老师",
-    "url": "https://github.com/grandimam/suki",
+    "title": "路易吉·曼吉奥内承认在联邦法院有罪后，其州一级的谋杀案审判被推迟",
+    "url": "https://on.wsj.com/3SkS40m",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Show HN: 《Provenance》：一款关于艺术品盗窃的每日游戏",
-    "url": "https://provenance.avibagla.com/",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "Show HN: Klar，一种简单且立场鲜明的编程语言",
-    "url": "https://github.com/ProCode-Software/klar",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "Show HN: 恩格尔巴特——克劳德代码的诸多目标和待办事项",
-    "url": "https://github.com/divadbaroon/claude-plugins",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "Show HN: Slaunt——控制 AI 代理可以访问、执行和操作的内容",
-    "url": "https://slaunt.ai/",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "Show HN: Gene Inspector Pro——我开发了一款用于探索您自身基因组的工具",
-    "url": "https://gene-inspector.pro/",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "Show HN: 杜宾犬：这款AI看门狗能阻止克劳德删除你的数据库",
-    "url": "https://github.com/fu351/Doberman-Core",
+    "title": "剑桥大学教授之死引发了关于责任归属的深刻反思",
+    "url": "https://on.wsj.com/3U0G6cZ",
     "type": "News",
     "source": "Buzzing"
   },
@@ -5088,206 +5112,206 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
-    "title": "在科罗拉多河所滋养的七个西部州之间多年僵持不下之后，联邦政府已介入，试图拯救这条饱受困扰的科罗拉多河。",
-    "url": "https://on.wsj.com/3ScihOE",
+    "title": "官员称，俄罗斯导弹袭击导致乌克兰哈尔科夫州10人死亡",
+    "url": "https://reut.rs/4ztM3iU",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "人工智能数据中心正推动美国制造业的繁荣，卡特彼勒、康明斯、伊顿和福特在追逐新需求的过程中正经历转型。",
-    "url": "https://on.wsj.com/3U2gUCP",
+    "title": "在好莱坞规模不断萎缩的背景下，微剧热潮兴起，各大制片厂纷纷争相吸引TikTok观众",
+    "url": "https://reut.rs/4hFM6lk",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "酒吧的酒单正在发生变化。以下是您家中应该备好的酒水。",
-    "url": "https://on.wsj.com/3Sw8NOu",
+    "title": "独家报道：沙特阿拉伯加强对流向阿联酋的银行转账的反犯罪监管",
+    "url": "https://reut.rs/4x5dgqh",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "肯塔基州的一对母女拒绝了对方对她们农田提出的2600万美元收购报价。由此引发的风波使她们所在的镇上意见分歧。",
-    "url": "https://on.wsj.com/4xDn22U",
+    "title": "世卫组织表示，刚果（金）的埃博拉疫情仍可在三个月内得到控制",
+    "url": "https://reut.rs/4gqeJRg",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "嘉吉公司员工投票决定结束导致美国一家牛肉加工厂停工的劳资纠纷",
-    "url": "https://reut.rs/3SfZt0X",
+    "title": "直播：宇航员在国际空间站进行太空行走",
+    "url": "https://youtube.com/live/Z5h-2yuvlIg",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "数据显示，霍尔木兹海峡过境量较上周末略有上升，但仍维持在个位数水平",
-    "url": "https://reut.rs/4zj3sdT",
+    "title": "独家报道：以色列定居者在其被围困的约旦河西岸家中与一名巴勒斯坦裔美国人发生对峙",
+    "url": "https://reut.rs/4qoszYD",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "美国移民和海关执法局（ICE）提出了一项保险计划，旨在保护执行移民逮捕任务的地方执法人员",
-    "url": "https://reut.rs/4gfMxAp",
+    "title": "加拿大在输油管道方面的雄心取决于产量扩张的前景尚不明朗",
+    "url": "https://reut.rs/45yqj7Q",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "韩国总统李某支持加强自卫能力，称演习并非针对朝鲜",
-    "url": "https://reut.rs/3U2xB12",
+    "title": "印尼部长称，仅7月份，森林大火就烧毁了近9.5万公顷土地",
+    "url": "https://reut.rs/4hFeLa7",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Citadel Securities 敦促美国证券交易委员会（SEC）重新考虑废除一项关键股票交易规则的提议",
-    "url": "https://reut.rs/4geCRGe",
+    "title": "除了马拉松和后空翻，中国的机器人还面临着商业化的考验",
+    "url": "https://reut.rs/3RVb5GP",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "美国法官下令释放一名被指控在二战纪念碑处实施破坏行为的女子",
-    "url": "https://reut.rs/4qj7wXq",
+    "title": "深度解析：美国军事资金如何推动了中国机器狗的发展",
+    "url": "https://reut.rs/4wBFHvb",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "埃尔多安敦促特朗普与伊朗展开对话，并表示将提供支持",
-    "url": "https://reut.rs/4ietnNM",
+    "title": "随着法案陷入停滞，特朗普政府各机构将制定加密货币政策，这将限制该行业的收益",
+    "url": "https://reut.rs/3SbsL0Y",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "负责监管华盛顿杜勒斯机场的管理委员会将就一项199亿美元的翻新计划进行表决",
-    "url": "https://reut.rs/3U3hXm7",
+    "title": "印尼法院开始审理一起涉嫌虐待儿童案件中的托儿所工作人员",
+    "url": "https://reut.rs/4qm52b1",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "消息人士称，Anthropic的年化营收已超过650亿美元",
-    "url": "https://reut.rs/4xNGkTn",
+    "title": "尽管市场阴霾已散，但对人工智能投资的担忧仍在萦绕",
+    "url": "https://reut.rs/4bXk7d4",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "律师们敦促加利福尼亚州法院允许尼克·雷纳动用信托基金",
-    "url": "https://reut.rs/3SAqX1D",
+    "title": "Meta面临29个州的诉讼，这可能重塑Instagram和Facebook",
+    "url": "https://reut.rs/4qpzQaH",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "消息人士称，美国和加拿大正试图就可能削减汽车关税一事弥合分歧",
-    "url": "https://reut.rs/4qjMo3m",
+    "title": "各州为何齐心协力，就Meta对青少年造成的社交媒体危害提起联合诉讼",
+    "url": "https://reut.rs/4gdyew1",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "一家音乐出版商就人工智能训练问题起诉Anthropic和Suno",
-    "url": "https://reut.rs/4cpXVZa",
+    "title": "随着美国债务不断增加，投资者要求更高的回报率才愿出借资金",
+    "url": "https://reut.rs/4gCPKLB",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "美国司法部调查威廉与玛丽学院，指控其存在偏袒少数族裔的歧视行为",
-    "url": "https://reut.rs/3UnoGY2",
+    "title": "伊朗称，霍尔木兹海峡将保持关闭，直至美国满足临时协议的条件",
+    "url": "https://reut.rs/4ggtHZF",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "美国一名法官叫停了特朗普政府取消将联邦调查局总部迁至马里兰州的计划",
-    "url": "https://reut.rs/4qoSxvk",
+    "title": "菲律宾认为美国在中东的部队调整不会影响两国防务关系",
+    "url": "https://reut.rs/4wE42R9",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "谷歌将以1000万美元收购Spirit Airlines的业务数据",
-    "url": "https://reut.rs/4hEBUcL",
+    "title": "LEO Pharma以最高4.35亿美元的价格收购了德西美拉冈的全球权益",
+    "url": "https://reut.rs/4xG0BtU",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "数据显示，6月份外国持有的美国国债规模有所下降，其中日本、英国和中国是主要下降来源",
-    "url": "https://reut.rs/3U6X4X6",
+    "title": "大约118亿年前，银河系吞并了一个较小的星系",
+    "url": "https://reut.rs/4wyLYHW",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "佐治亚州一名男子在美国被指控运营一个涉案金额达1.65亿美元的加密货币庞氏骗局",
-    "url": "https://reut.rs/4ziGV0N",
+    "title": "据当地媒体报道，巴基斯坦最高法院下令将前总理伊姆兰·汗从监狱转移至医院",
+    "url": "https://reut.rs/3SEKcXO",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "美国能源部长赖特表示，美国将宣布相关措施，帮助炼油企业增加燃料产量",
-    "url": "https://reut.rs/4gcLUaz",
+    "title": "随着通胀和财政担忧加剧，从美国到日本的债券市场均受到冲击",
+    "url": "https://reut.rs/46bV9De",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "报道：无证据表明史蒂夫·鲍尔默向科怀·伦纳德输送资金",
-    "url": "https://reut.rs/4gDhsI4",
+    "title": "深度解析：在特朗普执政期间，美韩关系发生了怎样的变化？",
+    "url": "https://reut.rs/4gBGibo",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "在美国面临广泛批评后，暂停了在大弯国家公园的边境建设",
-    "url": "https://reut.rs/4gi4iPt",
+    "title": "尼古丁袋能否引领大型烟草企业迈向超越香烟的未来？",
+    "url": "https://reut.rs/4xJgL5L",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "国际足联证实，高级管理人员凯文·拉莫尔因批评因凡蒂诺而离职",
-    "url": "https://reut.rs/4xLQFPt",
+    "title": "Unitree在首次公开募股（IPO）前推出了一款据称跑得比乌塞恩·博尔特还快的机器人",
+    "url": "https://www.businessinsider.com/unitree-robot-run-faster-usain-bolt-superman-china-ipo-2026-8",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "法院裁定，特朗普政府非法任命了内华达州首席联邦检察官",
-    "url": "https://reut.rs/4xKBAOc",
+    "title": "OpenAI总裁表示，企业应尽快采取10项措施，以防范人工智能带来的网络威胁",
+    "url": "https://www.businessinsider.com/openai-president-greg-brockman-10-cybersecurity-tips-hugging-face-2026-8",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Breakingviews——特朗普家族笑嘻嘻地赚得盆满钵满",
-    "url": "https://reut.rs/4ieaY3E",
+    "title": "起初是自动驾驶汽车。如今，Waymo的资深员工正在研发自动驾驶工程机械。",
+    "url": "https://www.businessinsider.com/bedrock-robotics-construction-ai-excavators-2026-8",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "在巴西试行“反拖延时间”规则之际，内马尔成为首位被迫离场的球员",
-    "url": "https://reut.rs/3TTsgsX",
+    "title": "美国陆军希望拥有能够从空气中提取饮用水的设备，以满足远离补给线作战的需求",
+    "url": "https://www.businessinsider.com/us-army-machines-that-pull-drinking-water-from-the-air-2026-8",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "我们追踪了一架无人机，从英国工厂一路追到乌克兰前线",
-    "url": "https://www.businessinsider.com/we-followed-a-drone-from-uk-factory-to-ukraine-frontline-2026-8",
+    "title": "我在一个热门的郊区锁定了3.25%的房贷利率。表面上看似乎很成功，但实际感觉却相去甚远。",
+    "url": "https://www.businessinsider.com/bought-house-good-rate-desirable-suburb-not-happy-2026-8",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "最热门的AI模型并不是开发者实际使用的那些",
-    "url": "https://www.businessinsider.com/top-ai-models-usage-data-hugging-face-2026-8",
+    "title": "这次初选“就像‘佛罗里达男人’自己举办了一场选举一样”",
+    "url": "https://www.axios.com/2026/08/18/florida-weird-primary-election-2026",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "我们追踪了3位年轻初创公司创始人实际的睡眠时长",
-    "url": "https://www.businessinsider.com/sleep-habits-silicon-valley-startup-founders-2026-8",
+    "title": "联邦调查局（FBI）2025年的数据显示，暴力犯罪率出现了90年来最大幅度的下降",
+    "url": "https://www.axios.com/2026/08/18/fbi-violent-crime-drop-2025",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "克莱尔·斯台普尔顿谈谷歌如何输掉了赢得员工“人心”的“战争”",
-    "url": "https://www.businessinsider.com/claire-stapleton-google-employee-walkouts-protest-dont-be-evil-book-2026-8",
+    "title": "政治阴招搅乱了全美各地的中期选举",
+    "url": "https://www.axios.com/2026/08/18/democrats-republicans-midterms-political-shenanigans",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "31岁时，我搬回了父母家。以下是我当时完全没想到的三件事。",
-    "url": "https://www.businessinsider.com/moved-back-in-with-parents-30s-not-prepared-surprising-things-2026-8",
+    "title": "特朗普猛批盟友，伊朗则暴露了硬实力的局限性",
+    "url": "https://www.axios.com/2026/08/18/trump-south-korea-allies-iran-war",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "据投资者称，2026年最具发展潜力的25家机器人初创企业",
-    "url": "https://www.businessinsider.com/robotics-tech-ai-startups-investors-funding-2026-8",
+    "title": "女性正错失人工智能就业热潮",
+    "url": "https://www.axios.com/2026/08/18/ai-women-jobs-hiring",
     "type": "News",
     "source": "Buzzing"
   },
@@ -5406,32 +5430,62 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
-    "title": "“没意义了”：人工智能迫使大学生重新考虑自己的专业选择",
-    "url": "https://www.axios.com/2026/08/15/college-major-ai-skills-job-search",
+    "title": "被解职的国际足联高管兼因凡蒂诺的批评者告诉同事们：“关键是要做正确的事”",
+    "url": "https://news.sky.com/story/sacked-fifa-executive-and-infantino-critic-tells-colleagues-its-about-doing-whats-right-13574355",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "生物风险的交汇",
-    "url": "https://www.axios.com/2026/08/14/biological-threats-ai-lab-research",
+    "title": "五名青少年在高速公路上逆向超速行驶身亡后，监管机构就“飙车内容”一事联系了TikTok",
+    "url": "https://news.sky.com/story/watchdog-contacting-tiktok-over-joyriding-content-after-five-teenagers-die-speeding-wrong-way-on-motorway-13574234",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "特朗普对“亚伯拉罕·林肯”号航母引发的担忧不以为然",
-    "url": "https://www.axios.com/2026/08/14/trump-uss-abraham-lincoln-deployment-middle-east",
+    "title": "希腊直升机坠毁事故中遇难的英国游客及其妻子身份已确认，二人当时正在度蜜月",
+    "url": "https://news.sky.com/story/british-couple-killed-in-greek-helicopter-crash-while-on-honeymoon-named-13574179",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "美国人的旅行热情达到新高度",
-    "url": "https://www.axios.com/2026/08/14/americans-overseas-european-travel-boom",
+    "title": "英国沙门氏菌疫情导致1人死亡，数百人患病",
+    "url": "https://news.sky.com/story/one-dead-and-hundreds-ill-after-uk-salmonella-outbreak-13574292",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "宿舍房间很小，但宿舍装饰市场却并不小。",
-    "url": "https://www.axios.com/2026/08/14/college-dorm-decor-economy",
+    "title": "英国某港口查获价值超过1.6亿英镑的毒品",
+    "url": "https://news.sky.com/story/drugs-worth-more-than-160m-seized-at-british-port-13574287",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "海登·潘妮蒂尔的前伴侣表示，得知这位明星去世的消息后感到“极度震惊”",
+    "url": "https://news.sky.com/story/hayden-panettieres-ex-partner-describes-profound-shock-and-grief-after-stars-death-13574261",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "Poundland所有者计划在收购一年后出售这家折扣连锁店",
+    "url": "https://news.sky.com/story/poundland-owner-plots-sale-of-discount-chain-a-year-after-takeover-13574281",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "Meta因儿童社交媒体成瘾和隐私问题面临诉讼",
+    "url": "https://news.sky.com/story/meta-goes-on-federal-trial-for-social-media-addiction-with-states-seeking-more-than-1trn-13574223",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "一名男子被狗咬伤后死亡，另一名男子被控过失致死",
+    "url": "https://news.sky.com/story/man-charged-with-manslaughter-after-man-bitten-by-dog-dies-13574048",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "职位空缺降至五年来的最低水平",
+    "url": "https://news.sky.com/story/job-vacancies-hit-lowest-level-in-five-years-according-to-official-figures-13574214",
     "type": "News",
     "source": "Buzzing"
   },
@@ -5520,146 +5574,68 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
-    "title": "伯纳姆曾与一名冒充特朗普政府官员的冒名者“互发消息”",
-    "url": "https://news.sky.com/story/burnham-exchanged-messages-with-impersonator-pretending-to-be-trump-official-13574010",
+    "title": "随着永久冻土层融化导致阿尔卑斯山地势不稳，一场迫在眉睫的岩石坍塌正威胁着瑞士的一个村庄 - AP News",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUWUxNXFrNnZ4ZXZhZEVuaUxTSXNBaDdva0pQelkta2kxeFBnUjM3aWtONkNwWUtWRVBDTXY0VHFUQ2NOdjYzOWxNeS15MHU3Yy1pQU9Wdjd5SW5OZXdVdm9FdGNvMkJUaG5wMzdicjJiMEptZklaTndKdHJUb3dZZ0RxcmZ4aVpXLThQTlg5MnZuQXNaZm1BVThEQzlLekpjZXlwTGEtOW1hVXJqZUJYWnpGTzJMUHl4NnNFblNVRQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "印度尼西亚发生地震，造成至少68人死亡，随后该国又发生了近1600次余震",
-    "url": "https://news.sky.com/story/nearly-1600-aftershocks-hit-indonesia-after-earthquake-kills-at-least-68-people-13573963",
+    "title": "据报道，阿富汗首都喀布尔一所学校发生爆炸 - Al Jazeera",
+    "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYUVjWjFjMzBrRERxMGM5a21KU3R5ZXdkTUdXcGJqdUh1LS1DMHlYNWd5UVVqR25FaHBoa0E3aHZwcjZWbDJVbUZwZUI4cFNnaGNSWU5hZlZyZ3llU2FlcnhBRkNwcC01bGFmdGNteVE3dDdKX2FTeW56NHB3SHQ1cmpHRVppMENnNmdJa0FONDJVaDJRd0hnbNIBngFBVV95cUxNYmU0Y2JCU3U0ZW5aSExrd1ZOMGdIelZHWGtMcnE1MlJSdkU5eU5FcWJ5N2ZPWU15UHdVbDJybFJEdmQ2S2pCREFmWkQ5cUtyX3VRQmtaNEwxbkxWSXJnVVBBV21URGF3VTNlUTczTGtFVlR2dTlIWmtSb0NMcE5WYnVfcUNyRGJRWHRKeEhxbUZ5NTU2YVVwWVdMaHNrQQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "英国将迎来自6月以来天气“变化最大的一周”",
-    "url": "https://news.sky.com/story/uk-facing-most-changeable-week-of-weather-since-june-as-heatwave-gives-way-to-rain-13573905",
+    "title": "中国通往欧洲的新北极海路能否取代中东的战略要冲？ - Al Jazeera",
+    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPeUlkN2w1dEtDLTlqSkdHT3FDQkR1SklJd0dhTWtualB6TVQzQUdMR1lTbTlTY21HUmhtR2lPaHVFS1ZXNmxHMXl4RFhqV1htek5ZYzNTOFBzUTBVb0dEamVWUHVOd3FYUFV3MVd2OEhPSlNuN19vRmxyd3ZSYlFxQlVWeUd3LXdOQ2U1VlNSeE5qdzNqOGEzZ2JfZHRDYnlXenN0dWk5Z3hnb1Nkc3RaN2hDd0vSAboBQVVfeXFMTzVoYVhnSFZKYWtPTHY2eU5Nc2ZzWklhaS1QT3BCX09PZzgzNkxKeXNxWG5xbHJLMi1GZFpjQTNmajB5LUpINTN1TlkydExUbmdJVDBwbEVxY0hQRVFKcE1NOU9lRk9IYUR2LWJhdFlVMnZHZ3UtakN3MXU2TFNWOWdoTlVhaTU4YklVS1cxS2Vsbms4dUZROWk0Nk5OSXFtZmoxRzEzaHlTTzgwWWpKakMweDFrN0hyOUVB?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "印度一座寺庙发生踩踏事故，造成7人死亡，十余人受伤",
-    "url": "https://news.sky.com/story/seven-killed-and-more-than-a-dozen-injured-during-ashok-dham-temple-stampede-in-india-13573934",
+    "title": "海关查获藏在22双袜子里的离奇货物，一名男子被抓获 - Fox News",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNdFp5c3ZKQmQwMTlsYkNBR0NlYVNYY1BLRTIzOUZjZHJodEVZQjdUaUJoYUdjR1pNOWdqekpvWUdrNHN4bVN5UWlpbFZIYWt4U3o5aGxXWUhHZE80OXRrRWdIc29CbUlxeEstUFVvY1FJWEZZRUlKN3c5dE5LLUQxRmlKX2wyY0NKU2RhRWFKb3hvVjVGbHFkQk05Qm1BU1BMTmc?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "连环杀人犯西蒙·莱维否认袭击狱警",
-    "url": "https://news.sky.com/story/double-murderer-simon-levy-denies-attack-on-prison-officer-13573944",
+    "title": "乌克兰每花费1美元用于空袭，俄罗斯就要为此多支付5倍的代价 - UNITED24 Media",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdG5MVkcxV0ZsZ21IQ00wcFI2YmIxTjhkR1FLcGhZVG40R2ptZjhmRGhOSUVkajU1UXdTZHpITTN2SjRldUk4elY2VS1PQkloOGYwOGR0TGwxdnZiTjhRU1J4bl9SMnhCT1hDMkxoaE5SSWxLcGhJbjVCWGpIZ0docmdqSHFIdF8xd1VlR2gtSlJ4dG9uVUt6STdYTkI2WXNPQ2VTZkJoRURFRkRTZU5nRl93a2psN09OODZLU1B5cw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "“我是一名建筑商——以下是您在咨询我们时务必问的三个问题，以及那些几乎不会提升您房屋价值的装修升级项目”",
-    "url": "https://news.sky.com/story/im-a-builder-here-are-three-questions-to-always-ask-us-and-the-upgrades-that-rarely-help-your-house-price-13573913",
+    "title": "澳大利亚“蘑菇杀手”对定罪提出上诉 - Japan Today",
+    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTG0tSTNQNjVRLTF1Y3BFOHA5M2xmQWxhbGV4NkdQNjYtcjNvcmNTWVJEQXhmVVJ3TGxaZnFmT1RnZFlBcVRLWDJxTFdNd2NMMHdvRm1aV3E0X1h2c09OV1hyUlU2ZEhDRTJpcFZidUE4R1I1aERlQ1FzZU9mVzNVMlVVeC1GMkxmVUhTc3pjQQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "曾企图谋杀幼儿并在庭审期间发布TikTok视频的“博眼球者”被判入狱",
-    "url": "https://news.sky.com/story/woman-who-tried-to-murder-toddler-by-giving-her-adult-medication-and-posted-tiktoks-during-trial-jailed-13572570",
+    "title": "俄罗斯人从银行提取数十亿资金，担心克里姆林宫会没收存款用于战争 - washingtonpost.com",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQb2tNNGNwNGRDRkhjRlVtTUFYRkstR2xWZE51aF9GWFNIQnFabnFNRGJwbWJFb1ZmVmQzRlpEdXVweGUyRTZSNnI4STVyQWZyUzNNY0NyR1ctSkFvR1ZsN3hUcFR2aHVKYTctUjh1cWtDQWJKckMxN3dtMWdXV1RLQm81N0loUUtvb25QendNTmxQSFZyYlJVWUpISU5xVU5TbHZXMkMyYldKS1ZGbENDb2pKRQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "英国将迎来自6月以来天气“变化最大的一周”",
-    "url": "https://news.sky.com/story/uk-facing-most-most-changeable-week-of-weather-since-june-as-heatwave-gives-way-to-rain-13573905",
+    "title": "无人机袭击伊拉克库尔德斯坦总理办公室，据报无人员伤亡 - Reuters",
+    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQX1RqUHdlLUdxNkQweWdveHJybEs3OWpDaTFNRUhpWDFsSGd1V1hub0QzaTdNSlA3Sm1oX1I3NmEzNDdXRWx6UHZxUTJ0c0dmd1hUSzFfSnBraG5WVUQ5Y0RvLWlXUnY1Wi1OWnRQdFhISExZWWYyN2N0UUhJdWlMZzE3LUZXMTJrTFUtcmhIZkFmaU9YZGJONkN4NG9WSTByREhvVkpheWE1S2REbVBNcVNvNmNNQzhjVG9qcHRheG9NcnM?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "欧洲之星的竞争对手终于获准运营",
-    "url": "https://news.sky.com/story/eurostar-rival-finally-gets-go-ahead-13573911",
+    "title": "叙利亚法院判处瓦西姆·阿萨德死刑 - Al Jazeera",
+    "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNS2hYQW5IdVRla0IyMTdBcjdhbzQ2Z1JBaFZicTh3YXlVbnNrX1NIcjk0S3V0V2c5V0lFdzFBWHV0akdFR213ZEVpMjBVWldEN3BkNHN5RDBXUHRIQmlpVURDeF9BWV9GbnZZWHlLeWh0aWZad2tjMnowYU9RSnY2Y0pUZkhDY3Uzb1HSAY8BQVVfeXFMUG9PSlAwNVhCb2JXWTNwX0ZKeTJBNS0wVDBManM4bGlwV2k0cVJwOTNsbE82UlNJN1B0RmhNS0ZEUGV4Qk5qdG81aHpsaS1TTFBqTkd0Uk1obmw4ajRqLVh2cDJDSzM3YVZXZFRQbklfalRjMFBVRk5PblVoaTdHUDMtb0tleldzblhCNjN0clk?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "特朗普以与金正恩“关系非常好”为由，缩减了与韩国举行的“敌对”军事演习规模",
-    "url": "https://news.sky.com/story/trump-downscales-hostile-military-drills-with-south-korea-citing-very-good-relationship-with-kim-jong-un-13573864",
+    "title": "气候变化如何在北极开辟了一条新的“冰丝绸之路” - Scientific American",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdVZvU3U0WWdfd2JYQzFPMzhhT25rLVNKLXdWTHhhREwyVzJIbjNVblk2Z3B5cjFyTjVXLURXVGFFZXdVeWF1R2NnbGk2dTByX05uRm1wS1VFdC1UbThndWtZSDQwTmc5TGZlNm5GclpHbHBZS3dibFJtWHJtcWJUVGxFVi1YaWgwTEFnUFpST1ZjYzc5bU5nMzRlYzFiZWlIQ2pvb25tZw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "在以色列大选前夕，内塔尼亚胡领导的利库德党举行了初选 - Al Jazeera",
-    "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQc0VOUEJ1YUJxRzhodTF3d2EwbGw0WmlCWmVNaF96eE96MmlCUGl4TTNCNDh5MXpqZUNqR3o1T3YtUWtTOVFLZVBPNmxLNHFoaWplelR6M09VaVppWUNkMmwzZmtxMGIzekNjcEwzdmJUSG8yVjRVU1phNFRpQnR0NURoRkExSWJlUUE2QkNrbnd4eEJMSE1tYlF5Sl9jU001YjZmX3Y3ZHBnRDZsT1BjYzU1UzXSAboBQVVfeXFMTVc3NlJZUnNQdExXOHZtOERDZFBOMVFNT29zV2xmdEs4cGtKUkF6eXNFcGpkNzU2YUJfR3k4aHhEWnZhTzZsMDQweDJ1ZWJqMVdOeC1FWkc3VXFCLWszazc4aXdzNkVCc2N4X2ZBdVZUeW94VWpsbHltSTUwSGlNQ2lOeklEYzIyMnlsZVRiSVA0VVp5UmhxTlpiRUQ4QlZPRUEwQ25rNjN1Ui1yaW9NN0ZmenZDTVBheG1B?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "《伊朗局势最新动态特别报告》，2026年8月17日——战争研究所",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOVVdJbkRYZE1DUFhOUzBFaDc3ek90b0k2TVBXdnBBdzFnUWFhOVlVRzZVRG9DclY0dkMzdU5PNXNKM013MExVbk1EaWF1c0NtVTJQNVJ5V2pvOEJDSkRYT1ZKQTJOZnUteW5NTDRxYmdDeW5WTlg2MGlsZkRKTF9UYTVaYjIzWU00MlgxRFZiUldZVjlkcHp3?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "2026年8月17日俄罗斯进攻行动评估——战争研究所",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOVFJzbXhHekhPQ25xcENISGpTREd0Mi1lNElqWUEyVVBDZVcxcTdPUXdDby1SQlNiVkdmWm9BdFJ3cklXc1h4Q0ZFVEljNU9OWk5FdUp5NlZpT0phVlJDLVJFMU9Wd0gwR2twNGttTm52LTA2d2IweGxhN3ZnR1I0UGpYYkViekU3UkliZTM0NUxIVi1oLTA5ZVZ0dHlmVmhwMXhBWWJLRWdEUQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "索马里：海盗劫持一艘商船 - dw.com",
-    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUUpOdmc0QllUYjdENE5UNHgzdENaeWV4cjAxLUhCMDdvNWJ4c1UxYW80dzZWMXY1OTBnTFJBTmRnZUpLZ2pVRlhzalBNRWtWTmRhc1U3NmJYcEVNS3NvYmJXcE1yN2ZyU2VPVk9QNUU3SW9seHd6bDFYV1ZvaDBtV0ln0gGCAUFVX3lxTFBRdHA1NjI4SHJtdWU5bG82S0cyVXhmRUtfMDJfczNyYnF4TVZEUVhTLVB3akR3Q2dKRlNvdGhpRG1LVWJ5NlRhWldkbHhPcDdPelYxZlBTeFNMRWdFQm5BUTJQREI5SmhMRnI1ZVNaa3BaenlBNkdSUDB1d2lscHdoR1E?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "“蘑菇杀人犯”艾琳·帕特森正在上诉——以下是您需要了解的情况 - BBC",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBUMk0yVnRRV1JOT2lmRDYxQjJzV0Zoa09HWFhpUndNQm5IQnZXNGd5LV91UlBzN2hvckUwZlotR1hkQ2hVUkRQREhwNjFKMGNtclF3U3N1VVJHdw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "极端高温对60岁及以上人群的危害比此前认为的更为严重 - The Guardian",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbE5uekQ3VmNrVG9Wa0x3N1MwVXR3MGtHTU5MZjQzLXlxdnlzbkc4U21NOWEycHBxbUVHM3lHNldDREpaSlhMN1JHR28wZE0zVlQ3Z1NhTjlqdEtkeE5jaWVDOWhZX1ZZbHZPbURsVDVEbk5IZGUzS2V3NUdYQm5NZjk2YUk1Z1cyYm1hUmlkUHRNdTJsRW1iOHNFekxURFdxQ3hzRWU4Q3B1ZVVlUGF5Z0RHUXplbHR3STNhTk5lRQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "乌克兰粉碎了俄罗斯军事强权的迷思——今日原油价格 OilPrice.com",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd1lnSV9kdTljdjJhQm43MFUybjVSS3R3SHdUX1RNNDExY1B5b1VTMnJhaGhzLUFwMWZHaGdkQTMwVFVhWC1JWlZ6OVhjNmJPOUJZY1l4ZV85SlR4RVp0LURqNXMtbmZlcDBxamZST2pmcG9mT05QM3ZmRjJKaEJ4cmlnYWtNQWViZkZsZXV2T01IalBxRVRJcVZwTS1OQURzaXhF0gGoAUFVX3lxTE90Ml9ld2xRbVh4X3FZZWpYTWZvUFoxcFVsU2VncjZ2RlZYaTJSX01KU2J4SXpuV3lOT2pqWVo3cGl4bFJkMWhMdEs0NkY1LThjVXozQlQ4SUJVdU82WmVJOUo4ak43ckZFMDRtQTZKWVBmNGRXem1iMkVGS2RESlhZWG8zR3pDRFpCTF9sd2JvdmlleW1WandMM2JXWHhhVkxuR3ZHSGdHaw?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "干旱肆虐的多瑙河中浮现的纳粹遗物——自由欧洲电台/自由电台",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVFdTMm93dDRZTXc0VlUxWTZHUlVoSXpLR2l4WU9kakhQenl4cmNhcUdDWnkwZXo0ZEx2S2VuZWJxN0RibWU2TUpFejdhUUpzUVQ0aFVRVHhKU0F0YWtHcFVrczBOeXZoRGxzWEZlc3Z2MFBJZTVtczhJUTkxc0hhbDNMVDBkemFadDFDZUlPWlg2Qm5w?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "ISW评估乌克兰针对搭载“匕首”导弹的俄罗斯飞机的最新打击战略 - en.defence-ua.com",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNHVUWHNyUEp5MkNBRzZxU25xcDFYbElrOHV1Si1qbm5HNXZ0VVZSNlRyb2RjVnBqUDhYYmhfdnRBVEtWSU5zSXBlYXVHMDA3dXZxTF94aDVsWC1kYnY5Vmw4bUl1MVRGSTlDRU44bllEcDg5Yk5SSUdteklMbFowSnliR096TWlRQW5YemxtLVBJT1FHOUswVHdGcXl1a0RkaVo2MFVHNm5LTjFfRXpYdDlnN3J3M2RQSnAta1pR?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "费多罗夫告诉CBS新闻，乌克兰可能在年底前动用本国的弹道导弹打击俄罗斯 - The Kyiv Independent",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOVRuSlRIZFdPS2tqY2d5RGdaLXRHbzF4ejhIbFBRX1ljVW11aVRla19UMDQwYTNXZlNrWFoyNjZ4TGI3NkludVFYVC0tdmxndDJpU3JLVjZCSHBJZG1kcE05VkFobXJVUTFDV1pmTWxzTmRuOGFBTTFPYmtiUnFkTmhIMFh5RlNMTXJrOUNzODdnZWhyaWZHcFpBUlFYTVlheHpqVU5HNE40U3VyMGN3MTkxR2lkQ2xDemhOdmFFbzc?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "与鲨鱼合影：为何“鲨鱼网红”该把相机收起来 - The Guardian",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNWpkc1ZNTzU0aVZnWUlRX0x2SDFjNTBXeDhCWERiV3dkeWZnZ0dLdWFqbW54dWtydHRTT3pUVHVWand6djZmajFtMmJ0djJNdkp2SFVyTHpzNXRGRmRjdHFydmNPS3BiRTAzVTNTQ25DUUNRUFhHRlZKTnRUM2ZqbWtwa09OWERwNm1lVmVJVGttTmFKejBoMW9pdkpSUzJTb1JLUnkyMGZSc2txV25ybjYxSQ?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "阿拉伯和伊斯兰国家谴责以色列拒绝联合国和平进程办公室提出的加沙计划 - The Jerusalem Post",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5adVRqNGtISFFLZWptOTRMM0poRDY3Q0wzTkN2UDFfM05kcFQ0aVJiZEhqWHJPeE03RG1VWUpINlhjdUtGLV9oLUh5ZERJX1dPWGtReXFINzI3ZHh0?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "在“弗拉基米尔将在数周内对北约发动攻击”的警告声中，普京在波罗的海集结了配备高超音速导弹的军舰 - the-sun.com",
-    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdi1Za3JxQThVS29oTk5oQmdKWFNLZklFMFFjUTctdlVLcE1od0NWNVd5WFdpVzY5cDJ3ckdhSDFkeU9kN24tQWR5Zjl0b093NllhMUlkZ1NTdmE3Rl9zQ0wycEpmYkNmcnBRcWgyN004QWVqblRpZzhnSDZUcXZmV3RpU2hhekpVMVpkOG4yUHloY2ZiRy1F?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "特朗普在一篇离奇的帖子中痛批福克斯新闻主播香农·布里姆：她的节目“无可救药” - Mediaite",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbnpobUdjbUlyVGRuWjdyaDlZZkJOOW11enNFT2xtN1lURlJXanBSUzZjZEpGTXBOeHJYM1AwcEtDTjhkZnozdGs3V2xyWE1YTWpxdzVDNlNERmhyWHNtQTBHLVVOS3JqMFZTUWk1X01SSEk3SGxvZmNGbHZMS09kOTJvZUdwUGJXUnZaY2VhTW1uQlVfVnFlNnFESklBRXhxYzVJdjMteTBGdE0xWjZqOFRZcEhJWFZTcm5KN05EY1gtR3c?oc=5&hl=en-US&gl=US&ceid=US%3Aen",
+    "title": "奥索夫精心策划的病毒式竞选活动内幕",
+    "url": "http://dlvr.it/TV3nlX",
     "type": "News",
     "source": "Buzzing"
   },
@@ -5802,8 +5778,80 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
-    "title": "英国领导人呼吁在被指控剽窃的前剑桥大学教授去世后进行反思",
-    "url": "http://dlvr.it/TV29FX",
+    "title": "养育者在婴儿的学习过程中扮演着积极的角色，但不同文化背景下的互动方式各不相同",
+    "url": "https://phys.org/news/2026-08-caregivers-agents-infants-interactions-differ.html",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "在短时间内对小行星进行核打击或许能拯救我们",
+    "url": "https://phys.org/news/2026-08-nuking-asteroid-short.html",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "构建抗噪声量子传感器的新方法",
+    "url": "https://phys.org/news/2026-08-approach-noise-resistant-quantum-sensors.html",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "亚的斯亚贝巴空气质量记录显示，交通和节日篝火导致烟尘浓度骤升",
+    "url": "https://phys.org/news/2026-08-soot-spikes-traffic-holiday-bonfires.html",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "开学了，但不必感到压力",
+    "url": "https://phys.org/news/2026-08-school-stress-doesnt.html",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "“生态工程师”对标志性湿地的野生动物构成生存威胁",
+    "url": "https://phys.org/news/2026-08-ecological-existential-threat-wildlife-iconic.html",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "体型和栖息地如何塑造灵长类的发声曲目",
+    "url": "https://phys.org/news/2026-08-body-size-habitat-vocal-repertoires.html",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "关于番茄“黄金时段”的研究如何帮助农作物度过热浪和干旱",
+    "url": "https://phys.org/news/2026-08-tomato-golden-hour-crops-survive.html",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "鲸鱼给纽约带来欢乐，却面临船只航行带来的威胁",
+    "url": "https://phys.org/news/2026-08-whales-joy-york-threats-boat.html",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "美国西部干旱肆虐，两大主要水库水位创历史新低",
+    "url": "https://phys.org/news/2026-08-largest-reservoirs-lows-western-drought.html",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "“人工降雨”：印尼驱云灭火，遏制厄尔尼诺现象引发的火灾",
+    "url": "https://phys.org/news/2026-08-indonesia-clouds-stem-el-nio.html",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "气温每上升一度，就可能让10亿人多忍受一个月的酷热",
+    "url": "https://phys.org/news/2026-08-degree-month-intolerable-billion-people.html",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "随着永久冻土层融化导致阿尔卑斯山地势不稳，一场迫在眉睫的岩石坍塌正威胁着瑞士的一个村庄",
+    "url": "https://phys.org/news/2026-08-looming-collapse-threatens-swiss-village.html",
     "type": "News",
     "source": "Buzzing"
   },
@@ -5874,224 +5922,200 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
-    "title": "一位研究人员正致力于保护生物多样性丰富的景观，方法是逐一改造那些杂草丛生的花园",
-    "url": "https://phys.org/news/2026-08-biodiverse-landscapes-unkempt-garden.html",
+    "title": "西班牙格拉纳达市再次发生地震，造成三人受伤",
+    "url": "https://www.reuters.com/es/mundo/YF6SLYBRX5PKNMFHD4FHH6ZQRI-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "哈勃望远镜解开了银河系早期合并之谜",
-    "url": "https://phys.org/news/2026-08-hubble-merger-mystery-milky-early.html",
+    "title": "乌克兰市长称，乌克兰向莫斯科地区发动大规模袭击，出动620架无人机",
+    "url": "https://www.reuters.com/pt/mundo/YWMTDLZNIJN7LJNEJD5EX5B7VE-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "大西洋洋流系统的减弱可能会加速地球变暖",
-    "url": "https://phys.org/news/2026-08-weakening-atlantic-ocean-current-earth.html",
+    "title": "受加息预期降温影响，美元走低，市场关注焦点转向与伊朗的冲突",
+    "url": "https://www.reuters.com/es/negocio/BDLIXGWU3JLCFKEI7TCYS4ATC4-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "研究人员找到了缩短生物多样性数据与实际行动之间滞后时间的方法",
-    "url": "https://phys.org/news/2026-08-ways-lag-biodiversity-action.html",
+    "title": "尼日利亚高原州发生袭击事件，至少25人遇难，人们担心会引发报复行动",
+    "url": "https://www.reuters.com/world/africa/least-25-killed-attack-nigerias-plateau-amid-reprisal-fears-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "计算机能否学会识别那些最具标志性的爵士乐手之所以脱颖而出的原因？",
-    "url": "https://phys.org/news/2026-08-iconic-jazz-musicians.html",
+    "title": "尽管俄罗斯发出警告，英国仍表示将“百分之百”支持乌克兰",
+    "url": "https://www.reuters.com/es/mundo/YRPQCPYTTVNPJNBAAKP7SBCRMM-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "农药会让阿根廷蚁发狂，导致它们四处游荡或聚集，随后工蚁死亡",
-    "url": "https://phys.org/news/2026-08-pesticides-argentine-ants-crazy-roaming.html",
+    "title": "Orizon旗下子公司以6920万雷亚尔的价格增持Ecourbis 5.85%的股份",
+    "url": "https://www.reuters.com/pt/negocio/SF7IGVASRJP4XETBTWUIRGWAB4-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "拉布拉多海是为北大西洋深海生物提供氧气的关键力量",
-    "url": "https://phys.org/news/2026-08-labrador-sea-key-player-oxygen.html",
+    "title": "消息人士称，印度正考虑有限度地进口免税糖以抑制价格上涨",
+    "url": "https://www.reuters.com/pt/agricultura/WYMIX3VUGJKBVI2ZAV5HHRSG3A-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "量子光源将原子-光子热力学与经典物理学联系起来",
-    "url": "https://phys.org/news/2026-08-quantum-links-atom-photon-thermodynamics.html",
+    "title": "芯片设计公司Velaura AI在完成本轮融资后估值超过10亿美元",
+    "url": "https://www.reuters.com/legal/transactional/chip-designer-velaura-ai-valued-more-than-1-billion-after-funding-round-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "崎岖的沟壑如何保护大蓝山地区的隐秘雨林",
-    "url": "https://phys.org/news/2026-08-rugged-gullies-hidden-rainforests-greater.html",
+    "title": "世界卫生组织表示，刚果的埃博拉疫情仍可在三个月内得到控制",
+    "url": "https://www.reuters.com/pt/mundo/CTTUOB66UZNU3JYAWCBMLVW4BE-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "随着全球变暖重塑阿尔卑斯山栖息地，蝴蝶正向更高海拔迁移",
-    "url": "https://phys.org/news/2026-08-butterflies-higher-ground-redraws-alpine.html",
+    "title": "受对中国需求担忧及刺激政策预期推动，铁矿石价格上涨",
+    "url": "https://www.reuters.com/pt/negocio/TQQ7UNCWIROXRALEGYMSZ237UE-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "巴西绵延的海岸线有望通过可持续海产品生产来帮助解决粮食安全问题",
-    "url": "https://phys.org/news/2026-08-brazil-vast-coastline-food-insecurity.html",
+    "title": "阿根廷市场：分析师如何看待？8月18日至21日当周",
+    "url": "https://www.reuters.com/es/mundo/JGAWBTQKMJJHXH6NM5TTRVPUOY-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "自1850年以来的观测数据显示，人类活动导致的变暖在区域气候中留下了独特印记",
-    "url": "https://phys.org/news/2026-08-reveal-regional-climate-fingerprints-human.html",
+    "title": "在布莱恩·贝克的带领下，光芒队将迎战蓝鸟队",
+    "url": "https://www.reuters.com/sports/baseball/buoyed-by-bryan-baker-rays-take-blue-jays--flm-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "经过基因工程改造的大肠杆菌将泡菜萝卜废料转化为可生物降解的生物塑料",
-    "url": "https://phys.org/news/2026-08-coli-kimchi-radish-biodegradable-bioplastic.html",
+    "title": "西甲联盟将公布独立机构关于裁判和VAR判罚的报告",
+    "url": "https://www.reuters.com/es/deportivo/KIY2XRP2VZM4HKU2PTSXGZS7VY-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "随着北京放宽限制，中国燃料出口量正逐步回升至伊朗战争前的水平",
-    "url": "https://www.reuters.com/business/energy/chinas-fuel-exports-edge-back-towards-levels-before-iran-war-beijing-eases-curbs-2026-08-18/",
+    "title": "高盛将以最高4.1亿美元的价格收购LCN Capital Partners",
+    "url": "https://www.reuters.com/legal/transactional/goldman-sachs-buy-lcn-capital-partners-up-410-million-deal-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "印尼央行将政府信用卡系统的适用范围扩展至零售领域",
-    "url": "https://www.reuters.com/world/asia-pacific/bank-indonesia-expands-use-its-government-credit-card-system-retail-usage-2026-08-18/",
+    "title": "在转会谈判进行之际，西蒙尼将让阿尔瓦雷斯继续担任马竞的临时主帅",
+    "url": "https://www.reuters.com/es/deportivo/XWMPHOH2AZJCNGK7RIHCYG3GZE-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "莫斯科市长称，俄罗斯一夜之间在莫斯科州击落180架无人机",
-    "url": "https://www.reuters.com/world/russia-downs-180-drones-moscow-region-overnight-mayor-says-2026-08-18/",
+    "title": "西班牙格拉纳达再次发生地震，造成三人受伤，部分建筑受损",
+    "url": "https://www.reuters.com/world/new-tremors-jolt-spains-granada-injuring-three-damaging-some-buildings-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "中国信贷萎缩有一个充分的理由",
-    "url": "https://www.reuters.com/commentary/breakingviews/china-has-one-good-reason-its-credit-slump-2026-08-18/",
+    "title": "OpenAI 推出面向青少年的 ChatGPT，配备更严格的防护措施和家长控制功能",
+    "url": "https://www.reuters.com/technology/openai-unveils-chatgpt-teens-with-stronger-guardrails-parental-controls-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "油价突破91美元，美伊停火协议到期，印度股市走低",
-    "url": "https://www.reuters.com/world/india/indian-shares-set-muted-open-oil-tops-91-us-iran-ceasefire-expires-2026-08-18/",
+    "title": "数据显示，与上周末相比，霍尔木兹海峡的过境量略有增加。",
+    "url": "https://www.reuters.com/pt/negocio/PZIZM5J7IJPOPGGHTBMRWXG4QE-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "澳大利亚在与孟加拉国的第二场测试赛中弃用韦瑟尔德，换上伦肖",
-    "url": "https://www.reuters.com/sports/cricket/australia-drop-weatherald-second-bangladesh-test-bring-renshaw-2026-08-18/",
+    "title": "美伊停火协议的终结拖累股市",
+    "url": "https://www.reuters.com/de/firma/ende-der-us-iran-waffenruhe-belastet-brsen-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Revolut将目光投向澳大利亚竞争激烈的房贷市场",
-    "url": "https://www.reuters.com/business/finance/revolut-sets-sights-australias-cut-throat-mortgage-market-2026-08-18/",
+    "title": "Meta在美国面临一起诉讼，这起诉讼可能会重塑Instagram和Facebook的格局",
+    "url": "https://www.reuters.com/pt/negocio/2TXIORNXTVKMBMPKN2QGEDGGEU-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "小熊队在第10局凭借皮特·克劳-阿姆斯特朗本场第二支本垒打击败白袜队",
-    "url": "https://www.reuters.com/sports/baseball/cubs-sink-white-sox-10-pete-crow-armstrongs-2nd-homer-game--flm-2026-08-18/",
+    "title": "在“激进戴夫”主导的重组下，帝亚吉欧裁员近2,000人",
+    "url": "https://www.reuters.com/business/diageo-headcount-down-more-than-6-annual-report-says-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "大谷翔平击出2支本垒打，道奇队在丹佛重振旗鼓",
-    "url": "https://www.reuters.com/sports/baseball/shohei-ohtani-hits-2-hrs-dodgers-get-right-denver--flm-2026-08-18/",
+    "title": "老虎队力争保持势头，锁定与海盗队的系列赛胜局",
+    "url": "https://www.reuters.com/sports/baseball/tigers-strive-build-momentum-clinch-series-vs-pirates--flm-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "菲律宾官员称，一所学校发生枪击事件，造成两名学生死亡，其中包括枪手本人",
-    "url": "https://www.reuters.com/world/asia-pacific/mayor-says-shooting-incident-school-southern-philippines-reports-two-casualties-2026-08-18/",
+    "title": "俄罗斯就向乌克兰提供无人机一事向英国发出“后果”警告",
+    "url": "https://www.reuters.com/pt/mundo/T4VXCNSJ4BPYLHGY2KYNCNVYEY-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "新加坡大华银行任命陈春兴担任东盟及大中华区负责人，这是其新任职务",
-    "url": "https://www.reuters.com/world/asia-pacific/singapores-uob-appoints-tan-choon-hin-head-asean-greater-china-new-role-2026-08-18/",
+    "title": "英国首相伯纳姆表示，尽管俄罗斯发出警告，英国仍将“百分之百”支持乌克兰",
+    "url": "https://www.reuters.com/world/uk/russia-warns-britain-consequences-supplying-drones-ukraine-2026-08-18/",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "范迪克表示，利物浦焕然一新的后防线需要时间磨合",
-    "url": "https://www.reuters.com/sports/soccer/liverpools-new-look-defence-will-take-time-gel-says-van-dijk-2026-08-18/",
+    "title": "3D打印如何改善实验室工作：五种方式",
+    "url": "https://www.nature.com/articles/d41586-026-02535-z",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "瑞奇·马丁与巴西DJ佩德罗·桑帕约将亮相里约中场秀",
-    "url": "https://www.reuters.com/sports/ricky-martin-brazilian-dj-pedro-sampaio-play-halftime-show-rio--flm-2026-08-18/",
+    "title": "如何充分利用一次信息性面试",
+    "url": "https://www.nature.com/articles/d41586-026-01932-8",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Equinix 与 Flo Energy 签署第四份新加坡太阳能购电协议",
-    "url": "https://www.reuters.com/business/energy/equinix-signs-fourth-singapore-solar-ppa-with-flo-energy-2026-08-18/",
+    "title": "十年后你会穿上外骨骼吗？这项技术或将改变我们的行动方式",
+    "url": "https://www.nature.com/articles/d41586-026-02527-z",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "第一局的大反攻足以帮助双城队击败勇士队",
-    "url": "https://www.reuters.com/sports/baseball/big-first-inning-rally-proves-enough-twins-top-braves--flm-2026-08-18/",
+    "title": "每日简报：一种治疗发作性睡病的药物或将为大脑领域掀起一场类似“奥兹姆皮克”的热潮",
+    "url": "https://www.nature.com/articles/d41586-026-02589-z",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "交易员称，印度央行持续进行外汇干预，以缓解卢比面临的原油价格压力",
-    "url": "https://www.reuters.com/world/india/indian-central-bank-keeps-up-interventions-cushion-rupee-oil-strain-traders-say-2026-08-18/",
+    "title": "中东如何成为可持续航空燃料的枢纽",
+    "url": "https://www.nature.com/articles/d41586-026-02531-3",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "英国海事贸易组织（UKMTO）称，一艘船只在霍尔木兹海峡遭不明弹体击中，据报有船员伤亡",
-    "url": "https://www.reuters.com/world/middle-east/vessel-struck-by-unknown-projectile-strait-hormuz-crew-casualty-reported-ukmto-2026-08-18/",
+    "title": "亚洲在寿命延长方面的成果必须转化为更好的健康状况",
+    "url": "https://www.nature.com/articles/d41586-026-02576-4",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "随着美伊停火协议到期，债券收益率飙升，油价延续涨势",
-    "url": "https://www.reuters.com/world/china/global-markets-wrapup-1-2026-08-18/",
+    "title": "欧洲必须适应与特大火灾共存的现实",
+    "url": "https://www.nature.com/articles/d41586-026-02578-2",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "数据显示，霍尔木兹海峡过境量较上周末略有上升，但仍维持在个位数水平",
-    "url": "https://www.reuters.com/world/middle-east/hormuz-crossings-rise-slightly-weekend-remain-single-digits-data-shows-2026-08-18/",
+    "title": "将生物数据库视为基础设施，而非项目",
+    "url": "https://www.nature.com/articles/d41586-026-02575-5",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "美国最高法院在涉及E·珍·卡罗尔的500万美元诉讼案中再次驳回了特朗普的诉求",
-    "url": "https://www.reuters.com/world/us-supreme-court-again-rebuffs-trump-5-million-e-jean-carroll-case-2026-08-17/",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "必和必拓关于富矿层的论点愈发有说服力",
-    "url": "https://www.reuters.com/commentary/breakingviews/bhps-rich-seams-pitch-gets-more-convincing-2026-08-18/",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "老虎队取得大幅领先，轻松击败海盗队，继续向季后赛发起冲击",
-    "url": "https://www.reuters.com/sports/baseball/tigers-grab-big-lead-cruise-past-pirates-playoff-push-continues--flm-2026-08-18/",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "在印度央行采取行动后，油价上涨和美国国债收益率上升加剧了卢比的压力",
-    "url": "https://www.reuters.com/world/india/rising-oil-us-yields-add-rupee-pressure-after-rbi-move-2026-08-18/",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "阿戈斯集团第二季度净利润下滑",
-    "url": "https://www.reuters.com/es/mundo/SXGTSUNYZJKFTF5BEJEYEPHFCE-2026-08-18/",
+    "title": "热浪暴露了食品系统的薄弱环节",
+    "url": "https://www.nature.com/articles/d41586-026-02577-3",
     "type": "News",
     "source": "Buzzing"
   },
@@ -6186,56 +6210,68 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
-    "title": "每日简报：关于神秘“胶球”的新证据",
-    "url": "https://www.nature.com/articles/d41586-026-02558-6",
+    "title": "Ask HN: 当团队的代码审查开始积压时，会发生什么？",
+    "url": "https://news.ycombinator.com/item?id=49344569",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "每日简报：首例由投石机致死的考古证据",
-    "url": "https://www.nature.com/articles/d41586-026-02546-w",
+    "title": "Ask HN: 为什么人们可以移民到某些国家，却不能反向移民？",
+    "url": "https://news.ycombinator.com/item?id=49344423",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "古代二氧化碳浓度的上升对森林造成了灾难性影响：这对当今的植物意味着什么",
-    "url": "https://www.nature.com/articles/d41586-026-02544-y",
+    "title": "Tell HN: 利用人工智能为您的书籍配乐",
+    "url": "https://news.ycombinator.com/item?id=49343693",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "mRNA流感疫苗的效果会比常规季节性流感疫苗更好吗？科学界是如何看待的",
-    "url": "https://www.nature.com/articles/d41586-026-02502-8",
+    "title": "面向全球各地人士的国际合作组织",
+    "url": "https://news.ycombinator.com/item?id=49343400",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "作者更正：核小体抑制cGAS的结构机制",
-    "url": "https://www.nature.com/articles/s41586-026-10959-w",
+    "title": "GitHub Runner 相关页面无法访问",
+    "url": "https://news.ycombinator.com/item?id=49343132",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "中国为何应重新评估对青年科学家的奖励机制",
-    "url": "https://www.nature.com/articles/d41586-026-02525-1",
+    "title": "强制系统",
+    "url": "https://news.ycombinator.com/item?id=49342884",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Anthropic的隐形水印能否遏制“AI垃圾内容”？研究人员仍持怀疑态度",
-    "url": "https://www.nature.com/articles/d41586-026-02503-7",
+    "title": "人工智能就像务农。（这也是我正在开发这个项目背后的初衷）",
+    "url": "https://news.ycombinator.com/item?id=49342690",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "人工智能尚不具备研究自身的能力",
-    "url": "https://www.nature.com/articles/d41586-026-02494-5",
+    "title": "Cloudflare 的滥用报告系统存在缺陷吗？",
+    "url": "https://news.ycombinator.com/item?id=49342509",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "作为女性创始人，如何让你的科技企业取得成功",
-    "url": "https://www.nature.com/articles/d41586-026-01904-y",
+    "title": "Ask HN: 你的工作中，哪些部分被大型语言模型取代了，哪些部分变得更难了？",
+    "url": "https://news.ycombinator.com/item?id=49342406",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "Ask HN: 我们是否应该对第一方广告进行监管？",
+    "url": "https://news.ycombinator.com/item?id=49342319",
+    "type": "News",
+    "source": "Buzzing"
+  },
+  {
+    "title": "Ask HN: 谷歌搜索出故障了吗？",
+    "url": "https://news.ycombinator.com/item?id=49341715",
     "type": "News",
     "source": "Buzzing"
   },
@@ -6312,62 +6348,26 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
-    "title": "没有AI功能的最佳代码编辑器是哪款？",
-    "url": "https://news.ycombinator.com/item?id=49335601",
+    "title": "7条听起来很奇怪（但其实很管用）的工作效率技巧",
+    "url": "https://dev.to/sylwia-lask/7-productivity-tips-that-sound-wrong-but-actually-work-5602",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Ask HN: 基米对其他人有意思吗？",
-    "url": "https://news.ycombinator.com/item?id=49334862",
+    "title": "我的AI助手并不喜欢听取第二种意见",
+    "url": "https://dev.to/dannwaneri/my-ai-assistant-did-not-love-getting-a-second-opinion-dl1",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Ask HN: 哪种代理器套件最好？",
-    "url": "https://news.ycombinator.com/item?id=49333747",
+    "title": "厨房才不在乎你的借口",
+    "url": "https://dev.to/kenwalger/the-kitchen-doesnt-care-about-your-excuses-i10",
     "type": "News",
     "source": "Buzzing"
   },
   {
-    "title": "Ask HN: 我们该如何对更少的事物投入更多的关注？",
-    "url": "https://news.ycombinator.com/item?id=49333404",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "Ask HN: 如果你正在大规模销毁代币，这些代币究竟是用来做什么的？",
-    "url": "https://news.ycombinator.com/item?id=49333379",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "通过请求 Base64 响应，即可轻松绕过文本水印",
-    "url": "https://news.ycombinator.com/item?id=49333167",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "Ask HN: GitHub 今天出问题了吗？",
-    "url": "https://news.ycombinator.com/item?id=49333136",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "Ask HN: 现在是不是做人的最糟糕时期？",
-    "url": "https://news.ycombinator.com/item?id=49332387",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "Ask HN: “模拟数据”是向SaaS销售人员可以提出的要求吗？",
-    "url": "https://news.ycombinator.com/item?id=49331243",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "Ask HN: GitHub 的替代方案",
-    "url": "https://news.ycombinator.com/item?id=49331033",
+    "title": "我终于可以删除那个“max-height: 9999px”的动画技巧了",
+    "url": "https://dev.to/parsajiravand/i-can-finally-delete-my-max-height-9999px-animation-hack-1p8o",
     "type": "News",
     "source": "Buzzing"
   },
@@ -6492,26 +6492,8 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
-    "title": "肉汁理论：三只鸡，一个底料",
-    "url": "https://dev.to/yashksaini/gravy-theory-three-chickens-one-base-25h8",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "“AI”标识所衡量的并非你所想的那样",
-    "url": "https://dev.to/pascal_cescato_692b7a8a20/the-ai-badge-doesnt-measure-what-you-think-it-does-3ne9",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "五个标签页打开，一个刷新令牌——这场无人察觉的竞赛",
-    "url": "https://dev.to/parsajiravand/five-tabs-open-one-refresh-token-the-race-nobody-noticed-1dn8",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
-    "title": "使用 Gemini Live 时，我还需要 Monkey Patch 吗？",
-    "url": "https://dev.to/gde/do-i-still-need-a-monkey-patch-for-gemini-live-4c3e",
+    "title": "宇宙双折射：可能颠覆宇宙学的信号",
+    "url": "https://bigthink.com/starts-with-a-bang/cosmic-birefringence-signal-cosmology/",
     "type": "News",
     "source": "Buzzing"
   },
@@ -6654,12 +6636,6 @@ window.NEWSFLOW_NEWS = [
     "source": "Buzzing"
   },
   {
-    "title": "地球上哪里重力最强，哪里最弱？",
-    "url": "https://bigthink.com/starts-with-a-bang/gravity-strongest-weakest-earth/",
-    "type": "News",
-    "source": "Buzzing"
-  },
-  {
     "title": "Shares of companies like GameStop and AMC are down sharply",
     "url": "https://www.cnn.com/2022/12/06/investing/meme-stocks-gamestop-amc/index.html",
     "type": "News",
@@ -6744,14 +6720,20 @@ window.NEWSFLOW_NEWS = [
     "source": "CNN/World"
   },
   {
-    "title": "Polls Show Trump’s MAGA Base Is All He Has Left",
-    "url": "http://nymag.com/intelligencer/article/polls-show-trumps-maga-base-is-all-he-has-left.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+    "title": "Trump’s Menacing But Dumb Plan to Break the Midterms",
+    "url": "http://nymag.com/intelligencer/article/trumps-menacing-but-dumb-plan-to-break-the-midterms.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
     "type": "News",
     "source": "Daily Intelligencer"
   },
   {
     "title": "Ossoff Gets Under Trump’s Skin With Natalie Harp Comment",
     "url": "http://nymag.com/intelligencer/article/ossoff-gets-under-trumps-skin-with-natalie-harp-comment.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
+    "type": "News",
+    "source": "Daily Intelligencer"
+  },
+  {
+    "title": "Polls Show Trump’s MAGA Base Is All He Has Left",
+    "url": "http://nymag.com/intelligencer/article/polls-show-trumps-maga-base-is-all-he-has-left.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
     "type": "News",
     "source": "Daily Intelligencer"
   },
@@ -6854,12 +6836,6 @@ window.NEWSFLOW_NEWS = [
   {
     "title": "Who Might Replace Karoline Leavitt as Press Secretary",
     "url": "http://nymag.com/intelligencer/article/who-might-replace-leavitt-as-trumps-press-secretary.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
-    "type": "News",
-    "source": "Daily Intelligencer"
-  },
-  {
-    "title": "Wes Moore’s Media War",
-    "url": "http://nymag.com/intelligencer/article/wes-moore-david-smith-baltimore-sun.html?utm_source=rss&utm_medium=social_acct&utm_campaign=feed-part",
     "type": "News",
     "source": "Daily Intelligencer"
   },
@@ -6984,6 +6960,30 @@ window.NEWSFLOW_NEWS = [
     "source": "Pacific Standard"
   },
   {
+    "title": "Islamophobia Has Corroded American Values",
+    "url": "https://www.theatlantic.com/ideas/2026/08/muslim-experience-islamaphobia-united-states/688277/?utm_source=feed",
+    "type": "News",
+    "source": "The Atlantic"
+  },
+  {
+    "title": "The Crime Drama of the Year Is All About Female Rage",
+    "url": "https://www.theatlantic.com/culture/2026/08/furious-hulu-tv-review-female-monsters/688313/?utm_source=feed",
+    "type": "News",
+    "source": "The Atlantic"
+  },
+  {
+    "title": "Henrik Ibsen’s Jason Arday",
+    "url": "https://www.theatlantic.com/ideas/2026/08/jason-arday-death-lies-delusion/688311/?utm_source=feed",
+    "type": "News",
+    "source": "The Atlantic"
+  },
+  {
+    "title": "Trump Is Putting His Face on Everything",
+    "url": "https://www.theatlantic.com/politics/2026/08/trump-name-on-everything/688090/?utm_source=feed",
+    "type": "News",
+    "source": "The Atlantic"
+  },
+  {
     "title": "Trump Is at Odds With His Own Administration—And With Reality",
     "url": "https://www.theatlantic.com/newsletters/2026/08/trump-foreign-policy-incoherence-iran/688312/?utm_source=feed",
     "type": "News",
@@ -7106,30 +7106,6 @@ window.NEWSFLOW_NEWS = [
   {
     "title": "Bumble Hands the First Move Back to Men",
     "url": "https://www.theatlantic.com/family/2026/08/bumble-dating-app-men-message-first/688298/?utm_source=feed",
-    "type": "News",
-    "source": "The Atlantic"
-  },
-  {
-    "title": "Eight Perfect Series Finales",
-    "url": "https://www.theatlantic.com/newsletters/2026/08/eight-perfect-tv-series-finales/688301/?utm_source=feed",
-    "type": "News",
-    "source": "The Atlantic"
-  },
-  {
-    "title": "Spidey’s Sense for Success",
-    "url": "https://www.theatlantic.com/culture/2026/08/spider-man-superhero-movies-box-office-records/688296/?utm_source=feed",
-    "type": "News",
-    "source": "The Atlantic"
-  },
-  {
-    "title": "A Bleak, Violent Novel’s Unexpected Delights",
-    "url": "https://www.theatlantic.com/newsletters/2026/08/books-briefing-marlon-james-disappearers/688292/?utm_source=feed",
-    "type": "News",
-    "source": "The Atlantic"
-  },
-  {
-    "title": "Photos of the Week: Mudflat Trot, Waterfall Jump, Pole Vault",
-    "url": "https://www.theatlantic.com/photography/2026/08/photos-week-mudflat-trot-waterfall-jump-pole-vault/688281/?utm_source=feed",
     "type": "News",
     "source": "The Atlantic"
   },
@@ -7314,26 +7290,26 @@ window.NEWSFLOW_NEWS = [
     "source": "The Guardian/Business"
   },
   {
-    "title": "How ‘forensic fandom’ in Lindsay Clancy trial threaten postpartum psychosis awareness",
-    "url": "https://www.theguardian.com/us-news/2026/aug/17/lindsay-clancy-trial-conspiracy-theories-postpartum-psychosis",
+    "title": "Democracy v the machine: the birth of the digital age and the warnings that were ignored",
+    "url": "https://www.theguardian.com/news/2026/aug/18/the-long-read-democracy-v-the-machine-digital-age-warnings-computer-history-technology",
     "type": "News",
     "source": "The Guardian/US"
   },
   {
-    "title": "Would you tell strangers how much debt you have? The people sharing how much money they owe online",
-    "url": "https://www.theguardian.com/wellness/2026/aug/17/content-creators-finanaces-debt",
+    "title": "I was abused as a child – and thought I had healed. Then I began drinking in lockdown",
+    "url": "https://www.theguardian.com/society/2026/aug/18/abused-as-child-drinking-lockdown-frank-spinelli-shame",
     "type": "News",
     "source": "The Guardian/US"
   },
   {
-    "title": "Is dating draining your bank account? Here’s a cheap solution | Dave Schilling",
-    "url": "https://www.theguardian.com/commentisfree/2026/aug/17/dating-gen-z-romance-expensive",
+    "title": "‘There was a certain hostility’: how Wet Hot American Summer went from miss to hit",
+    "url": "https://www.theguardian.com/film/2026/aug/18/wet-hot-american-summer-film",
     "type": "News",
     "source": "The Guardian/US"
   },
   {
-    "title": "‘Preserve the stuff we own’: how right-to-repair laws are surging across the US",
-    "url": "https://www.theguardian.com/us-news/2026/aug/17/right-to-repair-laws",
+    "title": "Here is the news from the US: Woke 1.0 is over. But what did progressives do wrong? | Nesrine Malik",
+    "url": "https://www.theguardian.com/commentisfree/2026/aug/18/woke-progressives-rightwing-backlash-equality",
     "type": "News",
     "source": "The Guardian/US"
   },
@@ -7366,6 +7342,24 @@ window.NEWSFLOW_NEWS = [
     "url": "https://www.theguardian.com/world/2026/aug/13/ebola-drc-democratic-republic-congo-sixth-province",
     "type": "News",
     "source": "The Guardian/World"
+  },
+  {
+    "title": "Archaeologists discover Etruscan well that was ritually opened with offerings for a goddess — and 'closed' with human bodies",
+    "url": "https://www.livescience.com/archaeology/archaeologists-discover-etruscan-well-that-was-ritually-opened-with-offerings-for-a-goddess-and-closed-with-human-bodies",
+    "type": "Science",
+    "source": "LiveScience.com"
+  },
+  {
+    "title": "Giant underwater plume blasts into swirling cloud 'street' in the East China Sea — Earth from space",
+    "url": "https://www.livescience.com/planet-earth/weather/giant-underwater-plume-blasts-into-swirling-cloud-street-in-the-east-china-sea-earth-from-space",
+    "type": "Science",
+    "source": "LiveScience.com"
+  },
+  {
+    "title": "'They don't deserve this beauty and this breathtaking fragility': Former Antarctic tour guides told researchers why they quit the troubling industry",
+    "url": "https://www.livescience.com/planet-earth/climate-change/they-dont-deserve-this-beauty-and-this-breathtaking-fragility-former-antarctic-tour-guides-told-researchers-why-they-quit-the-troubling-industry",
+    "type": "Science",
+    "source": "LiveScience.com"
   },
   {
     "title": "Do you think social media bans will protect children?",
@@ -7646,24 +7640,6 @@ window.NEWSFLOW_NEWS = [
   {
     "title": "Will you be looking up on Aug. 12, the best skywatching day and night of the year?",
     "url": "https://www.livescience.com/space/astronomy/will-you-be-looking-up-on-aug-12-the-best-skywatching-day-and-night-of-the-year",
-    "type": "Science",
-    "source": "LiveScience.com"
-  },
-  {
-    "title": "Berlin gold hat: A 3,000-year-old ceremonial headdress that a cult used to track the sun, moon and lunar eclipses",
-    "url": "https://www.livescience.com/archaeology/berlin-gold-hat-a-3-000-year-old-ceremonial-headdress-that-a-cult-used-to-track-the-sun-moon-and-lunar-eclipses",
-    "type": "Science",
-    "source": "LiveScience.com"
-  },
-  {
-    "title": "'Now our lives have changed': Drop in coal burning is helping the African Sahel turn green after decades of drought",
-    "url": "https://www.livescience.com/planet-earth/now-our-lives-have-changed-drop-in-coal-burning-is-helping-the-african-sahel-turn-green-after-decades-of-drought",
-    "type": "Science",
-    "source": "LiveScience.com"
-  },
-  {
-    "title": "'His urine goes on tour around Europe, showing the kings and queens this glowing pee': The weird world of alchemy before chemistry",
-    "url": "https://www.livescience.com/chemistry/his-urine-goes-on-tour-around-europe-showing-the-kings-and-queens-this-glowing-pee-the-weird-world-of-alchemy-before-chemistry",
     "type": "Science",
     "source": "LiveScience.com"
   },
@@ -8022,10 +7998,106 @@ window.NEWSFLOW_NEWS = [
     "source": "Popular Science"
   },
   {
-    "title": "Paul Blart Mall Cop’s revenge: How dorky Segways power today’s scooters",
-    "url": "https://www.popsci.com/technology/segway-history-paul-blart-mall-cop/",
+    "title": "Math Puzzle: A Tetris paradox",
+    "url": "https://www.scientificamerican.com/article/math-puzzle-a-tetris-paradox/",
     "type": "Science",
-    "source": "Popular Science"
+    "source": "Scientific American"
+  },
+  {
+    "title": "How solar became the cheapest form of energy in the world",
+    "url": "https://www.scientificamerican.com/article/how-solar-became-the-cheapest-form-of-energy-in-the-world/",
+    "type": "Science",
+    "source": "Scientific American"
+  },
+  {
+    "title": "Poem: ‘The Bachelor, Season 92 Million’",
+    "url": "https://www.scientificamerican.com/article/poem-the-bachelor-season-92-million/",
+    "type": "Science",
+    "source": "Scientific American"
+  },
+  {
+    "title": "How Golden Dome’s space-based missile interceptors would work",
+    "url": "https://www.scientificamerican.com/article/how-golden-domes-space-based-missile-interceptors-would-work/",
+    "type": "Science",
+    "source": "Scientific American"
+  },
+  {
+    "title": "Readers Respond to the April 2026 Issue",
+    "url": "https://www.scientificamerican.com/article/readers-respond-to-the-april-2026-issue/",
+    "type": "Science",
+    "source": "Scientific American"
+  },
+  {
+    "title": "SciAm is on the move",
+    "url": "https://www.scientificamerican.com/article/sciam-is-on-the-move/",
+    "type": "Science",
+    "source": "Scientific American"
+  },
+  {
+    "title": "Scientists cited by Heritage Foundation report on women’s sports say it misrepresented their research",
+    "url": "https://www.scientificamerican.com/article/scientists-cited-by-heritage-foundation-report-title-ix-womens-sports-say-it-misrepresented-their-research/",
+    "type": "Science",
+    "source": "Scientific American"
+  },
+  {
+    "title": "How Zipline’s drone delivery system works in U.S. suburbs",
+    "url": "https://www.scientificamerican.com/article/how-ziplines-drone-delivery-system-works-in-u-s-suburbs/",
+    "type": "Science",
+    "source": "Scientific American"
+  },
+  {
+    "title": "The brain doesn’t just experience reality. It edits it into a story",
+    "url": "https://www.scientificamerican.com/article/the-brain-doesnt-just-experience-reality-it-edits-it-into-a-story/",
+    "type": "Science",
+    "source": "Scientific American"
+  },
+  {
+    "title": "September 2026: Science history from 50, 100 and 150 years ago",
+    "url": "https://www.scientificamerican.com/article/september-2026-science-history-from-50-100-and-150-years-ago/",
+    "type": "Science",
+    "source": "Scientific American"
+  },
+  {
+    "title": "Does fibermaxxing work? It may depend on your microbiome",
+    "url": "https://www.scientificamerican.com/article/does-fibermaxxing-work-it-may-depend-on-your-microbiome/",
+    "type": "Science",
+    "source": "Scientific American"
+  },
+  {
+    "title": "Science crossword: Give me some space!",
+    "url": "https://www.scientificamerican.com/article/science-crossword-give-me-some-space/",
+    "type": "Science",
+    "source": "Scientific American"
+  },
+  {
+    "title": "What really happened on Easter Island?",
+    "url": "https://www.scientificamerican.com/article/what-really-happened-on-easter-island/",
+    "type": "Science",
+    "source": "Scientific American"
+  },
+  {
+    "title": "From geothermal energy to tidal power, these bold projects could change our clean-energy future",
+    "url": "https://www.scientificamerican.com/article/from-geothermal-energy-to-tidal-power-these-bold-projects-could-change-our-clean-energy-future/",
+    "type": "Science",
+    "source": "Scientific American"
+  },
+  {
+    "title": "How many satellites can safely orbit Earth?",
+    "url": "https://www.scientificamerican.com/article/how-many-satellites-can-safely-orbit-earth/",
+    "type": "Science",
+    "source": "Scientific American"
+  },
+  {
+    "title": "How NASA turned a spy satellite into the Nancy Grace Roman Space Telescope",
+    "url": "https://www.scientificamerican.com/article/how-nasa-turned-a-spy-satellite-into-the-nancy-grace-roman-space-telescope/",
+    "type": "Science",
+    "source": "Scientific American"
+  },
+  {
+    "title": "Can QuantumScape and Factorial Energy mass-produce solid-state batteries?",
+    "url": "https://www.scientificamerican.com/article/can-quantumscape-and-factorial-energy-mass-produce-solid-state-batteries/",
+    "type": "Science",
+    "source": "Scientific American"
   },
   {
     "title": "OpenAI funds research to try to stop AI from being used to make bioweapons",
@@ -8226,108 +8298,6 @@ window.NEWSFLOW_NEWS = [
     "source": "Scientific American"
   },
   {
-    "title": "Can AI make mathematics more human?",
-    "url": "https://www.scientificamerican.com/article/can-ai-make-mathematics-more-human/",
-    "type": "Science",
-    "source": "Scientific American"
-  },
-  {
-    "title": "National Academy of Sciences pulls climate chapter from judges’ manual",
-    "url": "https://www.scientificamerican.com/article/national-academy-of-sciences-pulls-climate-chapter-from-judges-manual/",
-    "type": "Science",
-    "source": "Scientific American"
-  },
-  {
-    "title": "107 years ago, the Eddington total eclipse experiment helped prove Einstein’s theory of relativity",
-    "url": "https://www.scientificamerican.com/article/107-years-ago-the-eddington-total-eclipse-experiment-helped-prove-einsteins-theory-of-relativity/",
-    "type": "Science",
-    "source": "Scientific American"
-  },
-  {
-    "title": "Scientists are closer than ever to understanding the power of the vagus nerve",
-    "url": "https://www.scientificamerican.com/article/scientists-are-closer-than-ever-to-understanding-the-power-of-the-vagus-nerve/",
-    "type": "Science",
-    "source": "Scientific American"
-  },
-  {
-    "title": "Has science finally made up its mind about coffee’s health benefits?",
-    "url": "https://www.scientificamerican.com/article/has-science-finally-made-up-its-mind-about-coffees-health-benefits/",
-    "type": "Science",
-    "source": "Scientific American"
-  },
-  {
-    "title": "The birth of modern life was fueled by poop, new theory proposes",
-    "url": "https://www.scientificamerican.com/article/the-birth-of-modern-life-was-fueled-by-poop-new-theory-proposes/",
-    "type": "Science",
-    "source": "Scientific American"
-  },
-  {
-    "title": "Humans’ sense of smell is still evolving",
-    "url": "https://www.scientificamerican.com/article/humans-sense-of-smell-is-still-evolving/",
-    "type": "Science",
-    "source": "Scientific American"
-  },
-  {
-    "title": "First-of-its-kind clinic treats psychedelic side effects",
-    "url": "https://www.scientificamerican.com/article/first-of-its-kind-clinic-treats-psychedelic-side-effects/",
-    "type": "Science",
-    "source": "Scientific American"
-  },
-  {
-    "title": "Scientists are using AI to design new viruses. Should they be?",
-    "url": "https://www.scientificamerican.com/article/scientists-are-using-ai-to-design-new-viruses-should-they-be/",
-    "type": "Science",
-    "source": "Scientific American"
-  },
-  {
-    "title": "Trump issues executive order aimed at rewriting childhood vaccine schedule",
-    "url": "https://www.scientificamerican.com/article/trump-signs-executive-order-aimed-at-rewriting-childhood-vaccine-schedule/",
-    "type": "Science",
-    "source": "Scientific American"
-  },
-  {
-    "title": "Colombia rocked by 7.4 magnitude earthquake—its largest in the past decade",
-    "url": "https://www.scientificamerican.com/article/colombia-rocked-by-7-4-magnitude-earthquake-its-largest-in-the-last-decade/",
-    "type": "Science",
-    "source": "Scientific American"
-  },
-  {
-    "title": "Can dogs read your facial expressions? It depends on your mood",
-    "url": "https://www.scientificamerican.com/article/can-dogs-read-your-facial-expressions-it-depends-on-your-mood/",
-    "type": "Science",
-    "source": "Scientific American"
-  },
-  {
-    "title": "Cyclosporiasis-linked Taylor Farms recalls jalapeños tied to Salmonella outbreak",
-    "url": "https://www.scientificamerican.com/article/cyclosporiasis-linked-taylor-farms-recalls-jalapenos-tied-to-salmonella-outbreak/",
-    "type": "Science",
-    "source": "Scientific American"
-  },
-  {
-    "title": "World ocean temperatures hit extreme new record for July",
-    "url": "https://www.scientificamerican.com/article/world-ocean-temperatures-hit-extreme-new-record-for-july/",
-    "type": "Science",
-    "source": "Scientific American"
-  },
-  {
-    "title": "How the ‘happy ending problem’ launched a new branch of math—and a romance",
-    "url": "https://www.scientificamerican.com/article/how-the-happy-ending-problem-launched-a-new-branch-of-math-and-a-romance/",
-    "type": "Science",
-    "source": "Scientific American"
-  },
-  {
-    "title": "Sperm with DNA damage might be the true cause of repeated miscarriages",
-    "url": "https://www.scientificamerican.com/article/sperm-with-dna-damage-might-be-the-true-cause-of-repeated-miscarriages/",
-    "type": "Science",
-    "source": "Scientific American"
-  },
-  {
-    "title": "Can ‘magic mushrooms’ help treat cocaine dependence?",
-    "url": "https://www.scientificamerican.com/article/can-magic-mushrooms-help-treat-cocaine-dependence/",
-    "type": "Science",
-    "source": "Scientific American"
-  },
-  {
     "title": "‘Free America’: Anti-Trump Administration Protests Planned Across U.S. on July 4",
     "url": "https://time.com/7299015/anti-trump-administration-protests-united-states-july-4-independence-day/",
     "type": "TIME",
@@ -8386,6 +8356,30 @@ window.NEWSFLOW_NEWS = [
     "url": "https://time.com/7298982/musk-trump-big-beautiful-bill-debt-primary-republicans-america-party/",
     "type": "TIME",
     "source": "Top Stories"
+  },
+  {
+    "title": "Steve Jobs’ 8th-grade science fair project goes up for auction",
+    "url": "https://9to5mac.com/2026/08/18/steve-jobs-8th-grade-science-fair-project-goes-up-for-auction/",
+    "type": "Technology",
+    "source": "9to5Mac"
+  },
+  {
+    "title": "Apple admits it may not make any commission from alternative app stores",
+    "url": "https://9to5mac.com/2026/08/18/apple-admits-it-may-not-make-any-commission-from-alternative-app-stores/",
+    "type": "Technology",
+    "source": "9to5Mac"
+  },
+  {
+    "title": "Two camera features may be unique to the iPhone 18 Pro Max, suggests leaker",
+    "url": "https://9to5mac.com/2026/08/18/two-camera-features-may-be-unique-to-the-iphone-18-pro-max-suggests-leaker/",
+    "type": "Technology",
+    "source": "9to5Mac"
+  },
+  {
+    "title": "Apple @ Work Podcast: Agentic networking actions",
+    "url": "https://9to5mac.com/2026/08/18/proactive-networking-actions/",
+    "type": "Technology",
+    "source": "9to5Mac"
   },
   {
     "title": "AirPods with cameras get their clearest leak yet",
@@ -8964,28 +8958,310 @@ window.NEWSFLOW_NEWS = [
     "source": "9to5Mac"
   },
   {
-    "title": "Eddy Cue said the thing we wanted to hear on future Ted Lasso seasons",
-    "url": "https://9to5mac.com/2026/08/12/eddy-cue-said-the-thing-we-wanted-to-hear-on-future-ted-lasso-seasons/",
+    "title": "Meet Kat Abu, The TikToker Mocking Fox News “Just For Funsies”",
+    "url": "https://www.buzzfeednews.com/article/ellievhall/katherine-abughazaleh-kat-abu-tucker-carlson-fox-news-critic",
     "type": "Technology",
-    "source": "9to5Mac"
+    "source": "BuzzFeed Tech"
   },
   {
-    "title": "Apple Wallet app could get new feature to manage trade-ins",
-    "url": "https://9to5mac.com/2026/08/12/apple-wallet-app-could-get-new-feature-to-manage-trade-ins/",
+    "title": "Help, The World Is On Fire And I Feel Like My Life Is Over At 24",
+    "url": "https://www.buzzfeednews.com/article/maxcollins/eve-6-heart-in-a-blender-advice-column-school-shootings-gen",
     "type": "Technology",
-    "source": "9to5Mac"
+    "source": "BuzzFeed Tech"
   },
   {
-    "title": "MLB iPhone app just got better with new CarPlay and Live Activity features",
-    "url": "https://9to5mac.com/2026/08/12/mlb-iphone-app-just-got-better-with-new-carplay-and-live-activity-features/",
+    "title": "Researchers Accused Google And “60 Minutes” Of Spreading AI “Disinformation”",
+    "url": "https://www.buzzfeednews.com/article/pranavdixit/google-60-minutes-ai-claims-challenged",
     "type": "Technology",
-    "source": "9to5Mac"
+    "source": "BuzzFeed Tech"
   },
   {
-    "title": "BowFlex T6 review: Apple GymKit comes home at a normal treadmill price",
-    "url": "https://9to5mac.com/2026/08/12/bowflex-t6-review-apple-gymkit-comes-home-at-a-normal-treadmill-price/",
+    "title": "“An Extremely Dangerous Game”: How Andrew Tate’s Recent Behavior May Be Doing Him More Harm Than Good",
+    "url": "https://www.buzzfeednews.com/article/mateirosca/andrew-tate-jail-pretrial-allegations",
     "type": "Technology",
-    "source": "9to5Mac"
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Apple Card Has A Savings Account Now, And The Interest Rate Is Better Than Most Banks'",
+    "url": "https://www.buzzfeednews.com/article/pranavdixit/apple-card-savings-account",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Fake Drakes And Counterfeit Kanyes: The Internet Is Suddenly Full Of AI-Generated Hip-Hop",
+    "url": "https://www.buzzfeednews.com/article/chrisstokelwalker/ai-hip-hop-rap-music-drake-kanye-weeknd-rihanna-jay-z",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "This Fearless Video Journalist Is Livestreaming The French Street Protests To Millions Worldwide",
+    "url": "https://www.buzzfeednews.com/article/brianngwriter/remy-buisine-brut-livestreamer-french-protests",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Police Arrested A Tech Executive Over The Stabbing Death Of Cash App Creator Bob Lee",
+    "url": "https://www.buzzfeednews.com/article/davidmack/bob-lee-murder-suspect-arrested-cash-app-san-francisco",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Twitter Circles Is Broken, Revealing Nudes Not Meant For The General Public",
+    "url": "https://www.buzzfeednews.com/article/chrisstokelwalker/twitter-circles-broken-nudes-leaked",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "The “Dude With Sign” Instagram Account Sure Does Sue A Lot Of Brands",
+    "url": "https://www.buzzfeednews.com/article/katienotopoulos/fjerry-lawsuit-dude-with-sign-stolen-memes",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "The Creator Of Cash App Was Stabbed To Death In San Francisco",
+    "url": "https://www.buzzfeednews.com/article/davidmack/bob-lee-cashapp-stabbed-dead",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Don’t Be Fooled By AI-Generated Donald Trump Fakes",
+    "url": "https://www.buzzfeednews.com/article/pranavdixit/beware-ai-generated-donald-trump-fakes-today",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "People Are Using ChatGPT For Therapy. Here’s What Mental Health Experts Think About That.",
+    "url": "https://www.buzzfeednews.com/article/fjollaarifi/chatgpt-ai-for-therapy-mental-health",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Opinion: Dangers Lurk Aboard Cruise Ships. The Cruise Passenger Protection Act Can Help.",
+    "url": "https://www.buzzfeednews.com/article/senblumenthal/blumenthal-cruise-passenger-protection-act",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "News Outlets Struggle To Decide: Do We Pay For Journalists’ Twitter Blue?",
+    "url": "https://www.buzzfeednews.com/article/katienotopoulos/journalists-blue-checks-newsrooms-twitter-verification",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Hundreds Of Passengers Have Said They Were Sexually Assaulted On Cruise Ships. Their Stories Highlight Years Of Lax Security, Critics Say.",
+    "url": "https://www.buzzfeednews.com/article/tomwarren/sexual-assault-cruises-carnival-princess-disney",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "This Uncensored Chatbot Shows What Happens When AI Is Programmed To Disregard Human Decency",
+    "url": "https://www.buzzfeednews.com/article/pranavdixit/freedomgpt-ai-chatbot-test",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "AI Chose My Makeup For A Week And The Results Were Actually Pretty Great",
+    "url": "https://www.buzzfeednews.com/article/dela-doll/ai-did-my-makeup",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Get Ready For A Twitter Feed Of Assholes Only",
+    "url": "https://www.buzzfeednews.com/article/katienotopoulos/twitter-paid-verified-blue-for-you-feed",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "We Spoke To The Guy Who Created The Viral AI Image Of The Pope That Fooled The World",
+    "url": "https://www.buzzfeednews.com/article/chrisstokelwalker/pope-puffy-jacket-ai-midjourney-image-creator-interview",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Being A Professional Athlete’s Wife Isn’t As Amazing As You Might Think",
+    "url": "https://www.buzzfeednews.com/article/zanromanoff/wags-tiktok-allison-kucharczyk-courtney-zamora",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "TikTok CEO Shou Zi Chew Appeared Before Congress And Now The Fan Edits Are Rolling In",
+    "url": "https://www.buzzfeednews.com/article/adeonibada/tiktok-fancams-congress-shou-zi-chew",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "TikTok’s CEO Got Blasted By Both Sides During An Intense Congressional Hearing",
+    "url": "https://www.buzzfeednews.com/article/ellievhall/tiktok-ceo-shou-zi-chew-congressional-hearing",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Congress Wanted Me To Turn Over A Document About TikTok’s Links To China. Here’s Why I Refused.",
+    "url": "https://www.buzzfeednews.com/article/chrisstokelwalker/congressional-hearing-tiktok-china-document-request",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "A Journalist Believes He Was Banned From Midjourney After His AI Images Of Donald Trump Getting Arrested Went Viral",
+    "url": "https://www.buzzfeednews.com/article/chrisstokelwalker/midjourney-ai-donald-trump-arrest-images-ban",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "I Tried 5 AirPod Dupes From Amazon, And One Is Pretty Decent",
+    "url": "https://www.buzzfeednews.com/article/katienotopoulos/best-cheap-wireless-earbuds-fake-airpods-amazon",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "This Therapist Accidentally Gave Himself An Unfortunate Username On TikTok",
+    "url": "https://www.buzzfeednews.com/article/katienotopoulos/therapistzach-therapist-rapist-tiktok-username",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Financial Companies Are Encouraging Gen Z To Pay Rent With Their Credit Cards",
+    "url": "https://www.buzzfeednews.com/article/venessawong/gen-z-credit-card-spending-rent-debt",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "The Battle For AI Supremacy Got Super Intense This Week, Risks Be Damned",
+    "url": "https://www.buzzfeednews.com/article/pranavdixit/ai-arms-race-openai-gpt-4-google-microsoft",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Popular Finance YouTubers Who Hyped Crypto Company FTX Are Being Sued",
+    "url": "https://www.buzzfeednews.com/article/tomwarren/finance-youtubers-ftx-class-action-lawsuit",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Help, My Friend Wants To Sleep With A Married Man",
+    "url": "https://www.buzzfeednews.com/article/maxcollins/eve-6-heart-in-a-blender-advice-column-friendship",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "I Had AI Write My Instagram Captions, And My Friends Did A Wellness Check On Me",
+    "url": "https://www.buzzfeednews.com/article/katienotopoulos/ai-wrote-my-instagram-captions",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Grindr Has Been Sued By A Teen Who Was Raped By Four Men He Met On The App",
+    "url": "https://www.buzzfeednews.com/article/davidmack/grindr-teen-raped-lawsuit-canada",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Murderous Mexican Drug Cartels Are Thriving On Elon Musk’s Twitter",
+    "url": "https://www.buzzfeednews.com/article/pranavdixit/mexican-drug-cartels-twitter-elon-musk-report",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "The Fantasy Of The Dream Job Is Gone",
+    "url": "https://www.buzzfeednews.com/article/venessawong/tech-layoffs-dream-jobs",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "This 18-Year-Old College Journalist Could Bring Down Stanford University’s President",
+    "url": "https://www.buzzfeednews.com/article/ellievhall/theo-baker-stanford-marc-tessier-lavigne-investigation",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "The Untold Story Of Andrew Tate, The Internet’s Most Notorious Influencer",
+    "url": "https://www.buzzfeednews.com/article/tomwarren/andrew-tate-early-life-friends-family",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Chuck E. Cheese Still Uses Floppy Disks To Make Its Rodent Mascot Dance — For Now",
+    "url": "https://www.buzzfeednews.com/article/katienotopoulos/chuck-e-cheese-animatronic-floppy-disks",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "These Are The AI Trends That Keep Us Up At Night",
+    "url": "https://www.buzzfeednews.com/article/pranavdixit/ai-artificial-intelligence-monthly-news-trends",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "These Men's Rights Activists Literally Worship Elon Musk",
+    "url": "https://www.buzzfeednews.com/article/pranavdixit/india-mens-rights-activists-siff-worship-elon-musk",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Eli Lilly Reduced The Price Of Insulin To $35 Per Month, And This Guy Who Trolled The Company Can Take Some Credit",
+    "url": "https://www.buzzfeednews.com/article/katienotopoulos/eli-lilly-insulin-price-twitter-blue-prank",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "People Are Thirsty For TikTok’s Hottest Ceramicists",
+    "url": "https://www.buzzfeednews.com/article/jessicalucas2/tiktok-pottery-ceramicists-thirst-traps",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Voice Deepfakes Of Everyone From Joe Rogan To Joe Biden Are Taking Over Social Media",
+    "url": "https://www.buzzfeednews.com/article/chrisstokelwalker/voice-deepfakes-ai-elevenlabs-joe-biden-joe-rogan",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "“This Is What Your Worlds Are Lacking”: Artists Are Using AI To Create Fat, Black Sci-Fi And Fantasy Characters",
+    "url": "https://www.buzzfeednews.com/article/davisc0994/ai-art-fat-black-sci-fi-fantasy-characters",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "A Sci-Fi Magazine Stopped Letting Anyone Submit Stories After Being Flooded With AI-Written Content",
+    "url": "https://www.buzzfeednews.com/article/pranavdixit/clarkesworld-sci-fi-magazine-ai-story-submissions-closed",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Here’s What Happens When You Train An AI On Pauly Shore Movies",
+    "url": "https://www.buzzfeednews.com/article/katienotopoulos/2dumb2destroy-ai-chatbot",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "TikTok’s Boob-Flashing Trend Is A Content Moderation Nightmare",
+    "url": "https://www.buzzfeednews.com/article/chrisstokelwalker/tiktok-foopah-challenge-breast-boob-flashing",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Here’s Why Andrew Tate May Have Chosen To Live In Romania, Where Sex Trafficking Has “Become A National Sport”",
+    "url": "https://www.buzzfeednews.com/article/mateirosca/andrew-tate-romania-sex-trafficking",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Drama Between A Chimney Sweep And House Flippers Is Burning Up TikTok",
+    "url": "https://www.buzzfeednews.com/article/katienotopoulos/tiktok-chimney-sweep-painted-fireplace-drama",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Guinness World Records Is Giving The Shaft To The World’s Biggest Dick Pic",
+    "url": "https://www.buzzfeednews.com/article/benjaminpineros/the-worlds-biggest-dick-pic",
+    "type": "Technology",
+    "source": "BuzzFeed Tech"
+  },
+  {
+    "title": "Zero to Agent in 30 Minutes: From Prompting to Loop Engineering with Ofer Mendelevitch",
+    "url": "https://www.oreilly.com/radar/zero-to-agent-in-30-minutes-from-prompting-to-loop-engineering-with-ofer-mendelevitch/",
+    "type": "Technology",
+    "source": "O'Reilly Radar"
   },
   {
     "title": "What’s an Orchestrator—and Why Does Software Need One?",
@@ -9072,16 +9348,34 @@ window.NEWSFLOW_NEWS = [
     "source": "O'Reilly Radar"
   },
   {
-    "title": "Your AI Agent Isn’t a Static Artifact. It’s Growing Up.",
-    "url": "https://www.oreilly.com/radar/your-ai-agent-isnt-a-static-artifact-its-growing-up/",
-    "type": "Technology",
-    "source": "O'Reilly Radar"
-  },
-  {
-    "title": "AWS Lambda 取消代码存储配额别误会函数大小限制没变",
-    "url": "https://www.jianshu.com/p/e7845bd5a809",
+    "title": "八年级上 Unit 7 When tomorrow comes 当明天来临时",
+    "url": "https://www.jianshu.com/p/2a7e4f21f3fd",
     "type": "其它",
     "source": "简书"
+  },
+  {
+    "title": "【算法】基数排序算法的讲解和代码实践",
+    "url": "https://www.jianshu.com/p/de434aab11e7",
+    "type": "其它",
+    "source": "简书"
+  },
+  {
+    "title": "基于Gin+Vue+Element UI前后端分离工作流系统",
+    "url": "https://www.jianshu.com/p/d38a000bfb40",
+    "type": "其它",
+    "source": "简书"
+  },
+  {
+    "title": "高效绘图小工具：Multi-omics Visual",
+    "url": "https://www.jianshu.com/p/08c0a33a93cf",
+    "type": "其它",
+    "source": "简书"
+  },
+  {
+    "title": "朱鎔基在京火化：從民間悼念到八寶山，中國領導人「身後事」的政治邏輯",
+    "url": "https://www.bbc.com/zhongwen/articles/c70glkrgd1eo/trad?at_medium=RSS&at_campaign=rss",
+    "type": "外媒",
+    "source": "BBC 中国"
   },
   {
     "title": "江澤民紀念規格比肩「開國元老」：中共如何紀念已故領導人？",
@@ -9102,16 +9396,28 @@ window.NEWSFLOW_NEWS = [
     "source": "BBC 中国"
   },
   {
-    "title": "日本企業應用人工智慧為何如此緩慢？",
-    "url": "https://www.bbc.com/zhongwen/articles/cy74z6ln0m2o/trad?at_medium=RSS&at_campaign=rss",
+    "title": "Z世代為何要用抗焦慮藥物取代酒精？從一位中國女孩講起",
+    "url": "https://www.bbc.com/zhongwen/articles/c98069d07x2o/trad?at_medium=RSS&at_campaign=rss",
     "type": "外媒",
     "source": "BBC 中国"
   },
   {
-    "title": "「我在遊戲中當了兩年英國首相，然後閣員們都離我而去」",
-    "url": "https://www.bbc.com/zhongwen/articles/cqx7vr7qjwjo/trad?at_medium=RSS&at_campaign=rss",
+    "title": "硅谷并没有“右转”，它本来就“右”",
+    "url": "https://cn.nytimes.com/opinion/20260818/silicon-valley-war-pentagon/?utm_source=RSS",
     "type": "外媒",
-    "source": "BBC 中国"
+    "source": "纽约时报"
+  },
+  {
+    "title": "乌克兰无人机何以精准打击俄罗斯本土？",
+    "url": "https://cn.nytimes.com/world/20260818/from-the-sky-to-the-battlefield/?utm_source=RSS",
+    "type": "外媒",
+    "source": "纽约时报"
+  },
+  {
+    "title": "为何美日联手也“救”不了日元？",
+    "url": "https://cn.nytimes.com/business/20260818/japan-yen-intervention/?utm_source=RSS",
+    "type": "外媒",
+    "source": "纽约时报"
   },
   {
     "title": "在伊朗陷入困局后，特朗普再次将目光转向金正恩",
@@ -9126,50 +9432,32 @@ window.NEWSFLOW_NEWS = [
     "source": "纽约时报"
   },
   {
-    "title": "AI垃圾满天飞，科技公司开展人工智能废物大扫除",
-    "url": "https://cn.nytimes.com/technology/20260818/ai-slop/?utm_source=RSS",
-    "type": "外媒",
-    "source": "纽约时报"
-  },
-  {
-    "title": "具有中国特色的AI数据：中国争夺人工智能时代话语权",
-    "url": "https://cn.nytimes.com/china/20260817/china-ai-data-chatbots/?utm_source=RSS",
-    "type": "外媒",
-    "source": "纽约时报"
-  },
-  {
-    "title": "干预政策、压制批评，特朗普政府将美国签证“武器化”",
-    "url": "https://cn.nytimes.com/usa/20260817/trump-americas-visas/?utm_source=RSS",
-    "type": "外媒",
-    "source": "纽约时报"
-  },
-  {
-    "title": "21社论丨以发展服务业带动稳就业，更好应对经济结构转型挑战",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=21%E4%B8%96%E7%BA%AA%E7%BB%8F%E6%B5%8E%E6%8A%A5%E9%81%93+21%E7%A4%BE%E8%AE%BA%E4%B8%A8%E4%BB%A5%E5%8F%91%E5%B1%95%E6%9C%8D%E5%8A%A1%E4%B8%9A%E5%B8%A6%E5%8A%A8%E7%A8%B3%E5%B0%B1%E4%B8%9A%EF%BC%8C%E6%9B%B4%E5%A5%BD%E5%BA%94%E5%AF%B9%E7%BB%8F%E6%B5%8E%E7%BB%93%E6%9E%84%E8%BD%AC%E5%9E%8B%E6%8C%91%E6%88%98",
+    "title": "A股V型反弹超80股涨停，千亿半导体设备巨头跌超6%，大牛股16天11板，PCB、CPO多股下挫",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=21%E4%B8%96%E7%BA%AA%E7%BB%8F%E6%B5%8E%E6%8A%A5%E9%81%93+A%E8%82%A1V%E5%9E%8B%E5%8F%8D%E5%BC%B9%E8%B6%8580%E8%82%A1%E6%B6%A8%E5%81%9C%EF%BC%8C%E5%8D%83%E4%BA%BF%E5%8D%8A%E5%AF%BC%E4%BD%93%E8%AE%BE%E5%A4%87%E5%B7%A8%E5%A4%B4%E8%B7%8C%E8%B6%856%25%EF%BC%8C%E5%A4%A7%E7%89%9B%E8%82%A116%E5%A4%A911%E6%9D%BF%EF%BC%8CPCB%E3%80%81CPO%E5%A4%9A%E8%82%A1%E4%B8%8B%E6%8C%AB",
     "type": "微信公众号",
     "source": "21世纪经济报道"
   },
   {
-    "title": "又一龙头，今日上市",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=21%E4%B8%96%E7%BA%AA%E7%BB%8F%E6%B5%8E%E6%8A%A5%E9%81%93+%E5%8F%88%E4%B8%80%E9%BE%99%E5%A4%B4%EF%BC%8C%E4%BB%8A%E6%97%A5%E4%B8%8A%E5%B8%82",
+    "title": "朱镕基同志遗体在京火化 习近平等到八宝山革命公墓送别",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=21%E4%B8%96%E7%BA%AA%E7%BB%8F%E6%B5%8E%E6%8A%A5%E9%81%93+%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%E9%81%97%E4%BD%93%E5%9C%A8%E4%BA%AC%E7%81%AB%E5%8C%96%20%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%AD%89%E5%88%B0%E5%85%AB%E5%AE%9D%E5%B1%B1%E9%9D%A9%E5%91%BD%E5%85%AC%E5%A2%93%E9%80%81%E5%88%AB",
     "type": "微信公众号",
     "source": "21世纪经济报道"
   },
   {
-    "title": "小米、富途共同持股银行，名字定了！去年营收近一亿港元",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=21%E4%B8%96%E7%BA%AA%E7%BB%8F%E6%B5%8E%E6%8A%A5%E9%81%93+%E5%B0%8F%E7%B1%B3%E3%80%81%E5%AF%8C%E9%80%94%E5%85%B1%E5%90%8C%E6%8C%81%E8%82%A1%E9%93%B6%E8%A1%8C%EF%BC%8C%E5%90%8D%E5%AD%97%E5%AE%9A%E4%BA%86%EF%BC%81%E5%8E%BB%E5%B9%B4%E8%90%A5%E6%94%B6%E8%BF%91%E4%B8%80%E4%BA%BF%E6%B8%AF%E5%85%83",
+    "title": "全球股债走弱！纳指期货下跌，日韩股市跳水，布油冲上91美元，美债收益率创近20年新高",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=21%E4%B8%96%E7%BA%AA%E7%BB%8F%E6%B5%8E%E6%8A%A5%E9%81%93+%E5%85%A8%E7%90%83%E8%82%A1%E5%80%BA%E8%B5%B0%E5%BC%B1%EF%BC%81%E7%BA%B3%E6%8C%87%E6%9C%9F%E8%B4%A7%E4%B8%8B%E8%B7%8C%EF%BC%8C%E6%97%A5%E9%9F%A9%E8%82%A1%E5%B8%82%E8%B7%B3%E6%B0%B4%EF%BC%8C%E5%B8%83%E6%B2%B9%E5%86%B2%E4%B8%8A91%E7%BE%8E%E5%85%83%EF%BC%8C%E7%BE%8E%E5%80%BA%E6%94%B6%E7%9B%8A%E7%8E%87%E5%88%9B%E8%BF%9120%E5%B9%B4%E6%96%B0%E9%AB%98",
     "type": "微信公众号",
     "source": "21世纪经济报道"
   },
   {
-    "title": "国际油价深夜飙升3%，美股存储芯片、光通信狂飙，闪迪涨近9%，科技巨头冰火两重天，微软、Meta跌超3%，黄金白银全线走高",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=21%E4%B8%96%E7%BA%AA%E7%BB%8F%E6%B5%8E%E6%8A%A5%E9%81%93+%E5%9B%BD%E9%99%85%E6%B2%B9%E4%BB%B7%E6%B7%B1%E5%A4%9C%E9%A3%99%E5%8D%873%25%EF%BC%8C%E7%BE%8E%E8%82%A1%E5%AD%98%E5%82%A8%E8%8A%AF%E7%89%87%E3%80%81%E5%85%89%E9%80%9A%E4%BF%A1%E7%8B%82%E9%A3%99%EF%BC%8C%E9%97%AA%E8%BF%AA%E6%B6%A8%E8%BF%919%25%EF%BC%8C%E7%A7%91%E6%8A%80%E5%B7%A8%E5%A4%B4%E5%86%B0%E7%81%AB%E4%B8%A4%E9%87%8D%E5%A4%A9%EF%BC%8C%E5%BE%AE%E8%BD%AF%E3%80%81Meta%E8%B7%8C%E8%B6%853%25%EF%BC%8C%E9%BB%84%E9%87%91%E7%99%BD%E9%93%B6%E5%85%A8%E7%BA%BF%E8%B5%B0%E9%AB%98",
+    "title": "20CM封死跌停，200亿创新药企，市值单日蒸发近60亿",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=21%E4%B8%96%E7%BA%AA%E7%BB%8F%E6%B5%8E%E6%8A%A5%E9%81%93+20CM%E5%B0%81%E6%AD%BB%E8%B7%8C%E5%81%9C%EF%BC%8C200%E4%BA%BF%E5%88%9B%E6%96%B0%E8%8D%AF%E4%BC%81%EF%BC%8C%E5%B8%82%E5%80%BC%E5%8D%95%E6%97%A5%E8%92%B8%E5%8F%91%E8%BF%9160%E4%BA%BF",
     "type": "微信公众号",
     "source": "21世纪经济报道"
   },
   {
-    "title": "人均557万元！寒武纪员工“大红包”即将到账",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=21%E4%B8%96%E7%BA%AA%E7%BB%8F%E6%B5%8E%E6%8A%A5%E9%81%93+%E4%BA%BA%E5%9D%87557%E4%B8%87%E5%85%83%EF%BC%81%E5%AF%92%E6%AD%A6%E7%BA%AA%E5%91%98%E5%B7%A5%E2%80%9C%E5%A4%A7%E7%BA%A2%E5%8C%85%E2%80%9D%E5%8D%B3%E5%B0%86%E5%88%B0%E8%B4%A6",
+    "title": "撬动万亿级利好，九部门发文",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=21%E4%B8%96%E7%BA%AA%E7%BB%8F%E6%B5%8E%E6%8A%A5%E9%81%93+%E6%92%AC%E5%8A%A8%E4%B8%87%E4%BA%BF%E7%BA%A7%E5%88%A9%E5%A5%BD%EF%BC%8C%E4%B9%9D%E9%83%A8%E9%97%A8%E5%8F%91%E6%96%87",
     "type": "微信公众号",
     "source": "21世纪经济报道"
   },
@@ -9234,6 +9522,12 @@ window.NEWSFLOW_NEWS = [
     "source": "MOOC"
   },
   {
+    "title": "电脑操作、技能、连接器、工作伙伴：豆包的牌来了",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=MacTalk+%E7%94%B5%E8%84%91%E6%93%8D%E4%BD%9C%E3%80%81%E6%8A%80%E8%83%BD%E3%80%81%E8%BF%9E%E6%8E%A5%E5%99%A8%E3%80%81%E5%B7%A5%E4%BD%9C%E4%BC%99%E4%BC%B4%EF%BC%9A%E8%B1%86%E5%8C%85%E7%9A%84%E7%89%8C%E6%9D%A5%E4%BA%86",
+    "type": "微信公众号",
+    "source": "MacTalk"
+  },
+  {
     "title": "600 亿，Cursor 终于正式加入了 SpaceX，这亏嘛？\\n\\n前一阵子墨问群里还在讨论，说没啥人用 Cursor 了，一下炸出好几个同学，说他们团队都在用 Cursor，事实上 Cursor 在海外用户基础是非常庞大的，只不过风头被 Codex 和 CC 盖过去了而已，一句话，不性感了。\\n\\n但是，600 亿美金，这价格对任何创业团队都是天价，毕竟，国内互联网公司市值超过 600 亿美金的有几家？腾讯、阿里、拼多多、小米、网易、美团，还有谁？我找不出来了。所以有同学说这个团队挺可惜的，我看一点",
     "url": "http://weixin.sogou.com/weixin?type=2&query=MacTalk+600%20%E4%BA%BF%EF%BC%8CCursor%20%E7%BB%88%E4%BA%8E%E6%AD%A3%E5%BC%8F%E5%8A%A0%E5%85%A5%E4%BA%86%20SpaceX%EF%BC%8C%E8%BF%99%E4%BA%8F%E5%98%9B%EF%BC%9F%5Cn%5Cn%E5%89%8D%E4%B8%80%E9%98%B5%E5%AD%90%E5%A2%A8%E9%97%AE%E7%BE%A4%E9%87%8C%E8%BF%98%E5%9C%A8%E8%AE%A8%E8%AE%BA%EF%BC%8C%E8%AF%B4%E6%B2%A1%E5%95%A5%E4%BA%BA%E7%94%A8%20Cursor%20%E4%BA%86%EF%BC%8C%E4%B8%80%E4%B8%8B%E7%82%B8%E5%87%BA%E5%A5%BD%E5%87%A0%E4%B8%AA%E5%90%8C%E5%AD%A6%EF%BC%8C%E8%AF%B4%E4%BB%96%E4%BB%AC%E5%9B%A2%E9%98%9F%E9%83%BD%E5%9C%A8%E7%94%A8%20Cursor%EF%BC%8C%E4%BA%8B%E5%AE%9E%E4%B8%8A%20Cursor%20%E5%9C%A8%E6%B5%B7%E5%A4%96%E7%94%A8%E6%88%B7%E5%9F%BA%E7%A1%80%E6%98%AF%E9%9D%9E%E5%B8%B8%E5%BA%9E%E5%A4%A7%E7%9A%84%EF%BC%8C%E5%8F%AA%E4%B8%8D%E8%BF%87%E9%A3%8E%E5%A4%B4%E8%A2%AB%20Codex%20%E5%92%8C%20CC%20%E7%9B%96%E8%BF%87%E5%8E%BB%E4%BA%86%E8%80%8C%E5%B7%B2%EF%BC%8C%E4%B8%80%E5%8F%A5%E8%AF%9D%EF%BC%8C%E4%B8%8D%E6%80%A7%E6%84%9F%E4%BA%86%E3%80%82%5Cn%5Cn%E4%BD%86%E6%98%AF%EF%BC%8C600%20%E4%BA%BF%E7%BE%8E%E9%87%91%EF%BC%8C%E8%BF%99%E4%BB%B7%E6%A0%BC%E5%AF%B9%E4%BB%BB%E4%BD%95%E5%88%9B%E4%B8%9A%E5%9B%A2%E9%98%9F%E9%83%BD%E6%98%AF%E5%A4%A9%E4%BB%B7%EF%BC%8C%E6%AF%95%E7%AB%9F%EF%BC%8C%E5%9B%BD%E5%86%85%E4%BA%92%E8%81%94%E7%BD%91%E5%85%AC%E5%8F%B8%E5%B8%82%E5%80%BC%E8%B6%85%E8%BF%87%20600%20%E4%BA%BF%E7%BE%8E%E9%87%91%E7%9A%84%E6%9C%89%E5%87%A0%E5%AE%B6%EF%BC%9F%E8%85%BE%E8%AE%AF%E3%80%81%E9%98%BF%E9%87%8C%E3%80%81%E6%8B%BC%E5%A4%9A%E5%A4%9A%E3%80%81%E5%B0%8F%E7%B1%B3%E3%80%81%E7%BD%91%E6%98%93%E3%80%81%E7%BE%8E%E5%9B%A2%EF%BC%8C%E8%BF%98%E6%9C%89%E8%B0%81%EF%BC%9F%E6%88%91%E6%89%BE%E4%B8%8D%E5%87%BA%E6%9D%A5%E4%BA%86%E3%80%82%E6%89%80%E4%BB%A5%E6%9C%89%E5%90%8C%E5%AD%A6%E8%AF%B4%E8%BF%99%E4%B8%AA%E5%9B%A2%E9%98%9F%E6%8C%BA%E5%8F%AF%E6%83%9C%E7%9A%84%EF%BC%8C%E6%88%91%E7%9C%8B%E4%B8%80%E7%82%B9",
     "type": "微信公众号",
@@ -9258,10 +9552,16 @@ window.NEWSFLOW_NEWS = [
     "source": "MacTalk"
   },
   {
-    "title": "你觉得 Kimi K3 又慢又贵是吧，我来告诉你为什么",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=MacTalk+%E4%BD%A0%E8%A7%89%E5%BE%97%20Kimi%20K3%20%E5%8F%88%E6%85%A2%E5%8F%88%E8%B4%B5%E6%98%AF%E5%90%A7%EF%BC%8C%E6%88%91%E6%9D%A5%E5%91%8A%E8%AF%89%E4%BD%A0%E4%B8%BA%E4%BB%80%E4%B9%88",
+    "title": "榴莲价格彻底崩了，水果刺客为何纷纷降价",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=Vista%E7%9C%8B%E5%A4%A9%E4%B8%8B+%E6%A6%B4%E8%8E%B2%E4%BB%B7%E6%A0%BC%E5%BD%BB%E5%BA%95%E5%B4%A9%E4%BA%86%EF%BC%8C%E6%B0%B4%E6%9E%9C%E5%88%BA%E5%AE%A2%E4%B8%BA%E4%BD%95%E7%BA%B7%E7%BA%B7%E9%99%8D%E4%BB%B7",
     "type": "微信公众号",
-    "source": "MacTalk"
+    "source": "Vista看天下"
+  },
+  {
+    "title": "花钱买班上，“大厂”入职全是圈套",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=Vista%E7%9C%8B%E5%A4%A9%E4%B8%8B+%E8%8A%B1%E9%92%B1%E4%B9%B0%E7%8F%AD%E4%B8%8A%EF%BC%8C%E2%80%9C%E5%A4%A7%E5%8E%82%E2%80%9D%E5%85%A5%E8%81%8C%E5%85%A8%E6%98%AF%E5%9C%88%E5%A5%97",
+    "type": "微信公众号",
+    "source": "Vista看天下"
   },
   {
     "title": "看完DeepSeek的招聘公告，土木人的黄金时代回来了？",
@@ -9282,16 +9582,10 @@ window.NEWSFLOW_NEWS = [
     "source": "Vista看天下"
   },
   {
-    "title": "胖东来给刑释人员，打开的那道就业门缝",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=Vista%E7%9C%8B%E5%A4%A9%E4%B8%8B+%E8%83%96%E4%B8%9C%E6%9D%A5%E7%BB%99%E5%88%91%E9%87%8A%E4%BA%BA%E5%91%98%EF%BC%8C%E6%89%93%E5%BC%80%E7%9A%84%E9%82%A3%E9%81%93%E5%B0%B1%E4%B8%9A%E9%97%A8%E7%BC%9D",
+    "title": "你值得拥有更好的",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=caoz%E7%9A%84%E6%A2%A6%E5%91%93+%E4%BD%A0%E5%80%BC%E5%BE%97%E6%8B%A5%E6%9C%89%E6%9B%B4%E5%A5%BD%E7%9A%84",
     "type": "微信公众号",
-    "source": "Vista看天下"
-  },
-  {
-    "title": "10年过去了，薛甄珠依然是这届年轻人的“理想妈妈”",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=Vista%E7%9C%8B%E5%A4%A9%E4%B8%8B+10%E5%B9%B4%E8%BF%87%E5%8E%BB%E4%BA%86%EF%BC%8C%E8%96%9B%E7%94%84%E7%8F%A0%E4%BE%9D%E7%84%B6%E6%98%AF%E8%BF%99%E5%B1%8A%E5%B9%B4%E8%BD%BB%E4%BA%BA%E7%9A%84%E2%80%9C%E7%90%86%E6%83%B3%E5%A6%88%E5%A6%88%E2%80%9D",
-    "type": "微信公众号",
-    "source": "Vista看天下"
+    "source": "caoz的梦呓"
   },
   {
     "title": "近日马来西亚的几则新闻",
@@ -9318,40 +9612,40 @@ window.NEWSFLOW_NEWS = [
     "source": "caoz的梦呓"
   },
   {
-    "title": "婚姻财产叙事逻辑正在重构",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=caoz%E7%9A%84%E6%A2%A6%E5%91%93+%E5%A9%9A%E5%A7%BB%E8%B4%A2%E4%BA%A7%E5%8F%99%E4%BA%8B%E9%80%BB%E8%BE%91%E6%AD%A3%E5%9C%A8%E9%87%8D%E6%9E%84",
-    "type": "微信公众号",
-    "source": "caoz的梦呓"
-  },
-  {
-    "title": "现在的年轻人，不谈恋爱都在忙什么？",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%81%E9%A6%99%E5%8C%BB%E7%94%9F+%E7%8E%B0%E5%9C%A8%E7%9A%84%E5%B9%B4%E8%BD%BB%E4%BA%BA%EF%BC%8C%E4%B8%8D%E8%B0%88%E6%81%8B%E7%88%B1%E9%83%BD%E5%9C%A8%E5%BF%99%E4%BB%80%E4%B9%88%EF%BC%9F",
+    "title": "一来月经就拉肚子是病吗？",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%81%E9%A6%99%E5%8C%BB%E7%94%9F+%E4%B8%80%E6%9D%A5%E6%9C%88%E7%BB%8F%E5%B0%B1%E6%8B%89%E8%82%9A%E5%AD%90%E6%98%AF%E7%97%85%E5%90%97%EF%BC%9F",
     "type": "微信公众号",
     "source": "丁香医生"
   },
   {
-    "title": "维生素 D 断断续续吃可以吗？该吃到几岁？吃哪种？很多人做错了",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%81%E9%A6%99%E5%8C%BB%E7%94%9F+%E7%BB%B4%E7%94%9F%E7%B4%A0%20D%20%E6%96%AD%E6%96%AD%E7%BB%AD%E7%BB%AD%E5%90%83%E5%8F%AF%E4%BB%A5%E5%90%97%EF%BC%9F%E8%AF%A5%E5%90%83%E5%88%B0%E5%87%A0%E5%B2%81%EF%BC%9F%E5%90%83%E5%93%AA%E7%A7%8D%EF%BC%9F%E5%BE%88%E5%A4%9A%E4%BA%BA%E5%81%9A%E9%94%99%E4%BA%86",
+    "title": "这种鞋正在毁掉我们的脚！很多人还天天穿",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%81%E9%A6%99%E5%8C%BB%E7%94%9F+%E8%BF%99%E7%A7%8D%E9%9E%8B%E6%AD%A3%E5%9C%A8%E6%AF%81%E6%8E%89%E6%88%91%E4%BB%AC%E7%9A%84%E8%84%9A%EF%BC%81%E5%BE%88%E5%A4%9A%E4%BA%BA%E8%BF%98%E5%A4%A9%E5%A4%A9%E7%A9%BF",
     "type": "微信公众号",
     "source": "丁香医生"
   },
   {
-    "title": "和乙肝患者一起吃饭，会被传染吗？",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%81%E9%A6%99%E5%8C%BB%E7%94%9F+%E5%92%8C%E4%B9%99%E8%82%9D%E6%82%A3%E8%80%85%E4%B8%80%E8%B5%B7%E5%90%83%E9%A5%AD%EF%BC%8C%E4%BC%9A%E8%A2%AB%E4%BC%A0%E6%9F%93%E5%90%97%EF%BC%9F",
+    "title": "脸上痘痘、闭口反复长，几十块搞定还淡红印，真够用了！",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%81%E9%A6%99%E5%8C%BB%E7%94%9F+%E8%84%B8%E4%B8%8A%E7%97%98%E7%97%98%E3%80%81%E9%97%AD%E5%8F%A3%E5%8F%8D%E5%A4%8D%E9%95%BF%EF%BC%8C%E5%87%A0%E5%8D%81%E5%9D%97%E6%90%9E%E5%AE%9A%E8%BF%98%E6%B7%A1%E7%BA%A2%E5%8D%B0%EF%BC%8C%E7%9C%9F%E5%A4%9F%E7%94%A8%E4%BA%86%EF%BC%81",
     "type": "微信公众号",
     "source": "丁香医生"
   },
   {
-    "title": "同房时间太短，一个小东西可以改善",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%81%E9%A6%99%E5%8C%BB%E7%94%9F+%E5%90%8C%E6%88%BF%E6%97%B6%E9%97%B4%E5%A4%AA%E7%9F%AD%EF%BC%8C%E4%B8%80%E4%B8%AA%E5%B0%8F%E4%B8%9C%E8%A5%BF%E5%8F%AF%E4%BB%A5%E6%94%B9%E5%96%84",
+    "title": "35 岁后，人人都该预防的是这件事（不是发福",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%81%E9%A6%99%E5%8C%BB%E7%94%9F+35%20%E5%B2%81%E5%90%8E%EF%BC%8C%E4%BA%BA%E4%BA%BA%E9%83%BD%E8%AF%A5%E9%A2%84%E9%98%B2%E7%9A%84%E6%98%AF%E8%BF%99%E4%BB%B6%E4%BA%8B%EF%BC%88%E4%B8%8D%E6%98%AF%E5%8F%91%E7%A6%8F",
     "type": "微信公众号",
     "source": "丁香医生"
   },
   {
-    "title": "你以为正常，其实是抑郁的 9 种表现，很多人都忽略了",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%81%E9%A6%99%E5%8C%BB%E7%94%9F+%E4%BD%A0%E4%BB%A5%E4%B8%BA%E6%AD%A3%E5%B8%B8%EF%BC%8C%E5%85%B6%E5%AE%9E%E6%98%AF%E6%8A%91%E9%83%81%E7%9A%84%209%20%E7%A7%8D%E8%A1%A8%E7%8E%B0%EF%BC%8C%E5%BE%88%E5%A4%9A%E4%BA%BA%E9%83%BD%E5%BF%BD%E7%95%A5%E4%BA%86",
+    "title": "一个加速长斑、暗沉的因素！巨容易被忽略（不是紫外线",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%81%E9%A6%99%E5%8C%BB%E7%94%9F+%E4%B8%80%E4%B8%AA%E5%8A%A0%E9%80%9F%E9%95%BF%E6%96%91%E3%80%81%E6%9A%97%E6%B2%89%E7%9A%84%E5%9B%A0%E7%B4%A0%EF%BC%81%E5%B7%A8%E5%AE%B9%E6%98%93%E8%A2%AB%E5%BF%BD%E7%95%A5%EF%BC%88%E4%B8%8D%E6%98%AF%E7%B4%AB%E5%A4%96%E7%BA%BF",
     "type": "微信公众号",
     "source": "丁香医生"
+  },
+  {
+    "title": "孩子越大，头发越少……是不是要秃了？",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%81%E9%A6%99%E5%A6%88%E5%A6%88+%E5%AD%A9%E5%AD%90%E8%B6%8A%E5%A4%A7%EF%BC%8C%E5%A4%B4%E5%8F%91%E8%B6%8A%E5%B0%91%E2%80%A6%E2%80%A6%E6%98%AF%E4%B8%8D%E6%98%AF%E8%A6%81%E7%A7%83%E4%BA%86%EF%BC%9F",
+    "type": "微信公众号",
+    "source": "丁香妈妈"
   },
   {
     "title": "宝宝的各类辅食，怎么冷冻保存比较好？",
@@ -9378,10 +9672,16 @@ window.NEWSFLOW_NEWS = [
     "source": "丁香妈妈"
   },
   {
-    "title": "一个超简单的补钙方法，建议趁早给孩子用！",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%81%E9%A6%99%E5%A6%88%E5%A6%88+%E4%B8%80%E4%B8%AA%E8%B6%85%E7%AE%80%E5%8D%95%E7%9A%84%E8%A1%A5%E9%92%99%E6%96%B9%E6%B3%95%EF%BC%8C%E5%BB%BA%E8%AE%AE%E8%B6%81%E6%97%A9%E7%BB%99%E5%AD%A9%E5%AD%90%E7%94%A8%EF%BC%81",
+    "title": "两次被迫离开后，她看透了大厂不是最努力的人才能留下",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%89%E8%81%94%E7%94%9F%E6%B4%BB%E5%91%A8%E5%88%8A+%E4%B8%A4%E6%AC%A1%E8%A2%AB%E8%BF%AB%E7%A6%BB%E5%BC%80%E5%90%8E%EF%BC%8C%E5%A5%B9%E7%9C%8B%E9%80%8F%E4%BA%86%E5%A4%A7%E5%8E%82%E4%B8%8D%E6%98%AF%E6%9C%80%E5%8A%AA%E5%8A%9B%E7%9A%84%E4%BA%BA%E6%89%8D%E8%83%BD%E7%95%99%E4%B8%8B",
     "type": "微信公众号",
-    "source": "丁香妈妈"
+    "source": "三联生活周刊"
+  },
+  {
+    "title": "被新闻“喂大”的孩子，脑子有多厉害？",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%89%E8%81%94%E7%94%9F%E6%B4%BB%E5%91%A8%E5%88%8A+%E8%A2%AB%E6%96%B0%E9%97%BB%E2%80%9C%E5%96%82%E5%A4%A7%E2%80%9D%E7%9A%84%E5%AD%A9%E5%AD%90%EF%BC%8C%E8%84%91%E5%AD%90%E6%9C%89%E5%A4%9A%E5%8E%89%E5%AE%B3%EF%BC%9F",
+    "type": "微信公众号",
+    "source": "三联生活周刊"
   },
   {
     "title": "曾经打工人的最强爽片，这次还能奏效吗？",
@@ -9402,16 +9702,22 @@ window.NEWSFLOW_NEWS = [
     "source": "三联生活周刊"
   },
   {
-    "title": "读了黑麦的新书《出东单记》，我好像听见了北京的鸽哨声",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%89%E8%81%94%E7%94%9F%E6%B4%BB%E5%91%A8%E5%88%8A+%E8%AF%BB%E4%BA%86%E9%BB%91%E9%BA%A6%E7%9A%84%E6%96%B0%E4%B9%A6%E3%80%8A%E5%87%BA%E4%B8%9C%E5%8D%95%E8%AE%B0%E3%80%8B%EF%BC%8C%E6%88%91%E5%A5%BD%E5%83%8F%E5%90%AC%E8%A7%81%E4%BA%86%E5%8C%97%E4%BA%AC%E7%9A%84%E9%B8%BD%E5%93%A8%E5%A3%B0",
+    "title": "AI漫剧创作、AI全媒体运营...22大AI+岗位证书",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%89%E8%8A%82%E8%AF%BE+AI%E6%BC%AB%E5%89%A7%E5%88%9B%E4%BD%9C%E3%80%81AI%E5%85%A8%E5%AA%92%E4%BD%93%E8%BF%90%E8%90%A5...22%E5%A4%A7AI%2B%E5%B2%97%E4%BD%8D%E8%AF%81%E4%B9%A6",
     "type": "微信公众号",
-    "source": "三联生活周刊"
+    "source": "三节课"
   },
   {
-    "title": "更年期，不是把症状“熬过去”而已",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%89%E8%81%94%E7%94%9F%E6%B4%BB%E5%91%A8%E5%88%8A+%E6%9B%B4%E5%B9%B4%E6%9C%9F%EF%BC%8C%E4%B8%8D%E6%98%AF%E6%8A%8A%E7%97%87%E7%8A%B6%E2%80%9C%E7%86%AC%E8%BF%87%E5%8E%BB%E2%80%9D%E8%80%8C%E5%B7%B2",
+    "title": "播放量超27亿、票房破千万，看《牛来》成了大型互联网行为艺术",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%89%E8%8A%82%E8%AF%BE+%E6%92%AD%E6%94%BE%E9%87%8F%E8%B6%8527%E4%BA%BF%E3%80%81%E7%A5%A8%E6%88%BF%E7%A0%B4%E5%8D%83%E4%B8%87%EF%BC%8C%E7%9C%8B%E3%80%8A%E7%89%9B%E6%9D%A5%E3%80%8B%E6%88%90%E4%BA%86%E5%A4%A7%E5%9E%8B%E4%BA%92%E8%81%94%E7%BD%91%E8%A1%8C%E4%B8%BA%E8%89%BA%E6%9C%AF",
     "type": "微信公众号",
-    "source": "三联生活周刊"
+    "source": "三节课"
+  },
+  {
+    "title": "我发现了WorkBuddy一个被低估的功能…",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%89%E8%8A%82%E8%AF%BE+%E6%88%91%E5%8F%91%E7%8E%B0%E4%BA%86WorkBuddy%E4%B8%80%E4%B8%AA%E8%A2%AB%E4%BD%8E%E4%BC%B0%E7%9A%84%E5%8A%9F%E8%83%BD%E2%80%A6",
+    "type": "微信公众号",
+    "source": "三节课"
   },
   {
     "title": "‼️AI证书别急着考，这些关键问题先弄明白",
@@ -9422,24 +9728,6 @@ window.NEWSFLOW_NEWS = [
   {
     "title": "9大AI职业技术证书！可直接考高级！",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%89%E8%8A%82%E8%AF%BE+9%E5%A4%A7AI%E8%81%8C%E4%B8%9A%E6%8A%80%E6%9C%AF%E8%AF%81%E4%B9%A6%EF%BC%81%E5%8F%AF%E7%9B%B4%E6%8E%A5%E8%80%83%E9%AB%98%E7%BA%A7%EF%BC%81",
-    "type": "微信公众号",
-    "source": "三节课"
-  },
-  {
-    "title": "兰州拉面集体改名字了？啥情况",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%89%E8%8A%82%E8%AF%BE+%E5%85%B0%E5%B7%9E%E6%8B%89%E9%9D%A2%E9%9B%86%E4%BD%93%E6%94%B9%E5%90%8D%E5%AD%97%E4%BA%86%EF%BC%9F%E5%95%A5%E6%83%85%E5%86%B5",
-    "type": "微信公众号",
-    "source": "三节课"
-  },
-  {
-    "title": "WorkBuddy 官方使用手册！零基础必看",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%89%E8%8A%82%E8%AF%BE+WorkBuddy%20%E5%AE%98%E6%96%B9%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C%EF%BC%81%E9%9B%B6%E5%9F%BA%E7%A1%80%E5%BF%85%E7%9C%8B",
-    "type": "微信公众号",
-    "source": "三节课"
-  },
-  {
-    "title": "单月涨粉350万，场均在线超10万，他们把西游记演成了“打工人团建”",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%89%E8%8A%82%E8%AF%BE+%E5%8D%95%E6%9C%88%E6%B6%A8%E7%B2%89350%E4%B8%87%EF%BC%8C%E5%9C%BA%E5%9D%87%E5%9C%A8%E7%BA%BF%E8%B6%8510%E4%B8%87%EF%BC%8C%E4%BB%96%E4%BB%AC%E6%8A%8A%E8%A5%BF%E6%B8%B8%E8%AE%B0%E6%BC%94%E6%88%90%E4%BA%86%E2%80%9C%E6%89%93%E5%B7%A5%E4%BA%BA%E5%9B%A2%E5%BB%BA%E2%80%9D",
     "type": "微信公众号",
     "source": "三节课"
   },
@@ -9474,32 +9762,32 @@ window.NEWSFLOW_NEWS = [
     "source": "东哥解读电商"
   },
   {
+    "title": "老牌零食巨头，69岁董事长自揭家丑",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E4%BC%81%E4%B8%9A%E5%AE%B6%E6%9D%82%E5%BF%97+%E8%80%81%E7%89%8C%E9%9B%B6%E9%A3%9F%E5%B7%A8%E5%A4%B4%EF%BC%8C69%E5%B2%81%E8%91%A3%E4%BA%8B%E9%95%BF%E8%87%AA%E6%8F%AD%E5%AE%B6%E4%B8%91",
+    "type": "微信公众号",
+    "source": "中国企业家杂志"
+  },
+  {
+    "title": "英伟达的开源模型和GPU巨头的算力棋局",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E4%BC%81%E4%B8%9A%E5%AE%B6%E6%9D%82%E5%BF%97+%E8%8B%B1%E4%BC%9F%E8%BE%BE%E7%9A%84%E5%BC%80%E6%BA%90%E6%A8%A1%E5%9E%8B%E5%92%8CGPU%E5%B7%A8%E5%A4%B4%E7%9A%84%E7%AE%97%E5%8A%9B%E6%A3%8B%E5%B1%80",
+    "type": "微信公众号",
+    "source": "中国企业家杂志"
+  },
+  {
+    "title": "师从雷军13年，他带着小米极致哲学，扎进船坞焊钢板",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E4%BC%81%E4%B8%9A%E5%AE%B6%E6%9D%82%E5%BF%97+%E5%B8%88%E4%BB%8E%E9%9B%B7%E5%86%9B13%E5%B9%B4%EF%BC%8C%E4%BB%96%E5%B8%A6%E7%9D%80%E5%B0%8F%E7%B1%B3%E6%9E%81%E8%87%B4%E5%93%B2%E5%AD%A6%EF%BC%8C%E6%89%8E%E8%BF%9B%E8%88%B9%E5%9D%9E%E7%84%8A%E9%92%A2%E6%9D%BF",
+    "type": "微信公众号",
+    "source": "中国企业家杂志"
+  },
+  {
+    "title": "一座“人造空城”爆改后复业：客流已超100万人次，商铺快招满",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E4%BC%81%E4%B8%9A%E5%AE%B6%E6%9D%82%E5%BF%97+%E4%B8%80%E5%BA%A7%E2%80%9C%E4%BA%BA%E9%80%A0%E7%A9%BA%E5%9F%8E%E2%80%9D%E7%88%86%E6%94%B9%E5%90%8E%E5%A4%8D%E4%B8%9A%EF%BC%9A%E5%AE%A2%E6%B5%81%E5%B7%B2%E8%B6%85100%E4%B8%87%E4%BA%BA%E6%AC%A1%EF%BC%8C%E5%95%86%E9%93%BA%E5%BF%AB%E6%8B%9B%E6%BB%A1",
+    "type": "微信公众号",
+    "source": "中国企业家杂志"
+  },
+  {
     "title": "上市前夕，宇树科技发布“超人”",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E4%BC%81%E4%B8%9A%E5%AE%B6%E6%9D%82%E5%BF%97+%E4%B8%8A%E5%B8%82%E5%89%8D%E5%A4%95%EF%BC%8C%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E5%8F%91%E5%B8%83%E2%80%9C%E8%B6%85%E4%BA%BA%E2%80%9D",
-    "type": "微信公众号",
-    "source": "中国企业家杂志"
-  },
-  {
-    "title": "从科研院所到6000米深海，他创业13年，不想只做“水下大疆”",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E4%BC%81%E4%B8%9A%E5%AE%B6%E6%9D%82%E5%BF%97+%E4%BB%8E%E7%A7%91%E7%A0%94%E9%99%A2%E6%89%80%E5%88%B06000%E7%B1%B3%E6%B7%B1%E6%B5%B7%EF%BC%8C%E4%BB%96%E5%88%9B%E4%B8%9A13%E5%B9%B4%EF%BC%8C%E4%B8%8D%E6%83%B3%E5%8F%AA%E5%81%9A%E2%80%9C%E6%B0%B4%E4%B8%8B%E5%A4%A7%E7%96%86%E2%80%9D",
-    "type": "微信公众号",
-    "source": "中国企业家杂志"
-  },
-  {
-    "title": "存储还能涨多久？",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E4%BC%81%E4%B8%9A%E5%AE%B6%E6%9D%82%E5%BF%97+%E5%AD%98%E5%82%A8%E8%BF%98%E8%83%BD%E6%B6%A8%E5%A4%9A%E4%B9%85%EF%BC%9F",
-    "type": "微信公众号",
-    "source": "中国企业家杂志"
-  },
-  {
-    "title": "17岁摆地摊，他做出贵州最大本土超市",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E4%BC%81%E4%B8%9A%E5%AE%B6%E6%9D%82%E5%BF%97+17%E5%B2%81%E6%91%86%E5%9C%B0%E6%91%8A%EF%BC%8C%E4%BB%96%E5%81%9A%E5%87%BA%E8%B4%B5%E5%B7%9E%E6%9C%80%E5%A4%A7%E6%9C%AC%E5%9C%9F%E8%B6%85%E5%B8%82",
-    "type": "微信公众号",
-    "source": "中国企业家杂志"
-  },
-  {
-    "title": "宇树IPO热下的噪音：“暗盘交易”传闻系捕风捉影",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%B8%AD%E5%9B%BD%E4%BC%81%E4%B8%9A%E5%AE%B6%E6%9D%82%E5%BF%97+%E5%AE%87%E6%A0%91IPO%E7%83%AD%E4%B8%8B%E7%9A%84%E5%99%AA%E9%9F%B3%EF%BC%9A%E2%80%9C%E6%9A%97%E7%9B%98%E4%BA%A4%E6%98%93%E2%80%9D%E4%BC%A0%E9%97%BB%E7%B3%BB%E6%8D%95%E9%A3%8E%E6%8D%89%E5%BD%B1",
     "type": "微信公众号",
     "source": "中国企业家杂志"
   },
@@ -9594,64 +9882,70 @@ window.NEWSFLOW_NEWS = [
     "source": "人人都是产品经理"
   },
   {
-    "title": "王圣昂、王宇昂，一起被清华录取！",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5+%E7%8E%8B%E5%9C%A3%E6%98%82%E3%80%81%E7%8E%8B%E5%AE%87%E6%98%82%EF%BC%8C%E4%B8%80%E8%B5%B7%E8%A2%AB%E6%B8%85%E5%8D%8E%E5%BD%95%E5%8F%96%EF%BC%81",
+    "title": "朱镕基同志生平",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5+%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%E7%94%9F%E5%B9%B3",
     "type": "微信公众号",
     "source": "人民日报"
   },
   {
-    "title": "来了！新闻早班车",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5+%E6%9D%A5%E4%BA%86%EF%BC%81%E6%96%B0%E9%97%BB%E6%97%A9%E7%8F%AD%E8%BD%A6",
+    "title": "朱镕基同志遗体在京火化 习近平等到八宝山革命公墓送别",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5+%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%E9%81%97%E4%BD%93%E5%9C%A8%E4%BA%AC%E7%81%AB%E5%8C%96%20%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%AD%89%E5%88%B0%E5%85%AB%E5%AE%9D%E5%B1%B1%E9%9D%A9%E5%91%BD%E5%85%AC%E5%A2%93%E9%80%81%E5%88%AB",
     "type": "微信公众号",
     "source": "人民日报"
   },
   {
-    "title": "【夜读】5个超棒的人生心态，值得分享！",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5+%E3%80%90%E5%A4%9C%E8%AF%BB%E3%80%915%E4%B8%AA%E8%B6%85%E6%A3%92%E7%9A%84%E4%BA%BA%E7%94%9F%E5%BF%83%E6%80%81%EF%BC%8C%E5%80%BC%E5%BE%97%E5%88%86%E4%BA%AB%EF%BC%81",
+    "title": "“历史最强”厄尔尼诺，正在形成",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5+%E2%80%9C%E5%8E%86%E5%8F%B2%E6%9C%80%E5%BC%BA%E2%80%9D%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%EF%BC%8C%E6%AD%A3%E5%9C%A8%E5%BD%A2%E6%88%90",
     "type": "微信公众号",
     "source": "人民日报"
   },
   {
-    "title": "“闪过一个念头，就能精准推广告”，是不是手机在“偷听”？",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5+%E2%80%9C%E9%97%AA%E8%BF%87%E4%B8%80%E4%B8%AA%E5%BF%B5%E5%A4%B4%EF%BC%8C%E5%B0%B1%E8%83%BD%E7%B2%BE%E5%87%86%E6%8E%A8%E5%B9%BF%E5%91%8A%E2%80%9D%EF%BC%8C%E6%98%AF%E4%B8%8D%E6%98%AF%E6%89%8B%E6%9C%BA%E5%9C%A8%E2%80%9C%E5%81%B7%E5%90%AC%E2%80%9D%EF%BC%9F",
+    "title": "频繁做这5件事，最伤甲状腺！",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5+%E9%A2%91%E7%B9%81%E5%81%9A%E8%BF%995%E4%BB%B6%E4%BA%8B%EF%BC%8C%E6%9C%80%E4%BC%A4%E7%94%B2%E7%8A%B6%E8%85%BA%EF%BC%81",
     "type": "微信公众号",
     "source": "人民日报"
   },
   {
-    "title": "不等干部上门，他们自己先跑了",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5+%E4%B8%8D%E7%AD%89%E5%B9%B2%E9%83%A8%E4%B8%8A%E9%97%A8%EF%BC%8C%E4%BB%96%E4%BB%AC%E8%87%AA%E5%B7%B1%E5%85%88%E8%B7%91%E4%BA%86",
+    "title": "这个钥匙扣，价值105万",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5+%E8%BF%99%E4%B8%AA%E9%92%A5%E5%8C%99%E6%89%A3%EF%BC%8C%E4%BB%B7%E5%80%BC105%E4%B8%87",
     "type": "微信公众号",
     "source": "人民日报"
   },
   {
-    "title": "涉稀土，我国取得关键技术突破！",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E7%BD%91+%E6%B6%89%E7%A8%80%E5%9C%9F%EF%BC%8C%E6%88%91%E5%9B%BD%E5%8F%96%E5%BE%97%E5%85%B3%E9%94%AE%E6%8A%80%E6%9C%AF%E7%AA%81%E7%A0%B4%EF%BC%81",
+    "title": "朱镕基同志遗体在京火化 习近平等到八宝山革命公墓送别",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E7%BD%91+%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%E9%81%97%E4%BD%93%E5%9C%A8%E4%BA%AC%E7%81%AB%E5%8C%96%20%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%AD%89%E5%88%B0%E5%85%AB%E5%AE%9D%E5%B1%B1%E9%9D%A9%E5%91%BD%E5%85%AC%E5%A2%93%E9%80%81%E5%88%AB",
     "type": "微信公众号",
     "source": "人民网"
   },
   {
-    "title": "王圣昂、王宇昂，一起被清华录取！",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E7%BD%91+%E7%8E%8B%E5%9C%A3%E6%98%82%E3%80%81%E7%8E%8B%E5%AE%87%E6%98%82%EF%BC%8C%E4%B8%80%E8%B5%B7%E8%A2%AB%E6%B8%85%E5%8D%8E%E5%BD%95%E5%8F%96%EF%BC%81",
+    "title": "“反向出差”到中国，为了啥？",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E7%BD%91+%E2%80%9C%E5%8F%8D%E5%90%91%E5%87%BA%E5%B7%AE%E2%80%9D%E5%88%B0%E4%B8%AD%E5%9B%BD%EF%BC%8C%E4%B8%BA%E4%BA%86%E5%95%A5%EF%BC%9F",
     "type": "微信公众号",
     "source": "人民网"
   },
   {
-    "title": "洞庭秋霁，一湖烟水照晴岚",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E7%BD%91+%E6%B4%9E%E5%BA%AD%E7%A7%8B%E9%9C%81%EF%BC%8C%E4%B8%80%E6%B9%96%E7%83%9F%E6%B0%B4%E7%85%A7%E6%99%B4%E5%B2%9A",
+    "title": "以为自己只是累了，原来是贫血了？！",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E7%BD%91+%E4%BB%A5%E4%B8%BA%E8%87%AA%E5%B7%B1%E5%8F%AA%E6%98%AF%E7%B4%AF%E4%BA%86%EF%BC%8C%E5%8E%9F%E6%9D%A5%E6%98%AF%E8%B4%AB%E8%A1%80%E4%BA%86%EF%BC%9F%EF%BC%81",
     "type": "微信公众号",
     "source": "人民网"
   },
   {
-    "title": "警方公告：3999.577万元资金寻找合法所有人！无人认领将上缴国库",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E7%BD%91+%E8%AD%A6%E6%96%B9%E5%85%AC%E5%91%8A%EF%BC%9A3999.577%E4%B8%87%E5%85%83%E8%B5%84%E9%87%91%E5%AF%BB%E6%89%BE%E5%90%88%E6%B3%95%E6%89%80%E6%9C%89%E4%BA%BA%EF%BC%81%E6%97%A0%E4%BA%BA%E8%AE%A4%E9%A2%86%E5%B0%86%E4%B8%8A%E7%BC%B4%E5%9B%BD%E5%BA%93",
+    "title": "金价、银价、油价，集体上涨",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E7%BD%91+%E9%87%91%E4%BB%B7%E3%80%81%E9%93%B6%E4%BB%B7%E3%80%81%E6%B2%B9%E4%BB%B7%EF%BC%8C%E9%9B%86%E4%BD%93%E4%B8%8A%E6%B6%A8",
     "type": "微信公众号",
     "source": "人民网"
   },
   {
-    "title": "某涉密人员多次在微信群泄密，被追究刑事责任！",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E7%BD%91+%E6%9F%90%E6%B6%89%E5%AF%86%E4%BA%BA%E5%91%98%E5%A4%9A%E6%AC%A1%E5%9C%A8%E5%BE%AE%E4%BF%A1%E7%BE%A4%E6%B3%84%E5%AF%86%EF%BC%8C%E8%A2%AB%E8%BF%BD%E7%A9%B6%E5%88%91%E4%BA%8B%E8%B4%A3%E4%BB%BB%EF%BC%81",
+    "title": "频繁做这5件事，最伤甲状腺！",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E6%B0%91%E7%BD%91+%E9%A2%91%E7%B9%81%E5%81%9A%E8%BF%995%E4%BB%B6%E4%BA%8B%EF%BC%8C%E6%9C%80%E4%BC%A4%E7%94%B2%E7%8A%B6%E8%85%BA%EF%BC%81",
     "type": "微信公众号",
     "source": "人民网"
+  },
+  {
+    "title": "致命「开盒」：卧底虐猫群的代价",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E7%89%A9+%E8%87%B4%E5%91%BD%E3%80%8C%E5%BC%80%E7%9B%92%E3%80%8D%EF%BC%9A%E5%8D%A7%E5%BA%95%E8%99%90%E7%8C%AB%E7%BE%A4%E7%9A%84%E4%BB%A3%E4%BB%B7",
+    "type": "微信公众号",
+    "source": "人物"
   },
   {
     "title": "她以巧手，与世界交手",
@@ -9674,12 +9968,6 @@ window.NEWSFLOW_NEWS = [
   {
     "title": "热成这样，怎么才能好好过夏天？",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E7%89%A9+%E7%83%AD%E6%88%90%E8%BF%99%E6%A0%B7%EF%BC%8C%E6%80%8E%E4%B9%88%E6%89%8D%E8%83%BD%E5%A5%BD%E5%A5%BD%E8%BF%87%E5%A4%8F%E5%A4%A9%EF%BC%9F",
-    "type": "微信公众号",
-    "source": "人物"
-  },
-  {
-    "title": "专访诺兰 人必须承担自己创造的命运",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E4%BA%BA%E7%89%A9+%E4%B8%93%E8%AE%BF%E8%AF%BA%E5%85%B0%20%E4%BA%BA%E5%BF%85%E9%A1%BB%E6%89%BF%E6%8B%85%E8%87%AA%E5%B7%B1%E5%88%9B%E9%80%A0%E7%9A%84%E5%91%BD%E8%BF%90",
     "type": "微信公众号",
     "source": "人物"
   },
@@ -9738,34 +10026,40 @@ window.NEWSFLOW_NEWS = [
     "source": "六神磊磊读金庸"
   },
   {
+    "title": "漠视苦难，比苦难本身更伤人",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%88%98%E6%B6%A6+%E6%BC%A0%E8%A7%86%E8%8B%A6%E9%9A%BE%EF%BC%8C%E6%AF%94%E8%8B%A6%E9%9A%BE%E6%9C%AC%E8%BA%AB%E6%9B%B4%E4%BC%A4%E4%BA%BA",
+    "type": "微信公众号",
+    "source": "刘润"
+  },
+  {
+    "title": "08月18日（勤商日历卡片）：学习胖东来，到底应该学什么?",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%88%98%E6%B6%A6+08%E6%9C%8818%E6%97%A5%EF%BC%88%E5%8B%A4%E5%95%86%E6%97%A5%E5%8E%86%E5%8D%A1%E7%89%87%EF%BC%89%EF%BC%9A%E5%AD%A6%E4%B9%A0%E8%83%96%E4%B8%9C%E6%9D%A5%EF%BC%8C%E5%88%B0%E5%BA%95%E5%BA%94%E8%AF%A5%E5%AD%A6%E4%BB%80%E4%B9%88%3F",
+    "type": "微信公众号",
+    "source": "刘润"
+  },
+  {
+    "title": "一个人成熟的标志，是尊重别人持有不同的观点",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%88%98%E6%B6%A6+%E4%B8%80%E4%B8%AA%E4%BA%BA%E6%88%90%E7%86%9F%E7%9A%84%E6%A0%87%E5%BF%97%EF%BC%8C%E6%98%AF%E5%B0%8A%E9%87%8D%E5%88%AB%E4%BA%BA%E6%8C%81%E6%9C%89%E4%B8%8D%E5%90%8C%E7%9A%84%E8%A7%82%E7%82%B9",
+    "type": "微信公众号",
+    "source": "刘润"
+  },
+  {
+    "title": "其实，企业提高利润只有这4种方法",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%88%98%E6%B6%A6+%E5%85%B6%E5%AE%9E%EF%BC%8C%E4%BC%81%E4%B8%9A%E6%8F%90%E9%AB%98%E5%88%A9%E6%B6%A6%E5%8F%AA%E6%9C%89%E8%BF%994%E7%A7%8D%E6%96%B9%E6%B3%95",
+    "type": "微信公众号",
+    "source": "刘润"
+  },
+  {
     "title": "08月17日（勤商日历卡片）：这样读书就够了",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%88%98%E6%B6%A6+08%E6%9C%8817%E6%97%A5%EF%BC%88%E5%8B%A4%E5%95%86%E6%97%A5%E5%8E%86%E5%8D%A1%E7%89%87%EF%BC%89%EF%BC%9A%E8%BF%99%E6%A0%B7%E8%AF%BB%E4%B9%A6%E5%B0%B1%E5%A4%9F%E4%BA%86",
     "type": "微信公众号",
     "source": "刘润"
   },
   {
-    "title": "粗制滥造的《牛来》，究竟为什么爆火？",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%88%98%E6%B6%A6+%E7%B2%97%E5%88%B6%E6%BB%A5%E9%80%A0%E7%9A%84%E3%80%8A%E7%89%9B%E6%9D%A5%E3%80%8B%EF%BC%8C%E7%A9%B6%E7%AB%9F%E4%B8%BA%E4%BB%80%E4%B9%88%E7%88%86%E7%81%AB%EF%BC%9F",
+    "title": "浣熊正在进化为宠物吗？",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%88%A9%E7%BB%B4%E5%9D%A6+%E6%B5%A3%E7%86%8A%E6%AD%A3%E5%9C%A8%E8%BF%9B%E5%8C%96%E4%B8%BA%E5%AE%A0%E7%89%A9%E5%90%97%EF%BC%9F",
     "type": "微信公众号",
-    "source": "刘润"
-  },
-  {
-    "title": "当所有东西都在追求效率时，“慢” 本身，就成了稀缺资源",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%88%98%E6%B6%A6+%E5%BD%93%E6%89%80%E6%9C%89%E4%B8%9C%E8%A5%BF%E9%83%BD%E5%9C%A8%E8%BF%BD%E6%B1%82%E6%95%88%E7%8E%87%E6%97%B6%EF%BC%8C%E2%80%9C%E6%85%A2%E2%80%9D%20%E6%9C%AC%E8%BA%AB%EF%BC%8C%E5%B0%B1%E6%88%90%E4%BA%86%E7%A8%80%E7%BC%BA%E8%B5%84%E6%BA%90",
-    "type": "微信公众号",
-    "source": "刘润"
-  },
-  {
-    "title": "这一周我在呼伦贝尔的大草原上走了4天。\\n\\n日课在路上写，脑子也没停。\\n\\n挑几件说给你听。\\n\\n 一、平台期的弯路，不是错——是前进的唯一方式\\n\\n草原上有条河叫莫尔格勒河，“天下第一曲水”。A到B直线300公里，沿河道测量有1500公里，绕了5倍。\\n\\n不是它傻，是地势决定了，弯才能流动，直了就淤死。\\n\\n做生意也一样。\\n\\n大众市场不增长，就去服务细分人群；细分人群不够，就再往里拆精准产品。\\n\\n每绕一次弯，就离笼统的市场更远，离真实的客户更近。遇到平台期，最快的路，未必是直线。\\n",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%88%98%E6%B6%A6+%E8%BF%99%E4%B8%80%E5%91%A8%E6%88%91%E5%9C%A8%E5%91%BC%E4%BC%A6%E8%B4%9D%E5%B0%94%E7%9A%84%E5%A4%A7%E8%8D%89%E5%8E%9F%E4%B8%8A%E8%B5%B0%E4%BA%864%E5%A4%A9%E3%80%82%5Cn%5Cn%E6%97%A5%E8%AF%BE%E5%9C%A8%E8%B7%AF%E4%B8%8A%E5%86%99%EF%BC%8C%E8%84%91%E5%AD%90%E4%B9%9F%E6%B2%A1%E5%81%9C%E3%80%82%5Cn%5Cn%E6%8C%91%E5%87%A0%E4%BB%B6%E8%AF%B4%E7%BB%99%E4%BD%A0%E5%90%AC%E3%80%82%5Cn%5Cn%20%E4%B8%80%E3%80%81%E5%B9%B3%E5%8F%B0%E6%9C%9F%E7%9A%84%E5%BC%AF%E8%B7%AF%EF%BC%8C%E4%B8%8D%E6%98%AF%E9%94%99%E2%80%94%E2%80%94%E6%98%AF%E5%89%8D%E8%BF%9B%E7%9A%84%E5%94%AF%E4%B8%80%E6%96%B9%E5%BC%8F%5Cn%5Cn%E8%8D%89%E5%8E%9F%E4%B8%8A%E6%9C%89%E6%9D%A1%E6%B2%B3%E5%8F%AB%E8%8E%AB%E5%B0%94%E6%A0%BC%E5%8B%92%E6%B2%B3%EF%BC%8C%E2%80%9C%E5%A4%A9%E4%B8%8B%E7%AC%AC%E4%B8%80%E6%9B%B2%E6%B0%B4%E2%80%9D%E3%80%82A%E5%88%B0B%E7%9B%B4%E7%BA%BF300%E5%85%AC%E9%87%8C%EF%BC%8C%E6%B2%BF%E6%B2%B3%E9%81%93%E6%B5%8B%E9%87%8F%E6%9C%891500%E5%85%AC%E9%87%8C%EF%BC%8C%E7%BB%95%E4%BA%865%E5%80%8D%E3%80%82%5Cn%5Cn%E4%B8%8D%E6%98%AF%E5%AE%83%E5%82%BB%EF%BC%8C%E6%98%AF%E5%9C%B0%E5%8A%BF%E5%86%B3%E5%AE%9A%E4%BA%86%EF%BC%8C%E5%BC%AF%E6%89%8D%E8%83%BD%E6%B5%81%E5%8A%A8%EF%BC%8C%E7%9B%B4%E4%BA%86%E5%B0%B1%E6%B7%A4%E6%AD%BB%E3%80%82%5Cn%5Cn%E5%81%9A%E7%94%9F%E6%84%8F%E4%B9%9F%E4%B8%80%E6%A0%B7%E3%80%82%5Cn%5Cn%E5%A4%A7%E4%BC%97%E5%B8%82%E5%9C%BA%E4%B8%8D%E5%A2%9E%E9%95%BF%EF%BC%8C%E5%B0%B1%E5%8E%BB%E6%9C%8D%E5%8A%A1%E7%BB%86%E5%88%86%E4%BA%BA%E7%BE%A4%EF%BC%9B%E7%BB%86%E5%88%86%E4%BA%BA%E7%BE%A4%E4%B8%8D%E5%A4%9F%EF%BC%8C%E5%B0%B1%E5%86%8D%E5%BE%80%E9%87%8C%E6%8B%86%E7%B2%BE%E5%87%86%E4%BA%A7%E5%93%81%E3%80%82%5Cn%5Cn%E6%AF%8F%E7%BB%95%E4%B8%80%E6%AC%A1%E5%BC%AF%EF%BC%8C%E5%B0%B1%E7%A6%BB%E7%AC%BC%E7%BB%9F%E7%9A%84%E5%B8%82%E5%9C%BA%E6%9B%B4%E8%BF%9C%EF%BC%8C%E7%A6%BB%E7%9C%9F%E5%AE%9E%E7%9A%84%E5%AE%A2%E6%88%B7%E6%9B%B4%E8%BF%91%E3%80%82%E9%81%87%E5%88%B0%E5%B9%B3%E5%8F%B0%E6%9C%9F%EF%BC%8C%E6%9C%80%E5%BF%AB%E7%9A%84%E8%B7%AF%EF%BC%8C%E6%9C%AA%E5%BF%85%E6%98%AF%E7%9B%B4%E7%BA%BF%E3%80%82%5Cn",
-    "type": "微信公众号",
-    "source": "刘润"
-  },
-  {
-    "title": "生活那么赶，总得有个地方慢下来",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%88%98%E6%B6%A6+%E7%94%9F%E6%B4%BB%E9%82%A3%E4%B9%88%E8%B5%B6%EF%BC%8C%E6%80%BB%E5%BE%97%E6%9C%89%E4%B8%AA%E5%9C%B0%E6%96%B9%E6%85%A2%E4%B8%8B%E6%9D%A5",
-    "type": "微信公众号",
-    "source": "刘润"
+    "source": "利维坦"
   },
   {
     "title": "绝版英文画册清仓39折起",
@@ -9792,10 +10086,10 @@ window.NEWSFLOW_NEWS = [
     "source": "利维坦"
   },
   {
-    "title": "无神论者的悖论",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%88%A9%E7%BB%B4%E5%9D%A6+%E6%97%A0%E7%A5%9E%E8%AE%BA%E8%80%85%E7%9A%84%E6%82%96%E8%AE%BA",
+    "title": "别人家的医院：医师节不表演，放假1天",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8C%BB%E5%AD%A6%E7%95%8C+%E5%88%AB%E4%BA%BA%E5%AE%B6%E7%9A%84%E5%8C%BB%E9%99%A2%EF%BC%9A%E5%8C%BB%E5%B8%88%E8%8A%82%E4%B8%8D%E8%A1%A8%E6%BC%94%EF%BC%8C%E6%94%BE%E5%81%871%E5%A4%A9",
     "type": "微信公众号",
-    "source": "利维坦"
+    "source": "医学界"
   },
   {
     "title": "著名心血管病学家张美祥教授逝世",
@@ -9822,10 +10116,16 @@ window.NEWSFLOW_NEWS = [
     "source": "医学界"
   },
   {
-    "title": "知名儿科医生不幸猝死，年仅39岁",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8C%BB%E5%AD%A6%E7%95%8C+%E7%9F%A5%E5%90%8D%E5%84%BF%E7%A7%91%E5%8C%BB%E7%94%9F%E4%B8%8D%E5%B9%B8%E7%8C%9D%E6%AD%BB%EF%BC%8C%E5%B9%B4%E4%BB%8539%E5%B2%81",
+    "title": "胡歌近照曝光，给所有人敲了一个警钟：人这辈子，除了生死，都是小事",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%81%E7%82%B9%E8%AF%BB%E4%B9%A6+%E8%83%A1%E6%AD%8C%E8%BF%91%E7%85%A7%E6%9B%9D%E5%85%89%EF%BC%8C%E7%BB%99%E6%89%80%E6%9C%89%E4%BA%BA%E6%95%B2%E4%BA%86%E4%B8%80%E4%B8%AA%E8%AD%A6%E9%92%9F%EF%BC%9A%E4%BA%BA%E8%BF%99%E8%BE%88%E5%AD%90%EF%BC%8C%E9%99%A4%E4%BA%86%E7%94%9F%E6%AD%BB%EF%BC%8C%E9%83%BD%E6%98%AF%E5%B0%8F%E4%BA%8B",
     "type": "微信公众号",
-    "source": "医学界"
+    "source": "十点读书"
+  },
+  {
+    "title": "法国公认最帅男人，惨遭妻子抛弃，47岁离奇死亡：没人比他更懂人性",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%81%E7%82%B9%E8%AF%BB%E4%B9%A6+%E6%B3%95%E5%9B%BD%E5%85%AC%E8%AE%A4%E6%9C%80%E5%B8%85%E7%94%B7%E4%BA%BA%EF%BC%8C%E6%83%A8%E9%81%AD%E5%A6%BB%E5%AD%90%E6%8A%9B%E5%BC%83%EF%BC%8C47%E5%B2%81%E7%A6%BB%E5%A5%87%E6%AD%BB%E4%BA%A1%EF%BC%9A%E6%B2%A1%E4%BA%BA%E6%AF%94%E4%BB%96%E6%9B%B4%E6%87%82%E4%BA%BA%E6%80%A7",
+    "type": "微信公众号",
+    "source": "十点读书"
   },
   {
     "title": "尝鲜仅20天！“断货王”山西芒果黄桃上市啦，顺丰产地直发",
@@ -9846,46 +10146,40 @@ window.NEWSFLOW_NEWS = [
     "source": "十点读书"
   },
   {
-    "title": "情欲，是中年人健康的晴雨表",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%81%E7%82%B9%E8%AF%BB%E4%B9%A6+%E6%83%85%E6%AC%B2%EF%BC%8C%E6%98%AF%E4%B8%AD%E5%B9%B4%E4%BA%BA%E5%81%A5%E5%BA%B7%E7%9A%84%E6%99%B4%E9%9B%A8%E8%A1%A8",
-    "type": "微信公众号",
-    "source": "十点读书"
-  },
-  {
-    "title": "房主任塌房，意料之中",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%81%E7%82%B9%E8%AF%BB%E4%B9%A6+%E6%88%BF%E4%B8%BB%E4%BB%BB%E5%A1%8C%E6%88%BF%EF%BC%8C%E6%84%8F%E6%96%99%E4%B9%8B%E4%B8%AD",
-    "type": "微信公众号",
-    "source": "十点读书"
-  },
-  {
-    "title": "“小孩哥”的书法展，治愈教育焦虑",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%8A%E6%9C%88%E8%B0%88+%E2%80%9C%E5%B0%8F%E5%AD%A9%E5%93%A5%E2%80%9D%E7%9A%84%E4%B9%A6%E6%B3%95%E5%B1%95%EF%BC%8C%E6%B2%BB%E6%84%88%E6%95%99%E8%82%B2%E7%84%A6%E8%99%91",
+    "title": "朱镕基同志生平",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%8A%E6%9C%88%E8%B0%88+%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%E7%94%9F%E5%B9%B3",
     "type": "微信公众号",
     "source": "半月谈"
   },
   {
-    "title": "健康 | 每天久坐超过这个时间，你的大脑便会开启“痴呆加速模式”",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%8A%E6%9C%88%E8%B0%88+%E5%81%A5%E5%BA%B7%C2%A0%7C%C2%A0%E6%AF%8F%E5%A4%A9%E4%B9%85%E5%9D%90%E8%B6%85%E8%BF%87%E8%BF%99%E4%B8%AA%E6%97%B6%E9%97%B4%EF%BC%8C%E4%BD%A0%E7%9A%84%E5%A4%A7%E8%84%91%E4%BE%BF%E4%BC%9A%E5%BC%80%E5%90%AF%E2%80%9C%E7%97%B4%E5%91%86%E5%8A%A0%E9%80%9F%E6%A8%A1%E5%BC%8F%E2%80%9D",
+    "title": "朱镕基同志遗体在京火化 习近平等到八宝山革命公墓送别",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%8A%E6%9C%88%E8%B0%88+%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%E9%81%97%E4%BD%93%E5%9C%A8%E4%BA%AC%E7%81%AB%E5%8C%96%20%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%AD%89%E5%88%B0%E5%85%AB%E5%AE%9D%E5%B1%B1%E9%9D%A9%E5%91%BD%E5%85%AC%E5%A2%93%E9%80%81%E5%88%AB",
     "type": "微信公众号",
     "source": "半月谈"
   },
   {
-    "title": "考公总是不在状态？试试这样学",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%8A%E6%9C%88%E8%B0%88+%E8%80%83%E5%85%AC%E6%80%BB%E6%98%AF%E4%B8%8D%E5%9C%A8%E7%8A%B6%E6%80%81%EF%BC%9F%E8%AF%95%E8%AF%95%E8%BF%99%E6%A0%B7%E5%AD%A6",
+    "title": "打12345投诉“月亮太亮影响睡觉”？警惕奇葩诉求占用公共资源",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%8A%E6%9C%88%E8%B0%88+%E6%89%9312345%E6%8A%95%E8%AF%89%E2%80%9C%E6%9C%88%E4%BA%AE%E5%A4%AA%E4%BA%AE%E5%BD%B1%E5%93%8D%E7%9D%A1%E8%A7%89%E2%80%9D%EF%BC%9F%E8%AD%A6%E6%83%95%E5%A5%87%E8%91%A9%E8%AF%89%E6%B1%82%E5%8D%A0%E7%94%A8%E5%85%AC%E5%85%B1%E8%B5%84%E6%BA%90",
     "type": "微信公众号",
     "source": "半月谈"
   },
   {
-    "title": "医保“救命钱”容不得半点算计与蚕食",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%8A%E6%9C%88%E8%B0%88+%E5%8C%BB%E4%BF%9D%E2%80%9C%E6%95%91%E5%91%BD%E9%92%B1%E2%80%9D%E5%AE%B9%E4%B8%8D%E5%BE%97%E5%8D%8A%E7%82%B9%E7%AE%97%E8%AE%A1%E4%B8%8E%E8%9A%95%E9%A3%9F",
+    "title": "多地出台新政，公积金还能这么用→",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%8A%E6%9C%88%E8%B0%88+%E5%A4%9A%E5%9C%B0%E5%87%BA%E5%8F%B0%E6%96%B0%E6%94%BF%EF%BC%8C%E5%85%AC%E7%A7%AF%E9%87%91%E8%BF%98%E8%83%BD%E8%BF%99%E4%B9%88%E7%94%A8%E2%86%92",
     "type": "微信公众号",
     "source": "半月谈"
   },
   {
-    "title": "他们在承德修石头",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%8A%E6%9C%88%E8%B0%88+%E4%BB%96%E4%BB%AC%E5%9C%A8%E6%89%BF%E5%BE%B7%E4%BF%AE%E7%9F%B3%E5%A4%B4",
+    "title": "打卡 | 国家级零碳工厂建成什么样？",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%8A%E6%9C%88%E8%B0%88+%E6%89%93%E5%8D%A1%20%7C%20%E5%9B%BD%E5%AE%B6%E7%BA%A7%E9%9B%B6%E7%A2%B3%E5%B7%A5%E5%8E%82%E5%BB%BA%E6%88%90%E4%BB%80%E4%B9%88%E6%A0%B7%EF%BC%9F",
     "type": "微信公众号",
     "source": "半月谈"
+  },
+  {
+    "title": "腾讯在打“中途岛战役”，AI大战悄然转变",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%8E%E5%B0%94%E8%A1%97%E8%A7%81%E9%97%BB+%E8%85%BE%E8%AE%AF%E5%9C%A8%E6%89%93%E2%80%9C%E4%B8%AD%E9%80%94%E5%B2%9B%E6%88%98%E5%BD%B9%E2%80%9D%EF%BC%8CAI%E5%A4%A7%E6%88%98%E6%82%84%E7%84%B6%E8%BD%AC%E5%8F%98",
+    "type": "微信公众号",
+    "source": "华尔街见闻"
   },
   {
     "title": "投资大佬德鲁肯米勒清仓博通、英特尔、美光，两年来首次买入中概股，大举加仓亚马逊和AMD",
@@ -9912,10 +10206,10 @@ window.NEWSFLOW_NEWS = [
     "source": "华尔街见闻"
   },
   {
-    "title": "特斯拉“飞行”超跑要来了！？",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%8E%E5%B0%94%E8%A1%97%E8%A7%81%E9%97%BB+%E7%89%B9%E6%96%AF%E6%8B%89%E2%80%9C%E9%A3%9E%E8%A1%8C%E2%80%9D%E8%B6%85%E8%B7%91%E8%A6%81%E6%9D%A5%E4%BA%86%EF%BC%81%EF%BC%9F",
+    "title": "难道还有人相信，一个人可以善良地活下去吗？",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%95%E8%AF%BB+%E9%9A%BE%E9%81%93%E8%BF%98%E6%9C%89%E4%BA%BA%E7%9B%B8%E4%BF%A1%EF%BC%8C%E4%B8%80%E4%B8%AA%E4%BA%BA%E5%8F%AF%E4%BB%A5%E5%96%84%E8%89%AF%E5%9C%B0%E6%B4%BB%E4%B8%8B%E5%8E%BB%E5%90%97%EF%BC%9F",
     "type": "微信公众号",
-    "source": "华尔街见闻"
+    "source": "单读"
   },
   {
     "title": "莫言 × 项飙 × 杨澜：不要给年轻人开药方，他们只是在找出口",
@@ -9942,10 +10236,16 @@ window.NEWSFLOW_NEWS = [
     "source": "单读"
   },
   {
-    "title": "在大象之前｜胡波系列短片放映",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%95%E8%AF%BB+%E5%9C%A8%E5%A4%A7%E8%B1%A1%E4%B9%8B%E5%89%8D%EF%BD%9C%E8%83%A1%E6%B3%A2%E7%B3%BB%E5%88%97%E7%9F%AD%E7%89%87%E6%94%BE%E6%98%A0",
+    "title": "“一把手”当接线员：“有三句话不能说”",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%97%E6%96%B9%E5%91%A8%E6%9C%AB+%E2%80%9C%E4%B8%80%E6%8A%8A%E6%89%8B%E2%80%9D%E5%BD%93%E6%8E%A5%E7%BA%BF%E5%91%98%EF%BC%9A%E2%80%9C%E6%9C%89%E4%B8%89%E5%8F%A5%E8%AF%9D%E4%B8%8D%E8%83%BD%E8%AF%B4%E2%80%9D",
     "type": "微信公众号",
-    "source": "单读"
+    "source": "南方周末"
+  },
+  {
+    "title": "药物成瘾报道追踪：网站被封禁，社群被解散",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%97%E6%96%B9%E5%91%A8%E6%9C%AB+%E8%8D%AF%E7%89%A9%E6%88%90%E7%98%BE%E6%8A%A5%E9%81%93%E8%BF%BD%E8%B8%AA%EF%BC%9A%E7%BD%91%E7%AB%99%E8%A2%AB%E5%B0%81%E7%A6%81%EF%BC%8C%E7%A4%BE%E7%BE%A4%E8%A2%AB%E8%A7%A3%E6%95%A3",
+    "type": "微信公众号",
+    "source": "南方周末"
   },
   {
     "title": "睡觉过多或过少都会让人加快衰老",
@@ -9966,44 +10266,32 @@ window.NEWSFLOW_NEWS = [
     "source": "南方周末"
   },
   {
-    "title": "茅奖得主刘亮程：许多语文老师经常会把文学讲死！",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%97%E6%96%B9%E5%91%A8%E6%9C%AB+%E8%8C%85%E5%A5%96%E5%BE%97%E4%B8%BB%E5%88%98%E4%BA%AE%E7%A8%8B%EF%BC%9A%E8%AE%B8%E5%A4%9A%E8%AF%AD%E6%96%87%E8%80%81%E5%B8%88%E7%BB%8F%E5%B8%B8%E4%BC%9A%E6%8A%8A%E6%96%87%E5%AD%A6%E8%AE%B2%E6%AD%BB%EF%BC%81",
-    "type": "微信公众号",
-    "source": "南方周末"
-  },
-  {
-    "title": "两月“有感地震”35次，四川宜宾有房屋震出“裂痕”",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%97%E6%96%B9%E5%91%A8%E6%9C%AB+%E4%B8%A4%E6%9C%88%E2%80%9C%E6%9C%89%E6%84%9F%E5%9C%B0%E9%9C%87%E2%80%9D35%E6%AC%A1%EF%BC%8C%E5%9B%9B%E5%B7%9D%E5%AE%9C%E5%AE%BE%E6%9C%89%E6%88%BF%E5%B1%8B%E9%9C%87%E5%87%BA%E2%80%9C%E8%A3%82%E7%97%95%E2%80%9D",
-    "type": "微信公众号",
-    "source": "南方周末"
-  },
-  {
-    "title": "广州，5连涨",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%97%E9%83%BD%E5%91%A8%E5%88%8A+%E5%B9%BF%E5%B7%9E%EF%BC%8C5%E8%BF%9E%E6%B6%A8",
+    "title": "严某民，编造“**智驾追尾致3死”，行政处罚！",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%97%E9%83%BD%E5%91%A8%E5%88%8A+%E4%B8%A5%E6%9F%90%E6%B0%91%EF%BC%8C%E7%BC%96%E9%80%A0%E2%80%9C%2A%2A%E6%99%BA%E9%A9%BE%E8%BF%BD%E5%B0%BE%E8%87%B43%E6%AD%BB%E2%80%9D%EF%BC%8C%E8%A1%8C%E6%94%BF%E5%A4%84%E7%BD%9A%EF%BC%81",
     "type": "微信公众号",
     "source": "南都周刊"
   },
   {
-    "title": "借\"咨询服务费\"返佣长达7年！营业部与经纪人双双\"吃\"罚单",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%97%E9%83%BD%E5%91%A8%E5%88%8A+%E5%80%9F%22%E5%92%A8%E8%AF%A2%E6%9C%8D%E5%8A%A1%E8%B4%B9%22%E8%BF%94%E4%BD%A3%E9%95%BF%E8%BE%BE7%E5%B9%B4%EF%BC%81%E8%90%A5%E4%B8%9A%E9%83%A8%E4%B8%8E%E7%BB%8F%E7%BA%AA%E4%BA%BA%E5%8F%8C%E5%8F%8C%22%E5%90%83%22%E7%BD%9A%E5%8D%95",
+    "title": "儿童寝具抽检重金属超标被约谈！品牌回应",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%97%E9%83%BD%E5%91%A8%E5%88%8A+%E5%84%BF%E7%AB%A5%E5%AF%9D%E5%85%B7%E6%8A%BD%E6%A3%80%E9%87%8D%E9%87%91%E5%B1%9E%E8%B6%85%E6%A0%87%E8%A2%AB%E7%BA%A6%E8%B0%88%EF%BC%81%E5%93%81%E7%89%8C%E5%9B%9E%E5%BA%94",
     "type": "微信公众号",
     "source": "南都周刊"
   },
   {
-    "title": "又一平台试点收包装费，生鲜电商\"免费包装\"时代加速终结",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%97%E9%83%BD%E5%91%A8%E5%88%8A+%E5%8F%88%E4%B8%80%E5%B9%B3%E5%8F%B0%E8%AF%95%E7%82%B9%E6%94%B6%E5%8C%85%E8%A3%85%E8%B4%B9%EF%BC%8C%E7%94%9F%E9%B2%9C%E7%94%B5%E5%95%86%22%E5%85%8D%E8%B4%B9%E5%8C%85%E8%A3%85%22%E6%97%B6%E4%BB%A3%E5%8A%A0%E9%80%9F%E7%BB%88%E7%BB%93",
+    "title": "宇树科技明日上市，发行市值预估为...",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%97%E9%83%BD%E5%91%A8%E5%88%8A+%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E6%98%8E%E6%97%A5%E4%B8%8A%E5%B8%82%EF%BC%8C%E5%8F%91%E8%A1%8C%E5%B8%82%E5%80%BC%E9%A2%84%E4%BC%B0%E4%B8%BA...",
     "type": "微信公众号",
     "source": "南都周刊"
   },
   {
-    "title": "李书福卸任，30年老将安聪慧接棒",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%97%E9%83%BD%E5%91%A8%E5%88%8A+%E6%9D%8E%E4%B9%A6%E7%A6%8F%E5%8D%B8%E4%BB%BB%EF%BC%8C30%E5%B9%B4%E8%80%81%E5%B0%86%E5%AE%89%E8%81%AA%E6%85%A7%E6%8E%A5%E6%A3%92",
+    "title": "车龄造假？变速箱故障？二手车平台回应！",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%97%E9%83%BD%E5%91%A8%E5%88%8A+%E8%BD%A6%E9%BE%84%E9%80%A0%E5%81%87%EF%BC%9F%E5%8F%98%E9%80%9F%E7%AE%B1%E6%95%85%E9%9A%9C%EF%BC%9F%E4%BA%8C%E6%89%8B%E8%BD%A6%E5%B9%B3%E5%8F%B0%E5%9B%9E%E5%BA%94%EF%BC%81",
     "type": "微信公众号",
     "source": "南都周刊"
   },
   {
-    "title": "刘强东收购中国头部游艇企业",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%97%E9%83%BD%E5%91%A8%E5%88%8A+%E5%88%98%E5%BC%BA%E4%B8%9C%E6%94%B6%E8%B4%AD%E4%B8%AD%E5%9B%BD%E5%A4%B4%E9%83%A8%E6%B8%B8%E8%89%87%E4%BC%81%E4%B8%9A",
+    "title": "旺旺董事长，内部信流出！",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8D%97%E9%83%BD%E5%91%A8%E5%88%8A+%E6%97%BA%E6%97%BA%E8%91%A3%E4%BA%8B%E9%95%BF%EF%BC%8C%E5%86%85%E9%83%A8%E4%BF%A1%E6%B5%81%E5%87%BA%EF%BC%81",
     "type": "微信公众号",
     "source": "南都周刊"
   },
@@ -10038,62 +10326,62 @@ window.NEWSFLOW_NEWS = [
     "source": "历史研习社"
   },
   {
-    "title": "俄外长：建议日本管好自己的事",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8F%82%E8%80%83%E6%B6%88%E6%81%AF+%E4%BF%84%E5%A4%96%E9%95%BF%EF%BC%9A%E5%BB%BA%E8%AE%AE%E6%97%A5%E6%9C%AC%E7%AE%A1%E5%A5%BD%E8%87%AA%E5%B7%B1%E7%9A%84%E4%BA%8B",
+    "title": "“中方密切关注有关情况”",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8F%82%E8%80%83%E6%B6%88%E6%81%AF+%E2%80%9C%E4%B8%AD%E6%96%B9%E5%AF%86%E5%88%87%E5%85%B3%E6%B3%A8%E6%9C%89%E5%85%B3%E6%83%85%E5%86%B5%E2%80%9D",
     "type": "微信公众号",
     "source": "参考消息"
   },
   {
-    "title": "爆料：伊朗已设定最后期限",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8F%82%E8%80%83%E6%B6%88%E6%81%AF+%E7%88%86%E6%96%99%EF%BC%9A%E4%BC%8A%E6%9C%97%E5%B7%B2%E8%AE%BE%E5%AE%9A%E6%9C%80%E5%90%8E%E6%9C%9F%E9%99%90",
+    "title": "中方回应帕劳总统涉华言论：用心险恶",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8F%82%E8%80%83%E6%B6%88%E6%81%AF+%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E5%B8%95%E5%8A%B3%E6%80%BB%E7%BB%9F%E6%B6%89%E5%8D%8E%E8%A8%80%E8%AE%BA%EF%BC%9A%E7%94%A8%E5%BF%83%E9%99%A9%E6%81%B6",
     "type": "微信公众号",
     "source": "参考消息"
   },
   {
-    "title": "特朗普：金正恩回应了",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8F%82%E8%80%83%E6%B6%88%E6%81%AF+%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E9%87%91%E6%AD%A3%E6%81%A9%E5%9B%9E%E5%BA%94%E4%BA%86",
+    "title": "朱镕基同志生平",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8F%82%E8%80%83%E6%B6%88%E6%81%AF+%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%E7%94%9F%E5%B9%B3",
     "type": "微信公众号",
     "source": "参考消息"
   },
   {
-    "title": "特朗普要求“举白旗”，伊朗回应",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8F%82%E8%80%83%E6%B6%88%E6%81%AF+%E7%89%B9%E6%9C%97%E6%99%AE%E8%A6%81%E6%B1%82%E2%80%9C%E4%B8%BE%E7%99%BD%E6%97%97%E2%80%9D%EF%BC%8C%E4%BC%8A%E6%9C%97%E5%9B%9E%E5%BA%94",
+    "title": "朱镕基同志遗体在京火化 习近平等到八宝山革命公墓送别",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8F%82%E8%80%83%E6%B6%88%E6%81%AF+%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%E9%81%97%E4%BD%93%E5%9C%A8%E4%BA%AC%E7%81%AB%E5%8C%96%20%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%AD%89%E5%88%B0%E5%85%AB%E5%AE%9D%E5%B1%B1%E9%9D%A9%E5%91%BD%E5%85%AC%E5%A2%93%E9%80%81%E5%88%AB",
     "type": "微信公众号",
     "source": "参考消息"
   },
   {
-    "title": "英媒：美国政府被收买了",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8F%82%E8%80%83%E6%B6%88%E6%81%AF+%E8%8B%B1%E5%AA%92%EF%BC%9A%E7%BE%8E%E5%9B%BD%E6%94%BF%E5%BA%9C%E8%A2%AB%E6%94%B6%E4%B9%B0%E4%BA%86",
+    "title": "日本一架飞机突发故障",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%8F%82%E8%80%83%E6%B6%88%E6%81%AF+%E6%97%A5%E6%9C%AC%E4%B8%80%E6%9E%B6%E9%A3%9E%E6%9C%BA%E7%AA%81%E5%8F%91%E6%95%85%E9%9A%9C",
     "type": "微信公众号",
     "source": "参考消息"
+  },
+  {
+    "title": "人均每年多存1万元，是好事还是坏事？",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%90%B4%E6%99%93%E6%B3%A2%E9%A2%91%E9%81%93+%E4%BA%BA%E5%9D%87%E6%AF%8F%E5%B9%B4%E5%A4%9A%E5%AD%981%E4%B8%87%E5%85%83%EF%BC%8C%E6%98%AF%E5%A5%BD%E4%BA%8B%E8%BF%98%E6%98%AF%E5%9D%8F%E4%BA%8B%EF%BC%9F",
+    "type": "微信公众号",
+    "source": "吴晓波频道"
+  },
+  {
+    "title": "中国7月社零同比增长0.6%，OpenAI或将推迟上市 | 财经日日评",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%90%B4%E6%99%93%E6%B3%A2%E9%A2%91%E9%81%93+%E4%B8%AD%E5%9B%BD7%E6%9C%88%E7%A4%BE%E9%9B%B6%E5%90%8C%E6%AF%94%E5%A2%9E%E9%95%BF0.6%25%EF%BC%8COpenAI%E6%88%96%E5%B0%86%E6%8E%A8%E8%BF%9F%E4%B8%8A%E5%B8%82%20%7C%20%E8%B4%A2%E7%BB%8F%E6%97%A5%E6%97%A5%E8%AF%84",
+    "type": "微信公众号",
+    "source": "吴晓波频道"
+  },
+  {
+    "title": "这代企业家要补的课：怎么在下行周期里经营 | 吴晓波激荡讲堂",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%90%B4%E6%99%93%E6%B3%A2%E9%A2%91%E9%81%93+%E8%BF%99%E4%BB%A3%E4%BC%81%E4%B8%9A%E5%AE%B6%E8%A6%81%E8%A1%A5%E7%9A%84%E8%AF%BE%EF%BC%9A%E6%80%8E%E4%B9%88%E5%9C%A8%E4%B8%8B%E8%A1%8C%E5%91%A8%E6%9C%9F%E9%87%8C%E7%BB%8F%E8%90%A5%20%7C%20%E5%90%B4%E6%99%93%E6%B3%A2%E6%BF%80%E8%8D%A1%E8%AE%B2%E5%A0%82",
+    "type": "微信公众号",
+    "source": "吴晓波频道"
+  },
+  {
+    "title": "龙餐馆背后：中东“徐福”往事",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%90%B4%E6%99%93%E6%B3%A2%E9%A2%91%E9%81%93+%E9%BE%99%E9%A4%90%E9%A6%86%E8%83%8C%E5%90%8E%EF%BC%9A%E4%B8%AD%E4%B8%9C%E2%80%9C%E5%BE%90%E7%A6%8F%E2%80%9D%E5%BE%80%E4%BA%8B",
+    "type": "微信公众号",
+    "source": "吴晓波频道"
   },
   {
     "title": "吴聊30：豪宅热销背后的2026年",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%90%B4%E6%99%93%E6%B3%A2%E9%A2%91%E9%81%93+%E5%90%B4%E8%81%8A30%EF%BC%9A%E8%B1%AA%E5%AE%85%E7%83%AD%E9%94%80%E8%83%8C%E5%90%8E%E7%9A%842026%E5%B9%B4",
-    "type": "微信公众号",
-    "source": "吴晓波频道"
-  },
-  {
-    "title": "喷香水的埃及、讲法语的摩洛哥，北非被中国人带火了丨一线",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%90%B4%E6%99%93%E6%B3%A2%E9%A2%91%E9%81%93+%E5%96%B7%E9%A6%99%E6%B0%B4%E7%9A%84%E5%9F%83%E5%8F%8A%E3%80%81%E8%AE%B2%E6%B3%95%E8%AF%AD%E7%9A%84%E6%91%A9%E6%B4%9B%E5%93%A5%EF%BC%8C%E5%8C%97%E9%9D%9E%E8%A2%AB%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%B8%A6%E7%81%AB%E4%BA%86%E4%B8%A8%E4%B8%80%E7%BA%BF",
-    "type": "微信公众号",
-    "source": "吴晓波频道"
-  },
-  {
-    "title": "七月政治局会议，在给市场传递什么信号？| 理财问答",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%90%B4%E6%99%93%E6%B3%A2%E9%A2%91%E9%81%93+%E4%B8%83%E6%9C%88%E6%94%BF%E6%B2%BB%E5%B1%80%E4%BC%9A%E8%AE%AE%EF%BC%8C%E5%9C%A8%E7%BB%99%E5%B8%82%E5%9C%BA%E4%BC%A0%E9%80%92%E4%BB%80%E4%B9%88%E4%BF%A1%E5%8F%B7%EF%BC%9F%7C%20%E7%90%86%E8%B4%A2%E9%97%AE%E7%AD%94",
-    "type": "微信公众号",
-    "source": "吴晓波频道"
-  },
-  {
-    "title": "核电迎来“黄金时代”",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%90%B4%E6%99%93%E6%B3%A2%E9%A2%91%E9%81%93+%E6%A0%B8%E7%94%B5%E8%BF%8E%E6%9D%A5%E2%80%9C%E9%BB%84%E9%87%91%E6%97%B6%E4%BB%A3%E2%80%9D",
-    "type": "微信公众号",
-    "source": "吴晓波频道"
-  },
-  {
-    "title": "动荡世界，钱往哪里去？",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%90%B4%E6%99%93%E6%B3%A2%E9%A2%91%E9%81%93+%E5%8A%A8%E8%8D%A1%E4%B8%96%E7%95%8C%EF%BC%8C%E9%92%B1%E5%BE%80%E5%93%AA%E9%87%8C%E5%8E%BB%EF%BC%9F",
     "type": "微信公众号",
     "source": "吴晓波频道"
   },
@@ -10158,32 +10446,32 @@ window.NEWSFLOW_NEWS = [
     "source": "地球知识局"
   },
   {
-    "title": "金价、银价、油价，集体上涨",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%A4%AE%E8%A7%86%E8%B4%A2%E7%BB%8F+%E9%87%91%E4%BB%B7%E3%80%81%E9%93%B6%E4%BB%B7%E3%80%81%E6%B2%B9%E4%BB%B7%EF%BC%8C%E9%9B%86%E4%BD%93%E4%B8%8A%E6%B6%A8",
+    "title": "厄尔尼诺快速发展，大概率成为历史最强",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%A4%AE%E8%A7%86%E8%B4%A2%E7%BB%8F+%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%E5%BF%AB%E9%80%9F%E5%8F%91%E5%B1%95%EF%BC%8C%E5%A4%A7%E6%A6%82%E7%8E%87%E6%88%90%E4%B8%BA%E5%8E%86%E5%8F%B2%E6%9C%80%E5%BC%BA",
     "type": "微信公众号",
     "source": "央视财经"
   },
   {
-    "title": "霍尔木兹海峡，有新消息！特朗普：若阿曼阻碍美方，将对其实施轰炸",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%A4%AE%E8%A7%86%E8%B4%A2%E7%BB%8F+%E9%9C%8D%E5%B0%94%E6%9C%A8%E5%85%B9%E6%B5%B7%E5%B3%A1%EF%BC%8C%E6%9C%89%E6%96%B0%E6%B6%88%E6%81%AF%EF%BC%81%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E8%8B%A5%E9%98%BF%E6%9B%BC%E9%98%BB%E7%A2%8D%E7%BE%8E%E6%96%B9%EF%BC%8C%E5%B0%86%E5%AF%B9%E5%85%B6%E5%AE%9E%E6%96%BD%E8%BD%B0%E7%82%B8",
+    "title": "上市首日大涨超500%！A股诞生新纪录",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%A4%AE%E8%A7%86%E8%B4%A2%E7%BB%8F+%E4%B8%8A%E5%B8%82%E9%A6%96%E6%97%A5%E5%A4%A7%E6%B6%A8%E8%B6%85500%25%EF%BC%81A%E8%82%A1%E8%AF%9E%E7%94%9F%E6%96%B0%E7%BA%AA%E5%BD%95",
     "type": "微信公众号",
     "source": "央视财经"
   },
   {
-    "title": "记者实测外卖“红灯停表”：骑手等灯2分钟，系统可补回",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%A4%AE%E8%A7%86%E8%B4%A2%E7%BB%8F+%E8%AE%B0%E8%80%85%E5%AE%9E%E6%B5%8B%E5%A4%96%E5%8D%96%E2%80%9C%E7%BA%A2%E7%81%AF%E5%81%9C%E8%A1%A8%E2%80%9D%EF%BC%9A%E9%AA%91%E6%89%8B%E7%AD%89%E7%81%AF2%E5%88%86%E9%92%9F%EF%BC%8C%E7%B3%BB%E7%BB%9F%E5%8F%AF%E8%A1%A5%E5%9B%9E",
+    "title": "99000立方米“巨无霸”，今天交付",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%A4%AE%E8%A7%86%E8%B4%A2%E7%BB%8F+99000%E7%AB%8B%E6%96%B9%E7%B1%B3%E2%80%9C%E5%B7%A8%E6%97%A0%E9%9C%B8%E2%80%9D%EF%BC%8C%E4%BB%8A%E5%A4%A9%E4%BA%A4%E4%BB%98",
     "type": "微信公众号",
     "source": "央视财经"
   },
   {
-    "title": "重要规划发布！新风口，“氢氢”地来了",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%A4%AE%E8%A7%86%E8%B4%A2%E7%BB%8F+%E9%87%8D%E8%A6%81%E8%A7%84%E5%88%92%E5%8F%91%E5%B8%83%EF%BC%81%E6%96%B0%E9%A3%8E%E5%8F%A3%EF%BC%8C%E2%80%9C%E6%B0%A2%E6%B0%A2%E2%80%9D%E5%9C%B0%E6%9D%A5%E4%BA%86",
+    "title": "商务部、国家发改委、财政部、人社部、自然资源部、农业农村部、文旅部、市场监管总局、金融监管总局，发布重要意见",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%A4%AE%E8%A7%86%E8%B4%A2%E7%BB%8F+%E5%95%86%E5%8A%A1%E9%83%A8%E3%80%81%E5%9B%BD%E5%AE%B6%E5%8F%91%E6%94%B9%E5%A7%94%E3%80%81%E8%B4%A2%E6%94%BF%E9%83%A8%E3%80%81%E4%BA%BA%E7%A4%BE%E9%83%A8%E3%80%81%E8%87%AA%E7%84%B6%E8%B5%84%E6%BA%90%E9%83%A8%E3%80%81%E5%86%9C%E4%B8%9A%E5%86%9C%E6%9D%91%E9%83%A8%E3%80%81%E6%96%87%E6%97%85%E9%83%A8%E3%80%81%E5%B8%82%E5%9C%BA%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%E3%80%81%E9%87%91%E8%9E%8D%E7%9B%91%E7%AE%A1%E6%80%BB%E5%B1%80%EF%BC%8C%E5%8F%91%E5%B8%83%E9%87%8D%E8%A6%81%E6%84%8F%E8%A7%81",
     "type": "微信公众号",
     "source": "央视财经"
   },
   {
-    "title": "你的公积金，功能上新！",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%A4%AE%E8%A7%86%E8%B4%A2%E7%BB%8F+%E4%BD%A0%E7%9A%84%E5%85%AC%E7%A7%AF%E9%87%91%EF%BC%8C%E5%8A%9F%E8%83%BD%E4%B8%8A%E6%96%B0%EF%BC%81",
+    "title": "刘慧被提起公诉",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E5%A4%AE%E8%A7%86%E8%B4%A2%E7%BB%8F+%E5%88%98%E6%85%A7%E8%A2%AB%E6%8F%90%E8%B5%B7%E5%85%AC%E8%AF%89",
     "type": "微信公众号",
     "source": "央视财经"
   },
@@ -10278,6 +10566,24 @@ window.NEWSFLOW_NEWS = [
     "source": "新世相"
   },
   {
+    "title": "《奥德赛》：特洛伊战争后，奥德修斯是如何重回伊萨卡岛的？",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E4%BA%AC%E6%8A%A5%E4%B9%A6%E8%AF%84%E5%91%A8%E5%88%8A+%E3%80%8A%E5%A5%A5%E5%BE%B7%E8%B5%9B%E3%80%8B%EF%BC%9A%E7%89%B9%E6%B4%9B%E4%BC%8A%E6%88%98%E4%BA%89%E5%90%8E%EF%BC%8C%E5%A5%A5%E5%BE%B7%E4%BF%AE%E6%96%AF%E6%98%AF%E5%A6%82%E4%BD%95%E9%87%8D%E5%9B%9E%E4%BC%8A%E8%90%A8%E5%8D%A1%E5%B2%9B%E7%9A%84%EF%BC%9F",
+    "type": "微信公众号",
+    "source": "新京报书评周刊"
+  },
+  {
+    "title": "《春风十里》之后，一支乐队的十个春天",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E4%BA%AC%E6%8A%A5%E4%B9%A6%E8%AF%84%E5%91%A8%E5%88%8A+%E3%80%8A%E6%98%A5%E9%A3%8E%E5%8D%81%E9%87%8C%E3%80%8B%E4%B9%8B%E5%90%8E%EF%BC%8C%E4%B8%80%E6%94%AF%E4%B9%90%E9%98%9F%E7%9A%84%E5%8D%81%E4%B8%AA%E6%98%A5%E5%A4%A9",
+    "type": "微信公众号",
+    "source": "新京报书评周刊"
+  },
+  {
+    "title": "《利奥波德传》：像山一样思考",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E4%BA%AC%E6%8A%A5%E4%B9%A6%E8%AF%84%E5%91%A8%E5%88%8A+%E3%80%8A%E5%88%A9%E5%A5%A5%E6%B3%A2%E5%BE%B7%E4%BC%A0%E3%80%8B%EF%BC%9A%E5%83%8F%E5%B1%B1%E4%B8%80%E6%A0%B7%E6%80%9D%E8%80%83",
+    "type": "微信公众号",
+    "source": "新京报书评周刊"
+  },
+  {
     "title": "拉丁美洲最大垃圾场里，拾荒者在辨认世界的形状",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E4%BA%AC%E6%8A%A5%E4%B9%A6%E8%AF%84%E5%91%A8%E5%88%8A+%E6%8B%89%E4%B8%81%E7%BE%8E%E6%B4%B2%E6%9C%80%E5%A4%A7%E5%9E%83%E5%9C%BE%E5%9C%BA%E9%87%8C%EF%BC%8C%E6%8B%BE%E8%8D%92%E8%80%85%E5%9C%A8%E8%BE%A8%E8%AE%A4%E4%B8%96%E7%95%8C%E7%9A%84%E5%BD%A2%E7%8A%B6",
     "type": "微信公众号",
@@ -10290,52 +10596,46 @@ window.NEWSFLOW_NEWS = [
     "source": "新京报书评周刊"
   },
   {
-    "title": "比较《奥德赛》原著与诺兰改编：“叙事大师”的当代重塑",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E4%BA%AC%E6%8A%A5%E4%B9%A6%E8%AF%84%E5%91%A8%E5%88%8A+%E6%AF%94%E8%BE%83%E3%80%8A%E5%A5%A5%E5%BE%B7%E8%B5%9B%E3%80%8B%E5%8E%9F%E8%91%97%E4%B8%8E%E8%AF%BA%E5%85%B0%E6%94%B9%E7%BC%96%EF%BC%9A%E2%80%9C%E5%8F%99%E4%BA%8B%E5%A4%A7%E5%B8%88%E2%80%9D%E7%9A%84%E5%BD%93%E4%BB%A3%E9%87%8D%E5%A1%91",
-    "type": "微信公众号",
-    "source": "新京报书评周刊"
-  },
-  {
-    "title": "林小英：教育系统的韧性，来自那些“不忍心放下孩子”的老师",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E4%BA%AC%E6%8A%A5%E4%B9%A6%E8%AF%84%E5%91%A8%E5%88%8A+%E6%9E%97%E5%B0%8F%E8%8B%B1%EF%BC%9A%E6%95%99%E8%82%B2%E7%B3%BB%E7%BB%9F%E7%9A%84%E9%9F%A7%E6%80%A7%EF%BC%8C%E6%9D%A5%E8%87%AA%E9%82%A3%E4%BA%9B%E2%80%9C%E4%B8%8D%E5%BF%8D%E5%BF%83%E6%94%BE%E4%B8%8B%E5%AD%A9%E5%AD%90%E2%80%9D%E7%9A%84%E8%80%81%E5%B8%88",
-    "type": "微信公众号",
-    "source": "新京报书评周刊"
-  },
-  {
-    "title": "胡泳评《奥德赛》：我们现代人能承受史诗的复杂性吗？",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E4%BA%AC%E6%8A%A5%E4%B9%A6%E8%AF%84%E5%91%A8%E5%88%8A+%E8%83%A1%E6%B3%B3%E8%AF%84%E3%80%8A%E5%A5%A5%E5%BE%B7%E8%B5%9B%E3%80%8B%EF%BC%9A%E6%88%91%E4%BB%AC%E7%8E%B0%E4%BB%A3%E4%BA%BA%E8%83%BD%E6%89%BF%E5%8F%97%E5%8F%B2%E8%AF%97%E7%9A%84%E5%A4%8D%E6%9D%82%E6%80%A7%E5%90%97%EF%BC%9F",
-    "type": "微信公众号",
-    "source": "新京报书评周刊"
-  },
-  {
-    "title": "夫妻俩砌了一堵墙，结果救了自己的命",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E5%8D%8E%E7%BD%91+%E5%A4%AB%E5%A6%BB%E4%BF%A9%E7%A0%8C%E4%BA%86%E4%B8%80%E5%A0%B5%E5%A2%99%EF%BC%8C%E7%BB%93%E6%9E%9C%E6%95%91%E4%BA%86%E8%87%AA%E5%B7%B1%E7%9A%84%E5%91%BD",
+    "title": "朱镕基同志生平照片",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E5%8D%8E%E7%BD%91+%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%E7%94%9F%E5%B9%B3%E7%85%A7%E7%89%87",
     "type": "微信公众号",
     "source": "新华网"
   },
   {
-    "title": "超强厄尔尼诺，有何警示？",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E5%8D%8E%E7%BD%91+%E8%B6%85%E5%BC%BA%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%EF%BC%8C%E6%9C%89%E4%BD%95%E8%AD%A6%E7%A4%BA%EF%BC%9F",
+    "title": "朱镕基同志生平",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E5%8D%8E%E7%BD%91+%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%E7%94%9F%E5%B9%B3",
     "type": "微信公众号",
     "source": "新华网"
   },
   {
-    "title": "“富贵包”不富贵，是颈椎发出的明确健康预警",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E5%8D%8E%E7%BD%91+%E2%80%9C%E5%AF%8C%E8%B4%B5%E5%8C%85%E2%80%9D%E4%B8%8D%E5%AF%8C%E8%B4%B5%EF%BC%8C%E6%98%AF%E9%A2%88%E6%A4%8E%E5%8F%91%E5%87%BA%E7%9A%84%E6%98%8E%E7%A1%AE%E5%81%A5%E5%BA%B7%E9%A2%84%E8%AD%A6",
+    "title": "朱镕基同志遗体在京火化 习近平等到八宝山革命公墓送别",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E5%8D%8E%E7%BD%91+%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%E9%81%97%E4%BD%93%E5%9C%A8%E4%BA%AC%E7%81%AB%E5%8C%96%20%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%AD%89%E5%88%B0%E5%85%AB%E5%AE%9D%E5%B1%B1%E9%9D%A9%E5%91%BD%E5%85%AC%E5%A2%93%E9%80%81%E5%88%AB",
     "type": "微信公众号",
     "source": "新华网"
   },
   {
-    "title": "我国每卖出3辆乘用车，就有约2辆是新能源汽车",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E5%8D%8E%E7%BD%91+%E6%88%91%E5%9B%BD%E6%AF%8F%E5%8D%96%E5%87%BA3%E8%BE%86%E4%B9%98%E7%94%A8%E8%BD%A6%EF%BC%8C%E5%B0%B1%E6%9C%89%E7%BA%A62%E8%BE%86%E6%98%AF%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6",
+    "title": "楼下邻居认为楼上长期噪声扰民，沟通无果后远程操控家中音响、电视反制，法院判了",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E5%8D%8E%E7%BD%91+%E6%A5%BC%E4%B8%8B%E9%82%BB%E5%B1%85%E8%AE%A4%E4%B8%BA%E6%A5%BC%E4%B8%8A%E9%95%BF%E6%9C%9F%E5%99%AA%E5%A3%B0%E6%89%B0%E6%B0%91%EF%BC%8C%E6%B2%9F%E9%80%9A%E6%97%A0%E6%9E%9C%E5%90%8E%E8%BF%9C%E7%A8%8B%E6%93%8D%E6%8E%A7%E5%AE%B6%E4%B8%AD%E9%9F%B3%E5%93%8D%E3%80%81%E7%94%B5%E8%A7%86%E5%8F%8D%E5%88%B6%EF%BC%8C%E6%B3%95%E9%99%A2%E5%88%A4%E4%BA%86",
     "type": "微信公众号",
     "source": "新华网"
   },
   {
-    "title": "南京大屠杀、日本侵略年表，将从长崎核爆资料馆被撤除",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E5%8D%8E%E7%BD%91+%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%B1%A0%E6%9D%80%E3%80%81%E6%97%A5%E6%9C%AC%E4%BE%B5%E7%95%A5%E5%B9%B4%E8%A1%A8%EF%BC%8C%E5%B0%86%E4%BB%8E%E9%95%BF%E5%B4%8E%E6%A0%B8%E7%88%86%E8%B5%84%E6%96%99%E9%A6%86%E8%A2%AB%E6%92%A4%E9%99%A4",
+    "title": "小心，这种大蜗牛可能传染脑膜炎",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E5%8D%8E%E7%BD%91+%E5%B0%8F%E5%BF%83%EF%BC%8C%E8%BF%99%E7%A7%8D%E5%A4%A7%E8%9C%97%E7%89%9B%E5%8F%AF%E8%83%BD%E4%BC%A0%E6%9F%93%E8%84%91%E8%86%9C%E7%82%8E",
     "type": "微信公众号",
     "source": "新华网"
+  },
+  {
+    "title": "Anthropic求锤得锤！Mythos 2被曝雪藏，Mythos 3正秘密研发",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E6%99%BA%E5%85%83+Anthropic%E6%B1%82%E9%94%A4%E5%BE%97%E9%94%A4%EF%BC%81Mythos%202%E8%A2%AB%E6%9B%9D%E9%9B%AA%E8%97%8F%EF%BC%8CMythos%203%E6%AD%A3%E7%A7%98%E5%AF%86%E7%A0%94%E5%8F%91",
+    "type": "微信公众号",
+    "source": "新智元"
+  },
+  {
+    "title": "顶尖数学家含泪退圈：熬了多年的博士难题，被AI几周秒杀！",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E6%99%BA%E5%85%83+%E9%A1%B6%E5%B0%96%E6%95%B0%E5%AD%A6%E5%AE%B6%E5%90%AB%E6%B3%AA%E9%80%80%E5%9C%88%EF%BC%9A%E7%86%AC%E4%BA%86%E5%A4%9A%E5%B9%B4%E7%9A%84%E5%8D%9A%E5%A3%AB%E9%9A%BE%E9%A2%98%EF%BC%8C%E8%A2%ABAI%E5%87%A0%E5%91%A8%E7%A7%92%E6%9D%80%EF%BC%81",
+    "type": "微信公众号",
+    "source": "新智元"
   },
   {
     "title": "突发！Cursor一夜干掉了GitHub",
@@ -10352,18 +10652,6 @@ window.NEWSFLOW_NEWS = [
   {
     "title": "AI视频运镜玄学已破！告别无限抽卡，3D预演台直接封神",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E6%99%BA%E5%85%83+AI%E8%A7%86%E9%A2%91%E8%BF%90%E9%95%9C%E7%8E%84%E5%AD%A6%E5%B7%B2%E7%A0%B4%EF%BC%81%E5%91%8A%E5%88%AB%E6%97%A0%E9%99%90%E6%8A%BD%E5%8D%A1%EF%BC%8C3D%E9%A2%84%E6%BC%94%E5%8F%B0%E7%9B%B4%E6%8E%A5%E5%B0%81%E7%A5%9E",
-    "type": "微信公众号",
-    "source": "新智元"
-  },
-  {
-    "title": "AI不是比人聪明，是输得起！菲尔兹奖得主点破OpenAI十项成果",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E6%99%BA%E5%85%83+AI%E4%B8%8D%E6%98%AF%E6%AF%94%E4%BA%BA%E8%81%AA%E6%98%8E%EF%BC%8C%E6%98%AF%E8%BE%93%E5%BE%97%E8%B5%B7%EF%BC%81%E8%8F%B2%E5%B0%94%E5%85%B9%E5%A5%96%E5%BE%97%E4%B8%BB%E7%82%B9%E7%A0%B4OpenAI%E5%8D%81%E9%A1%B9%E6%88%90%E6%9E%9C",
-    "type": "微信公众号",
-    "source": "新智元"
-  },
-  {
-    "title": "Fable 5夺冠！全球18大顶尖AI自主科研大赛，逼近人类极限",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%96%B0%E6%99%BA%E5%85%83+Fable%205%E5%A4%BA%E5%86%A0%EF%BC%81%E5%85%A8%E7%90%8318%E5%A4%A7%E9%A1%B6%E5%B0%96AI%E8%87%AA%E4%B8%BB%E7%A7%91%E7%A0%94%E5%A4%A7%E8%B5%9B%EF%BC%8C%E9%80%BC%E8%BF%91%E4%BA%BA%E7%B1%BB%E6%9E%81%E9%99%90",
     "type": "微信公众号",
     "source": "新智元"
   },
@@ -10458,6 +10746,24 @@ window.NEWSFLOW_NEWS = [
     "source": "有书"
   },
   {
+    "title": "为什么有些人不化妆比化妆更惊艳？",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E6%9C%89%E4%BA%9B%E4%BA%BA%E4%B8%8D%E5%8C%96%E5%A6%86%E6%AF%94%E5%8C%96%E5%A6%86%E6%9B%B4%E6%83%8A%E8%89%B3%EF%BC%9F",
+    "type": "微信公众号",
+    "source": "果壳网"
+  },
+  {
+    "title": "为什么长期健身，死的时候就是嘎嘣一下？！！🤨",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%B8%BA%E4%BB%80%E4%B9%88%E9%95%BF%E6%9C%9F%E5%81%A5%E8%BA%AB%EF%BC%8C%E6%AD%BB%E7%9A%84%E6%97%B6%E5%80%99%E5%B0%B1%E6%98%AF%E5%98%8E%E5%98%A3%E4%B8%80%E4%B8%8B%EF%BC%9F%EF%BC%81%EF%BC%81%F0%9F%A4%A8",
+    "type": "微信公众号",
+    "source": "果壳网"
+  },
+  {
+    "title": "真心建议：打工人把外卖白饭换成它，身体会感谢你！",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E7%9C%9F%E5%BF%83%E5%BB%BA%E8%AE%AE%EF%BC%9A%E6%89%93%E5%B7%A5%E4%BA%BA%E6%8A%8A%E5%A4%96%E5%8D%96%E7%99%BD%E9%A5%AD%E6%8D%A2%E6%88%90%E5%AE%83%EF%BC%8C%E8%BA%AB%E4%BD%93%E4%BC%9A%E6%84%9F%E8%B0%A2%E4%BD%A0%EF%BC%81",
+    "type": "微信公众号",
+    "source": "果壳网"
+  },
+  {
     "title": "去年还在打麻将的机器人，今年想上班了？",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E5%8E%BB%E5%B9%B4%E8%BF%98%E5%9C%A8%E6%89%93%E9%BA%BB%E5%B0%86%E7%9A%84%E6%9C%BA%E5%99%A8%E4%BA%BA%EF%BC%8C%E4%BB%8A%E5%B9%B4%E6%83%B3%E4%B8%8A%E7%8F%AD%E4%BA%86%EF%BC%9F",
     "type": "微信公众号",
@@ -10466,24 +10772,6 @@ window.NEWSFLOW_NEWS = [
   {
     "title": "“齐刘海狮子”阿杭去世，稀有的白狮又少了一头……",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E2%80%9C%E9%BD%90%E5%88%98%E6%B5%B7%E7%8B%AE%E5%AD%90%E2%80%9D%E9%98%BF%E6%9D%AD%E5%8E%BB%E4%B8%96%EF%BC%8C%E7%A8%80%E6%9C%89%E7%9A%84%E7%99%BD%E7%8B%AE%E5%8F%88%E5%B0%91%E4%BA%86%E4%B8%80%E5%A4%B4%E2%80%A6%E2%80%A6",
-    "type": "微信公众号",
-    "source": "果壳网"
-  },
-  {
-    "title": "Anthropic全面部署Claude隐形文本水印；DeepSeek峰谷分时定价机制生效；南海伏季休渔期结束",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+Anthropic%E5%85%A8%E9%9D%A2%E9%83%A8%E7%BD%B2Claude%E9%9A%90%E5%BD%A2%E6%96%87%E6%9C%AC%E6%B0%B4%E5%8D%B0%EF%BC%9BDeepSeek%E5%B3%B0%E8%B0%B7%E5%88%86%E6%97%B6%E5%AE%9A%E4%BB%B7%E6%9C%BA%E5%88%B6%E7%94%9F%E6%95%88%EF%BC%9B%E5%8D%97%E6%B5%B7%E4%BC%8F%E5%AD%A3%E4%BC%91%E6%B8%94%E6%9C%9F%E7%BB%93%E6%9D%9F",
-    "type": "微信公众号",
-    "source": "果壳网"
-  },
-  {
-    "title": "普通家庭最大的通病：无效体验太多",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E6%99%AE%E9%80%9A%E5%AE%B6%E5%BA%AD%E6%9C%80%E5%A4%A7%E7%9A%84%E9%80%9A%E7%97%85%EF%BC%9A%E6%97%A0%E6%95%88%E4%BD%93%E9%AA%8C%E5%A4%AA%E5%A4%9A",
-    "type": "微信公众号",
-    "source": "果壳网"
-  },
-  {
-    "title": "什么叫真香？夏装“倒闭式”清仓！不到百元就塞爆衣橱！",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9E%9C%E5%A3%B3%E7%BD%91+%E4%BB%80%E4%B9%88%E5%8F%AB%E7%9C%9F%E9%A6%99%EF%BC%9F%E5%A4%8F%E8%A3%85%E2%80%9C%E5%80%92%E9%97%AD%E5%BC%8F%E2%80%9D%E6%B8%85%E4%BB%93%EF%BC%81%E4%B8%8D%E5%88%B0%E7%99%BE%E5%85%83%E5%B0%B1%E5%A1%9E%E7%88%86%E8%A1%A3%E6%A9%B1%EF%BC%81",
     "type": "微信公众号",
     "source": "果壳网"
   },
@@ -10518,6 +10806,12 @@ window.NEWSFLOW_NEWS = [
     "source": "棱镜"
   },
   {
+    "title": "人生第一次：站着干活",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E4%BA%BA%E7%94%9F%E7%AC%AC%E4%B8%80%E6%AC%A1%EF%BC%9A%E7%AB%99%E7%9D%80%E5%B9%B2%E6%B4%BB",
+    "type": "微信公众号",
+    "source": "槽边往事"
+  },
+  {
     "title": "那我还真的是很珍稀",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E9%82%A3%E6%88%91%E8%BF%98%E7%9C%9F%E7%9A%84%E6%98%AF%E5%BE%88%E7%8F%8D%E7%A8%80",
     "type": "微信公众号",
@@ -10542,10 +10836,10 @@ window.NEWSFLOW_NEWS = [
     "source": "槽边往事"
   },
   {
-    "title": "奥德修斯这个人",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%A7%BD%E8%BE%B9%E5%BE%80%E4%BA%8B+%E5%A5%A5%E5%BE%B7%E4%BF%AE%E6%96%AF%E8%BF%99%E4%B8%AA%E4%BA%BA",
+    "title": "那些经常喝陈皮水的女人，最后都怎么样了？",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%B4%9E%E8%A7%81+%E9%82%A3%E4%BA%9B%E7%BB%8F%E5%B8%B8%E5%96%9D%E9%99%88%E7%9A%AE%E6%B0%B4%E7%9A%84%E5%A5%B3%E4%BA%BA%EF%BC%8C%E6%9C%80%E5%90%8E%E9%83%BD%E6%80%8E%E4%B9%88%E6%A0%B7%E4%BA%86%EF%BC%9F",
     "type": "微信公众号",
-    "source": "槽边往事"
+    "source": "洞见"
   },
   {
     "title": "只要你不替孩子操心，那么操心的人，就会是他自己。共生不是爱，越是过度操心，孩子越难走出自己的人生",
@@ -10572,70 +10866,70 @@ window.NEWSFLOW_NEWS = [
     "source": "洞见"
   },
   {
-    "title": "《主角》爆火，这个苏州姑娘赢麻了！网友：活得清醒的女人，果然不一般",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%B4%9E%E8%A7%81+%E3%80%8A%E4%B8%BB%E8%A7%92%E3%80%8B%E7%88%86%E7%81%AB%EF%BC%8C%E8%BF%99%E4%B8%AA%E8%8B%8F%E5%B7%9E%E5%A7%91%E5%A8%98%E8%B5%A2%E9%BA%BB%E4%BA%86%EF%BC%81%E7%BD%91%E5%8F%8B%EF%BC%9A%E6%B4%BB%E5%BE%97%E6%B8%85%E9%86%92%E7%9A%84%E5%A5%B3%E4%BA%BA%EF%BC%8C%E6%9E%9C%E7%84%B6%E4%B8%8D%E4%B8%80%E8%88%AC",
-    "type": "微信公众号",
-    "source": "洞见"
-  },
-  {
-    "title": "“甯”还是“寧”？东北大学回应疑似写错老校长宁恩承姓氏",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%BE%8E%E6%B9%83%E6%96%B0%E9%97%BB+%E2%80%9C%E7%94%AF%E2%80%9D%E8%BF%98%E6%98%AF%E2%80%9C%E5%AF%A7%E2%80%9D%EF%BC%9F%E4%B8%9C%E5%8C%97%E5%A4%A7%E5%AD%A6%E5%9B%9E%E5%BA%94%E7%96%91%E4%BC%BC%E5%86%99%E9%94%99%E8%80%81%E6%A0%A1%E9%95%BF%E5%AE%81%E6%81%A9%E6%89%BF%E5%A7%93%E6%B0%8F",
+    "title": "美驻菲律宾使馆称将设立中心助菲渔民举报非法捕鱼，外交部：将密切关注",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%BE%8E%E6%B9%83%E6%96%B0%E9%97%BB+%E7%BE%8E%E9%A9%BB%E8%8F%B2%E5%BE%8B%E5%AE%BE%E4%BD%BF%E9%A6%86%E7%A7%B0%E5%B0%86%E8%AE%BE%E7%AB%8B%E4%B8%AD%E5%BF%83%E5%8A%A9%E8%8F%B2%E6%B8%94%E6%B0%91%E4%B8%BE%E6%8A%A5%E9%9D%9E%E6%B3%95%E6%8D%95%E9%B1%BC%EF%BC%8C%E5%A4%96%E4%BA%A4%E9%83%A8%EF%BC%9A%E5%B0%86%E5%AF%86%E5%88%87%E5%85%B3%E6%B3%A8",
     "type": "微信公众号",
     "source": "澎湃新闻"
   },
   {
-    "title": "小城玉环一月内两度被台风“选中”，且登陆点罕见一致，“概率极低的巧合”",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%BE%8E%E6%B9%83%E6%96%B0%E9%97%BB+%E5%B0%8F%E5%9F%8E%E7%8E%89%E7%8E%AF%E4%B8%80%E6%9C%88%E5%86%85%E4%B8%A4%E5%BA%A6%E8%A2%AB%E5%8F%B0%E9%A3%8E%E2%80%9C%E9%80%89%E4%B8%AD%E2%80%9D%EF%BC%8C%E4%B8%94%E7%99%BB%E9%99%86%E7%82%B9%E7%BD%95%E8%A7%81%E4%B8%80%E8%87%B4%EF%BC%8C%E2%80%9C%E6%A6%82%E7%8E%87%E6%9E%81%E4%BD%8E%E7%9A%84%E5%B7%A7%E5%90%88%E2%80%9D",
+    "title": "外交部回应帕劳总统涉中国试射洲际导弹言论：用心险恶，不值一评",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%BE%8E%E6%B9%83%E6%96%B0%E9%97%BB+%E5%A4%96%E4%BA%A4%E9%83%A8%E5%9B%9E%E5%BA%94%E5%B8%95%E5%8A%B3%E6%80%BB%E7%BB%9F%E6%B6%89%E4%B8%AD%E5%9B%BD%E8%AF%95%E5%B0%84%E6%B4%B2%E9%99%85%E5%AF%BC%E5%BC%B9%E8%A8%80%E8%AE%BA%EF%BC%9A%E7%94%A8%E5%BF%83%E9%99%A9%E6%81%B6%EF%BC%8C%E4%B8%8D%E5%80%BC%E4%B8%80%E8%AF%84",
     "type": "微信公众号",
     "source": "澎湃新闻"
   },
   {
-    "title": "叮咚买菜在部分区域试点收包装费，引热议",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%BE%8E%E6%B9%83%E6%96%B0%E9%97%BB+%E5%8F%AE%E5%92%9A%E4%B9%B0%E8%8F%9C%E5%9C%A8%E9%83%A8%E5%88%86%E5%8C%BA%E5%9F%9F%E8%AF%95%E7%82%B9%E6%94%B6%E5%8C%85%E8%A3%85%E8%B4%B9%EF%BC%8C%E5%BC%95%E7%83%AD%E8%AE%AE",
+    "title": "“车辆顶着收费人员行驶”，当地通报",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%BE%8E%E6%B9%83%E6%96%B0%E9%97%BB+%E2%80%9C%E8%BD%A6%E8%BE%86%E9%A1%B6%E7%9D%80%E6%94%B6%E8%B4%B9%E4%BA%BA%E5%91%98%E8%A1%8C%E9%A9%B6%E2%80%9D%EF%BC%8C%E5%BD%93%E5%9C%B0%E9%80%9A%E6%8A%A5",
     "type": "微信公众号",
     "source": "澎湃新闻"
   },
   {
-    "title": "博物馆致歉后，浙江将启动全省国有博物馆展陈内容专项排查",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%BE%8E%E6%B9%83%E6%96%B0%E9%97%BB+%E5%8D%9A%E7%89%A9%E9%A6%86%E8%87%B4%E6%AD%89%E5%90%8E%EF%BC%8C%E6%B5%99%E6%B1%9F%E5%B0%86%E5%90%AF%E5%8A%A8%E5%85%A8%E7%9C%81%E5%9B%BD%E6%9C%89%E5%8D%9A%E7%89%A9%E9%A6%86%E5%B1%95%E9%99%88%E5%86%85%E5%AE%B9%E4%B8%93%E9%A1%B9%E6%8E%92%E6%9F%A5",
+    "title": "董明珠任校长，格力技工学校正式招生",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%BE%8E%E6%B9%83%E6%96%B0%E9%97%BB+%E8%91%A3%E6%98%8E%E7%8F%A0%E4%BB%BB%E6%A0%A1%E9%95%BF%EF%BC%8C%E6%A0%BC%E5%8A%9B%E6%8A%80%E5%B7%A5%E5%AD%A6%E6%A0%A1%E6%AD%A3%E5%BC%8F%E6%8B%9B%E7%94%9F",
     "type": "微信公众号",
     "source": "澎湃新闻"
   },
   {
-    "title": "中国农业发展银行：坚决拥护党中央决定",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%BE%8E%E6%B9%83%E6%96%B0%E9%97%BB+%E4%B8%AD%E5%9B%BD%E5%86%9C%E4%B8%9A%E5%8F%91%E5%B1%95%E9%93%B6%E8%A1%8C%EF%BC%9A%E5%9D%9A%E5%86%B3%E6%8B%A5%E6%8A%A4%E5%85%9A%E4%B8%AD%E5%A4%AE%E5%86%B3%E5%AE%9A",
+    "title": "朱镕基同志生平",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%BE%8E%E6%B9%83%E6%96%B0%E9%97%BB+%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%E7%94%9F%E5%B9%B3",
     "type": "微信公众号",
     "source": "澎湃新闻"
   },
   {
-    "title": "中国北极航线订单爆火，西方一些人酸溜溜",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%8E%AF%E7%90%83%E6%97%B6%E6%8A%A5+%E4%B8%AD%E5%9B%BD%E5%8C%97%E6%9E%81%E8%88%AA%E7%BA%BF%E8%AE%A2%E5%8D%95%E7%88%86%E7%81%AB%EF%BC%8C%E8%A5%BF%E6%96%B9%E4%B8%80%E4%BA%9B%E4%BA%BA%E9%85%B8%E6%BA%9C%E6%BA%9C",
+    "title": "朱镕基同志遗体在京火化 习近平等到八宝山革命公墓送别",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%8E%AF%E7%90%83%E6%97%B6%E6%8A%A5+%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%E9%81%97%E4%BD%93%E5%9C%A8%E4%BA%AC%E7%81%AB%E5%8C%96%20%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%AD%89%E5%88%B0%E5%85%AB%E5%AE%9D%E5%B1%B1%E9%9D%A9%E5%91%BD%E5%85%AC%E5%A2%93%E9%80%81%E5%88%AB",
     "type": "微信公众号",
     "source": "环球时报"
   },
   {
-    "title": "特朗普称金正恩已回应“对话”请求",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%8E%AF%E7%90%83%E6%97%B6%E6%8A%A5+%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E9%87%91%E6%AD%A3%E6%81%A9%E5%B7%B2%E5%9B%9E%E5%BA%94%E2%80%9C%E5%AF%B9%E8%AF%9D%E2%80%9D%E8%AF%B7%E6%B1%82",
+    "title": "厄尔尼诺快速发展，大概率成为历史最强",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%8E%AF%E7%90%83%E6%97%B6%E6%8A%A5+%E5%8E%84%E5%B0%94%E5%B0%BC%E8%AF%BA%E5%BF%AB%E9%80%9F%E5%8F%91%E5%B1%95%EF%BC%8C%E5%A4%A7%E6%A6%82%E7%8E%87%E6%88%90%E4%B8%BA%E5%8E%86%E5%8F%B2%E6%9C%80%E5%BC%BA",
     "type": "微信公众号",
     "source": "环球时报"
   },
   {
-    "title": "俄新型导弹安装美国芯片？英伟达回应",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%8E%AF%E7%90%83%E6%97%B6%E6%8A%A5+%E4%BF%84%E6%96%B0%E5%9E%8B%E5%AF%BC%E5%BC%B9%E5%AE%89%E8%A3%85%E7%BE%8E%E5%9B%BD%E8%8A%AF%E7%89%87%EF%BC%9F%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%9B%9E%E5%BA%94",
+    "title": "警惕！小泉连跑澳、印推军售",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%8E%AF%E7%90%83%E6%97%B6%E6%8A%A5+%E8%AD%A6%E6%83%95%EF%BC%81%E5%B0%8F%E6%B3%89%E8%BF%9E%E8%B7%91%E6%BE%B3%E3%80%81%E5%8D%B0%E6%8E%A8%E5%86%9B%E5%94%AE",
     "type": "微信公众号",
     "source": "环球时报"
   },
   {
-    "title": "频繁做这5件事，最伤甲状腺！",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%8E%AF%E7%90%83%E6%97%B6%E6%8A%A5+%E9%A2%91%E7%B9%81%E5%81%9A%E8%BF%995%E4%BB%B6%E4%BA%8B%EF%BC%8C%E6%9C%80%E4%BC%A4%E7%94%B2%E7%8A%B6%E8%85%BA%EF%BC%81",
+    "title": "特朗普怒了，连说8次！",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%8E%AF%E7%90%83%E6%97%B6%E6%8A%A5+%E7%89%B9%E6%9C%97%E6%99%AE%E6%80%92%E4%BA%86%EF%BC%8C%E8%BF%9E%E8%AF%B48%E6%AC%A1%EF%BC%81",
     "type": "微信公众号",
     "source": "环球时报"
   },
   {
-    "title": "中国一座城市在韩国火了，原因让人动容！",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%8E%AF%E7%90%83%E6%97%B6%E6%8A%A5+%E4%B8%AD%E5%9B%BD%E4%B8%80%E5%BA%A7%E5%9F%8E%E5%B8%82%E5%9C%A8%E9%9F%A9%E5%9B%BD%E7%81%AB%E4%BA%86%EF%BC%8C%E5%8E%9F%E5%9B%A0%E8%AE%A9%E4%BA%BA%E5%8A%A8%E5%AE%B9%EF%BC%81",
+    "title": "“中国式警察”为啥在外网火了",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%8E%AF%E7%90%83%E6%97%B6%E6%8A%A5+%E2%80%9C%E4%B8%AD%E5%9B%BD%E5%BC%8F%E8%AD%A6%E5%AF%9F%E2%80%9D%E4%B8%BA%E5%95%A5%E5%9C%A8%E5%A4%96%E7%BD%91%E7%81%AB%E4%BA%86",
     "type": "微信公众号",
     "source": "环球时报"
+  },
+  {
+    "title": "中国人和美国人都在变e，只有日本人越来越i了｜环球科学要闻",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%8E%AF%E7%90%83%E7%A7%91%E5%AD%A6+%E4%B8%AD%E5%9B%BD%E4%BA%BA%E5%92%8C%E7%BE%8E%E5%9B%BD%E4%BA%BA%E9%83%BD%E5%9C%A8%E5%8F%98e%EF%BC%8C%E5%8F%AA%E6%9C%89%E6%97%A5%E6%9C%AC%E4%BA%BA%E8%B6%8A%E6%9D%A5%E8%B6%8Ai%E4%BA%86%EF%BD%9C%E7%8E%AF%E7%90%83%E7%A7%91%E5%AD%A6%E8%A6%81%E9%97%BB",
+    "type": "微信公众号",
+    "source": "环球科学"
   },
   {
     "title": "表面密布怪异纹路，评论区直呼“心理不适”：超市买到的怪鸡蛋，到底能不能吃？",
@@ -10658,12 +10952,6 @@ window.NEWSFLOW_NEWS = [
   {
     "title": "你每天摸的手机壳，可能是废弃针管、输液管做的！背后藏着这些健康隐患……",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%8E%AF%E7%90%83%E7%A7%91%E5%AD%A6+%E4%BD%A0%E6%AF%8F%E5%A4%A9%E6%91%B8%E7%9A%84%E6%89%8B%E6%9C%BA%E5%A3%B3%EF%BC%8C%E5%8F%AF%E8%83%BD%E6%98%AF%E5%BA%9F%E5%BC%83%E9%92%88%E7%AE%A1%E3%80%81%E8%BE%93%E6%B6%B2%E7%AE%A1%E5%81%9A%E7%9A%84%EF%BC%81%E8%83%8C%E5%90%8E%E8%97%8F%E7%9D%80%E8%BF%99%E4%BA%9B%E5%81%A5%E5%BA%B7%E9%9A%90%E6%82%A3%E2%80%A6%E2%80%A6",
-    "type": "微信公众号",
-    "source": "环球科学"
-  },
-  {
-    "title": "暗物质看不见也摸不着，我们怎么知道它藏在哪里？｜李然",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%8E%AF%E7%90%83%E7%A7%91%E5%AD%A6+%E6%9A%97%E7%89%A9%E8%B4%A8%E7%9C%8B%E4%B8%8D%E8%A7%81%E4%B9%9F%E6%91%B8%E4%B8%8D%E7%9D%80%EF%BC%8C%E6%88%91%E4%BB%AC%E6%80%8E%E4%B9%88%E7%9F%A5%E9%81%93%E5%AE%83%E8%97%8F%E5%9C%A8%E5%93%AA%E9%87%8C%EF%BC%9F%EF%BD%9C%E6%9D%8E%E7%84%B6",
     "type": "微信公众号",
     "source": "环球科学"
   },
@@ -10698,34 +10986,46 @@ window.NEWSFLOW_NEWS = [
     "source": "理想岛"
   },
   {
-    "title": "“辣条一哥”卫龙，卖得最好的单品不是辣条",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%95%8C%E9%9D%A2+%E2%80%9C%E8%BE%A3%E6%9D%A1%E4%B8%80%E5%93%A5%E2%80%9D%E5%8D%AB%E9%BE%99%EF%BC%8C%E5%8D%96%E5%BE%97%E6%9C%80%E5%A5%BD%E7%9A%84%E5%8D%95%E5%93%81%E4%B8%8D%E6%98%AF%E8%BE%A3%E6%9D%A1",
+    "title": "安踏前CEO徐阳首次回应离职",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%95%8C%E9%9D%A2+%E5%AE%89%E8%B8%8F%E5%89%8DCEO%E5%BE%90%E9%98%B3%E9%A6%96%E6%AC%A1%E5%9B%9E%E5%BA%94%E7%A6%BB%E8%81%8C",
     "type": "微信公众号",
     "source": "界面"
   },
   {
-    "title": "11板大牛股，明起复牌",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%95%8C%E9%9D%A2+11%E6%9D%BF%E5%A4%A7%E7%89%9B%E8%82%A1%EF%BC%8C%E6%98%8E%E8%B5%B7%E5%A4%8D%E7%89%8C",
+    "title": "朱镕基同志遗体在京火化，习近平等到八宝山革命公墓送别",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%95%8C%E9%9D%A2+%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%E9%81%97%E4%BD%93%E5%9C%A8%E4%BA%AC%E7%81%AB%E5%8C%96%EF%BC%8C%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%AD%89%E5%88%B0%E5%85%AB%E5%AE%9D%E5%B1%B1%E9%9D%A9%E5%91%BD%E5%85%AC%E5%A2%93%E9%80%81%E5%88%AB",
     "type": "微信公众号",
     "source": "界面"
   },
   {
-    "title": "降价有效！遇见小面上半年净利增超五成",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%95%8C%E9%9D%A2+%E9%99%8D%E4%BB%B7%E6%9C%89%E6%95%88%EF%BC%81%E9%81%87%E8%A7%81%E5%B0%8F%E9%9D%A2%E4%B8%8A%E5%8D%8A%E5%B9%B4%E5%87%80%E5%88%A9%E5%A2%9E%E8%B6%85%E4%BA%94%E6%88%90",
+    "title": "入校即入企！董明珠任校长的格力技校招初中毕业生，学费最高1.5万元",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%95%8C%E9%9D%A2+%E5%85%A5%E6%A0%A1%E5%8D%B3%E5%85%A5%E4%BC%81%EF%BC%81%E8%91%A3%E6%98%8E%E7%8F%A0%E4%BB%BB%E6%A0%A1%E9%95%BF%E7%9A%84%E6%A0%BC%E5%8A%9B%E6%8A%80%E6%A0%A1%E6%8B%9B%E5%88%9D%E4%B8%AD%E6%AF%95%E4%B8%9A%E7%94%9F%EF%BC%8C%E5%AD%A6%E8%B4%B9%E6%9C%80%E9%AB%981.5%E4%B8%87%E5%85%83",
     "type": "微信公众号",
     "source": "界面"
   },
   {
-    "title": "美股存储板块爆发！铠侠、SK海力士、西部数据、闪迪，集体上涨",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%95%8C%E9%9D%A2+%E7%BE%8E%E8%82%A1%E5%AD%98%E5%82%A8%E6%9D%BF%E5%9D%97%E7%88%86%E5%8F%91%EF%BC%81%E9%93%A0%E4%BE%A0%E3%80%81SK%E6%B5%B7%E5%8A%9B%E5%A3%AB%E3%80%81%E8%A5%BF%E9%83%A8%E6%95%B0%E6%8D%AE%E3%80%81%E9%97%AA%E8%BF%AA%EF%BC%8C%E9%9B%86%E4%BD%93%E4%B8%8A%E6%B6%A8",
+    "title": "2.7亿元！法拉利首款纯电车拍出天价",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%95%8C%E9%9D%A2+2.7%E4%BA%BF%E5%85%83%EF%BC%81%E6%B3%95%E6%8B%89%E5%88%A9%E9%A6%96%E6%AC%BE%E7%BA%AF%E7%94%B5%E8%BD%A6%E6%8B%8D%E5%87%BA%E5%A4%A9%E4%BB%B7",
     "type": "微信公众号",
     "source": "界面"
   },
   {
-    "title": "OpenAI、英伟达，大动作！",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%95%8C%E9%9D%A2+OpenAI%E3%80%81%E8%8B%B1%E4%BC%9F%E8%BE%BE%EF%BC%8C%E5%A4%A7%E5%8A%A8%E4%BD%9C%EF%BC%81",
+    "title": "俞敏洪要带队去北极了！10.98万元起，最贵套房21.98万元",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%95%8C%E9%9D%A2+%E4%BF%9E%E6%95%8F%E6%B4%AA%E8%A6%81%E5%B8%A6%E9%98%9F%E5%8E%BB%E5%8C%97%E6%9E%81%E4%BA%86%EF%BC%8110.98%E4%B8%87%E5%85%83%E8%B5%B7%EF%BC%8C%E6%9C%80%E8%B4%B5%E5%A5%97%E6%88%BF21.98%E4%B8%87%E5%85%83",
     "type": "微信公众号",
     "source": "界面"
+  },
+  {
+    "title": "怎么遍地都是“钱少事多”的工作？",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9C%8B%E7%90%86%E6%83%B3+%E6%80%8E%E4%B9%88%E9%81%8D%E5%9C%B0%E9%83%BD%E6%98%AF%E2%80%9C%E9%92%B1%E5%B0%91%E4%BA%8B%E5%A4%9A%E2%80%9D%E7%9A%84%E5%B7%A5%E4%BD%9C%EF%BC%9F",
+    "type": "微信公众号",
+    "source": "看理想"
+  },
+  {
+    "title": "诺兰把奥德修斯改成奥本海默了吗？",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9C%8B%E7%90%86%E6%83%B3+%E8%AF%BA%E5%85%B0%E6%8A%8A%E5%A5%A5%E5%BE%B7%E4%BF%AE%E6%96%AF%E6%94%B9%E6%88%90%E5%A5%A5%E6%9C%AC%E6%B5%B7%E9%BB%98%E4%BA%86%E5%90%97%EF%BC%9F",
+    "type": "微信公众号",
+    "source": "看理想"
   },
   {
     "title": "《奥德赛》是诺兰生涯最佳还是最烂？",
@@ -10742,18 +11042,6 @@ window.NEWSFLOW_NEWS = [
   {
     "title": "近期最有后劲的书，接受无常与临时",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9C%8B%E7%90%86%E6%83%B3+%E8%BF%91%E6%9C%9F%E6%9C%80%E6%9C%89%E5%90%8E%E5%8A%B2%E7%9A%84%E4%B9%A6%EF%BC%8C%E6%8E%A5%E5%8F%97%E6%97%A0%E5%B8%B8%E4%B8%8E%E4%B8%B4%E6%97%B6",
-    "type": "微信公众号",
-    "source": "看理想"
-  },
-  {
-    "title": "人人都感到无力的时刻，就是最危险的时刻",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9C%8B%E7%90%86%E6%83%B3+%E4%BA%BA%E4%BA%BA%E9%83%BD%E6%84%9F%E5%88%B0%E6%97%A0%E5%8A%9B%E7%9A%84%E6%97%B6%E5%88%BB%EF%BC%8C%E5%B0%B1%E6%98%AF%E6%9C%80%E5%8D%B1%E9%99%A9%E7%9A%84%E6%97%B6%E5%88%BB",
-    "type": "微信公众号",
-    "source": "看理想"
-  },
-  {
-    "title": "我们从未如此需要这部豆瓣9.1",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%9C%8B%E7%90%86%E6%83%B3+%E6%88%91%E4%BB%AC%E4%BB%8E%E6%9C%AA%E5%A6%82%E6%AD%A4%E9%9C%80%E8%A6%81%E8%BF%99%E9%83%A8%E8%B1%86%E7%93%A39.1",
     "type": "微信公众号",
     "source": "看理想"
   },
@@ -10878,6 +11166,18 @@ window.NEWSFLOW_NEWS = [
     "source": "笔记侠"
   },
   {
+    "title": "年轻人，站在AI决策的最中心",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%AC%AC%E4%B8%80%E8%B4%A2%E7%BB%8F%E5%91%A8%E5%88%8A+%E5%B9%B4%E8%BD%BB%E4%BA%BA%EF%BC%8C%E7%AB%99%E5%9C%A8AI%E5%86%B3%E7%AD%96%E7%9A%84%E6%9C%80%E4%B8%AD%E5%BF%83",
+    "type": "微信公众号",
+    "source": "第一财经周刊"
+  },
+  {
+    "title": "昨夜今晨发生了什么？ |YiMagazine",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%AC%AC%E4%B8%80%E8%B4%A2%E7%BB%8F%E5%91%A8%E5%88%8A+%E6%98%A8%E5%A4%9C%E4%BB%8A%E6%99%A8%E5%8F%91%E7%94%9F%E4%BA%86%E4%BB%80%E4%B9%88%EF%BC%9F%20%7CYiMagazine",
+    "type": "微信公众号",
+    "source": "第一财经周刊"
+  },
+  {
     "title": "HYROX的生意经：给你的健身定个KPI",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%AC%AC%E4%B8%80%E8%B4%A2%E7%BB%8F%E5%91%A8%E5%88%8A+HYROX%E7%9A%84%E7%94%9F%E6%84%8F%E7%BB%8F%EF%BC%9A%E7%BB%99%E4%BD%A0%E7%9A%84%E5%81%A5%E8%BA%AB%E5%AE%9A%E4%B8%AAKPI",
     "type": "微信公众号",
@@ -10896,16 +11196,16 @@ window.NEWSFLOW_NEWS = [
     "source": "第一财经周刊"
   },
   {
-    "title": "从一粒拼豆到一座城市，看懂年轻人的消费逻辑｜限时优惠",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%AC%AC%E4%B8%80%E8%B4%A2%E7%BB%8F%E5%91%A8%E5%88%8A+%E4%BB%8E%E4%B8%80%E7%B2%92%E6%8B%BC%E8%B1%86%E5%88%B0%E4%B8%80%E5%BA%A7%E5%9F%8E%E5%B8%82%EF%BC%8C%E7%9C%8B%E6%87%82%E5%B9%B4%E8%BD%BB%E4%BA%BA%E7%9A%84%E6%B6%88%E8%B4%B9%E9%80%BB%E8%BE%91%EF%BD%9C%E9%99%90%E6%97%B6%E4%BC%98%E6%83%A0",
+    "title": "\"你一个家庭主妇有什么话语权?\"她被幼儿园老师当众羞辱后，反手让雌竞老师身败名裂!",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%AE%80%E4%B9%A6+%22%E4%BD%A0%E4%B8%80%E4%B8%AA%E5%AE%B6%E5%BA%AD%E4%B8%BB%E5%A6%87%E6%9C%89%E4%BB%80%E4%B9%88%E8%AF%9D%E8%AF%AD%E6%9D%83%3F%22%E5%A5%B9%E8%A2%AB%E5%B9%BC%E5%84%BF%E5%9B%AD%E8%80%81%E5%B8%88%E5%BD%93%E4%BC%97%E7%BE%9E%E8%BE%B1%E5%90%8E%EF%BC%8C%E5%8F%8D%E6%89%8B%E8%AE%A9%E9%9B%8C%E7%AB%9E%E8%80%81%E5%B8%88%E8%BA%AB%E8%B4%A5%E5%90%8D%E8%A3%82%21",
     "type": "微信公众号",
-    "source": "第一财经周刊"
+    "source": "简书"
   },
   {
-    "title": "本月设计师整活 | 职场团队众生相",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%AC%AC%E4%B8%80%E8%B4%A2%E7%BB%8F%E5%91%A8%E5%88%8A+%E6%9C%AC%E6%9C%88%E8%AE%BE%E8%AE%A1%E5%B8%88%E6%95%B4%E6%B4%BB%20%7C%20%E8%81%8C%E5%9C%BA%E5%9B%A2%E9%98%9F%E4%BC%97%E7%94%9F%E7%9B%B8",
+    "title": "【后续】\"你一个家庭主妇有什么话语权?\"她被幼儿园老师当众羞辱后，反手让雌竞老师身败名裂!",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%AE%80%E4%B9%A6+%E3%80%90%E5%90%8E%E7%BB%AD%E3%80%91%22%E4%BD%A0%E4%B8%80%E4%B8%AA%E5%AE%B6%E5%BA%AD%E4%B8%BB%E5%A6%87%E6%9C%89%E4%BB%80%E4%B9%88%E8%AF%9D%E8%AF%AD%E6%9D%83%3F%22%E5%A5%B9%E8%A2%AB%E5%B9%BC%E5%84%BF%E5%9B%AD%E8%80%81%E5%B8%88%E5%BD%93%E4%BC%97%E7%BE%9E%E8%BE%B1%E5%90%8E%EF%BC%8C%E5%8F%8D%E6%89%8B%E8%AE%A9%E9%9B%8C%E7%AB%9E%E8%80%81%E5%B8%88%E8%BA%AB%E8%B4%A5%E5%90%8D%E8%A3%82%21",
     "type": "微信公众号",
-    "source": "第一财经周刊"
+    "source": "简书"
   },
   {
     "title": "“你一个送外卖的，化妆给谁看？”她被赶出家门后，成了百万粉美妆博主！",
@@ -10922,18 +11222,6 @@ window.NEWSFLOW_NEWS = [
   {
     "title": "撞破女友和男闺蜜在山上野战后，这一次婚礼上，他揭开了全家人的真面目！",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%AE%80%E4%B9%A6+%E6%92%9E%E7%A0%B4%E5%A5%B3%E5%8F%8B%E5%92%8C%E7%94%B7%E9%97%BA%E8%9C%9C%E5%9C%A8%E5%B1%B1%E4%B8%8A%E9%87%8E%E6%88%98%E5%90%8E%EF%BC%8C%E8%BF%99%E4%B8%80%E6%AC%A1%E5%A9%9A%E7%A4%BC%E4%B8%8A%EF%BC%8C%E4%BB%96%E6%8F%AD%E5%BC%80%E4%BA%86%E5%85%A8%E5%AE%B6%E4%BA%BA%E7%9A%84%E7%9C%9F%E9%9D%A2%E7%9B%AE%EF%BC%81",
-    "type": "微信公众号",
-    "source": "简书"
-  },
-  {
-    "title": "【后续】撞破女友和男闺蜜在山上野战后，这一次婚礼上，他揭开了全家人的真面目！",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%AE%80%E4%B9%A6+%E3%80%90%E5%90%8E%E7%BB%AD%E3%80%91%E6%92%9E%E7%A0%B4%E5%A5%B3%E5%8F%8B%E5%92%8C%E7%94%B7%E9%97%BA%E8%9C%9C%E5%9C%A8%E5%B1%B1%E4%B8%8A%E9%87%8E%E6%88%98%E5%90%8E%EF%BC%8C%E8%BF%99%E4%B8%80%E6%AC%A1%E5%A9%9A%E7%A4%BC%E4%B8%8A%EF%BC%8C%E4%BB%96%E6%8F%AD%E5%BC%80%E4%BA%86%E5%85%A8%E5%AE%B6%E4%BA%BA%E7%9A%84%E7%9C%9F%E9%9D%A2%E7%9B%AE%EF%BC%81",
-    "type": "微信公众号",
-    "source": "简书"
-  },
-  {
-    "title": "第一天上班就被发配到厕所工位，同事骂我们是“底层垃圾”，三天后全公司都跪了！",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%AE%80%E4%B9%A6+%E7%AC%AC%E4%B8%80%E5%A4%A9%E4%B8%8A%E7%8F%AD%E5%B0%B1%E8%A2%AB%E5%8F%91%E9%85%8D%E5%88%B0%E5%8E%95%E6%89%80%E5%B7%A5%E4%BD%8D%EF%BC%8C%E5%90%8C%E4%BA%8B%E9%AA%82%E6%88%91%E4%BB%AC%E6%98%AF%E2%80%9C%E5%BA%95%E5%B1%82%E5%9E%83%E5%9C%BE%E2%80%9D%EF%BC%8C%E4%B8%89%E5%A4%A9%E5%90%8E%E5%85%A8%E5%85%AC%E5%8F%B8%E9%83%BD%E8%B7%AA%E4%BA%86%EF%BC%81",
     "type": "微信公众号",
     "source": "简书"
   },
@@ -10968,6 +11256,18 @@ window.NEWSFLOW_NEWS = [
     "source": "经济学人"
   },
   {
+    "title": "【首席观察】当贷款不再是信用的唯一主角",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E8%A7%82%E5%AF%9F%E6%8A%A5+%E3%80%90%E9%A6%96%E5%B8%AD%E8%A7%82%E5%AF%9F%E3%80%91%E5%BD%93%E8%B4%B7%E6%AC%BE%E4%B8%8D%E5%86%8D%E6%98%AF%E4%BF%A1%E7%94%A8%E7%9A%84%E5%94%AF%E4%B8%80%E4%B8%BB%E8%A7%92",
+    "type": "微信公众号",
+    "source": "经济观察报"
+  },
+  {
+    "title": "管理上“去家族化”的小动作，难解吉利汽车的大周期之困",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E8%A7%82%E5%AF%9F%E6%8A%A5+%E7%AE%A1%E7%90%86%E4%B8%8A%E2%80%9C%E5%8E%BB%E5%AE%B6%E6%97%8F%E5%8C%96%E2%80%9D%E7%9A%84%E5%B0%8F%E5%8A%A8%E4%BD%9C%EF%BC%8C%E9%9A%BE%E8%A7%A3%E5%90%89%E5%88%A9%E6%B1%BD%E8%BD%A6%E7%9A%84%E5%A4%A7%E5%91%A8%E6%9C%9F%E4%B9%8B%E5%9B%B0",
+    "type": "微信公众号",
+    "source": "经济观察报"
+  },
+  {
     "title": "中国酒业困在价格即价值的悖论里",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E8%A7%82%E5%AF%9F%E6%8A%A5+%E4%B8%AD%E5%9B%BD%E9%85%92%E4%B8%9A%E5%9B%B0%E5%9C%A8%E4%BB%B7%E6%A0%BC%E5%8D%B3%E4%BB%B7%E5%80%BC%E7%9A%84%E6%82%96%E8%AE%BA%E9%87%8C",
     "type": "微信公众号",
@@ -10986,16 +11286,10 @@ window.NEWSFLOW_NEWS = [
     "source": "经济观察报"
   },
   {
-    "title": "强撑颜面：美国派出第三艘航母，伊朗威胁升级冲突",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E8%A7%82%E5%AF%9F%E6%8A%A5+%E5%BC%BA%E6%92%91%E9%A2%9C%E9%9D%A2%EF%BC%9A%E7%BE%8E%E5%9B%BD%E6%B4%BE%E5%87%BA%E7%AC%AC%E4%B8%89%E8%89%98%E8%88%AA%E6%AF%8D%EF%BC%8C%E4%BC%8A%E6%9C%97%E5%A8%81%E8%83%81%E5%8D%87%E7%BA%A7%E5%86%B2%E7%AA%81",
+    "title": "真正的效率，不是塞满日程，而是用对状态",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BD%97%E8%BE%91%E6%80%9D%E7%BB%B4+%E7%9C%9F%E6%AD%A3%E7%9A%84%E6%95%88%E7%8E%87%EF%BC%8C%E4%B8%8D%E6%98%AF%E5%A1%9E%E6%BB%A1%E6%97%A5%E7%A8%8B%EF%BC%8C%E8%80%8C%E6%98%AF%E7%94%A8%E5%AF%B9%E7%8A%B6%E6%80%81",
     "type": "微信公众号",
-    "source": "经济观察报"
-  },
-  {
-    "title": "东航“免费退改”后，其他航司为何迟迟不跟进",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BB%8F%E6%B5%8E%E8%A7%82%E5%AF%9F%E6%8A%A5+%E4%B8%9C%E8%88%AA%E2%80%9C%E5%85%8D%E8%B4%B9%E9%80%80%E6%94%B9%E2%80%9D%E5%90%8E%EF%BC%8C%E5%85%B6%E4%BB%96%E8%88%AA%E5%8F%B8%E4%B8%BA%E4%BD%95%E8%BF%9F%E8%BF%9F%E4%B8%8D%E8%B7%9F%E8%BF%9B",
-    "type": "微信公众号",
-    "source": "经济观察报"
+    "source": "罗辑思维"
   },
   {
     "title": "大宋是一袭华美的袍，但爬满了吸血的蚤子",
@@ -11018,12 +11312,6 @@ window.NEWSFLOW_NEWS = [
   {
     "title": "怎样成为有魅力的手艺人？",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BD%97%E8%BE%91%E6%80%9D%E7%BB%B4+%E6%80%8E%E6%A0%B7%E6%88%90%E4%B8%BA%E6%9C%89%E9%AD%85%E5%8A%9B%E7%9A%84%E6%89%8B%E8%89%BA%E4%BA%BA%EF%BC%9F",
-    "type": "微信公众号",
-    "source": "罗辑思维"
-  },
-  {
-    "title": "轻断食，是减肥秘诀还是健康习惯？",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E7%BD%97%E8%BE%91%E6%80%9D%E7%BB%B4+%E8%BD%BB%E6%96%AD%E9%A3%9F%EF%BC%8C%E6%98%AF%E5%87%8F%E8%82%A5%E7%A7%98%E8%AF%80%E8%BF%98%E6%98%AF%E5%81%A5%E5%BA%B7%E4%B9%A0%E6%83%AF%EF%BC%9F",
     "type": "微信公众号",
     "source": "罗辑思维"
   },
@@ -11058,6 +11346,12 @@ window.NEWSFLOW_NEWS = [
     "source": "脑洞故事板"
   },
   {
+    "title": "黄仁勋、奥特曼、孙正义“抱团20年”",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%85%BE%E8%AE%AF%E7%A7%91%E6%8A%80+%E9%BB%84%E4%BB%81%E5%8B%8B%E3%80%81%E5%A5%A5%E7%89%B9%E6%9B%BC%E3%80%81%E5%AD%99%E6%AD%A3%E4%B9%89%E2%80%9C%E6%8A%B1%E5%9B%A220%E5%B9%B4%E2%80%9D",
+    "type": "微信公众号",
+    "source": "腾讯科技"
+  },
+  {
     "title": "DeepSeek Harness刷屏、Cursor“落幕”、OpenAI 解散安全团队丨AI领域一周观察",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%85%BE%E8%AE%AF%E7%A7%91%E6%8A%80+DeepSeek%20Harness%E5%88%B7%E5%B1%8F%E3%80%81Cursor%E2%80%9C%E8%90%BD%E5%B9%95%E2%80%9D%E3%80%81OpenAI%20%E8%A7%A3%E6%95%A3%E5%AE%89%E5%85%A8%E5%9B%A2%E9%98%9F%E4%B8%A8AI%E9%A2%86%E5%9F%9F%E4%B8%80%E5%91%A8%E8%A7%82%E5%AF%9F",
     "type": "微信公众号",
@@ -11082,38 +11376,32 @@ window.NEWSFLOW_NEWS = [
     "source": "腾讯科技"
   },
   {
-    "title": "上市前夜，OpenAI遭遇“高管离职潮”",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%85%BE%E8%AE%AF%E7%A7%91%E6%8A%80+%E4%B8%8A%E5%B8%82%E5%89%8D%E5%A4%9C%EF%BC%8COpenAI%E9%81%AD%E9%81%87%E2%80%9C%E9%AB%98%E7%AE%A1%E7%A6%BB%E8%81%8C%E6%BD%AE%E2%80%9D",
+    "title": "户外装备的新战场：不是防水，是湿了以后",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%8E%E5%97%85%E7%BD%91+%E6%88%B7%E5%A4%96%E8%A3%85%E5%A4%87%E7%9A%84%E6%96%B0%E6%88%98%E5%9C%BA%EF%BC%9A%E4%B8%8D%E6%98%AF%E9%98%B2%E6%B0%B4%EF%BC%8C%E6%98%AF%E6%B9%BF%E4%BA%86%E4%BB%A5%E5%90%8E",
     "type": "微信公众号",
-    "source": "腾讯科技"
+    "source": "虎嗅网"
+  },
+  {
+    "title": "“香港插班热”里，有人为学位抢破头，有人悄悄把娃送回内地",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%8E%E5%97%85%E7%BD%91+%E2%80%9C%E9%A6%99%E6%B8%AF%E6%8F%92%E7%8F%AD%E7%83%AD%E2%80%9D%E9%87%8C%EF%BC%8C%E6%9C%89%E4%BA%BA%E4%B8%BA%E5%AD%A6%E4%BD%8D%E6%8A%A2%E7%A0%B4%E5%A4%B4%EF%BC%8C%E6%9C%89%E4%BA%BA%E6%82%84%E6%82%84%E6%8A%8A%E5%A8%83%E9%80%81%E5%9B%9E%E5%86%85%E5%9C%B0",
+    "type": "微信公众号",
+    "source": "虎嗅网"
+  },
+  {
+    "title": "别高估车企“造人”",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%8E%E5%97%85%E7%BD%91+%E5%88%AB%E9%AB%98%E4%BC%B0%E8%BD%A6%E4%BC%81%E2%80%9C%E9%80%A0%E4%BA%BA%E2%80%9D",
+    "type": "微信公众号",
+    "source": "虎嗅网"
+  },
+  {
+    "title": "早报 | 宇树科技明日上市；李书福辞任吉利汽车董事会主席；多家影院回应是否下架《牛来》；特朗普称不寻求延长与伊朗的谅解备忘录",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%8E%E5%97%85%E7%BD%91+%E6%97%A9%E6%8A%A5%20%7C%20%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%80%E6%98%8E%E6%97%A5%E4%B8%8A%E5%B8%82%EF%BC%9B%E6%9D%8E%E4%B9%A6%E7%A6%8F%E8%BE%9E%E4%BB%BB%E5%90%89%E5%88%A9%E6%B1%BD%E8%BD%A6%E8%91%A3%E4%BA%8B%E4%BC%9A%E4%B8%BB%E5%B8%AD%EF%BC%9B%E5%A4%9A%E5%AE%B6%E5%BD%B1%E9%99%A2%E5%9B%9E%E5%BA%94%E6%98%AF%E5%90%A6%E4%B8%8B%E6%9E%B6%E3%80%8A%E7%89%9B%E6%9D%A5%E3%80%8B%EF%BC%9B%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E4%B8%8D%E5%AF%BB%E6%B1%82%E5%BB%B6%E9%95%BF%E4%B8%8E%E4%BC%8A%E6%9C%97%E7%9A%84%E8%B0%85%E8%A7%A3%E5%A4%87%E5%BF%98%E5%BD%95",
+    "type": "微信公众号",
+    "source": "虎嗅网"
   },
   {
     "title": "从超级个体到组织收益，AI卡在哪？",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%8E%E5%97%85%E7%BD%91+%E4%BB%8E%E8%B6%85%E7%BA%A7%E4%B8%AA%E4%BD%93%E5%88%B0%E7%BB%84%E7%BB%87%E6%94%B6%E7%9B%8A%EF%BC%8CAI%E5%8D%A1%E5%9C%A8%E5%93%AA%EF%BC%9F",
-    "type": "微信公众号",
-    "source": "虎嗅网"
-  },
-  {
-    "title": "《牛来》爆火，“嘲讽经济学”的胜利",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%8E%E5%97%85%E7%BD%91+%E3%80%8A%E7%89%9B%E6%9D%A5%E3%80%8B%E7%88%86%E7%81%AB%EF%BC%8C%E2%80%9C%E5%98%B2%E8%AE%BD%E7%BB%8F%E6%B5%8E%E5%AD%A6%E2%80%9D%E7%9A%84%E8%83%9C%E5%88%A9",
-    "type": "微信公众号",
-    "source": "虎嗅网"
-  },
-  {
-    "title": "规模之外：一家中国大模型公司的非共识实践",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%8E%E5%97%85%E7%BD%91+%E8%A7%84%E6%A8%A1%E4%B9%8B%E5%A4%96%EF%BC%9A%E4%B8%80%E5%AE%B6%E4%B8%AD%E5%9B%BD%E5%A4%A7%E6%A8%A1%E5%9E%8B%E5%85%AC%E5%8F%B8%E7%9A%84%E9%9D%9E%E5%85%B1%E8%AF%86%E5%AE%9E%E8%B7%B5",
-    "type": "微信公众号",
-    "source": "虎嗅网"
-  },
-  {
-    "title": "中国商人在中东，听够了沈腾被说的那句“不够甜”",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%8E%E5%97%85%E7%BD%91+%E4%B8%AD%E5%9B%BD%E5%95%86%E4%BA%BA%E5%9C%A8%E4%B8%AD%E4%B8%9C%EF%BC%8C%E5%90%AC%E5%A4%9F%E4%BA%86%E6%B2%88%E8%85%BE%E8%A2%AB%E8%AF%B4%E7%9A%84%E9%82%A3%E5%8F%A5%E2%80%9C%E4%B8%8D%E5%A4%9F%E7%94%9C%E2%80%9D",
-    "type": "微信公众号",
-    "source": "虎嗅网"
-  },
-  {
-    "title": "8个人服务4万间房，德胧AI到底替了谁？【AI落地洞察】",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%99%8E%E5%97%85%E7%BD%91+8%E4%B8%AA%E4%BA%BA%E6%9C%8D%E5%8A%A14%E4%B8%87%E9%97%B4%E6%88%BF%EF%BC%8C%E5%BE%B7%E8%83%A7AI%E5%88%B0%E5%BA%95%E6%9B%BF%E4%BA%86%E8%B0%81%EF%BC%9F%E3%80%90AI%E8%90%BD%E5%9C%B0%E6%B4%9E%E5%AF%9F%E3%80%91",
     "type": "微信公众号",
     "source": "虎嗅网"
   },
@@ -11238,94 +11526,100 @@ window.NEWSFLOW_NEWS = [
     "source": "读库小报"
   },
   {
-    "title": "最新周刊导播｜太子集团“二号”迷宫、宇树219倍PE、SHEIN逆势IPO",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%B4%A2%E6%96%B0%E7%BD%91+%E6%9C%80%E6%96%B0%E5%91%A8%E5%88%8A%E5%AF%BC%E6%92%AD%EF%BD%9C%E5%A4%AA%E5%AD%90%E9%9B%86%E5%9B%A2%E2%80%9C%E4%BA%8C%E5%8F%B7%E2%80%9D%E8%BF%B7%E5%AE%AB%E3%80%81%E5%AE%87%E6%A0%91219%E5%80%8DPE%E3%80%81SHEIN%E9%80%86%E5%8A%BFIPO",
+    "title": "特别呈现 | 吉利汽车上半年核心利润增长46%，业务结构与资本回报同步优化",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%B4%A2%E6%96%B0%E7%BD%91+%E7%89%B9%E5%88%AB%E5%91%88%E7%8E%B0%20%7C%20%E5%90%89%E5%88%A9%E6%B1%BD%E8%BD%A6%E4%B8%8A%E5%8D%8A%E5%B9%B4%E6%A0%B8%E5%BF%83%E5%88%A9%E6%B6%A6%E5%A2%9E%E9%95%BF46%25%EF%BC%8C%E4%B8%9A%E5%8A%A1%E7%BB%93%E6%9E%84%E4%B8%8E%E8%B5%84%E6%9C%AC%E5%9B%9E%E6%8A%A5%E5%90%8C%E6%AD%A5%E4%BC%98%E5%8C%96",
     "type": "微信公众号",
     "source": "财新网"
   },
   {
-    "title": "泰国14岁青少年持枪杀害8人 背后症结何在？",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%B4%A2%E6%96%B0%E7%BD%91+%E6%B3%B0%E5%9B%BD14%E5%B2%81%E9%9D%92%E5%B0%91%E5%B9%B4%E6%8C%81%E6%9E%AA%E6%9D%80%E5%AE%B38%E4%BA%BA%20%E8%83%8C%E5%90%8E%E7%97%87%E7%BB%93%E4%BD%95%E5%9C%A8%EF%BC%9F",
+    "title": "特朗普突释对朝鲜善意 李在明呼吁结束朝鲜战争",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%B4%A2%E6%96%B0%E7%BD%91+%E7%89%B9%E6%9C%97%E6%99%AE%E7%AA%81%E9%87%8A%E5%AF%B9%E6%9C%9D%E9%B2%9C%E5%96%84%E6%84%8F%20%E6%9D%8E%E5%9C%A8%E6%98%8E%E5%91%BC%E5%90%81%E7%BB%93%E6%9D%9F%E6%9C%9D%E9%B2%9C%E6%88%98%E4%BA%89",
     "type": "微信公众号",
     "source": "财新网"
   },
   {
-    "title": "宇树“暗盘”出价3倍 触及账户监管红线",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%B4%A2%E6%96%B0%E7%BD%91+%E5%AE%87%E6%A0%91%E2%80%9C%E6%9A%97%E7%9B%98%E2%80%9D%E5%87%BA%E4%BB%B73%E5%80%8D%20%E8%A7%A6%E5%8F%8A%E8%B4%A6%E6%88%B7%E7%9B%91%E7%AE%A1%E7%BA%A2%E7%BA%BF",
+    "title": "英首相遇“政治骗子” 与冒牌特朗普幕僚长互发信息",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%B4%A2%E6%96%B0%E7%BD%91+%E8%8B%B1%E9%A6%96%E7%9B%B8%E9%81%87%E2%80%9C%E6%94%BF%E6%B2%BB%E9%AA%97%E5%AD%90%E2%80%9D%20%E4%B8%8E%E5%86%92%E7%89%8C%E7%89%B9%E6%9C%97%E6%99%AE%E5%B9%95%E5%83%9A%E9%95%BF%E4%BA%92%E5%8F%91%E4%BF%A1%E6%81%AF",
     "type": "微信公众号",
     "source": "财新网"
   },
   {
-    "title": "最高法披露许垚故意杀人案 作案动机系长期矛盾",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%B4%A2%E6%96%B0%E7%BD%91+%E6%9C%80%E9%AB%98%E6%B3%95%E6%8A%AB%E9%9C%B2%E8%AE%B8%E5%9E%9A%E6%95%85%E6%84%8F%E6%9D%80%E4%BA%BA%E6%A1%88%20%E4%BD%9C%E6%A1%88%E5%8A%A8%E6%9C%BA%E7%B3%BB%E9%95%BF%E6%9C%9F%E7%9F%9B%E7%9B%BE",
+    "title": "“围猎”IPO手法层出不穷 香港ZD Group爆发兑付危机",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%B4%A2%E6%96%B0%E7%BD%91+%E2%80%9C%E5%9B%B4%E7%8C%8E%E2%80%9DIPO%E6%89%8B%E6%B3%95%E5%B1%82%E5%87%BA%E4%B8%8D%E7%A9%B7%20%E9%A6%99%E6%B8%AFZD%20Group%E7%88%86%E5%8F%91%E5%85%91%E4%BB%98%E5%8D%B1%E6%9C%BA",
     "type": "微信公众号",
     "source": "财新网"
   },
   {
-    "title": "投向山西煤炭大亨的信托爆雷十余年后 代销银行被判赔偿投资者损失20%",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%B4%A2%E6%96%B0%E7%BD%91+%E6%8A%95%E5%90%91%E5%B1%B1%E8%A5%BF%E7%85%A4%E7%82%AD%E5%A4%A7%E4%BA%A8%E7%9A%84%E4%BF%A1%E6%89%98%E7%88%86%E9%9B%B7%E5%8D%81%E4%BD%99%E5%B9%B4%E5%90%8E%20%E4%BB%A3%E9%94%80%E9%93%B6%E8%A1%8C%E8%A2%AB%E5%88%A4%E8%B5%94%E5%81%BF%E6%8A%95%E8%B5%84%E8%80%85%E6%8D%9F%E5%A4%B120%25",
+    "title": "沪广深新房价格环比“五连涨” 二手房继续以价换量",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%B4%A2%E6%96%B0%E7%BD%91+%E6%B2%AA%E5%B9%BF%E6%B7%B1%E6%96%B0%E6%88%BF%E4%BB%B7%E6%A0%BC%E7%8E%AF%E6%AF%94%E2%80%9C%E4%BA%94%E8%BF%9E%E6%B6%A8%E2%80%9D%20%E4%BA%8C%E6%89%8B%E6%88%BF%E7%BB%A7%E7%BB%AD%E4%BB%A5%E4%BB%B7%E6%8D%A2%E9%87%8F",
     "type": "微信公众号",
     "source": "财新网"
   },
   {
-    "title": "出到第八版，这套幼儿性教育科普书到底有多经典？",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%BF%9E%E5%B2%B3+%E5%87%BA%E5%88%B0%E7%AC%AC%E5%85%AB%E7%89%88%EF%BC%8C%E8%BF%99%E5%A5%97%E5%B9%BC%E5%84%BF%E6%80%A7%E6%95%99%E8%82%B2%E7%A7%91%E6%99%AE%E4%B9%A6%E5%88%B0%E5%BA%95%E6%9C%89%E5%A4%9A%E7%BB%8F%E5%85%B8%EF%BC%9F",
+    "title": "甄选极光近圆淡水珍珠项链，颗颗犹如\"小灯泡\"，盈润饱满, 光晕如月，流转颈间的优雅",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%BF%9E%E5%B2%B3+%E7%94%84%E9%80%89%E6%9E%81%E5%85%89%E8%BF%91%E5%9C%86%E6%B7%A1%E6%B0%B4%E7%8F%8D%E7%8F%A0%E9%A1%B9%E9%93%BE%EF%BC%8C%E9%A2%97%E9%A2%97%E7%8A%B9%E5%A6%82%22%E5%B0%8F%E7%81%AF%E6%B3%A1%22%EF%BC%8C%E7%9B%88%E6%B6%A6%E9%A5%B1%E6%BB%A1%2C%20%E5%85%89%E6%99%95%E5%A6%82%E6%9C%88%EF%BC%8C%E6%B5%81%E8%BD%AC%E9%A2%88%E9%97%B4%E7%9A%84%E4%BC%98%E9%9B%85",
     "type": "微信公众号",
     "source": "连岳"
   },
   {
-    "title": "无法一辈子为孩子遮风挡雨，就用安全教育让他们自己长出盔甲。防欺凌、防拐骗、防性侵，让保护自己成为每一个孩子都拥有的能力",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%BF%9E%E5%B2%B3+%E6%97%A0%E6%B3%95%E4%B8%80%E8%BE%88%E5%AD%90%E4%B8%BA%E5%AD%A9%E5%AD%90%E9%81%AE%E9%A3%8E%E6%8C%A1%E9%9B%A8%EF%BC%8C%E5%B0%B1%E7%94%A8%E5%AE%89%E5%85%A8%E6%95%99%E8%82%B2%E8%AE%A9%E4%BB%96%E4%BB%AC%E8%87%AA%E5%B7%B1%E9%95%BF%E5%87%BA%E7%9B%94%E7%94%B2%E3%80%82%E9%98%B2%E6%AC%BA%E5%87%8C%E3%80%81%E9%98%B2%E6%8B%90%E9%AA%97%E3%80%81%E9%98%B2%E6%80%A7%E4%BE%B5%EF%BC%8C%E8%AE%A9%E4%BF%9D%E6%8A%A4%E8%87%AA%E5%B7%B1%E6%88%90%E4%B8%BA%E6%AF%8F%E4%B8%80%E4%B8%AA%E5%AD%A9%E5%AD%90%E9%83%BD%E6%8B%A5%E6%9C%89%E7%9A%84%E8%83%BD%E5%8A%9B",
+    "title": "连岳随感123",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%BF%9E%E5%B2%B3+%E8%BF%9E%E5%B2%B3%E9%9A%8F%E6%84%9F123",
     "type": "微信公众号",
     "source": "连岳"
   },
   {
-    "title": "连岳随感122",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%BF%9E%E5%B2%B3+%E8%BF%9E%E5%B2%B3%E9%9A%8F%E6%84%9F122",
+    "title": "写作业不仅要陪，而且要做到低年级陪好，高年级陪少。避开四大陪学误区，28个实用小妙招，陪孩子写作业陪出长远学习力",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%BF%9E%E5%B2%B3+%E5%86%99%E4%BD%9C%E4%B8%9A%E4%B8%8D%E4%BB%85%E8%A6%81%E9%99%AA%EF%BC%8C%E8%80%8C%E4%B8%94%E8%A6%81%E5%81%9A%E5%88%B0%E4%BD%8E%E5%B9%B4%E7%BA%A7%E9%99%AA%E5%A5%BD%EF%BC%8C%E9%AB%98%E5%B9%B4%E7%BA%A7%E9%99%AA%E5%B0%91%E3%80%82%E9%81%BF%E5%BC%80%E5%9B%9B%E5%A4%A7%E9%99%AA%E5%AD%A6%E8%AF%AF%E5%8C%BA%EF%BC%8C28%E4%B8%AA%E5%AE%9E%E7%94%A8%E5%B0%8F%E5%A6%99%E6%8B%9B%EF%BC%8C%E9%99%AA%E5%AD%A9%E5%AD%90%E5%86%99%E4%BD%9C%E4%B8%9A%E9%99%AA%E5%87%BA%E9%95%BF%E8%BF%9C%E5%AD%A6%E4%B9%A0%E5%8A%9B",
     "type": "微信公众号",
     "source": "连岳"
   },
   {
-    "title": "把42亿年生命史拍成文字版“纪录片”，让孩子舍不得眨眼的神级讲解。从鱼到人的9大进化阶段，画好生物启蒙的“知识地图”",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%BF%9E%E5%B2%B3+%E6%8A%8A42%E4%BA%BF%E5%B9%B4%E7%94%9F%E5%91%BD%E5%8F%B2%E6%8B%8D%E6%88%90%E6%96%87%E5%AD%97%E7%89%88%E2%80%9C%E7%BA%AA%E5%BD%95%E7%89%87%E2%80%9D%EF%BC%8C%E8%AE%A9%E5%AD%A9%E5%AD%90%E8%88%8D%E4%B8%8D%E5%BE%97%E7%9C%A8%E7%9C%BC%E7%9A%84%E7%A5%9E%E7%BA%A7%E8%AE%B2%E8%A7%A3%E3%80%82%E4%BB%8E%E9%B1%BC%E5%88%B0%E4%BA%BA%E7%9A%849%E5%A4%A7%E8%BF%9B%E5%8C%96%E9%98%B6%E6%AE%B5%EF%BC%8C%E7%94%BB%E5%A5%BD%E7%94%9F%E7%89%A9%E5%90%AF%E8%92%99%E7%9A%84%E2%80%9C%E7%9F%A5%E8%AF%86%E5%9C%B0%E5%9B%BE%E2%80%9D",
+    "title": "隐形淤堵正在摧毁你的免疫力和生命力，养淋巴就是养命！淋巴通畅完全指南，跳出养生误区，给你可落地的科学养护方案",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%BF%9E%E5%B2%B3+%E9%9A%90%E5%BD%A2%E6%B7%A4%E5%A0%B5%E6%AD%A3%E5%9C%A8%E6%91%A7%E6%AF%81%E4%BD%A0%E7%9A%84%E5%85%8D%E7%96%AB%E5%8A%9B%E5%92%8C%E7%94%9F%E5%91%BD%E5%8A%9B%EF%BC%8C%E5%85%BB%E6%B7%8B%E5%B7%B4%E5%B0%B1%E6%98%AF%E5%85%BB%E5%91%BD%EF%BC%81%E6%B7%8B%E5%B7%B4%E9%80%9A%E7%95%85%E5%AE%8C%E5%85%A8%E6%8C%87%E5%8D%97%EF%BC%8C%E8%B7%B3%E5%87%BA%E5%85%BB%E7%94%9F%E8%AF%AF%E5%8C%BA%EF%BC%8C%E7%BB%99%E4%BD%A0%E5%8F%AF%E8%90%BD%E5%9C%B0%E7%9A%84%E7%A7%91%E5%AD%A6%E5%85%BB%E6%8A%A4%E6%96%B9%E6%A1%88",
     "type": "微信公众号",
     "source": "连岳"
   },
   {
-    "title": "特惠99元起，高山核心产区白芽奇兰，香气鲜活，茶汤柔和不涩，冷热泡皆宜",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%BF%9E%E5%B2%B3+%E7%89%B9%E6%83%A099%E5%85%83%E8%B5%B7%EF%BC%8C%E9%AB%98%E5%B1%B1%E6%A0%B8%E5%BF%83%E4%BA%A7%E5%8C%BA%E7%99%BD%E8%8A%BD%E5%A5%87%E5%85%B0%EF%BC%8C%E9%A6%99%E6%B0%94%E9%B2%9C%E6%B4%BB%EF%BC%8C%E8%8C%B6%E6%B1%A4%E6%9F%94%E5%92%8C%E4%B8%8D%E6%B6%A9%EF%BC%8C%E5%86%B7%E7%83%AD%E6%B3%A1%E7%9A%86%E5%AE%9C",
+    "title": "聚焦30个小学生学习和生活中的高频烦恼，热血漫画+科学方法，引导孩子认识自我、调整情绪，拒绝内耗，点燃成长力量！",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E8%BF%9E%E5%B2%B3+%E8%81%9A%E7%84%A630%E4%B8%AA%E5%B0%8F%E5%AD%A6%E7%94%9F%E5%AD%A6%E4%B9%A0%E5%92%8C%E7%94%9F%E6%B4%BB%E4%B8%AD%E7%9A%84%E9%AB%98%E9%A2%91%E7%83%A6%E6%81%BC%EF%BC%8C%E7%83%AD%E8%A1%80%E6%BC%AB%E7%94%BB%2B%E7%A7%91%E5%AD%A6%E6%96%B9%E6%B3%95%EF%BC%8C%E5%BC%95%E5%AF%BC%E5%AD%A9%E5%AD%90%E8%AE%A4%E8%AF%86%E8%87%AA%E6%88%91%E3%80%81%E8%B0%83%E6%95%B4%E6%83%85%E7%BB%AA%EF%BC%8C%E6%8B%92%E7%BB%9D%E5%86%85%E8%80%97%EF%BC%8C%E7%82%B9%E7%87%83%E6%88%90%E9%95%BF%E5%8A%9B%E9%87%8F%EF%BC%81",
     "type": "微信公众号",
     "source": "连岳"
   },
   {
-    "title": "特朗普：金正恩已回应我的请求",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%95%BF%E5%AE%89%E8%A1%97%E7%9F%A5%E4%BA%8B+%E7%89%B9%E6%9C%97%E6%99%AE%EF%BC%9A%E9%87%91%E6%AD%A3%E6%81%A9%E5%B7%B2%E5%9B%9E%E5%BA%94%E6%88%91%E7%9A%84%E8%AF%B7%E6%B1%82",
+    "title": "朱镕基同志遗体在京火化 习近平等到八宝山革命公墓送别",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%95%BF%E5%AE%89%E8%A1%97%E7%9F%A5%E4%BA%8B+%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%E9%81%97%E4%BD%93%E5%9C%A8%E4%BA%AC%E7%81%AB%E5%8C%96%20%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%AD%89%E5%88%B0%E5%85%AB%E5%AE%9D%E5%B1%B1%E9%9D%A9%E5%91%BD%E5%85%AC%E5%A2%93%E9%80%81%E5%88%AB",
     "type": "微信公众号",
     "source": "长安街知事"
   },
   {
-    "title": "这样的“玩笑”，特朗普说真的吗？",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%95%BF%E5%AE%89%E8%A1%97%E7%9F%A5%E4%BA%8B+%E8%BF%99%E6%A0%B7%E7%9A%84%E2%80%9C%E7%8E%A9%E7%AC%91%E2%80%9D%EF%BC%8C%E7%89%B9%E6%9C%97%E6%99%AE%E8%AF%B4%E7%9C%9F%E7%9A%84%E5%90%97%EF%BC%9F",
+    "title": "揭秘北京“地下长城”",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%95%BF%E5%AE%89%E8%A1%97%E7%9F%A5%E4%BA%8B+%E6%8F%AD%E7%A7%98%E5%8C%97%E4%BA%AC%E2%80%9C%E5%9C%B0%E4%B8%8B%E9%95%BF%E5%9F%8E%E2%80%9D",
     "type": "微信公众号",
     "source": "长安街知事"
   },
   {
-    "title": "AI时代，“劳动光荣”过时了吗？",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%95%BF%E5%AE%89%E8%A1%97%E7%9F%A5%E4%BA%8B+AI%E6%97%B6%E4%BB%A3%EF%BC%8C%E2%80%9C%E5%8A%B3%E5%8A%A8%E5%85%89%E8%8D%A3%E2%80%9D%E8%BF%87%E6%97%B6%E4%BA%86%E5%90%97%EF%BC%9F",
+    "title": "王虹回应获奖、转系等问题",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%95%BF%E5%AE%89%E8%A1%97%E7%9F%A5%E4%BA%8B+%E7%8E%8B%E8%99%B9%E5%9B%9E%E5%BA%94%E8%8E%B7%E5%A5%96%E3%80%81%E8%BD%AC%E7%B3%BB%E7%AD%89%E9%97%AE%E9%A2%98",
     "type": "微信公众号",
     "source": "长安街知事"
   },
   {
-    "title": "朱森林同志生平",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%95%BF%E5%AE%89%E8%A1%97%E7%9F%A5%E4%BA%8B+%E6%9C%B1%E6%A3%AE%E6%9E%97%E5%90%8C%E5%BF%97%E7%94%9F%E5%B9%B3",
+    "title": "董明珠任校长，格力技工学校正式招生：首届招收300名初中毕业生，未来优先进入格力实习就业",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%95%BF%E5%AE%89%E8%A1%97%E7%9F%A5%E4%BA%8B+%E8%91%A3%E6%98%8E%E7%8F%A0%E4%BB%BB%E6%A0%A1%E9%95%BF%EF%BC%8C%E6%A0%BC%E5%8A%9B%E6%8A%80%E5%B7%A5%E5%AD%A6%E6%A0%A1%E6%AD%A3%E5%BC%8F%E6%8B%9B%E7%94%9F%EF%BC%9A%E9%A6%96%E5%B1%8A%E6%8B%9B%E6%94%B6300%E5%90%8D%E5%88%9D%E4%B8%AD%E6%AF%95%E4%B8%9A%E7%94%9F%EF%BC%8C%E6%9C%AA%E6%9D%A5%E4%BC%98%E5%85%88%E8%BF%9B%E5%85%A5%E6%A0%BC%E5%8A%9B%E5%AE%9E%E4%B9%A0%E5%B0%B1%E4%B8%9A",
     "type": "微信公众号",
     "source": "长安街知事"
   },
   {
-    "title": "吉利汽车重要调整，安聪慧获任董事会主席",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%95%BF%E5%AE%89%E8%A1%97%E7%9F%A5%E4%BA%8B+%E5%90%89%E5%88%A9%E6%B1%BD%E8%BD%A6%E9%87%8D%E8%A6%81%E8%B0%83%E6%95%B4%EF%BC%8C%E5%AE%89%E8%81%AA%E6%85%A7%E8%8E%B7%E4%BB%BB%E8%91%A3%E4%BA%8B%E4%BC%9A%E4%B8%BB%E5%B8%AD",
+    "title": "潘岳最新署名文章",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%95%BF%E5%AE%89%E8%A1%97%E7%9F%A5%E4%BA%8B+%E6%BD%98%E5%B2%B3%E6%9C%80%E6%96%B0%E7%BD%B2%E5%90%8D%E6%96%87%E7%AB%A0",
     "type": "微信公众号",
     "source": "长安街知事"
+  },
+  {
+    "title": "七夕送什么，成了京东的大招前摇",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+%E4%B8%83%E5%A4%95%E9%80%81%E4%BB%80%E4%B9%88%EF%BC%8C%E6%88%90%E4%BA%86%E4%BA%AC%E4%B8%9C%E7%9A%84%E5%A4%A7%E6%8B%9B%E5%89%8D%E6%91%87",
+    "type": "微信公众号",
+    "source": "阑夕"
   },
   {
     "title": "把AI视频的提示词写成「永乐大典」，这对吗？",
@@ -11352,10 +11646,16 @@ window.NEWSFLOW_NEWS = [
     "source": "阑夕"
   },
   {
-    "title": "AI影视「闯关」：不是生成，是创作",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%98%91%E5%A4%95+AI%E5%BD%B1%E8%A7%86%E3%80%8C%E9%97%AF%E5%85%B3%E3%80%8D%EF%BC%9A%E4%B8%8D%E6%98%AF%E7%94%9F%E6%88%90%EF%BC%8C%E6%98%AF%E5%88%9B%E4%BD%9C",
+    "title": "火上热搜的暑假“预制娃”事件，其实揭露了一个可怕的现象",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9D%92%E5%B9%B4%E6%96%87%E6%91%98+%E7%81%AB%E4%B8%8A%E7%83%AD%E6%90%9C%E7%9A%84%E6%9A%91%E5%81%87%E2%80%9C%E9%A2%84%E5%88%B6%E5%A8%83%E2%80%9D%E4%BA%8B%E4%BB%B6%EF%BC%8C%E5%85%B6%E5%AE%9E%E6%8F%AD%E9%9C%B2%E4%BA%86%E4%B8%80%E4%B8%AA%E5%8F%AF%E6%80%95%E7%9A%84%E7%8E%B0%E8%B1%A1",
     "type": "微信公众号",
-    "source": "阑夕"
+    "source": "青年文摘"
+  },
+  {
+    "title": "你每天都在吃，它们居然是国家保护植物？！",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9D%92%E5%B9%B4%E6%96%87%E6%91%98+%E4%BD%A0%E6%AF%8F%E5%A4%A9%E9%83%BD%E5%9C%A8%E5%90%83%EF%BC%8C%E5%AE%83%E4%BB%AC%E5%B1%85%E7%84%B6%E6%98%AF%E5%9B%BD%E5%AE%B6%E4%BF%9D%E6%8A%A4%E6%A4%8D%E7%89%A9%EF%BC%9F%EF%BC%81",
+    "type": "微信公众号",
+    "source": "青年文摘"
   },
   {
     "title": "热爱可抵岁月漫长",
@@ -11372,18 +11672,6 @@ window.NEWSFLOW_NEWS = [
   {
     "title": "没得奖、没热搜，她才是最佳女主",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9D%92%E5%B9%B4%E6%96%87%E6%91%98+%E6%B2%A1%E5%BE%97%E5%A5%96%E3%80%81%E6%B2%A1%E7%83%AD%E6%90%9C%EF%BC%8C%E5%A5%B9%E6%89%8D%E6%98%AF%E6%9C%80%E4%BD%B3%E5%A5%B3%E4%B8%BB",
-    "type": "微信公众号",
-    "source": "青年文摘"
-  },
-  {
-    "title": "如果时光可以倒流的话，我想回到____",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9D%92%E5%B9%B4%E6%96%87%E6%91%98+%E5%A6%82%E6%9E%9C%E6%97%B6%E5%85%89%E5%8F%AF%E4%BB%A5%E5%80%92%E6%B5%81%E7%9A%84%E8%AF%9D%EF%BC%8C%E6%88%91%E6%83%B3%E5%9B%9E%E5%88%B0____",
-    "type": "微信公众号",
-    "source": "青年文摘"
-  },
-  {
-    "title": "当下年轻人最烧钱的习惯：省钱",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%9D%92%E5%B9%B4%E6%96%87%E6%91%98+%E5%BD%93%E4%B8%8B%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%9C%80%E7%83%A7%E9%92%B1%E7%9A%84%E4%B9%A0%E6%83%AF%EF%BC%9A%E7%9C%81%E9%92%B1",
     "type": "微信公众号",
     "source": "青年文摘"
   },
@@ -11418,6 +11706,24 @@ window.NEWSFLOW_NEWS = [
     "source": "饭统戴老板"
   },
   {
+    "title": "网红圈最惨人设：厕评师",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A6%99%E6%B8%AF%E5%87%A4%E5%87%B0%E5%91%A8%E5%88%8A+%E7%BD%91%E7%BA%A2%E5%9C%88%E6%9C%80%E6%83%A8%E4%BA%BA%E8%AE%BE%EF%BC%9A%E5%8E%95%E8%AF%84%E5%B8%88",
+    "type": "微信公众号",
+    "source": "香港凤凰周刊"
+  },
+  {
+    "title": "没有长假的中产，正把山东当成「济州岛」",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A6%99%E6%B8%AF%E5%87%A4%E5%87%B0%E5%91%A8%E5%88%8A+%E6%B2%A1%E6%9C%89%E9%95%BF%E5%81%87%E7%9A%84%E4%B8%AD%E4%BA%A7%EF%BC%8C%E6%AD%A3%E6%8A%8A%E5%B1%B1%E4%B8%9C%E5%BD%93%E6%88%90%E3%80%8C%E6%B5%8E%E5%B7%9E%E5%B2%9B%E3%80%8D",
+    "type": "微信公众号",
+    "source": "香港凤凰周刊"
+  },
+  {
+    "title": "别惹头像是陈俊生的人",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A6%99%E6%B8%AF%E5%87%A4%E5%87%B0%E5%91%A8%E5%88%8A+%E5%88%AB%E6%83%B9%E5%A4%B4%E5%83%8F%E6%98%AF%E9%99%88%E4%BF%8A%E7%94%9F%E7%9A%84%E4%BA%BA",
+    "type": "微信公众号",
+    "source": "香港凤凰周刊"
+  },
+  {
     "title": "越抽象越赚钱，《牛来》赢了？",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A6%99%E6%B8%AF%E5%87%A4%E5%87%B0%E5%91%A8%E5%88%8A+%E8%B6%8A%E6%8A%BD%E8%B1%A1%E8%B6%8A%E8%B5%9A%E9%92%B1%EF%BC%8C%E3%80%8A%E7%89%9B%E6%9D%A5%E3%80%8B%E8%B5%A2%E4%BA%86%EF%BC%9F",
     "type": "微信公众号",
@@ -11426,24 +11732,6 @@ window.NEWSFLOW_NEWS = [
   {
     "title": "25块一天，他们挤进「最低成本生活系统」",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A6%99%E6%B8%AF%E5%87%A4%E5%87%B0%E5%91%A8%E5%88%8A+25%E5%9D%97%E4%B8%80%E5%A4%A9%EF%BC%8C%E4%BB%96%E4%BB%AC%E6%8C%A4%E8%BF%9B%E3%80%8C%E6%9C%80%E4%BD%8E%E6%88%90%E6%9C%AC%E7%94%9F%E6%B4%BB%E7%B3%BB%E7%BB%9F%E3%80%8D",
-    "type": "微信公众号",
-    "source": "香港凤凰周刊"
-  },
-  {
-    "title": "一个没有去过香港的男人，让无数人爱上砵兰街",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A6%99%E6%B8%AF%E5%87%A4%E5%87%B0%E5%91%A8%E5%88%8A+%E4%B8%80%E4%B8%AA%E6%B2%A1%E6%9C%89%E5%8E%BB%E8%BF%87%E9%A6%99%E6%B8%AF%E7%9A%84%E7%94%B7%E4%BA%BA%EF%BC%8C%E8%AE%A9%E6%97%A0%E6%95%B0%E4%BA%BA%E7%88%B1%E4%B8%8A%E7%A0%B5%E5%85%B0%E8%A1%97",
-    "type": "微信公众号",
-    "source": "香港凤凰周刊"
-  },
-  {
-    "title": "“快餐界的爱马仕”，早就死过一次了",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A6%99%E6%B8%AF%E5%87%A4%E5%87%B0%E5%91%A8%E5%88%8A+%E2%80%9C%E5%BF%AB%E9%A4%90%E7%95%8C%E7%9A%84%E7%88%B1%E9%A9%AC%E4%BB%95%E2%80%9D%EF%BC%8C%E6%97%A9%E5%B0%B1%E6%AD%BB%E8%BF%87%E4%B8%80%E6%AC%A1%E4%BA%86",
-    "type": "微信公众号",
-    "source": "香港凤凰周刊"
-  },
-  {
-    "title": "排队抢房，2分钟卖光，楼市再现疯狂",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E9%A6%99%E6%B8%AF%E5%87%A4%E5%87%B0%E5%91%A8%E5%88%8A+%E6%8E%92%E9%98%9F%E6%8A%A2%E6%88%BF%EF%BC%8C2%E5%88%86%E9%92%9F%E5%8D%96%E5%85%89%EF%BC%8C%E6%A5%BC%E5%B8%82%E5%86%8D%E7%8E%B0%E7%96%AF%E7%8B%82",
     "type": "微信公众号",
     "source": "香港凤凰周刊"
   },
@@ -11544,6 +11832,24 @@ window.NEWSFLOW_NEWS = [
     "source": "韩寒·一个"
   },
   {
+    "title": "壹视界·任平文章解读 | 时间都去哪儿了？三个刻度里的中国答案",
+    "url": "http://china.chinadaily.com.cn/a/202608/18/WS6a84223da3105d3d7a27b9c0.html",
+    "type": "新闻",
+    "source": "中国日报"
+  },
+  {
+    "title": "习近平同厄瓜多尔总统诺沃亚会谈",
+    "url": "http://china.chinadaily.com.cn/a/202608/18/WS6a842249a3105d3d7a27b9c3.html",
+    "type": "新闻",
+    "source": "中国日报"
+  },
+  {
+    "title": "朱镕基同志遗体在京火化 习近平等到八宝山革命公墓送别",
+    "url": "http://china.chinadaily.com.cn/a/202608/18/WS6a8402fda3105d3d7a27b870.html",
+    "type": "新闻",
+    "source": "中国日报"
+  },
+  {
     "title": "和谐共生丨长江的答案",
     "url": "http://china.chinadaily.com.cn/a/202608/18/WS6a83cef5a3105d3d7a27b762.html",
     "type": "新闻",
@@ -11552,24 +11858,6 @@ window.NEWSFLOW_NEWS = [
   {
     "title": "习近平总书记指引企业坚定不移走高质量发展之路",
     "url": "http://china.chinadaily.com.cn/a/202608/18/WS6a83cef2a3105d3d7a27b760.html",
-    "type": "新闻",
-    "source": "中国日报"
-  },
-  {
-    "title": "总体平稳 向新向优——透视前7个月国民经济数据",
-    "url": "http://china.chinadaily.com.cn/a/202608/18/WS6a83bec1a3105d3d7a27b6cb.html",
-    "type": "新闻",
-    "source": "中国日报"
-  },
-  {
-    "title": "3个月，8亿人次，乡村文旅靠什么吸引游客？",
-    "url": "http://china.chinadaily.com.cn/a/202608/18/WS6a83bbc2a3105d3d7a27b6be.html",
-    "type": "新闻",
-    "source": "中国日报"
-  },
-  {
-    "title": "绿色产业拓展成长新赛道 青年学子如何乘势而上",
-    "url": "http://china.chinadaily.com.cn/a/202608/18/WS6a83bbd9a3105d3d7a27b6c0.html",
     "type": "新闻",
     "source": "中国日报"
   },
@@ -11604,32 +11892,32 @@ window.NEWSFLOW_NEWS = [
     "source": "中国日报"
   },
   {
-    "title": "“一把手”当接线员：“有三句话不能说”",
-    "url": "http://www.infzm.com/contents/328640",
+    "title": "陈英：那些讨来的美味 | 意长意短",
+    "url": "http://www.infzm.com/contents/328674",
     "type": "新闻",
     "source": "南方周末"
   },
   {
-    "title": "致命的希望之外：当求医心切遇上科研的野心丨记者手记",
-    "url": "http://www.infzm.com/contents/328636",
+    "title": "玉雕江湖里的“大师生意”：“贴上标签加价十万”",
+    "url": "http://www.infzm.com/contents/328741",
     "type": "新闻",
     "source": "南方周末"
   },
   {
-    "title": "风浪过后，汕尾开渔启帆",
-    "url": "http://www.infzm.com/contents/328644",
+    "title": "胖东来再次招募刑释人员：让跌倒者也有重新开始的机会",
+    "url": "http://www.infzm.com/contents/328733",
     "type": "新闻",
     "source": "南方周末"
   },
   {
-    "title": "雨带北移，一个“缺水”北方的新考验",
-    "url": "http://www.infzm.com/contents/328683",
+    "title": "半年不上线，账号还是你的吗？",
+    "url": "http://www.infzm.com/contents/328648",
     "type": "新闻",
     "source": "南方周末"
   },
   {
-    "title": "我们刷了两次《牛来》，还采访了一位四刷观众",
-    "url": "http://www.infzm.com/contents/328653",
+    "title": "“孩子最好的榜样，是妈妈发光做自己”黄圣依：40多岁重返课堂，不为文凭",
+    "url": "http://www.infzm.com/contents/325256",
     "type": "新闻",
     "source": "南方周末"
   },
@@ -12582,6 +12870,18 @@ window.NEWSFLOW_NEWS = [
     "source": "程序员小辉"
   },
   {
+    "title": "天赋从不决定上限，勇毅才是人生最高段位",
+    "url": "http://column.chinadaily.com.cn/a/202608/18/WS6a842619a3105d3d7a27b9d0.html",
+    "type": "生活",
+    "source": "中国日报"
+  },
+  {
+    "title": "从宇树上市看具身智能与硬科技资产重估——资本市场为何愿意为“下一代通用终端”提前定价",
+    "url": "http://column.chinadaily.com.cn/a/202608/18/WS6a842171a3105d3d7a27b9b6.html",
+    "type": "生活",
+    "source": "中国日报"
+  },
+  {
     "title": "魏建国：小微企业何以敢闯海外大市场一一RCEP是华丽转身的法宝",
     "url": "http://column.chinadaily.com.cn/a/202608/12/WS6a7c1813a310d709c2fc2d0d.html",
     "type": "生活",
@@ -12596,18 +12896,6 @@ window.NEWSFLOW_NEWS = [
   {
     "title": "台州椒江海门街道：“书香城隍浦” 全龄爱阅读",
     "url": "http://column.chinadaily.com.cn/a/202608/12/WS6a7be95fa310d709c2fc2c43.html",
-    "type": "生活",
-    "source": "中国日报"
-  },
-  {
-    "title": "“黑光”跨越两千载，草鞋圣人以侠义与科学照亮华夏文脉",
-    "url": "http://column.chinadaily.com.cn/a/202607/29/WS6a69a6d7a310d709c2fc05f4.html",
-    "type": "生活",
-    "source": "中国日报"
-  },
-  {
-    "title": "以万物为联结 以家国筑芳华",
-    "url": "http://column.chinadaily.com.cn/a/202607/29/WS6a69a60ca310d709c2fc05e6.html",
     "type": "生活",
     "source": "中国日报"
   },
@@ -12642,6 +12930,42 @@ window.NEWSFLOW_NEWS = [
     "source": "喷嚏网-铂程斋"
   },
   {
+    "title": "【浮世汇983】每一方面都很糟",
+    "url": "https://www.dapenti.com/blog/more.asp?name=xilei&id=195007",
+    "type": "生活",
+    "source": "喷嚏网-铂程斋"
+  },
+  {
+    "title": "【喷嚏图卦20260818】微弱的力量也需要投入",
+    "url": "https://www.dapenti.com/blog/more.asp?name=xilei&id=195006",
+    "type": "生活",
+    "source": "喷嚏网-铂程斋"
+  },
+  {
+    "title": "【喷嚏意图04】人有时候不是勇敢",
+    "url": "https://www.dapenti.com/blog/more.asp?name=xilei&id=195005",
+    "type": "生活",
+    "source": "喷嚏网-铂程斋"
+  },
+  {
+    "title": "【铂程的票圈35】第四公民",
+    "url": "https://www.dapenti.com/blog/more.asp?name=xilei&id=195004",
+    "type": "生活",
+    "source": "喷嚏网-铂程斋"
+  },
+  {
+    "title": "天国之秋-notebooklm",
+    "url": "https://www.dapenti.com/blog/more.asp?name=xilei&id=194995",
+    "type": "生活",
+    "source": "喷嚏网-铂程斋"
+  },
+  {
+    "title": "20260817图卦音频版",
+    "url": "https://www.dapenti.com/blog/more.asp?name=xilei&id=194993",
+    "type": "生活",
+    "source": "喷嚏网-铂程斋"
+  },
+  {
     "title": "救命。。。。。。",
     "url": "https://www.dapenti.com/blog/more.asp?name=xilei&id=194971",
     "type": "生活",
@@ -12672,40 +12996,10 @@ window.NEWSFLOW_NEWS = [
     "source": "喷嚏网-铂程斋"
   },
   {
-    "title": "别为了修桥忘了立场-notebooklm",
-    "url": "https://www.dapenti.com/blog/more.asp?name=xilei&id=194975",
+    "title": "当代年轻人的松弛感，为什么总在张嘴的瞬间“破功”？",
+    "url": "http://www.toodaylab.com/84171",
     "type": "生活",
-    "source": "喷嚏网-铂程斋"
-  },
-  {
-    "title": "20260816图卦音频版",
-    "url": "https://www.dapenti.com/blog/more.asp?name=xilei&id=194973",
-    "type": "生活",
-    "source": "喷嚏网-铂程斋"
-  },
-  {
-    "title": "【喷嚏图卦20260816】《牛来》要下架了",
-    "url": "https://www.dapenti.com/blog/more.asp?name=xilei&id=194956",
-    "type": "生活",
-    "source": "喷嚏网-铂程斋"
-  },
-  {
-    "title": "雅尔塔：权力天平上的八天战后秩序谈判-notebooklm",
-    "url": "https://www.dapenti.com/blog/more.asp?name=xilei&id=194954",
-    "type": "生活",
-    "source": "喷嚏网-铂程斋"
-  },
-  {
-    "title": "20260815图卦音频版",
-    "url": "https://www.dapenti.com/blog/more.asp?name=xilei&id=194952",
-    "type": "生活",
-    "source": "喷嚏网-铂程斋"
-  },
-  {
-    "title": "【铂程的票圈32】所谓自由",
-    "url": "https://www.dapenti.com/blog/more.asp?name=xilei&id=194951",
-    "type": "生活",
-    "source": "喷嚏网-铂程斋"
+    "source": "理想生活实验室"
   },
   {
     "title": "以“自在有因”为主题，有更多素材的应用，2026 秋冬 MUJI Labo 系列开售",
@@ -12822,12 +13116,6 @@ window.NEWSFLOW_NEWS = [
     "source": "理想生活实验室"
   },
   {
-    "title": "今日消费资讯：茶颜悦色首进合肥双店齐开、爱马仕推出巴赫尼绽放由心香水",
-    "url": "http://www.toodaylab.com/84150",
-    "type": "生活",
-    "source": "理想生活实验室"
-  },
-  {
     "title": "维基百科2026年8月9日优良条目",
     "url": "https://zh.wikipedia.org/wiki/Special:FeedItem/good/20260809000000/zh",
     "type": "生活",
@@ -12888,7 +13176,25 @@ window.NEWSFLOW_NEWS = [
     "source": "维基百科优良条目供稿"
   },
   {
-    "title": "7月音乐精选：夏天赠予我们的 9张专辑",
+    "title": "社区速递 154 | AI 代码助手大乱斗、租房电钻组合与神奇实体卡片故事机",
+    "url": "https://sspai.com/post/113593",
+    "type": "精选",
+    "source": "少数派"
+  },
+  {
+    "title": "线下活动 | 爵士律动唤醒动漫回忆：炒饭 Fried Rice 音乐分享签售会",
+    "url": "https://sspai.com/post/113564",
+    "type": "精选",
+    "source": "少数派"
+  },
+  {
+    "title": "App+1 | 让任务栏更有用：WindowSill",
+    "url": "https://sspai.com/post/113438",
+    "type": "精选",
+    "source": "少数派"
+  },
+  {
+    "title": "7月音乐精选：夏天赠予我们的 9 张专辑",
     "url": "https://sspai.com/post/113454",
     "type": "精选",
     "source": "少数派"
@@ -12930,24 +13236,6 @@ window.NEWSFLOW_NEWS = [
     "source": "少数派"
   },
   {
-    "title": "浏览器扩展合集： 我们为你找到了这 6 款实用、 有趣的「新玩意」",
-    "url": "https://sspai.com/post/113495",
-    "type": "精选",
-    "source": "少数派"
-  },
-  {
-    "title": "有毒职场正在炼成：OKR 变成 KPI，敏捷开发变成切碎的瀑布",
-    "url": "https://sspai.com/post/111974",
-    "type": "精选",
-    "source": "少数派"
-  },
-  {
-    "title": "本周看什么 | 最近值得一看的 9 部作品",
-    "url": "https://sspai.com/post/113459",
-    "type": "精选",
-    "source": "少数派"
-  },
-  {
     "title": "Near-extinct snails rescued from rock 濒临灭绝的蜗牛从岩缝中获救",
     "url": "https://www.bbc.co.uk/learningenglish/chinese/features/media-english/ep-260817",
     "type": "英语",
@@ -12976,6 +13264,24 @@ window.NEWSFLOW_NEWS = [
     "url": "https://www.bbc.co.uk/learningenglish/chinese/features/lingohack/ep-260813",
     "type": "英语",
     "source": "BBC 英语教学"
+  },
+  {
+    "title": "Alan Dershowitz Won’t Forget What Larry David Did to Him",
+    "url": "https://www.theatlantic.com/ideas/2026/08/alan-dershowitz-larry-david-vineyard/688293/?utm_source=feed",
+    "type": "英语",
+    "source": "The Atlantic"
+  },
+  {
+    "title": "The ‘vibrant’ reinvention of Rotterdam’s Katendrecht district",
+    "url": "https://theweek.com/culture-life/travel/the-vibrant-reinvention-of-rotterdams-katendrecht-district",
+    "type": "英语",
+    "source": "The Week"
+  },
+  {
+    "title": "Cami Clark: the Anthropic CEO’s wife and ‘first lady’ of AI",
+    "url": "https://theweek.com/tech/cami-clark-anthropic-ceo-amodei-wife-ai",
+    "type": "英语",
+    "source": "The Week"
   },
   {
     "title": "El-Sayed: Will he move toward the center?",
@@ -13266,18 +13572,6 @@ window.NEWSFLOW_NEWS = [
     "source": "The Week"
   },
   {
-    "title": "Stronger, faster, better: the new mRNA flu vaccine",
-    "url": "https://theweek.com/health/fda-approves-mrna-flu-vaccine",
-    "type": "英语",
-    "source": "The Week"
-  },
-  {
-    "title": "Where to find the best barbecue in Houston",
-    "url": "https://theweek.com/culture-life/food-drink/where-to-find-the-best-barbecue-in-houston-texas",
-    "type": "英语",
-    "source": "The Week"
-  },
-  {
     "title": "研究：置身大自然会对你体验时间的方式产生深远影响",
     "url": "https://language.chinadaily.com.cn/a/202409/05/WS66d95738a3108f29c1fca5a6.html",
     "type": "英语",
@@ -13338,6 +13632,12 @@ window.NEWSFLOW_NEWS = [
     "source": "CSDN"
   },
   {
+    "title": "裁 1600 人！诺基亚关闭杭州研发中心",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=ImportNew+%E8%A3%81%201600%20%E4%BA%BA%EF%BC%81%E8%AF%BA%E5%9F%BA%E4%BA%9A%E5%85%B3%E9%97%AD%E6%9D%AD%E5%B7%9E%E7%A0%94%E5%8F%91%E4%B8%AD%E5%BF%83",
+    "type": "计算机技术",
+    "source": "ImportNew"
+  },
+  {
     "title": "领导都劝不住！30 岁程序员从国企跳槽到百度，入职 2 个月被裁",
     "url": "http://weixin.sogou.com/weixin?type=2&query=ImportNew+%E9%A2%86%E5%AF%BC%E9%83%BD%E5%8A%9D%E4%B8%8D%E4%BD%8F%EF%BC%8130%20%E5%B2%81%E7%A8%8B%E5%BA%8F%E5%91%98%E4%BB%8E%E5%9B%BD%E4%BC%81%E8%B7%B3%E6%A7%BD%E5%88%B0%E7%99%BE%E5%BA%A6%EF%BC%8C%E5%85%A5%E8%81%8C%202%20%E4%B8%AA%E6%9C%88%E8%A2%AB%E8%A3%81",
     "type": "计算机技术",
@@ -13362,10 +13662,16 @@ window.NEWSFLOW_NEWS = [
     "source": "ImportNew"
   },
   {
-    "title": "前 AV 女优转行当程序员做开发",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=ImportNew+%E5%89%8D%20AV%20%E5%A5%B3%E4%BC%98%E8%BD%AC%E8%A1%8C%E5%BD%93%E7%A8%8B%E5%BA%8F%E5%91%98%E5%81%9A%E5%BC%80%E5%8F%91",
+    "title": ".NET 11 Preview 7 Adds Passkeys, Incremental XAML Hot Reload, and Shell Route Templates to MAUI",
+    "url": "https://www.infoq.com/news/2026/08/dotnet-11-preview7-maui/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "type": "计算机技术",
-    "source": "ImportNew"
+    "source": "InfoQ 英文"
+  },
+  {
+    "title": "Major Frontier Model Providers Adopt Watermarking Tech to Comply with EU Regulation",
+    "url": "https://www.infoq.com/news/2026/08/eu-ai-content-watermark/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
+    "type": "计算机技术",
+    "source": "InfoQ 英文"
   },
   {
     "title": "SpaceXAI Launches Grok Bot for Autonomous AI Agents",
@@ -13382,18 +13688,6 @@ window.NEWSFLOW_NEWS = [
   {
     "title": "Grab Cuts Mechanical Analytics Work From 44% to 30% with AI Agents",
     "url": "https://www.infoq.com/news/2026/08/grab-ai-analytics-agents/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "type": "计算机技术",
-    "source": "InfoQ 英文"
-  },
-  {
-    "title": "Cloudflare Turns CI Pipelines into TypeScript Workflows",
-    "url": "https://www.infoq.com/news/2026/08/cloudflare-ci-code-workflows/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
-    "type": "计算机技术",
-    "source": "InfoQ 英文"
-  },
-  {
-    "title": "shadcn Brings Conversational Primitives to shadcn/ui with New Chat Components",
-    "url": "https://www.infoq.com/news/2026/08/shadcn-conversational-primitives/?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global",
     "type": "计算机技术",
     "source": "InfoQ 英文"
   },
@@ -13518,32 +13812,32 @@ window.NEWSFLOW_NEWS = [
     "source": "微软研究院AI头条"
   },
   {
+    "title": "一个「流浪」数学家的遗产，正在被AI公司疯抢",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83+%E4%B8%80%E4%B8%AA%E3%80%8C%E6%B5%81%E6%B5%AA%E3%80%8D%E6%95%B0%E5%AD%A6%E5%AE%B6%E7%9A%84%E9%81%97%E4%BA%A7%EF%BC%8C%E6%AD%A3%E5%9C%A8%E8%A2%ABAI%E5%85%AC%E5%8F%B8%E7%96%AF%E6%8A%A2",
+    "type": "计算机技术",
+    "source": "机器之心"
+  },
+  {
+    "title": "让 Coding Agent 开始「记住过去」：MemoraX Code 的长期记忆系统",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83+%E8%AE%A9%20Coding%20Agent%20%E5%BC%80%E5%A7%8B%E3%80%8C%E8%AE%B0%E4%BD%8F%E8%BF%87%E5%8E%BB%E3%80%8D%EF%BC%9AMemoraX%20Code%20%E7%9A%84%E9%95%BF%E6%9C%9F%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F",
+    "type": "计算机技术",
+    "source": "机器之心"
+  },
+  {
+    "title": "不再止步于自然语言！PhiZero让世界模型学会「物理语言」",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83+%E4%B8%8D%E5%86%8D%E6%AD%A2%E6%AD%A5%E4%BA%8E%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%EF%BC%81PhiZero%E8%AE%A9%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%E5%AD%A6%E4%BC%9A%E3%80%8C%E7%89%A9%E7%90%86%E8%AF%AD%E8%A8%80%E3%80%8D",
+    "type": "计算机技术",
+    "source": "机器之心"
+  },
+  {
+    "title": "机器人也有“Aha Moment”！Zetta ζ 闭环物理智能体在线学习",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83+%E6%9C%BA%E5%99%A8%E4%BA%BA%E4%B9%9F%E6%9C%89%E2%80%9CAha%20Moment%E2%80%9D%EF%BC%81Zetta%20%CE%B6%20%E9%97%AD%E7%8E%AF%E7%89%A9%E7%90%86%E6%99%BA%E8%83%BD%E4%BD%93%E5%9C%A8%E7%BA%BF%E5%AD%A6%E4%B9%A0",
+    "type": "计算机技术",
+    "source": "机器之心"
+  },
+  {
     "title": "ECCV 2026 | 一段视频，重建一个可仿真的动态世界",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83+ECCV%202026%20%7C%20%E4%B8%80%E6%AE%B5%E8%A7%86%E9%A2%91%EF%BC%8C%E9%87%8D%E5%BB%BA%E4%B8%80%E4%B8%AA%E5%8F%AF%E4%BB%BF%E7%9C%9F%E7%9A%84%E5%8A%A8%E6%80%81%E4%B8%96%E7%95%8C",
-    "type": "计算机技术",
-    "source": "机器之心"
-  },
-  {
-    "title": "刚刚，Anthropic年化营收突破650亿美元！冲刺史上最大IPO",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83+%E5%88%9A%E5%88%9A%EF%BC%8CAnthropic%E5%B9%B4%E5%8C%96%E8%90%A5%E6%94%B6%E7%AA%81%E7%A0%B4650%E4%BA%BF%E7%BE%8E%E5%85%83%EF%BC%81%E5%86%B2%E5%88%BA%E5%8F%B2%E4%B8%8A%E6%9C%80%E5%A4%A7IPO",
-    "type": "计算机技术",
-    "source": "机器之心"
-  },
-  {
-    "title": "OpenAI有个神秘邮箱，多大点事都能惊动奥特曼",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83+OpenAI%E6%9C%89%E4%B8%AA%E7%A5%9E%E7%A7%98%E9%82%AE%E7%AE%B1%EF%BC%8C%E5%A4%9A%E5%A4%A7%E7%82%B9%E4%BA%8B%E9%83%BD%E8%83%BD%E6%83%8A%E5%8A%A8%E5%A5%A5%E7%89%B9%E6%9B%BC",
-    "type": "计算机技术",
-    "source": "机器之心"
-  },
-  {
-    "title": "全球首个跨本体、跨视角、多模态物理世界模型，CurrentWorld-0 来了！",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83+%E5%85%A8%E7%90%83%E9%A6%96%E4%B8%AA%E8%B7%A8%E6%9C%AC%E4%BD%93%E3%80%81%E8%B7%A8%E8%A7%86%E8%A7%92%E3%80%81%E5%A4%9A%E6%A8%A1%E6%80%81%E7%89%A9%E7%90%86%E4%B8%96%E7%95%8C%E6%A8%A1%E5%9E%8B%EF%BC%8CCurrentWorld-0%20%E6%9D%A5%E4%BA%86%EF%BC%81",
-    "type": "计算机技术",
-    "source": "机器之心"
-  },
-  {
-    "title": "起猛了，机器人开上卡丁车了！",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%9C%BA%E5%99%A8%E4%B9%8B%E5%BF%83+%E8%B5%B7%E7%8C%9B%E4%BA%86%EF%BC%8C%E6%9C%BA%E5%99%A8%E4%BA%BA%E5%BC%80%E4%B8%8A%E5%8D%A1%E4%B8%81%E8%BD%A6%E4%BA%86%EF%BC%81",
     "type": "计算机技术",
     "source": "机器之心"
   },
@@ -13788,6 +14082,12 @@ window.NEWSFLOW_NEWS = [
     "source": "喷嚏网-财经风云"
   },
   {
+    "title": "长聘制改革：教授成为计件工",
+    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%AF%9B%E6%9C%89%E8%AF%9D%E8%AF%B4+%E9%95%BF%E8%81%98%E5%88%B6%E6%94%B9%E9%9D%A9%EF%BC%9A%E6%95%99%E6%8E%88%E6%88%90%E4%B8%BA%E8%AE%A1%E4%BB%B6%E5%B7%A5",
+    "type": "财经",
+    "source": "毛有话说"
+  },
+  {
     "title": "当代段正淳",
     "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%AF%9B%E6%9C%89%E8%AF%9D%E8%AF%B4+%E5%BD%93%E4%BB%A3%E6%AE%B5%E6%AD%A3%E6%B7%B3",
     "type": "财经",
@@ -13812,10 +14112,16 @@ window.NEWSFLOW_NEWS = [
     "source": "毛有话说"
   },
   {
-    "title": "朱公去矣！",
-    "url": "http://weixin.sogou.com/weixin?type=2&query=%E6%AF%9B%E6%9C%89%E8%AF%9D%E8%AF%B4+%E6%9C%B1%E5%85%AC%E5%8E%BB%E7%9F%A3%EF%BC%81",
-    "type": "财经",
-    "source": "毛有话说"
+    "title": "让 Al Agent 看懂所有文档：将任何文档转换为统一的 Markdown 格式",
+    "url": "https://www.appinn.com/firecrawl-pdf-inspector-anydoc/",
+    "type": "软硬件、App",
+    "source": "小众软件"
+  },
+  {
+    "title": "Flow – 在线开源 ePub 阅读器｜如何制作 ePub 格式电子书",
+    "url": "https://www.appinn.com/flow-epub-reader/",
+    "type": "软硬件、App",
+    "source": "小众软件"
   },
   {
     "title": "在 Windows 上运行 Linux 到底有多简单？",
@@ -13866,44 +14172,32 @@ window.NEWSFLOW_NEWS = [
     "source": "小众软件"
   },
   {
-    "title": "不用 NAS、不买硬盘，0成本拥有影视、小说、资源库",
-    "url": "https://www.appinn.com/xunlei-shuqiansou/",
-    "type": "软硬件、App",
-    "source": "小众软件"
-  },
-  {
-    "title": "蒸馏《基层中国的运行逻辑》后，让 AI 帮你分析求学、考公、投资与创业",
-    "url": "https://www.appinn.com/nie-grassroots-logic/",
-    "type": "软硬件、App",
-    "source": "小众软件"
-  },
-  {
-    "title": "随机写入较上代提升114%！长江存储致态Ti600s固态盘开卖：最高4TB、1189元起",
-    "url": "https://news.mydrivers.com/1/1144/1144470.htm",
+    "title": "阿里云官宣！又一数据中心上线：全球覆盖达30地域104可用区",
+    "url": "https://news.mydrivers.com/1/1144/1144628.htm",
     "type": "软硬件、App",
     "source": "驱动之家新闻"
   },
   {
-    "title": "9999元起供不应求！荣耀Robot Phone首销全版本闪电售罄",
-    "url": "https://news.mydrivers.com/1/1144/1144463.htm",
+    "title": "淦家阅：吉利不再研发传统燃油车 智擎混动指标已远超日企",
+    "url": "https://news.mydrivers.com/1/1144/1144627.htm",
     "type": "软硬件、App",
     "source": "驱动之家新闻"
   },
   {
-    "title": "两度撞车仍卖出天价！迈凯伦F1 GTR拍成最贵英国车",
-    "url": "https://news.mydrivers.com/1/1144/1144459.htm",
+    "title": "霸王新品官方大促！买一送二、每瓶仅需19.5元",
+    "url": "https://news.mydrivers.com/1/1144/1144626.htm",
     "type": "软硬件、App",
     "source": "驱动之家新闻"
   },
   {
-    "title": "入门级最惨！显卡疯狂涨价背后：涨幅远超成本 厂商借势抬利润",
-    "url": "https://news.mydrivers.com/1/1144/1144458.htm",
+    "title": "铁打的SU7 夺得上半年20万以上纯电轿车销冠！小米Q2汽车业务进账249亿元",
+    "url": "https://news.mydrivers.com/1/1144/1144625.htm",
     "type": "软硬件、App",
     "source": "驱动之家新闻"
   },
   {
-    "title": "为逼美资撤离中国！美国规定：在华生产的车辆返美要交52.5%关税",
-    "url": "https://news.mydrivers.com/1/1144/1144457.htm",
+    "title": "入门配置突破6000元！2026年DIY装机成本最高飙升72%",
+    "url": "https://news.mydrivers.com/1/1144/1144624.htm",
     "type": "软硬件、App",
     "source": "驱动之家新闻"
   }
