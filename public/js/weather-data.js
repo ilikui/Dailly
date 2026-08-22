@@ -1,17 +1,17 @@
 window.NEWSFLOW_WEATHER = {
   "location": "121.4737,31.2304",
-  "temperature": 27.98,
-  "apparent_temperature": 31.9,
-  "humidity": 0.89,
+  "temperature": 28.18,
+  "apparent_temperature": 31.2,
+  "humidity": 0.84,
   "skycon": "PARTLY_CLOUDY_DAY",
   "desc": "多云",
-  "wind_speed": 6.66,
-  "air_quality": 11,
+  "wind_speed": 9.74,
+  "air_quality": 17,
   "forecast": [
     {
       "date": "2026-08-22T00:00+08:00",
-      "min": 26.65,
-      "max": 29.45,
+      "min": 27.0,
+      "max": 29.44,
       "skycon": "MODERATE_RAIN",
       "desc": "中雨"
     },
@@ -30,5 +30,5 @@ window.NEWSFLOW_WEATHER = {
       "desc": "多云"
     }
   ],
-  "updated_at": "2026-08-22 08:44:31"
+  "updated_at": "2026-08-22 12:42:02"
 };
