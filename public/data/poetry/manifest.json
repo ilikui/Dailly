@@ -1,0 +1,1261 @@
+{
+  "source": "chinese-poetry corpus; repository-local shard files",
+  "datasets": {
+    "tang": [
+      {
+        "file": "poet.tang.0.json",
+        "size": 408405
+      },
+      {
+        "file": "poet.tang.1000.json",
+        "size": 477519
+      },
+      {
+        "file": "poet.tang.2000.json",
+        "size": 417948
+      },
+      {
+        "file": "poet.tang.3000.json",
+        "size": 453811
+      },
+      {
+        "file": "poet.tang.4000.json",
+        "size": 488655
+      },
+      {
+        "file": "poet.tang.5000.json",
+        "size": 467225
+      },
+      {
+        "file": "poet.tang.6000.json",
+        "size": 470031
+      },
+      {
+        "file": "poet.tang.7000.json",
+        "size": 474558
+      },
+      {
+        "file": "poet.tang.8000.json",
+        "size": 574248
+      },
+      {
+        "file": "poet.tang.9000.json",
+        "size": 476882
+      },
+      {
+        "file": "poet.tang.10000.json",
+        "size": 613029
+      },
+      {
+        "file": "poet.tang.11000.json",
+        "size": 445111
+      },
+      {
+        "file": "poet.tang.12000.json",
+        "size": 440019
+      },
+      {
+        "file": "poet.tang.13000.json",
+        "size": 420898
+      },
+      {
+        "file": "poet.tang.14000.json",
+        "size": 409199
+      },
+      {
+        "file": "poet.tang.15000.json",
+        "size": 422310
+      },
+      {
+        "file": "poet.tang.16000.json",
+        "size": 380057
+      },
+      {
+        "file": "poet.tang.17000.json",
+        "size": 485658
+      },
+      {
+        "file": "poet.tang.18000.json",
+        "size": 537556
+      },
+      {
+        "file": "poet.tang.19000.json",
+        "size": 431381
+      },
+      {
+        "file": "poet.tang.20000.json",
+        "size": 477671
+      },
+      {
+        "file": "poet.tang.21000.json",
+        "size": 572847
+      },
+      {
+        "file": "poet.tang.22000.json",
+        "size": 557450
+      },
+      {
+        "file": "poet.tang.23000.json",
+        "size": 444324
+      },
+      {
+        "file": "poet.tang.24000.json",
+        "size": 462622
+      },
+      {
+        "file": "poet.tang.25000.json",
+        "size": 410976
+      },
+      {
+        "file": "poet.tang.26000.json",
+        "size": 392620
+      },
+      {
+        "file": "poet.tang.27000.json",
+        "size": 373469
+      },
+      {
+        "file": "poet.tang.28000.json",
+        "size": 402527
+      },
+      {
+        "file": "poet.tang.29000.json",
+        "size": 432343
+      },
+      {
+        "file": "poet.tang.30000.json",
+        "size": 394062
+      },
+      {
+        "file": "poet.tang.31000.json",
+        "size": 406846
+      },
+      {
+        "file": "poet.tang.32000.json",
+        "size": 417563
+      },
+      {
+        "file": "poet.tang.33000.json",
+        "size": 438157
+      },
+      {
+        "file": "poet.tang.34000.json",
+        "size": 416020
+      },
+      {
+        "file": "poet.tang.35000.json",
+        "size": 381490
+      },
+      {
+        "file": "poet.tang.36000.json",
+        "size": 393811
+      },
+      {
+        "file": "poet.tang.37000.json",
+        "size": 376582
+      },
+      {
+        "file": "poet.tang.38000.json",
+        "size": 400487
+      },
+      {
+        "file": "poet.tang.39000.json",
+        "size": 404803
+      },
+      {
+        "file": "poet.tang.40000.json",
+        "size": 361783
+      },
+      {
+        "file": "poet.tang.41000.json",
+        "size": 376339
+      },
+      {
+        "file": "poet.tang.42000.json",
+        "size": 390623
+      },
+      {
+        "file": "poet.tang.43000.json",
+        "size": 430665
+      },
+      {
+        "file": "poet.tang.44000.json",
+        "size": 400949
+      },
+      {
+        "file": "poet.tang.45000.json",
+        "size": 439632
+      },
+      {
+        "file": "poet.tang.46000.json",
+        "size": 402034
+      },
+      {
+        "file": "poet.tang.47000.json",
+        "size": 389163
+      },
+      {
+        "file": "poet.tang.48000.json",
+        "size": 323882
+      },
+      {
+        "file": "poet.tang.49000.json",
+        "size": 402881
+      },
+      {
+        "file": "poet.tang.50000.json",
+        "size": 609835
+      },
+      {
+        "file": "poet.tang.51000.json",
+        "size": 549433
+      },
+      {
+        "file": "poet.tang.52000.json",
+        "size": 561704
+      },
+      {
+        "file": "poet.tang.53000.json",
+        "size": 480142
+      },
+      {
+        "file": "poet.tang.54000.json",
+        "size": 467600
+      },
+      {
+        "file": "poet.tang.55000.json",
+        "size": 442729
+      },
+      {
+        "file": "poet.tang.56000.json",
+        "size": 470081
+      },
+      {
+        "file": "poet.tang.57000.json",
+        "size": 234965
+      }
+    ],
+    "song": [
+      {
+        "file": "poet.song.0.json",
+        "size": 401742
+      },
+      {
+        "file": "poet.song.1000.json",
+        "size": 374027
+      },
+      {
+        "file": "poet.song.2000.json",
+        "size": 436940
+      },
+      {
+        "file": "poet.song.3000.json",
+        "size": 471171
+      },
+      {
+        "file": "poet.song.4000.json",
+        "size": 382927
+      },
+      {
+        "file": "poet.song.5000.json",
+        "size": 381690
+      },
+      {
+        "file": "poet.song.6000.json",
+        "size": 373968
+      },
+      {
+        "file": "poet.song.7000.json",
+        "size": 388015
+      },
+      {
+        "file": "poet.song.8000.json",
+        "size": 413350
+      },
+      {
+        "file": "poet.song.9000.json",
+        "size": 368599
+      },
+      {
+        "file": "poet.song.10000.json",
+        "size": 441699
+      },
+      {
+        "file": "poet.song.11000.json",
+        "size": 413215
+      },
+      {
+        "file": "poet.song.12000.json",
+        "size": 404889
+      },
+      {
+        "file": "poet.song.13000.json",
+        "size": 474558
+      },
+      {
+        "file": "poet.song.14000.json",
+        "size": 484216
+      },
+      {
+        "file": "poet.song.15000.json",
+        "size": 522206
+      },
+      {
+        "file": "poet.song.16000.json",
+        "size": 458584
+      },
+      {
+        "file": "poet.song.17000.json",
+        "size": 551103
+      },
+      {
+        "file": "poet.song.18000.json",
+        "size": 521765
+      },
+      {
+        "file": "poet.song.19000.json",
+        "size": 406987
+      },
+      {
+        "file": "poet.song.20000.json",
+        "size": 436746
+      },
+      {
+        "file": "poet.song.21000.json",
+        "size": 377382
+      },
+      {
+        "file": "poet.song.22000.json",
+        "size": 420277
+      },
+      {
+        "file": "poet.song.23000.json",
+        "size": 418074
+      },
+      {
+        "file": "poet.song.24000.json",
+        "size": 472187
+      },
+      {
+        "file": "poet.song.25000.json",
+        "size": 407053
+      },
+      {
+        "file": "poet.song.26000.json",
+        "size": 483530
+      },
+      {
+        "file": "poet.song.27000.json",
+        "size": 530989
+      },
+      {
+        "file": "poet.song.28000.json",
+        "size": 386642
+      },
+      {
+        "file": "poet.song.29000.json",
+        "size": 441585
+      },
+      {
+        "file": "poet.song.30000.json",
+        "size": 460026
+      },
+      {
+        "file": "poet.song.31000.json",
+        "size": 510549
+      },
+      {
+        "file": "poet.song.32000.json",
+        "size": 361423
+      },
+      {
+        "file": "poet.song.33000.json",
+        "size": 468037
+      },
+      {
+        "file": "poet.song.34000.json",
+        "size": 499518
+      },
+      {
+        "file": "poet.song.35000.json",
+        "size": 425518
+      },
+      {
+        "file": "poet.song.36000.json",
+        "size": 428908
+      },
+      {
+        "file": "poet.song.37000.json",
+        "size": 557969
+      },
+      {
+        "file": "poet.song.38000.json",
+        "size": 449567
+      },
+      {
+        "file": "poet.song.39000.json",
+        "size": 468982
+      },
+      {
+        "file": "poet.song.40000.json",
+        "size": 464259
+      },
+      {
+        "file": "poet.song.41000.json",
+        "size": 402926
+      },
+      {
+        "file": "poet.song.42000.json",
+        "size": 644212
+      },
+      {
+        "file": "poet.song.43000.json",
+        "size": 389819
+      },
+      {
+        "file": "poet.song.44000.json",
+        "size": 504256
+      },
+      {
+        "file": "poet.song.45000.json",
+        "size": 527101
+      },
+      {
+        "file": "poet.song.46000.json",
+        "size": 456423
+      },
+      {
+        "file": "poet.song.47000.json",
+        "size": 452637
+      },
+      {
+        "file": "poet.song.48000.json",
+        "size": 483033
+      },
+      {
+        "file": "poet.song.49000.json",
+        "size": 479570
+      },
+      {
+        "file": "poet.song.50000.json",
+        "size": 459428
+      },
+      {
+        "file": "poet.song.51000.json",
+        "size": 432587
+      },
+      {
+        "file": "poet.song.52000.json",
+        "size": 431643
+      },
+      {
+        "file": "poet.song.53000.json",
+        "size": 467677
+      },
+      {
+        "file": "poet.song.54000.json",
+        "size": 421827
+      },
+      {
+        "file": "poet.song.55000.json",
+        "size": 436320
+      },
+      {
+        "file": "poet.song.56000.json",
+        "size": 474993
+      },
+      {
+        "file": "poet.song.57000.json",
+        "size": 485960
+      },
+      {
+        "file": "poet.song.58000.json",
+        "size": 463338
+      },
+      {
+        "file": "poet.song.59000.json",
+        "size": 495958
+      },
+      {
+        "file": "poet.song.60000.json",
+        "size": 456769
+      },
+      {
+        "file": "poet.song.61000.json",
+        "size": 483632
+      },
+      {
+        "file": "poet.song.62000.json",
+        "size": 408107
+      },
+      {
+        "file": "poet.song.63000.json",
+        "size": 519191
+      },
+      {
+        "file": "poet.song.64000.json",
+        "size": 492387
+      },
+      {
+        "file": "poet.song.65000.json",
+        "size": 353435
+      },
+      {
+        "file": "poet.song.66000.json",
+        "size": 442757
+      },
+      {
+        "file": "poet.song.67000.json",
+        "size": 486903
+      },
+      {
+        "file": "poet.song.68000.json",
+        "size": 406509
+      },
+      {
+        "file": "poet.song.69000.json",
+        "size": 439113
+      },
+      {
+        "file": "poet.song.70000.json",
+        "size": 445350
+      },
+      {
+        "file": "poet.song.71000.json",
+        "size": 409378
+      },
+      {
+        "file": "poet.song.72000.json",
+        "size": 425676
+      },
+      {
+        "file": "poet.song.73000.json",
+        "size": 387108
+      },
+      {
+        "file": "poet.song.74000.json",
+        "size": 433189
+      },
+      {
+        "file": "poet.song.75000.json",
+        "size": 570442
+      },
+      {
+        "file": "poet.song.76000.json",
+        "size": 377616
+      },
+      {
+        "file": "poet.song.77000.json",
+        "size": 515522
+      },
+      {
+        "file": "poet.song.78000.json",
+        "size": 455186
+      },
+      {
+        "file": "poet.song.79000.json",
+        "size": 456476
+      },
+      {
+        "file": "poet.song.80000.json",
+        "size": 433865
+      },
+      {
+        "file": "poet.song.81000.json",
+        "size": 375998
+      },
+      {
+        "file": "poet.song.82000.json",
+        "size": 544112
+      },
+      {
+        "file": "poet.song.83000.json",
+        "size": 421365
+      },
+      {
+        "file": "poet.song.84000.json",
+        "size": 463091
+      },
+      {
+        "file": "poet.song.85000.json",
+        "size": 396290
+      },
+      {
+        "file": "poet.song.86000.json",
+        "size": 383044
+      },
+      {
+        "file": "poet.song.87000.json",
+        "size": 481960
+      },
+      {
+        "file": "poet.song.88000.json",
+        "size": 462056
+      },
+      {
+        "file": "poet.song.89000.json",
+        "size": 509403
+      },
+      {
+        "file": "poet.song.90000.json",
+        "size": 478781
+      },
+      {
+        "file": "poet.song.91000.json",
+        "size": 396672
+      },
+      {
+        "file": "poet.song.92000.json",
+        "size": 474073
+      },
+      {
+        "file": "poet.song.93000.json",
+        "size": 425500
+      },
+      {
+        "file": "poet.song.94000.json",
+        "size": 391585
+      },
+      {
+        "file": "poet.song.95000.json",
+        "size": 434807
+      },
+      {
+        "file": "poet.song.96000.json",
+        "size": 503340
+      },
+      {
+        "file": "poet.song.97000.json",
+        "size": 437002
+      },
+      {
+        "file": "poet.song.98000.json",
+        "size": 470774
+      },
+      {
+        "file": "poet.song.99000.json",
+        "size": 370450
+      },
+      {
+        "file": "poet.song.100000.json",
+        "size": 448408
+      },
+      {
+        "file": "poet.song.101000.json",
+        "size": 442406
+      },
+      {
+        "file": "poet.song.102000.json",
+        "size": 423142
+      },
+      {
+        "file": "poet.song.103000.json",
+        "size": 395747
+      },
+      {
+        "file": "poet.song.104000.json",
+        "size": 439719
+      },
+      {
+        "file": "poet.song.105000.json",
+        "size": 494361
+      },
+      {
+        "file": "poet.song.106000.json",
+        "size": 347584
+      },
+      {
+        "file": "poet.song.107000.json",
+        "size": 424814
+      },
+      {
+        "file": "poet.song.108000.json",
+        "size": 473825
+      },
+      {
+        "file": "poet.song.109000.json",
+        "size": 442484
+      },
+      {
+        "file": "poet.song.110000.json",
+        "size": 380602
+      },
+      {
+        "file": "poet.song.111000.json",
+        "size": 447279
+      },
+      {
+        "file": "poet.song.112000.json",
+        "size": 476449
+      },
+      {
+        "file": "poet.song.113000.json",
+        "size": 467835
+      },
+      {
+        "file": "poet.song.114000.json",
+        "size": 392943
+      },
+      {
+        "file": "poet.song.115000.json",
+        "size": 420903
+      },
+      {
+        "file": "poet.song.116000.json",
+        "size": 437869
+      },
+      {
+        "file": "poet.song.117000.json",
+        "size": 418937
+      },
+      {
+        "file": "poet.song.118000.json",
+        "size": 435461
+      },
+      {
+        "file": "poet.song.119000.json",
+        "size": 410601
+      },
+      {
+        "file": "poet.song.120000.json",
+        "size": 435108
+      },
+      {
+        "file": "poet.song.121000.json",
+        "size": 332044
+      },
+      {
+        "file": "poet.song.122000.json",
+        "size": 420129
+      },
+      {
+        "file": "poet.song.123000.json",
+        "size": 389086
+      },
+      {
+        "file": "poet.song.124000.json",
+        "size": 414744
+      },
+      {
+        "file": "poet.song.125000.json",
+        "size": 515572
+      },
+      {
+        "file": "poet.song.126000.json",
+        "size": 423278
+      },
+      {
+        "file": "poet.song.127000.json",
+        "size": 407156
+      },
+      {
+        "file": "poet.song.128000.json",
+        "size": 460722
+      },
+      {
+        "file": "poet.song.129000.json",
+        "size": 423429
+      },
+      {
+        "file": "poet.song.130000.json",
+        "size": 421216
+      },
+      {
+        "file": "poet.song.131000.json",
+        "size": 410051
+      },
+      {
+        "file": "poet.song.132000.json",
+        "size": 404549
+      },
+      {
+        "file": "poet.song.133000.json",
+        "size": 403901
+      },
+      {
+        "file": "poet.song.134000.json",
+        "size": 398005
+      },
+      {
+        "file": "poet.song.135000.json",
+        "size": 388286
+      },
+      {
+        "file": "poet.song.136000.json",
+        "size": 388865
+      },
+      {
+        "file": "poet.song.137000.json",
+        "size": 433780
+      },
+      {
+        "file": "poet.song.138000.json",
+        "size": 387513
+      },
+      {
+        "file": "poet.song.139000.json",
+        "size": 381409
+      },
+      {
+        "file": "poet.song.140000.json",
+        "size": 395298
+      },
+      {
+        "file": "poet.song.141000.json",
+        "size": 390871
+      },
+      {
+        "file": "poet.song.142000.json",
+        "size": 398399
+      },
+      {
+        "file": "poet.song.143000.json",
+        "size": 426070
+      },
+      {
+        "file": "poet.song.144000.json",
+        "size": 446583
+      },
+      {
+        "file": "poet.song.145000.json",
+        "size": 403977
+      },
+      {
+        "file": "poet.song.146000.json",
+        "size": 449159
+      },
+      {
+        "file": "poet.song.147000.json",
+        "size": 408251
+      },
+      {
+        "file": "poet.song.148000.json",
+        "size": 392935
+      },
+      {
+        "file": "poet.song.149000.json",
+        "size": 416822
+      },
+      {
+        "file": "poet.song.150000.json",
+        "size": 522943
+      },
+      {
+        "file": "poet.song.151000.json",
+        "size": 419190
+      },
+      {
+        "file": "poet.song.152000.json",
+        "size": 419052
+      },
+      {
+        "file": "poet.song.153000.json",
+        "size": 375582
+      },
+      {
+        "file": "poet.song.154000.json",
+        "size": 400796
+      },
+      {
+        "file": "poet.song.155000.json",
+        "size": 488921
+      },
+      {
+        "file": "poet.song.156000.json",
+        "size": 452565
+      },
+      {
+        "file": "poet.song.157000.json",
+        "size": 441246
+      },
+      {
+        "file": "poet.song.158000.json",
+        "size": 540157
+      },
+      {
+        "file": "poet.song.159000.json",
+        "size": 404374
+      },
+      {
+        "file": "poet.song.160000.json",
+        "size": 439768
+      },
+      {
+        "file": "poet.song.161000.json",
+        "size": 426491
+      },
+      {
+        "file": "poet.song.162000.json",
+        "size": 412401
+      },
+      {
+        "file": "poet.song.163000.json",
+        "size": 460414
+      },
+      {
+        "file": "poet.song.164000.json",
+        "size": 493886
+      },
+      {
+        "file": "poet.song.165000.json",
+        "size": 414349
+      },
+      {
+        "file": "poet.song.166000.json",
+        "size": 343249
+      },
+      {
+        "file": "poet.song.167000.json",
+        "size": 381396
+      },
+      {
+        "file": "poet.song.168000.json",
+        "size": 437972
+      },
+      {
+        "file": "poet.song.169000.json",
+        "size": 419935
+      },
+      {
+        "file": "poet.song.170000.json",
+        "size": 429069
+      },
+      {
+        "file": "poet.song.171000.json",
+        "size": 381183
+      },
+      {
+        "file": "poet.song.172000.json",
+        "size": 439604
+      },
+      {
+        "file": "poet.song.173000.json",
+        "size": 466611
+      },
+      {
+        "file": "poet.song.174000.json",
+        "size": 392003
+      },
+      {
+        "file": "poet.song.175000.json",
+        "size": 391374
+      },
+      {
+        "file": "poet.song.176000.json",
+        "size": 462018
+      },
+      {
+        "file": "poet.song.177000.json",
+        "size": 379660
+      },
+      {
+        "file": "poet.song.178000.json",
+        "size": 359107
+      },
+      {
+        "file": "poet.song.179000.json",
+        "size": 442546
+      },
+      {
+        "file": "poet.song.180000.json",
+        "size": 450105
+      },
+      {
+        "file": "poet.song.181000.json",
+        "size": 361865
+      },
+      {
+        "file": "poet.song.182000.json",
+        "size": 470813
+      },
+      {
+        "file": "poet.song.183000.json",
+        "size": 427581
+      },
+      {
+        "file": "poet.song.184000.json",
+        "size": 421422
+      },
+      {
+        "file": "poet.song.185000.json",
+        "size": 348717
+      },
+      {
+        "file": "poet.song.186000.json",
+        "size": 381934
+      },
+      {
+        "file": "poet.song.187000.json",
+        "size": 406192
+      },
+      {
+        "file": "poet.song.188000.json",
+        "size": 404078
+      },
+      {
+        "file": "poet.song.189000.json",
+        "size": 446487
+      },
+      {
+        "file": "poet.song.190000.json",
+        "size": 445329
+      },
+      {
+        "file": "poet.song.191000.json",
+        "size": 417644
+      },
+      {
+        "file": "poet.song.192000.json",
+        "size": 363933
+      },
+      {
+        "file": "poet.song.193000.json",
+        "size": 496556
+      },
+      {
+        "file": "poet.song.194000.json",
+        "size": 562526
+      },
+      {
+        "file": "poet.song.195000.json",
+        "size": 462117
+      },
+      {
+        "file": "poet.song.196000.json",
+        "size": 357181
+      },
+      {
+        "file": "poet.song.197000.json",
+        "size": 408271
+      },
+      {
+        "file": "poet.song.198000.json",
+        "size": 390248
+      },
+      {
+        "file": "poet.song.199000.json",
+        "size": 368429
+      },
+      {
+        "file": "poet.song.200000.json",
+        "size": 390552
+      },
+      {
+        "file": "poet.song.201000.json",
+        "size": 375871
+      },
+      {
+        "file": "poet.song.202000.json",
+        "size": 368406
+      },
+      {
+        "file": "poet.song.203000.json",
+        "size": 383522
+      },
+      {
+        "file": "poet.song.204000.json",
+        "size": 395756
+      },
+      {
+        "file": "poet.song.205000.json",
+        "size": 441954
+      },
+      {
+        "file": "poet.song.206000.json",
+        "size": 367465
+      },
+      {
+        "file": "poet.song.207000.json",
+        "size": 418551
+      },
+      {
+        "file": "poet.song.208000.json",
+        "size": 416337
+      },
+      {
+        "file": "poet.song.209000.json",
+        "size": 435174
+      },
+      {
+        "file": "poet.song.210000.json",
+        "size": 364745
+      },
+      {
+        "file": "poet.song.211000.json",
+        "size": 330213
+      },
+      {
+        "file": "poet.song.212000.json",
+        "size": 463817
+      },
+      {
+        "file": "poet.song.213000.json",
+        "size": 415897
+      },
+      {
+        "file": "poet.song.214000.json",
+        "size": 444015
+      },
+      {
+        "file": "poet.song.215000.json",
+        "size": 383116
+      },
+      {
+        "file": "poet.song.216000.json",
+        "size": 376305
+      },
+      {
+        "file": "poet.song.217000.json",
+        "size": 373673
+      },
+      {
+        "file": "poet.song.218000.json",
+        "size": 460175
+      },
+      {
+        "file": "poet.song.219000.json",
+        "size": 415533
+      },
+      {
+        "file": "poet.song.220000.json",
+        "size": 385667
+      },
+      {
+        "file": "poet.song.221000.json",
+        "size": 372374
+      },
+      {
+        "file": "poet.song.222000.json",
+        "size": 322808
+      },
+      {
+        "file": "poet.song.223000.json",
+        "size": 491398
+      },
+      {
+        "file": "poet.song.224000.json",
+        "size": 432440
+      },
+      {
+        "file": "poet.song.225000.json",
+        "size": 352169
+      },
+      {
+        "file": "poet.song.226000.json",
+        "size": 369482
+      },
+      {
+        "file": "poet.song.227000.json",
+        "size": 422360
+      },
+      {
+        "file": "poet.song.228000.json",
+        "size": 394275
+      },
+      {
+        "file": "poet.song.229000.json",
+        "size": 400844
+      },
+      {
+        "file": "poet.song.230000.json",
+        "size": 422044
+      },
+      {
+        "file": "poet.song.231000.json",
+        "size": 481616
+      },
+      {
+        "file": "poet.song.232000.json",
+        "size": 472596
+      },
+      {
+        "file": "poet.song.233000.json",
+        "size": 462948
+      },
+      {
+        "file": "poet.song.234000.json",
+        "size": 405938
+      },
+      {
+        "file": "poet.song.235000.json",
+        "size": 447617
+      },
+      {
+        "file": "poet.song.236000.json",
+        "size": 453047
+      },
+      {
+        "file": "poet.song.237000.json",
+        "size": 463909
+      },
+      {
+        "file": "poet.song.238000.json",
+        "size": 359410
+      },
+      {
+        "file": "poet.song.239000.json",
+        "size": 396108
+      },
+      {
+        "file": "poet.song.240000.json",
+        "size": 362755
+      },
+      {
+        "file": "poet.song.241000.json",
+        "size": 417842
+      },
+      {
+        "file": "poet.song.242000.json",
+        "size": 400794
+      },
+      {
+        "file": "poet.song.243000.json",
+        "size": 420271
+      },
+      {
+        "file": "poet.song.244000.json",
+        "size": 373327
+      },
+      {
+        "file": "poet.song.245000.json",
+        "size": 477302
+      },
+      {
+        "file": "poet.song.246000.json",
+        "size": 398040
+      },
+      {
+        "file": "poet.song.247000.json",
+        "size": 463140
+      },
+      {
+        "file": "poet.song.248000.json",
+        "size": 393634
+      },
+      {
+        "file": "poet.song.249000.json",
+        "size": 427589
+      },
+      {
+        "file": "poet.song.250000.json",
+        "size": 403982
+      },
+      {
+        "file": "poet.song.251000.json",
+        "size": 346362
+      },
+      {
+        "file": "poet.song.252000.json",
+        "size": 349500
+      },
+      {
+        "file": "poet.song.253000.json",
+        "size": 381333
+      },
+      {
+        "file": "poet.song.254000.json",
+        "size": 91729
+      }
+    ]
+  }
+}
