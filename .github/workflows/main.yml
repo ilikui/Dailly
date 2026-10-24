@@ -41,6 +41,7 @@ jobs:
           WEBHOOK_KEY: ${{ secrets.WEBHOOK_KEY }}
           KEYWORDS: ${{ secrets.KEYWORDS }}
           CAIYUN_API_KEY: ${{ secrets.CAIYUN_API_KEY }}
+          WEATHER_COORDS: ${{ vars.WEATHER_COORDS }}
         run: python3 ./Src/main.py
 
       - name: Commit data files
