@@ -2622,7 +2622,7 @@
 						var descStr = weather.desc || '--';
 						var iconPath = getWeatherIconPath(weather.skycon);
 
-						var forecast = weather.forecast ? weather.forecast.slice(0, 3) : [];
+						var forecast = weather.forecast ? weather.forecast.slice(0, 7) : [];
 						var forecastHtml = forecast.map(function(day) {
 							var dateStr = day.date ? day.date.substring(5, 10) : '';
 							var minTemp = toFixedSafe(day.min, 0);
@@ -2698,6 +2698,11 @@
 				/*************** 词云 **************/
 				var wordChartEl = document.getElementById("wordChart");
 				var wordChart = { resize: function() {} };
+				var poetryExplorerLink = document.createElement('a');
+				poetryExplorerLink.href = 'poetry.html';
+				poetryExplorerLink.textContent = '打开完整诗词库 · 唐诗 / 宋诗分卷检索 →';
+				poetryExplorerLink.style.cssText = 'display:inline-block;margin:8px 0;padding:8px 12px;border:1px solid rgba(126,207,255,.35);border-radius:8px;color:#7ecfff;text-decoration:none;font-size:12px;';
+				if (wordChartEl && wordChartEl.parentNode) wordChartEl.parentNode.insertBefore(poetryExplorerLink, wordChartEl.nextSibling);
 				const dailyPoems = [
 					{ title: '春晓', titleRuby: [['春','chūn'],['晓','xiǎo']], author: '孟浩然', authorRuby: [['孟','mèng'],['浩','hào'],['然','rán']], lines: ['春眠不觉晓', '处处闻啼鸟', '夜来风雨声', '花落知多少'], lineRubies: [[['春','chūn'],['眠','mián'],['不','bù'],['觉','jiào'],['晓','xiǎo']], [['处','chù'],['处','chù'],['闻','wén'],['啼','tí'],['鸟','niǎo']], [['夜','yè'],['来','lái'],['风','fēng'],['雨','yǔ'],['声','shēng']], [['花','huā'],['落','luò'],['知','zhī'],['多','duō'],['少','shǎo']]] },
 					{ title: '静夜思', titleRuby: [['静','jìng'],['夜','yè'],['思','sī']], author: '李白', authorRuby: [['李','lǐ'],['白','bái']], lines: ['床前明月光', '疑是地上霜', '举头望明月', '低头思故乡'], lineRubies: [[['床','chuáng'],['前','qián'],['明','míng'],['月','yuè'],['光','guāng']], [['疑','yí'],['是','shì'],['地','dì'],['上','shàng'],['霜','shuāng']], [['举','jǔ'],['头','tóu'],['望','wàng'],['明','míng'],['月','yuè']], [['低','dī'],['头','tóu'],['思','sī'],['故','gù'],['乡','xiāng']]] },
