@@ -130,6 +130,10 @@ Current news records use a compact, frontend-friendly shape:
 
 The daily archive also stores `run_at`, `count`, and item summaries. Generated files are committed by the workflow so static hosting can serve them without a backend.
 
+## News reader page
+
+The dedicated responsive RSS reading page is available at `public/news.html` after publishing the `public/` directory. It supports keyword search, category filters, source labels, and title/source sorting. It consumes the generated `public/js/news-data.js` file, so it does not need a runtime API server.
+
 ## Deployment
 
 Enable GitHub Pages for the repository and select the publishing source that matches your repository configuration. If the Pages source is the `public/` directory, ensure the repository's Pages workflow/build setup publishes that directory; otherwise configure the deployment workflow to copy `public/` to the Pages artifact.
