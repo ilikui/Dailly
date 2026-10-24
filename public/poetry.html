@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0b1324">
+<title>诗词典藏 · 唐诗与宋诗</title>
+<style>
+:root{color-scheme:dark;--bg:#0b1324;--panel:#111e33;--line:#243a57;--text:#e7f0ff;--muted:#8da6c7;--accent:#83d5ff;--gold:#e7c98b}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#172a45 0,#0b1324 58%);color:var(--text);font:15px/1.7 system-ui,-apple-system,"Segoe UI","Microsoft YaHei",sans-serif}
+a{color:var(--accent);text-decoration:none}.wrap{max-width:1160px;margin:auto;padding:28px 20px 64px}.top{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap}.back{color:var(--muted);font-size:13px}.hero{padding:42px 0 28px}.eyebrow{letter-spacing:.22em;text-transform:uppercase;color:var(--gold);font-size:11px}.hero h1{font-size:clamp(32px,5vw,54px);line-height:1.2;margin:10px 0}.hero p{max-width:720px;color:var(--muted);margin:12px 0}.panel{background:rgba(17,30,51,.88);border:1px solid var(--line);border-radius:18px;padding:18px;margin:16px 0;box-shadow:0 18px 50px #0002}.controls{display:grid;grid-template-columns:170px minmax(200px,1fr) auto auto;gap:10px}select,input,button{font:inherit;color:var(--text);background:#0b172a;border:1px solid #304967;border-radius:10px;padding:11px 13px;min-width:0}button{cursor:pointer;background:#17324d}button:hover{border-color:var(--accent)}button.primary{background:#16415b;border-color:#357ca0}button:disabled{opacity:.45;cursor:not-allowed}.stats{display:flex;gap:14px;flex-wrap:wrap;color:var(--muted);font-size:12px;margin-top:12px}.stats strong{color:var(--accent)}.progress{height:4px;background:#1d3048;border-radius:8px;overflow:hidden;margin-top:12px}.progress span{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--gold));transition:width .2s}.results-head{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.poems{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:16px}.poem{border:1px solid var(--line);border-radius:14px;padding:17px;background:linear-gradient(145deg,#14243a,#101b2e)}.poem h2{font-size:19px;margin:0 0 3px;color:#f3dfb0}.author{color:var(--muted);font-size:12px;margin-bottom:12px}.verse{white-space:pre-line;font-family:"STKaiti","KaiTi",serif;font-size:15px;line-height:2;color:#dce9f9;overflow-wrap:anywhere}.empty{padding:40px;text-align:center;color:var(--muted)}.actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.note{color:var(--muted);font-size:12px}.error{color:#ffb3b3}@media(max-width:760px){.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}.poems{grid-template-columns:1fr}.wrap{padding:18px 13px 44px}.hero{padding-top:28px}}@media(max-width:420px){.controls{grid-template-columns:1fr}.controls input{grid-column:auto}}
+</style>
+</head>
+<body><main class="wrap">
+<div class="top"><a class="back" href="./">← 返回 NewsFlow 首页</a><span class="eyebrow">CLASSICAL CHINESE LITERATURE</span></div>
+<header class="hero"><div class="eyebrow">DIGITAL COLLECTION · 诗词典藏</div><h1>在诗句之间，<br>重新发现时间。</h1><p>基于仓库内《全唐诗》《全宋诗》分卷数据建立的诗词检索页。按需加载分卷，避免一次性下载整个大型语料；可逐卷浏览，也可选择全量扫描（会产生较多网络流量）。</p></header>
+<section class="panel">
+<div class="controls"><select id="dynasty" aria-label="选择诗集"><option value="tang">全唐诗</option><option value="song">全宋诗</option></select><input id="query" type="search" placeholder="搜索已载入诗词：标题、作者或正文" aria-label="搜索诗词"><button id="loadMore" class="primary">载入更多分卷</button><button id="scanAll">扫描全诗集</button></div>
+<div class="stats"><span>分卷总数：<strong id="totalShards">—</strong></span><span>已载入分卷：<strong id="loadedShards">0</strong></span><span>已载入作品：<strong id="loadedPoems">0</strong></span><span>当前结果：<strong id="resultCount">0</strong></span></div><div class="progress"><span id="progressBar"></span></div><p id="status" class="note" role="status">正在读取诗集目录…</p>
+</section>
+<section class="panel"><div class="results-head"><div><div class="eyebrow">COLLECTION</div><h2 id="collectionTitle" style="margin:3px 0;font-size:22px">全唐诗</h2></div><span id="range" class="note"></span></div><div id="poems" class="poems"><div class="empty">正在准备诗词数据…</div></div><div class="actions"><button id="prev" disabled>上一页</button><button id="next" disabled>下一页</button><button id="moreBottom">继续载入分卷</button></div><p class="note">说明：原始语料包含繁体文本，且上游数据本身可能存在错字、异文或作者归属问题；本站展示原始数据，不将未经校勘的内容标注为权威定本。</p></section>
+</main>
+<script>
+(function(){
+const BASE='./data/poetry/全唐诗/';
+const PAGE_SIZE=24, BATCH_SIZE=3;
+const el=id=>document.getElementById(id);
+const state={manifest:null,kind:'tang',loaded:[],nextShard:0,poems:[],filtered:[],page:0,busy:false,scan:false};
+function esc(v){return String(v==null?'':v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
+function shards(){return state.manifest?.datasets?.[state.kind]||[];}
+function setStatus(msg,error){el('status').textContent=msg;el('status').className='note'+(error?' error':'');}
+function updateStats(){el('totalShards').textContent=shards().length;el('loadedShards').textContent=state.loaded.length;el('loadedPoems').textContent=state.poems.length;el('progressBar').style.width=(shards().length?state.loaded.length/shards().length*100:0)+'%';}
+function applySearch(){const q=el('query').value.trim().toLocaleLowerCase();state.filtered=!q?state.poems:state.poems.filter(p=>[p.title,p.author,(p.paragraphs||[]).join(' ')].join(' ').toLocaleLowerCase().includes(q));state.page=0;render();}
+function render(){const total=state.filtered.length;const pages=Math.max(1,Math.ceil(total/PAGE_SIZE));state.page=Math.min(state.page,pages-1);const start=state.page*PAGE_SIZE;const items=state.filtered.slice(start,start+PAGE_SIZE);el('resultCount').textContent=total;el('range').textContent=total?(start+1)+'–'+Math.min(start+PAGE_SIZE,total)+' / '+total:'0 条结果';el('prev').disabled=state.page===0;el('next').disabled=state.page>=pages-1;
+if(!items.length){el('poems').innerHTML='<div class="empty">当前已载入分卷中没有匹配作品。可以载入更多分卷，或使用“扫描全诗集”检索全部数据。</div>';return;}
+el('poems').innerHTML=items.map(p=>'<article class="poem"><h2>'+esc(p.title||'无题')+'</h2><div class="author">'+esc(p.author||'作者不详')+'</div><div class="verse">'+esc((p.paragraphs||[]).join('\n'))+'</div></article>').join('');
+}
+async function loadBatch(all){if(state.busy)return;state.busy=true;state.scan=all;el('loadMore').disabled=el('scanAll').disabled=true;let count=0;try{const list=shards();while(state.nextShard<list.length&&(all||count<BATCH_SIZE)){const file=list[state.nextShard];setStatus('正在载入 '+file.file+'（'+(state.nextShard+1)+'/'+list.length+'）');const response=await fetch(BASE+encodeURIComponent(file.file),{cache:'force-cache'});if(!response.ok)throw new Error('HTTP '+response.status+'：'+file.file);const data=await response.json();if(!Array.isArray(data))throw new Error('数据格式不正确：'+file.file);state.poems.push(...data.map(p=>({...p,_shard:file.file})));state.loaded.push(file.file);state.nextShard++;count++;updateStats();applySearch();}
+setStatus(state.nextShard>=list.length?'已完成本诗集全部 '+list.length+' 个分卷的载入。':'已载入 '+state.loaded.length+' 个分卷；可以继续载入或扫描全诗集。');}catch(e){setStatus('载入中断：'+e.message+'。可再次点击继续；已成功载入的数据会保留。',true);}finally{state.busy=false;el('loadMore').disabled=false;el('scanAll').disabled=false;}}
+async function switchKind(){state.kind=el('dynasty').value;state.loaded=[];state.nextShard=0;state.poems=[];state.filtered=[];state.page=0;el('query').value='';el('collectionTitle').textContent=state.kind==='tang'?'全唐诗':'全宋诗';updateStats();applySearch();await loadBatch(false);}
+el('dynasty').addEventListener('change',switchKind);el('query').addEventListener('input',applySearch);el('loadMore').addEventListener('click',()=>loadBatch(false));el('moreBottom').addEventListener('click',()=>loadBatch(false));el('scanAll').addEventListener('click',()=>loadBatch(true));el('prev').addEventListener('click',()=>{state.page--;render();});el('next').addEventListener('click',()=>{state.page++;render();});
+fetch('./data/poetry/manifest.json').then(r=>{if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(m=>{state.manifest=m;updateStats();setStatus('目录就绪。默认先载入少量分卷；需要全量检索时可启动全量扫描。');loadBatch(false);}).catch(e=>{setStatus('诗集目录读取失败：'+e.message+'。请确认网站已发布 public/data/poetry/manifest.json。',true);el('poems').innerHTML='<div class="empty">无法读取诗集目录。</div>';});
+})();
+</script></body></html>
