@@ -62,6 +62,25 @@ class FeedParserTests(unittest.TestCase):
         self.assertEqual(len(filter_by_keywords(items, ["python"])), 1)
         self.assertEqual(len(filter_by_keywords(items, [])), 2)
 
+    def test_weather_payload_keeps_up_to_seven_forecast_days(self):
+        days = [
+            {"date": f"2026-10-{day:02d}", "min": day, "max": day + 10}
+            for day in range(1, 11)
+        ]
+        payload = {
+            "result": {
+                "realtime": {"temperature": 20, "skycon": "CLOUDY"},
+                "daily": {
+                    "temperature": days,
+                    "skycon": [{"value": "CLOUDY"} for _ in days],
+                },
+            }
+        }
+        weather = build_weather_payload(payload)
+        self.assertEqual(len(weather["forecast"]), 7)
+        self.assertEqual(weather["forecast"][0]["date"], "2026-10-01")
+        self.assertEqual(weather["forecast"][-1]["date"], "2026-10-07")
+
     def test_weather_payload_handles_missing_optional_fields(self):
         payload = {
             "result": {
