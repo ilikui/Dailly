@@ -15,7 +15,7 @@ PUBLIC_DATA_DIR = os.path.join(PROJECT_ROOT, "public", "data")
 PUBLIC_JS_DIR = os.path.join(PROJECT_ROOT, "public", "js")
 WEATHER_API_KEY = os.environ.get("CAIYUN_API_KEY", "")
 WEATHER_COORDS = os.environ.get("WEATHER_COORDS", "121.4737,31.2304")
-WEATHER_API_URL = "https://api.caiyunapp.com/v2.6/{api_key}/{coords}/weather?dailysteps=3&hourlysteps=48"
+WEATHER_API_URL = "https://api.caiyunapp.com/v2.6/{api_key}/{coords}/weather?dailysteps=7&hourlysteps=48"
 
 # ========= 关键词配置（逗号分隔，从 GitHub Secrets / 环境变量读取） =========
 _kw_env = os.environ.get("KEYWORDS", "")
@@ -237,7 +237,7 @@ def build_weather_payload(raw_weather: dict) -> dict:
     temperatures = daily.get("temperature", []) or []
     skycons = daily.get("skycon", []) or []
 
-    for index, temp_item in enumerate(temperatures[:3]):
+    for index, temp_item in enumerate(temperatures[:7]):
         sky_item = skycons[index] if index < len(skycons) else {}
         forecast.append({
             "date": temp_item.get("date", ""),
